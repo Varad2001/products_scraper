@@ -486,3 +486,677 @@ urllib3.connectionpool:DEBUG:2022-10-03 23:10:40,236:Starting new HTTPS connecti
 urllib3.connectionpool:DEBUG:2022-10-03 23:10:41,032:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
 urllib3.connectionpool:DEBUG:2022-10-03 23:10:41,346:Starting new HTTPS connection (1): www.newegg.com:443
 urllib3.connectionpool:DEBUG:2022-10-03 23:10:42,445:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 21:34:27,731:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 21:34:28,552:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 21:34:28,704:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 21:36:44,221:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 21:36:44,900:https://www.bestbuy.com:443 "GET /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003 HTTP/1.1" 403 333
+charset_normalizer:DEBUG:2022-10-04 21:36:44,912:Encoding detection: ascii is most likely the one.
+urllib3.connectionpool:DEBUG:2022-10-04 21:37:03,448:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 21:37:03,711:https://www.bestbuy.com:443 "GET /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003 HTTP/1.1" 403 332
+charset_normalizer:DEBUG:2022-10-04 21:37:03,720:Encoding detection: ascii is most likely the one.
+urllib3.connectionpool:DEBUG:2022-10-04 21:43:49,438:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 21:43:50,074:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 21:43:50,304:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 21:45:21,126:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 21:48:24,499:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 21:54:05,629:Starting new HTTPS connection (1): www.google.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 21:54:05,919:https://www.google.com:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 21:55:28,113:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 21:55:54,638:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 21:56:42,062:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:00:47,593:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:01:07,277:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:03:39,116:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:04:04,343:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:04:46,695:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:04:47,423:https://www.costco.com:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:07:07,260:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:07:07,873:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:07:08,160:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:07:10,067:https://www.costco.com:443 "GET /home-theater-systems.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:08:00,622:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:08:01,165:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:08:01,308:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:08:02,294:https://www.costco.com:443 "GET /home-theater-systems.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:08:32,719:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:08:33,231:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:08:33,508:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:08:33,713:https://www.bestbuy.com:443 "GET /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003 HTTP/1.1" 200 1659
+urllib3.connectionpool:DEBUG:2022-10-04 22:09:02,045:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:09:02,634:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:09:02,780:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:09:03,480:https://www.bestbuy.com:443 "GET /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003 HTTP/1.1" 200 1659
+urllib3.connectionpool:DEBUG:2022-10-04 22:10:24,842:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:10:25,365:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:10:25,517:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:10:25,669:https://www.bestbuy.com:443 "GET /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003 HTTP/1.1" 200 1659
+urllib3.connectionpool:DEBUG:2022-10-04 22:11:01,989:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:11:02,500:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:11:02,675:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:11:03,413:https://www.bestbuy.com:443 "GET /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003 HTTP/1.1" 200 1659
+urllib3.connectionpool:DEBUG:2022-10-04 22:11:26,778:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:11:27,267:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:11:27,398:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:11:27,527:https://www.bestbuy.com:443 "GET /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003 HTTP/1.1" 200 1659
+urllib3.connectionpool:DEBUG:2022-10-04 22:13:58,350:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:13:58,896:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:13:59,039:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:14:39,816:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:14:40,450:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:14:40,577:Starting new HTTPS connection (1): www.bestbuy.com:443
+root:ERROR:2022-10-04 22:14:40,848:HTTPSConnectionPool(host='www.bestbuy.com', port=443): Max retries exceeded with url: /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003&page=2 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 369, in connect
+    self._tunnel()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\http\client.py", line 920, in _tunnel
+    (version, code, message) = response._read_status()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.bestbuy.com', port=443): Max retries exceeded with url: /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003&page=2 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=headers, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 559, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='www.bestbuy.com', port=443): Max retries exceeded with url: /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003&page=2 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+urllib3.connectionpool:DEBUG:2022-10-04 22:14:40,883:Starting new HTTPS connection (1): www.bestbuy.com:443
+root:ERROR:2022-10-04 22:14:45,402:HTTPSConnectionPool(host='www.bestbuy.com', port=443): Max retries exceeded with url: /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003&page=2 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.bestbuy.com', port=443): Max retries exceeded with url: /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003&page=2 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=headers, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.bestbuy.com', port=443): Max retries exceeded with url: /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003&page=2 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
+urllib3.connectionpool:DEBUG:2022-10-04 22:14:45,411:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:14:45,828:https://www.bestbuy.com:443 "GET /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003&page=2 HTTP/1.1" 200 1659
+urllib3.connectionpool:DEBUG:2022-10-04 22:20:06,088:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:20:06,865:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:20:07,114:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:39:09,868:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:39:10,723:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:39:10,963:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:40:28,236:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:40:29,137:https://www.costco.com:443 "GET /home-theater-systems.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:40:39,124:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:40:40,824:https://www.costco.com:443 "GET /home-theater-systems.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:41:40,059:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:41:41,728:https://www.costco.com:443 "GET /home-theater-systems.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:42:23,556:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:42:24,433:https://www.costco.com:443 "GET /home-theater-systems.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:43:14,586:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:43:15,348:https://www.costco.com:443 "GET /home-theater-systems.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:49:42,919:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:49:44,838:https://www.costco.com:443 "GET /klipsch-the-fives-speaker%2C-2-pack.product.100800459.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:50:52,763:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:50:53,466:https://www.costco.com:443 "GET /klipsch-the-fives-speaker%2C-2-pack.product.100800459.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:51:16,036:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:51:16,278:https://www.costco.com:443 "GET /klipsch-the-fives-speaker%2C-2-pack.product.100800459.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:51:27,608:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:51:27,721:https://www.costco.com:443 "GET /klipsch-the-fives-speaker%2C-2-pack.product.100800459.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:53:07,480:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:53:07,602:https://www.costco.com:443 "GET /klipsch-the-fives-speaker%2C-2-pack.product.100800459.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:53:12,606:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:53:12,715:https://www.costco.com:443 "GET /klipsch-the-fives-speaker%2C-2-pack.product.100800459.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:27:51,369:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:27:52,091:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:27:52,240:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:28:43,626:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:28:44,123:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:28:44,274:Starting new HTTPS connection (1): www.newegg.com:443
+root:ERROR:2022-10-04 23:28:54,005:HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /klipsch-r-625fa-reference/p/12K-00EF-000N4 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /klipsch-r-625fa-reference/p/12K-00EF-000N4 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /klipsch-r-625fa-reference/p/12K-00EF-000N4 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+urllib3.connectionpool:DEBUG:2022-10-04 23:28:54,026:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:28:56,400:https://www.newegg.com:443 "GET /klipsch-r-625fa-reference/p/12K-00EF-000N4 HTTP/1.1" 200 35693
+urllib3.connectionpool:DEBUG:2022-10-04 23:29:01,237:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:29:01,820:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:29:01,960:Starting new HTTPS connection (1): www.newegg.com:443
+root:ERROR:2022-10-04 23:29:13,521:HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /klipsch-r-625fa-reference/p/12K-00EF-000N4R (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /klipsch-r-625fa-reference/p/12K-00EF-000N4R (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /klipsch-r-625fa-reference/p/12K-00EF-000N4R (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+urllib3.connectionpool:DEBUG:2022-10-04 23:29:13,524:Starting new HTTPS connection (1): www.newegg.com:443
+root:ERROR:2022-10-04 23:29:14,144:HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /klipsch-r-625fa-reference/p/12K-00EF-000N4R (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 369, in connect
+    self._tunnel()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\http\client.py", line 920, in _tunnel
+    (version, code, message) = response._read_status()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /klipsch-r-625fa-reference/p/12K-00EF-000N4R (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 559, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /klipsch-r-625fa-reference/p/12K-00EF-000N4R (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+urllib3.connectionpool:DEBUG:2022-10-04 23:29:14,164:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:29:16,114:https://www.newegg.com:443 "GET /klipsch-r-625fa-reference/p/12K-00EF-000N4R HTTP/1.1" 200 22105
+urllib3.connectionpool:DEBUG:2022-10-04 23:29:20,490:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:29:20,968:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:29:21,111:Starting new HTTPS connection (1): www.newegg.com:443
+root:ERROR:2022-10-04 23:29:43,197:HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /klipsch-1062295/p/0S6-0033-001N6 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /klipsch-1062295/p/0S6-0033-001N6 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /klipsch-1062295/p/0S6-0033-001N6 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+urllib3.connectionpool:DEBUG:2022-10-04 23:29:43,201:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:29:45,161:https://www.newegg.com:443 "GET /klipsch-1062295/p/0S6-0033-001N6 HTTP/1.1" 200 26212
+urllib3.connectionpool:DEBUG:2022-10-04 23:29:50,030:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:29:50,514:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:29:50,726:Starting new HTTPS connection (1): www.newegg.com:443
+root:ERROR:2022-10-04 23:30:06,213:HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/0S6-001N-00069 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/0S6-001N-00069 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/0S6-001N-00069 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+urllib3.connectionpool:DEBUG:2022-10-04 23:30:06,217:Starting new HTTPS connection (1): www.newegg.com:443
+root:ERROR:2022-10-04 23:30:06,566:HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/0S6-001N-00069 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 369, in connect
+    self._tunnel()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\http\client.py", line 920, in _tunnel
+    (version, code, message) = response._read_status()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/0S6-001N-00069 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 559, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/0S6-001N-00069 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+urllib3.connectionpool:DEBUG:2022-10-04 23:30:06,569:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:30:07,462:https://www.newegg.com:443 "GET /p/0S6-001N-00069 HTTP/1.1" 200 27832
+urllib3.connectionpool:DEBUG:2022-10-04 23:30:11,954:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:30:12,510:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:30:12,954:Starting new HTTPS connection (1): www.newegg.com:443
+root:ERROR:2022-10-04 23:30:31,241:HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/0S6-00SH-00143 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/0S6-00SH-00143 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/0S6-00SH-00143 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+urllib3.connectionpool:DEBUG:2022-10-04 23:30:31,245:Starting new HTTPS connection (1): www.newegg.com:443
+root:ERROR:2022-10-04 23:30:32,990:HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/0S6-00SH-00143 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 369, in connect
+    self._tunnel()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\http\client.py", line 920, in _tunnel
+    (version, code, message) = response._read_status()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/0S6-00SH-00143 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 559, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/0S6-00SH-00143 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+urllib3.connectionpool:DEBUG:2022-10-04 23:30:32,993:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:30:33,699:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 24829
+urllib3.connectionpool:DEBUG:2022-10-04 23:30:38,415:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:30:38,987:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:30:39,186:Starting new HTTPS connection (1): www.newegg.com:443
+root:ERROR:2022-10-04 23:30:52,725:HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /klipsch-r-625fa-reference/p/12K-00EF-000N4 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /klipsch-r-625fa-reference/p/12K-00EF-000N4 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /klipsch-r-625fa-reference/p/12K-00EF-000N4 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+urllib3.connectionpool:DEBUG:2022-10-04 23:30:52,729:Starting new HTTPS connection (1): www.newegg.com:443
+root:ERROR:2022-10-04 23:31:08,346:HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /klipsch-r-625fa-reference/p/12K-00EF-000N4 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 369, in connect
+    self._tunnel()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\http\client.py", line 920, in _tunnel
+    (version, code, message) = response._read_status()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /klipsch-r-625fa-reference/p/12K-00EF-000N4 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 559, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /klipsch-r-625fa-reference/p/12K-00EF-000N4 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+urllib3.connectionpool:DEBUG:2022-10-04 23:31:08,349:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:31:09,022:https://www.newegg.com:443 "GET /klipsch-r-625fa-reference/p/12K-00EF-000N4 HTTP/1.1" 200 37164
+urllib3.connectionpool:DEBUG:2022-10-04 23:31:13,588:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:31:14,041:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:31:14,218:Starting new HTTPS connection (1): www.newegg.com:443

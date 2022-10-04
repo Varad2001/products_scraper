@@ -1900,3 +1900,589 @@ urllib3.connectionpool:DEBUG:2022-10-04 17:28:05,238:Starting new HTTPS connecti
 urllib3.connectionpool:DEBUG:2022-10-04 17:28:05,844:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
 urllib3.connectionpool:DEBUG:2022-10-04 17:28:06,051:Starting new HTTPS connection (1): www.newegg.com:443
 urllib3.connectionpool:DEBUG:2022-10-04 17:28:07,118:https://www.newegg.com:443 "GET /fluance-xl8f/p/0S6-004W-000J5 HTTP/1.1" 200 24499
+werkzeug:INFO:2022-10-04 19:57:44,808:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-04 19:57:44,808:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-04 19:57:51,389:127.0.0.1 - - [04/Oct/2022 19:57:51] "[33mGET / HTTP/1.1[0m" 404 -
+werkzeug:INFO:2022-10-04 19:57:54,801:127.0.0.1 - - [04/Oct/2022 19:57:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+werkzeug:INFO:2022-10-04 19:57:56,413:127.0.0.1 - - [04/Oct/2022 19:57:56] "[33mGET / HTTP/1.1[0m" 404 -
+werkzeug:INFO:2022-10-04 19:57:56,987:127.0.0.1 - - [04/Oct/2022 19:57:56] "[33mGET / HTTP/1.1[0m" 404 -
+werkzeug:INFO:2022-10-04 19:59:07,889:127.0.0.1 - - [04/Oct/2022 19:59:07] "[31m[1mPOST /begin_crawl HTTP/1.1[0m" 405 -
+werkzeug:INFO:2022-10-04 19:59:39,260:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-04 19:59:39,260:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-04 19:59:55,185:127.0.0.1 - - [04/Oct/2022 19:59:55] "POST /begin_crawl HTTP/1.1" 200 -
+werkzeug:INFO:2022-10-04 20:01:24,795:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-04 20:01:24,795:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-04 20:02:14,489:127.0.0.1 - - [04/Oct/2022 20:02:14] "POST /begin_crawl HTTP/1.1" 200 -
+werkzeug:INFO:2022-10-04 20:02:49,201:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-04 20:02:49,202:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-04 20:03:24,440:127.0.0.1 - - [04/Oct/2022 20:03:24] "POST /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:24,461:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:25,199:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:25,369:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:26,916:https://www.amazon.com:443 "GET /b/ref=s9_acss_bw_cg_AASPHMNY_1c1_w?node=3236453011&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-5&pf_rd_r=VZ6JEFNGJXWW4H6FJM1P&pf_rd_t=101&pf_rd_p=a04e434e-03ed-4878-87c6-82c2e9bb5ce3&pf_rd_i=172563&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:27,689:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:28,234:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:28,482:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:29,297:https://www.amazon.com:443 "GET /b/ref=s9_acss_bw_cg_AASPHMNY_1c1_w?node=3236453011&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-5&pf_rd_r=VZ6JEFNGJXWW4H6FJM1P&pf_rd_t=101&pf_rd_p=a04e434e-03ed-4878-87c6-82c2e9bb5ce3&pf_rd_i=172563&page=2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:30,052:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:30,585:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:30,765:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:31,953:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:32,306:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:32,812:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:33,060:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:33,981:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:34,335:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:34,865:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:35,183:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:35,916:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=2 HTTP/1.1" 200 39021
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:36,381:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:36,904:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:37,230:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:38,158:https://www.newegg.com:443 "GET /klipsch-r-625fa-reference/p/12K-00EF-000N4 HTTP/1.1" 200 35688
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:47,009:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:47,507:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:47,681:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:48,232:https://www.newegg.com:443 "GET /klipsch-r-625fa-reference/p/12K-00EF-000N4R HTTP/1.1" 200 21892
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:57,003:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:57,511:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:57,713:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:03:58,444:https://www.newegg.com:443 "GET /klipsch-1062295/p/0S6-0033-001N6 HTTP/1.1" 200 26244
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:07,346:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:07,904:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:08,146:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:08,764:https://www.newegg.com:443 "GET /p/0S6-001N-00069 HTTP/1.1" 200 26112
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:17,728:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:18,246:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:18,413:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:19,539:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23818
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:28,480:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:28,956:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:29,142:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:29,845:https://www.newegg.com:443 "GET /klipsch-r-625fa-reference/p/12K-00EF-000N4 HTTP/1.1" 200 35688
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:38,600:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:39,118:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:39,332:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:39,804:https://www.newegg.com:443 "GET /klipsch-r-625fa-reference/p/12K-00EF-000N4R HTTP/1.1" 200 22105
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:48,640:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:49,117:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:49,291:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:50,048:https://www.newegg.com:443 "GET /klipsch-r-625fa-reference/p/12K-00EF-000N4 HTTP/1.1" 200 35717
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:58,813:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:59,408:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:04:59,571:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:00,175:https://www.newegg.com:443 "GET /klipsch-r-625fa-reference/p/12K-00EF-000N4R HTTP/1.1" 200 22105
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:09,097:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:09,585:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:09,750:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:10,485:https://www.newegg.com:443 "GET /p/0S6-00W1-002J0 HTTP/1.1" 200 23526
+root:ERROR:2022-10-04 20:05:10,540:'NoneType' object has no attribute 'string'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 41, in get_details_and_store
+    results = get_all_details(url, q, category)
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\newegg.py", line 131, in get_all_details
+    results['productPrice'] =  get_price(page)
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\newegg.py", line 103, in get_price
+    price = price_tag.strong.string + price_tag.sup.string
+AttributeError: 'NoneType' object has no attribute 'string'
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:10,595:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:11,138:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:11,333:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:11,915:https://www.newegg.com:443 "GET /p/0S6-00W1-002H6 HTTP/1.1" 200 23431
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:20,649:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:21,139:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:21,361:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:21,964:https://www.newegg.com:443 "GET /p/0S6-00W1-002H9 HTTP/1.1" 200 23157
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:31,275:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:31,820:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:31,979:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:32,961:https://www.newegg.com:443 "GET /p/18M-00X2-00012 HTTP/1.1" 200 25399
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:41,767:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:42,256:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:42,407:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:42,853:https://www.newegg.com:443 "GET /p/0S6-00W1-002H6 HTTP/1.1" 200 23431
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:51,624:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:52,125:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:52,364:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:05:53,226:https://www.newegg.com:443 "GET /p/0S6-00W1-002H9 HTTP/1.1" 200 22353
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:02,187:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:02,767:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:02,920:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:03,916:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21624
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:12,679:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:13,195:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:13,340:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:14,042:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22650
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:22,895:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:23,400:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:23,612:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:24,512:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 24828
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:33,468:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:33,959:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:34,130:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:34,773:https://www.newegg.com:443 "GET /fluance-hffw/p/0N6-0174-00010 HTTP/1.1" 200 23561
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:43,550:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:44,182:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:44,443:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:45,119:https://www.newegg.com:443 "GET /fluance-hff/p/0N6-0174-00011 HTTP/1.1" 200 24367
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:54,250:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:54,757:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:54,977:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:06:55,574:https://www.newegg.com:443 "GET /fluance-ai81b/p/0S6-004W-000S9 HTTP/1.1" 200 24211
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:04,302:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:04,809:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:04,956:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:05,859:https://www.newegg.com:443 "GET /fluance-ai81/p/0S6-004W-000T2 HTTP/1.1" 200 24194
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:14,626:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:15,230:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:15,413:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:16,142:https://www.newegg.com:443 "GET /fluance-ai81w/p/0S6-004W-000T3 HTTP/1.1" 200 24228
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:25,941:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:26,508:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:26,748:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:27,218:https://www.newegg.com:443 "GET /klipsch-r-625fa-reference/p/12K-00EF-000N4 HTTP/1.1" 200 35688
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:36,172:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:36,692:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:36,918:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:37,297:https://www.newegg.com:443 "GET /klipsch-r-625fa-reference/p/12K-00EF-000N4R HTTP/1.1" 200 21892
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:46,023:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:46,619:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:46,760:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:47,412:https://www.newegg.com:443 "GET /klipsch-1062295/p/0S6-0033-001N6 HTTP/1.1" 200 26212
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:56,348:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:56,832:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:56,972:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:07:57,304:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23818
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:06,074:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:06,574:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:06,734:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:07,428:https://www.newegg.com:443 "GET /klipsch-r-625fa-reference/p/12K-00EF-000N4 HTTP/1.1" 200 35688
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:16,132:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:16,606:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:16,803:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:17,173:https://www.newegg.com:443 "GET /klipsch-r-625fa-reference/p/12K-00EF-000N4R HTTP/1.1" 200 21892
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:26,146:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:26,648:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:26,800:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:27,176:https://www.newegg.com:443 "GET /klipsch-r-625fa-reference/p/12K-00EF-000N4 HTTP/1.1" 200 35688
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:35,956:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:36,428:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:36,576:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:37,422:https://www.newegg.com:443 "GET /klipsch-r-625fa-reference/p/12K-00EF-000N4R HTTP/1.1" 200 21892
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:46,280:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:46,912:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:47,106:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:47,526:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21624
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:56,268:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:56,795:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:56,943:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:08:57,906:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22650
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:06,960:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:07,494:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:07,636:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:08,674:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 24828
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:17,839:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:18,331:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:18,534:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:19,368:https://www.newegg.com:443 "GET /p/0S6-00W1-002J0 HTTP/1.1" 200 23444
+root:ERROR:2022-10-04 20:09:19,446:'NoneType' object has no attribute 'string'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 41, in get_details_and_store
+    results = get_all_details(url, q, category)
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\newegg.py", line 131, in get_all_details
+    results['productPrice'] =  get_price(page)
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\newegg.py", line 103, in get_price
+    price = price_tag.strong.string + price_tag.sup.string
+AttributeError: 'NoneType' object has no attribute 'string'
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:19,489:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:19,977:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:20,141:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:20,943:https://www.newegg.com:443 "GET /p/0S6-00W1-002H6 HTTP/1.1" 200 21968
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:29,674:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:30,156:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:30,317:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:30,801:https://www.newegg.com:443 "GET /p/0S6-00W1-002H9 HTTP/1.1" 200 22353
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:39,992:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:40,505:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:40,692:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:41,386:https://www.newegg.com:443 "GET /p/18M-00X2-00012 HTTP/1.1" 200 25399
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:50,254:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:50,765:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:50,913:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:09:51,944:https://www.newegg.com:443 "GET /p/0S6-00W1-002H6 HTTP/1.1" 200 21968
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:00,728:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:01,225:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:01,414:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:01,798:https://www.newegg.com:443 "GET /p/0S6-00W1-002H9 HTTP/1.1" 200 22353
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:10,597:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:11,112:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:11,389:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:12,098:https://www.newegg.com:443 "GET /fluance-ai81b/p/0S6-004W-000S9 HTTP/1.1" 200 25039
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:20,836:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:21,347:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:21,493:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:22,507:https://www.newegg.com:443 "GET /fluance-ai81/p/0S6-004W-000T2 HTTP/1.1" 200 24194
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:31,265:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:31,781:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:31,966:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:32,623:https://www.newegg.com:443 "GET /fluance-ai81w/p/0S6-004W-000T3 HTTP/1.1" 200 25050
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:41,610:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:42,197:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:42,340:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:42,999:https://www.newegg.com:443 "GET /fluance-xl8fw/p/0S6-004W-000J2 HTTP/1.1" 200 24062
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:51,859:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:52,392:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:52,535:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:10:53,215:https://www.newegg.com:443 "GET /fluance-xl8f/p/0S6-004W-000J5 HTTP/1.1" 200 24501
+urllib3.connectionpool:DEBUG:2022-10-04 20:11:02,145:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:11:02,782:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:11:02,975:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:11:03,315:https://www.newegg.com:443 "GET /fluance-xl8fw/p/0S6-004W-000J2 HTTP/1.1" 200 24062
+urllib3.connectionpool:DEBUG:2022-10-04 20:11:12,045:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:11:12,527:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:11:12,666:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:11:13,139:https://www.newegg.com:443 "GET /fluance-xl8f/p/0S6-004W-000J5 HTTP/1.1" 200 24501
+urllib3.connectionpool:DEBUG:2022-10-04 20:11:22,157:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:11:23,035:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:11:23,192:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:11:23,942:https://www.newegg.com:443 "GET /fluance-hffw/p/0N6-0174-00010 HTTP/1.1" 200 24380
+urllib3.connectionpool:DEBUG:2022-10-04 20:11:32,760:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:11:33,328:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 20:11:33,681:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 20:11:34,352:https://www.newegg.com:443 "GET /fluance-hff/p/0N6-0174-00011 HTTP/1.1" 200 25113
+urllib3.connectionpool:DEBUG:2022-10-04 22:56:46,254:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:56:46,882:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:56:47,044:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:56:47,440:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AJv2xBSfZoPwFQeY9m2RlhnlAXk6zLqOsRxX58kxLWxA&qid=1664904357&rnid=172563&ref=sr_nr_n_4 HTTP/1.1" 503 1203
+urllib3.connectionpool:DEBUG:2022-10-04 22:57:40,972:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:57:41,644:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:57:41,795:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:57:42,582:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AJv2xBSfZoPwFQeY9m2RlhnlAXk6zLqOsRxX58kxLWxA&qid=1664904357&rnid=172563&ref=sr_nr_n_4 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:59:45,070:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:59:45,590:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 22:59:45,750:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 22:59:46,665:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AJv2xBSfZoPwFQeY9m2RlhnlAXk6zLqOsRxX58kxLWxA&qid=1664904357&rnid=172563&ref=sr_nr_n_4 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:00:16,169:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:00:16,649:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:00:16,808:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:00:17,488:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AJv2xBSfZoPwFQeY9m2RlhnlAXk6zLqOsRxX58kxLWxA&qid=1664904357&rnid=172563&ref=sr_nr_n_4&page=2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:01:58,933:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:01:59,454:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:01:59,749:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:02:00,594:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011&dc&ds=v1%3Acnj5e5wMF7gzPrL54jV8emwqe65y1czvO%2FYKWIgk5bI&qid=1664904642&rnid=9977442011&ref=sr_nr_n_2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:02:11,573:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:02:12,107:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:02:12,265:Starting new HTTPS connection (1): www.amazon.com:443
+root:ERROR:2022-10-04 23:02:14,019:HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236452011&dc&page=3&qid=1664904691&rnid=12097481011&ref=sr_pg_3 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236452011&dc&page=3&qid=1664904691&rnid=12097481011&ref=sr_pg_3 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236452011&dc&page=3&qid=1664904691&rnid=12097481011&ref=sr_pg_3 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+urllib3.connectionpool:DEBUG:2022-10-04 23:02:14,053:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:02:14,767:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236452011&dc&page=3&qid=1664904691&rnid=12097481011&ref=sr_pg_3 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:06:07,215:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:06:07,897:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:06:08,061:Starting new HTTPS connection (1): www.amazon.com:443
+root:ERROR:2022-10-04 23:06:09,507:HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236454011&dc&ds=v1%3ARZ9lAex%2F27TcKKaYPmZkmFIHrWwzQJUN%2BBu5DNJDfs4&qid=1664904908&rnid=12097481011&ref=sr_nr_n_2&page=1 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236454011&dc&ds=v1%3ARZ9lAex%2F27TcKKaYPmZkmFIHrWwzQJUN%2BBu5DNJDfs4&qid=1664904908&rnid=12097481011&ref=sr_nr_n_2&page=1 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236454011&dc&ds=v1%3ARZ9lAex%2F27TcKKaYPmZkmFIHrWwzQJUN%2BBu5DNJDfs4&qid=1664904908&rnid=12097481011&ref=sr_nr_n_2&page=1 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+urllib3.connectionpool:DEBUG:2022-10-04 23:06:09,528:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:06:10,061:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236454011&dc&ds=v1%3ARZ9lAex%2F27TcKKaYPmZkmFIHrWwzQJUN%2BBu5DNJDfs4&qid=1664904908&rnid=12097481011&ref=sr_nr_n_2&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:07:57,423:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:07:57,970:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:07:58,265:Starting new HTTPS connection (1): www.amazon.com:443
+root:ERROR:2022-10-04 23:07:59,727:HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236454011&dc&ds=v1%3ARZ9lAex%2F27TcKKaYPmZkmFIHrWwzQJUN%2BBu5DNJDfs4&qid=1664904908&rnid=12097481011&ref=sr_nr_n_2&page=1 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236454011&dc&ds=v1%3ARZ9lAex%2F27TcKKaYPmZkmFIHrWwzQJUN%2BBu5DNJDfs4&qid=1664904908&rnid=12097481011&ref=sr_nr_n_2&page=1 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236454011&dc&ds=v1%3ARZ9lAex%2F27TcKKaYPmZkmFIHrWwzQJUN%2BBu5DNJDfs4&qid=1664904908&rnid=12097481011&ref=sr_nr_n_2&page=1 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+urllib3.connectionpool:DEBUG:2022-10-04 23:07:59,749:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:08:00,862:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236454011&dc&ds=v1%3ARZ9lAex%2F27TcKKaYPmZkmFIHrWwzQJUN%2BBu5DNJDfs4&qid=1664904908&rnid=12097481011&ref=sr_nr_n_2&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:09:09,458:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:09:10,021:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:09:10,219:Starting new HTTPS connection (1): www.amazon.com:443
+root:ERROR:2022-10-04 23:09:11,670:HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236452011&dc&ds=v1%3A5SDkCLjWeOZSaIXw%2FSDmqWR3Nd6zvrex1KU2gKQVK%2BY&qid=1664905130&rnid=12097481011&ref=sr_nr_n_1&page=1 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236452011&dc&ds=v1%3A5SDkCLjWeOZSaIXw%2FSDmqWR3Nd6zvrex1KU2gKQVK%2BY&qid=1664905130&rnid=12097481011&ref=sr_nr_n_1&page=1 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236452011&dc&ds=v1%3A5SDkCLjWeOZSaIXw%2FSDmqWR3Nd6zvrex1KU2gKQVK%2BY&qid=1664905130&rnid=12097481011&ref=sr_nr_n_1&page=1 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+urllib3.connectionpool:DEBUG:2022-10-04 23:09:11,690:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:09:12,916:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236452011&dc&ds=v1%3A5SDkCLjWeOZSaIXw%2FSDmqWR3Nd6zvrex1KU2gKQVK%2BY&qid=1664905130&rnid=12097481011&ref=sr_nr_n_1&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:09:13,688:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:09:14,213:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:09:14,354:Starting new HTTPS connection (1): www.amazon.com:443
+root:ERROR:2022-10-04 23:09:15,795:HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236452011&dc&ds=v1%3A5SDkCLjWeOZSaIXw%2FSDmqWR3Nd6zvrex1KU2gKQVK%2BY&qid=1664905130&rnid=12097481011&ref=sr_nr_n_1&page=2 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236452011&dc&ds=v1%3A5SDkCLjWeOZSaIXw%2FSDmqWR3Nd6zvrex1KU2gKQVK%2BY&qid=1664905130&rnid=12097481011&ref=sr_nr_n_1&page=2 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236452011&dc&ds=v1%3A5SDkCLjWeOZSaIXw%2FSDmqWR3Nd6zvrex1KU2gKQVK%2BY&qid=1664905130&rnid=12097481011&ref=sr_nr_n_1&page=2 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+urllib3.connectionpool:DEBUG:2022-10-04 23:09:15,799:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:09:16,544:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236452011&dc&ds=v1%3A5SDkCLjWeOZSaIXw%2FSDmqWR3Nd6zvrex1KU2gKQVK%2BY&qid=1664905130&rnid=12097481011&ref=sr_nr_n_1&page=2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:09:17,301:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:09:17,809:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-04 23:09:17,948:Starting new HTTPS connection (1): www.amazon.com:443
+root:ERROR:2022-10-04 23:09:19,390:HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236452011&dc&ds=v1%3A5SDkCLjWeOZSaIXw%2FSDmqWR3Nd6zvrex1KU2gKQVK%2BY&qid=1664905130&rnid=12097481011&ref=sr_nr_n_1&page=3 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236452011&dc&ds=v1%3A5SDkCLjWeOZSaIXw%2FSDmqWR3Nd6zvrex1KU2gKQVK%2BY&qid=1664905130&rnid=12097481011&ref=sr_nr_n_1&page=3 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236452011&dc&ds=v1%3A5SDkCLjWeOZSaIXw%2FSDmqWR3Nd6zvrex1KU2gKQVK%2BY&qid=1664905130&rnid=12097481011&ref=sr_nr_n_1&page=3 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+urllib3.connectionpool:DEBUG:2022-10-04 23:09:19,394:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-04 23:09:20,133:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236452011&dc&ds=v1%3A5SDkCLjWeOZSaIXw%2FSDmqWR3Nd6zvrex1KU2gKQVK%2BY&qid=1664905130&rnid=12097481011&ref=sr_nr_n_1&page=3 HTTP/1.1" 200 None

@@ -32,7 +32,7 @@ def get_address_by_id(id):
             return url, category
         except Exception as e:
             print(e)
-            return None
+            return None, None
 
 
 

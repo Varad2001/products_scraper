@@ -24,3 +24,7 @@ print(q.qsize())
 update(q)
 print(q.qsize())
 print(list(q))"""
+
+s = None
+if not s:
+    print("sdfsfds")

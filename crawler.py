@@ -53,10 +53,11 @@ def crawl_sample_items(sample_url, queue):
     url = sample_url
 
     q = queue
-    finished = False
     page_num = 1
+    finished = False
     print("Crawling sample items from amazon ----")
-    while page_num < 3:
+
+    while not finished:
 
         current_url = url + f"&page={page_num}"
         print(f"Going to url : {current_url}")
@@ -68,6 +69,10 @@ def crawl_sample_items(sample_url, queue):
 
         print("Items extracted : ", q.qsize())
         page_num += 1
+
+        if next_page(page) == 0:
+            finished = True
+
     print("finished crawling sample items.")
 
 
@@ -76,15 +81,24 @@ def next_page(page):
     info_tag = page.find('div', attrs={"cel_widget_id" : "UPPER-RESULT_INFO_BAR-0"})
     if info_tag:
         info = info_tag.find('span').string.split(' ')
-        print(info)
-        current = info[0].split('-')[1]
-        final = info[3]
-        print(current, final)
+        try :
+            current = info[0].split('-')[1]
+        except Exception as e:
+            print("This is the only page...")
+            return 0
+        final = info[2]
+        if int(current) == int(final):
+            print("This is the last page..")
+            return 0
+        else :
+            return 1
 
 
-def begin_crawling(category_id):
+def begin_crawling(address, category):
 
-    sample_url, category = get_address_by_id(category_id)
+    #sample_url, category = get_address_by_id(category_id)
+    sample_url = address
+    category = category
 
     sample_products = Queue()
     new_products = list()
@@ -108,7 +122,14 @@ def begin_crawling(category_id):
 
     print("Crawling finished.")
 
+
+"""
 id = "6338422f02cdaa0d51efb354"
 begin_crawling(id)
 
+url = "https://www.amazon.com/s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AJv2xBSfZoPwFQeY9m2RlhnlAXk6zLqOsRxX58kxLWxA&qid=1664904357&rnid=172563&ref=sr_nr_n_4&page=2"
+url2 = "https://www.amazon.com/s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011&dc&ds=v1%3Acnj5e5wMF7gzPrL54jV8emwqe65y1czvO%2FYKWIgk5bI&qid=1664904642&rnid=9977442011&ref=sr_nr_n_2"
+url3 = "https://www.amazon.com/s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236452011&dc&page=3&qid=1664904691&rnid=12097481011&ref=sr_pg_3"
+page = send_request(url3)
 
+print(next_page(page))"""
