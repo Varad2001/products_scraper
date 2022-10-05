@@ -19,9 +19,7 @@ logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)
 
 def crawl_new_items(queue):
 
-    sample_title = "Klipsch RP-280F Reference Premiere Floorstanding Speaker With Dual 8' Cerametallic Cone Woofers - Each (Cherry)"
     url = "https://www.newegg.com/p/pl?N=100008225%20600030002"
-    url2 = "https://www.newegg.com/todays-deals?cm_sp=Head_Navigation-_-Under_Search_Bar-_-Today%27s+Best+Deals&icid=720202"
     page = send_request(url)
 
     page_num = 1
@@ -68,6 +66,8 @@ def crawl_sample_items(sample_url, queue):
             q.put(item)
 
         print("Items extracted : ", q.qsize())
+        if q.qsize() == 0:
+            logging.info(page.prettify())
         page_num += 1
 
         if next_page(page) == 0:

@@ -8,6 +8,17 @@ from extractors.newegg import get_all_details
 
 
 
+def format_url(url):
+    url2 = url.split('//')[1].split('/')
+    result = url2[0]
+    for s in url2[1:4]:
+        result += f"/{s}"
+
+    result = "https://" + result
+
+    return result
+
+
 
 def get_address_by_id(id):
     dotenv.load_dotenv()

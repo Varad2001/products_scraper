@@ -1,30 +1,22 @@
-from queue import Queue
-from cachetools import FIFOCache
-from datetime import datetime
+import time
+from multiprocessing import Queue, Process, Pool
 
-print(str(datetime.timestamp(datetime.now())))
-cc = FIFOCache(maxsize=10000)
-cc['item'] = [{'title' : 'sdfsf'}]
-print(cc)
-
-"""def update(queue):
-    q = queue
-    for i in range(10):
-        q.put(i)
+def hello(i):
+    print(f"Waiting for process : {i}")
+    #time.sleep(2)
+    print(f"hello : {i}")
 
 
-def remove(queue):
-    q = queue
-    while not q.empty():
-        print(q.get())
+if __name__ == "__main__":
+    print("start")
 
-q = Queue()
+    pool = Pool()
+    i  = [i for i in range(1000)]
 
-print(q.qsize())
-update(q)
-print(q.qsize())
-print(list(q))"""
+    for j in i:
+        hello(j)
 
-s = None
-if not s:
-    print("sdfsfds")
+    a= pool.map_async(hello, i)
+    print(a.get())
+
+
