@@ -66,8 +66,7 @@ def crawl_sample_items(sample_url, queue):
             q.put(item)
 
         print("Items extracted : ", q.qsize())
-        if q.qsize() == 0:
-            logging.info(page.prettify())
+
         page_num += 1
 
         if next_page(page) == 0:

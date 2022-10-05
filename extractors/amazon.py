@@ -6,6 +6,7 @@ def get_titles_urls_on_page(page):
     print("Getting titles and urls of the sample items...")
     tags =  page.find_all('a', attrs={'class' : 'a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal'})
     results = []
+    print(f"{len(tags)} 'a' tags found on this page.")
     for tag in tags:
         try :
             url = "https://www.amazon.com" + tag.get('href')
