@@ -120,6 +120,20 @@ def get_shipping_price(page):
         return tag.text.split(' ')[0]
 
 
+def get_product_images(page):
+    tags = page.find_all('img' , attrs= {'class' : 'product-view-img-original'})
+    links = []
+    for tag in tags:
+        try :
+            links.append(tag.get('src'))
+        except Exception as e:
+            logging.exception(e)
+            print(e)
+            continue
+
+    return links
+
+
 def get_all_details(url, queue, category):
     page = send_request(url)
 
@@ -140,6 +154,7 @@ def get_all_details(url, queue, category):
     seller_details['sellerName'] = 'NewEgg'
     seller_details['productLink'] = url
     seller_details['productTitle'] = get_title(page)
+    seller_details['imageLink'] = get_product_images(page)
 
     results['sellers'] = seller_details
 
@@ -156,8 +171,9 @@ def get_all_details(url, queue, category):
 url2 = "https://www.newegg.com/cerwin-vega-xls-215/p/0S6-00AA-00006?quicklink=true"
 url3= "https://www.newegg.com/polk-audio-300367-14-00-005/p/N82E16886290064?quicklink=true"
 url4 = "https://www.newegg.com/creality-ender-3-v2-black/p/288-00DY-00001"
-page = send_request(url)
+page = send_request(url2)
 
+print(get_product_images(page))
 print(get_product_id(page))
 print(get_title(page))
 print(get_ratings(page))

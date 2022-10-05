@@ -1160,3 +1160,15 @@ urllib3.connectionpool:DEBUG:2022-10-04 23:31:09,022:https://www.newegg.com:443 
 urllib3.connectionpool:DEBUG:2022-10-04 23:31:13,588:Starting new HTTPS connection (1): free-proxy-list.net:443
 urllib3.connectionpool:DEBUG:2022-10-04 23:31:14,041:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
 urllib3.connectionpool:DEBUG:2022-10-04 23:31:14,218:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-05 22:13:30,573:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-05 22:13:31,364:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-05 22:13:31,611:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-05 22:13:32,782:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-05 22:13:52,699:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-05 22:13:53,246:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-05 22:13:53,508:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-05 22:13:54,319:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-05 22:14:12,020:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-05 22:14:12,510:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-05 22:14:12,771:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-05 22:14:13,151:https://www.newegg.com:443 "GET /cerwin-vega-xls-215/p/0S6-00AA-00006?quicklink=true HTTP/1.1" 200 25287
