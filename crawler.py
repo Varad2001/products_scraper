@@ -11,9 +11,9 @@ import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
 
 
-def crawl_new_items_from_newegg(queue):
+def crawl_new_items_from_newegg(queue, url):
 
-    url = "https://www.newegg.com/p/pl?N=100008225%20600030002"
+    #url = "https://www.newegg.com/p/pl?N=100008225%20600030002"
     page = send_request(url)
 
     if not page:
@@ -50,13 +50,14 @@ def crawl_new_items_from_newegg(queue):
     print(f"Complete.   {len(new_products)} new items extracted from Newegg.com.")
 
 
-def crawl_new_items_from_bestbuy(queue):
-    url = "https://www.bestbuy.com/site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003"
+def crawl_new_items_from_bestbuy(queue, url):
+    #url = "https://www.bestbuy.com/site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003"
 
     new_products = queue
 
     print("\n-------Getting new items from BestBuy.com ...----")
     while True:
+        url = url + "&intl=nosplash"
         page = send_request(url)
         if not page:
             return
@@ -76,22 +77,35 @@ def crawl_new_items_from_bestbuy(queue):
     print(f"Complete.   {len(new_products)} new items extracted from BestBuy.com.")
 
 
-def next_page_newegg(page):
+def next_page_amazon(page):
 
     info_tag = page.find('div', attrs={"cel_widget_id" : "UPPER-RESULT_INFO_BAR-0"})
     if info_tag:
         info = info_tag.find('span').string.split(' ')
         try :
             current = info[0].split('-')[1]
+            current = current.replace(',',  '')
         except Exception as e:
             print("This is the only page...")
             return 0
-        final = info[2]
-        if int(current) == int(final):
-            print("This is the last page..")
+
+        try :
+            final = info[2]
+            if final == 'over':
+                final = info[3].replace(',', '')
+        except Exception as e:
+            logging.exception(e)
             return 0
-        else :
-            return 1
+
+        try :
+            if int(current) == int(final):
+                print("This is the last page..")
+                return 0
+            else :
+                return 1
+        except Exception as e:
+            logging.exception(e)
+            return 0
 
 
 def next_page_bestbuy(page):
@@ -140,15 +154,17 @@ def crawl_sample_items(sample_url, queue):
 
         page_num += 1
 
-        if next_page_newegg(page) == 0:
+        if next_page_amazon(page) == 0:
             finished = True
 
-    print("----Finished crawling sample items.----\n")
+    print(f"----Finished crawling sample items. Extracted : {item_queue.qsize()}----\n")
 
 
-def begin_crawling(address, categoryId):
+def begin_crawling(address, categoryId, urls):
 
     sample_url = address
+    bestbuy_url = urls['bestbuy']
+    newegg_url = urls['newegg']
 
     sample_products = Queue()           # store sample products from amazon
     new_products_newegg = list()        # store new items extracted from Newegg.com
@@ -157,8 +173,8 @@ def begin_crawling(address, categoryId):
 
     crawl_sample_items(sample_url, sample_products)
 
-    crawl_new_items_from_newegg(new_products_newegg)
-    crawl_new_items_from_bestbuy(new_products_bestbuy)
+    crawl_new_items_from_newegg(new_products_newegg, newegg_url)
+    crawl_new_items_from_bestbuy(new_products_bestbuy, bestbuy_url)
 
     print("\n------Starting comparisons....------")
     while not sample_products.empty():
@@ -167,7 +183,7 @@ def begin_crawling(address, categoryId):
 
         print("\nSample item : ", sample_title)
 
-        print("Comparing item Newegg.com...")
+        #print("Comparing item Newegg.com...")
         for item in new_products_newegg:
             if check_similarity([sample_title, item['title']]) > 0.5:
                 print("Similar product found on Newegg : ", item['title'])
@@ -175,9 +191,9 @@ def begin_crawling(address, categoryId):
                     print("Item stored successfully.")
                 else:
                     print("Could not save item.")
-        print("Comparison with Newegg complete.")
+        #print("Comparison with Newegg complete.")
 
-        print("Comparing item with BestBuy...")
+        #print("Comparing item with BestBuy...")
         for item in new_products_bestbuy:
             if check_similarity([sample_title, item['title']]) > 0.5:
                 print("Similar product found on Bestbuy : ", item['title'])
@@ -185,7 +201,7 @@ def begin_crawling(address, categoryId):
                     print("Item stored successfully.")
                 else:
                     print("Could not save item.")
-        print("Comparison with Bestbuy complete.")
+        #print("Comparison with Bestbuy complete.")
 
     print("\n-------Crawling finished.--------")
 

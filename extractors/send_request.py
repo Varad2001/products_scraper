@@ -1,6 +1,7 @@
 
 import requests
 from bs4 import BeautifulSoup
+from fp.fp import FreeProxy
 import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
 
@@ -89,15 +90,36 @@ def send_request(url):
     #print(f"Connecting to url : {url}")
     for i in range(5):
         try:
+            #proxy = FreeProxy(country_id=['US']).get()
+            #proxy = {'http': proxy}
             page = requests.get(url, headers=headers)
             if page.status_code != 200:
                 print("Non-200 response received. Trying again...")
             else:
                 page = BeautifulSoup(page.content, "html.parser")
+                #print(page.prettify())
                 return page
         except Exception as e:
             logging.exception(e)
             print("Could not connect...")
     print("Connection unsuccessful. Please try again after some time.")
 
+"""proxy = FreeProxy(country_id=['US']).get()
+proxy = {'http': proxy}
+url2 = "https://www.bestbuy.com/site/definitive-technology-descend-dn10-10-sub-3xr-architecture-500w-peak-class-d-amplifier-2-10-bass-radiators-black/6467273.p?skuId=6467273&intl=nosplash"
+
+cookie = {'s_cc' : 'true',
+          'c2' : 'Best%20Buy',
+          'CTE20' : 'T',
+          'AMCVS_F6301253512D2BDB0A490D45%40AdobeOrg' : '1',
+          'bby_prc_lb': 'p-prc-w',
+          'bby_rdp': 'I',
+          '_cs_c' : '1',
+          'bby_cbc_lb' : 'p-browse-e',
+          'ltc': '%20',
+          'bby_loc_lb' : 'p-loc-e'}
+
+page = requests.get(url2, headers=headers, proxies=proxy, cookies=cookie)
+page = BeautifulSoup(page.content, "html.parser")
+print(page.prettify())"""
 

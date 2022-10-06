@@ -14,6 +14,9 @@ def start_crawler():
 
     categoryId = "6338422f02cdaa0d51efb354"
 
+    urls = {'bestbuy' : 'https://www.bestbuy.com/site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003',
+            'newegg' : 'https://www.newegg.com/p/pl?N=100008225%20600030002'}
+
     try :
         address, category = get_address_by_id(categoryId)
     except Exception as e:
@@ -25,7 +28,7 @@ def start_crawler():
         print("No category address found for the given id.")
         return jsonify(message="NO category address url found.")
 
-    new_thread = threading.Thread(target=begin_crawling, args=(address, categoryId))
+    new_thread = threading.Thread(target=begin_crawling, args=(address, categoryId, urls))
     new_thread.start()
 
     return jsonify(message="Crawling process started.")

@@ -1,4 +1,4 @@
-
+import multiprocessing
 import os
 import dotenv
 import pymongo
@@ -94,11 +94,9 @@ def get_description(page):
 
 def get_brand(page):
     specs = page.find('div', attrs= {'class' : 'shop-specifications'})
-    print(specs)
     if not specs:
         return None
     lis = specs.find_all('li')
-    print(lis)
     for li in lis:
         print(li)
         try :
@@ -191,5 +189,6 @@ url2 = "https://www.bestbuy.com/site/definitive-technology-descend-dn10-10-sub-3
 url3 = "https://www.bestbuy.com/site/martinlogan-motion-4-90-watt-passive-2-way-center-channel-speaker-gloss-black/5870730.p?skuId=5870730"
 
 category = "633a9c09fd7e59f8d05c4743"
-print(get_all_details(url2, category))"""
+
+print(get_all_details(url2+"&intl=nosplash", multiprocessing.Queue(),category))"""
 

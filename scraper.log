@@ -5094,3 +5094,142 @@ urllib3.connectionpool:DEBUG:2022-10-06 16:39:21,787:Starting new HTTPS connecti
 urllib3.connectionpool:DEBUG:2022-10-06 16:39:22,936:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
 urllib3.connectionpool:DEBUG:2022-10-06 16:39:43,171:Starting new HTTPS connection (1): www.newegg.com:443
 urllib3.connectionpool:DEBUG:2022-10-06 16:39:44,371:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22648
+werkzeug:INFO:2022-10-06 18:09:45,518:127.0.0.1 - - [06/Oct/2022 18:09:45] "GET /update HTTP/1.1" 200 -
+root:ERROR:2022-10-06 18:09:50,480:list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\updater.py", line 42, in update_items
+    url = item['sellers']['productLink']
+TypeError: list indices must be integers or slices, not str
+urllib3.connectionpool:DEBUG:2022-10-06 18:09:50,485:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 18:09:51,926:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23812
+urllib3.connectionpool:DEBUG:2022-10-06 18:09:52,591:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 18:09:53,619:https://www.newegg.com:443 "GET /cerwin-vega-cwv-sl28/p/N82E16886716004 HTTP/1.1" 200 21616
+urllib3.connectionpool:DEBUG:2022-10-06 18:09:54,104:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:06,868:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23812
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:07,580:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:08,819:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23812
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:09,472:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:22,227:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 24129
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:22,890:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:24,077:https://www.newegg.com:443 "GET /cerwin-vega-cwv-sl28/p/N82E16886716004 HTTP/1.1" 200 21616
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:24,556:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:25,729:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:26,207:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:27,318:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22649
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:27,965:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:31,119:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:31,597:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:32,307:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22649
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:32,950:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:33,675:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23812
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:34,337:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:35,068:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23812
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:35,728:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:44,837:https://www.newegg.com:443 "GET /cerwin-vega-cwv-sl28/p/N82E16886716004 HTTP/1.1" 200 21616
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:45,774:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:46,787:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:47,369:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:48,649:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22649
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:49,107:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:53,787:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:54,361:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 18:10:55,075:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22649
+werkzeug:INFO:2022-10-06 19:17:07,545:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-06 19:17:07,546:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-06 19:17:44,388:127.0.0.1 - - [06/Oct/2022 19:17:44] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-06 19:17:44,400:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:17:45,188:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:17:45,922:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:17:46,533:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:17:47,262:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:17:49,715:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:17:49,939:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:17:50,894:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:17:51,134:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:17:51,854:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=2 HTTP/1.1" 200 35579
+urllib3.connectionpool:DEBUG:2022-10-06 19:17:52,002:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:17:56,036:https://www.bestbuy.com:443 "GET /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:17:56,300:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:17:56,402:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=2&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 1657
+urllib3.connectionpool:DEBUG:2022-10-06 19:17:56,616:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:17:57,375:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 24825
+werkzeug:INFO:2022-10-06 19:18:12,129:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-06 19:18:12,129:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-06 19:18:26,152:127.0.0.1 - - [06/Oct/2022 19:18:26] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-06 19:18:26,159:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:18:26,736:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:18:27,292:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:18:27,840:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:18:28,094:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:18:30,210:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:18:30,534:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:18:32,111:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:18:32,478:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:18:32,867:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=2 HTTP/1.1" 200 34753
+urllib3.connectionpool:DEBUG:2022-10-06 19:18:32,969:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:18:38,364:https://www.bestbuy.com:443 "GET /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:18:38,597:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:18:38,991:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=2&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 1657
+urllib3.connectionpool:DEBUG:2022-10-06 19:18:39,147:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:18:39,851:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 24825
+urllib3.connectionpool:DEBUG:2022-10-06 19:19:04,973:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:19:06,112:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23812
+urllib3.connectionpool:DEBUG:2022-10-06 19:19:31,200:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:19:31,924:https://www.newegg.com:443 "GET /cerwin-vega-cwv-sl28/p/N82E16886716004 HTTP/1.1" 200 21616
+werkzeug:INFO:2022-10-06 19:26:13,841:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-06 19:26:13,841:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-06 19:26:32,539:127.0.0.1 - - [06/Oct/2022 19:26:32] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-06 19:26:32,549:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:26:33,230:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:26:33,708:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:26:34,267:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:26:34,666:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:26:36,030:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:26:36,429:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:26:37,371:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:26:37,792:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:26:38,759:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=2 HTTP/1.1" 200 34617
+urllib3.connectionpool:DEBUG:2022-10-06 19:26:38,883:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:26:43,699:https://www.bestbuy.com:443 "GET /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:26:43,933:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:26:49,374:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=2&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:26:49,642:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:26:54,504:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=3&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:26:54,856:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:27:02,790:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=4&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:27:03,063:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:27:07,519:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=5&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:27:07,760:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:27:13,530:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=6&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:27:13,807:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:27:19,515:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=7&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 19:27:20,129:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:27:20,916:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 24825
+urllib3.connectionpool:DEBUG:2022-10-06 19:27:46,239:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:27:46,669:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 24825
+urllib3.connectionpool:DEBUG:2022-10-06 19:28:12,268:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:28:12,995:https://www.newegg.com:443 "GET /cerwin-vega-cwv-sl28/p/N82E16886716004 HTTP/1.1" 200 21795
+werkzeug:INFO:2022-10-06 19:42:56,315:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-06 19:42:56,315:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-06 19:43:24,677:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-06 19:43:24,678:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-06 19:43:39,950:127.0.0.1 - - [06/Oct/2022 19:43:39] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-06 19:43:39,960:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:43:40,633:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A172623%2Cn%3A689637011%2Cn%3A7073956011&dc&ds=v1%3AqDViYBH9UdPXIb6%2BJItEzscmB%2FhQtxtSSJCe5G2LKG8&qid=1665065123&rnid=689637011&ref=sr_nr_n_2&page=1 HTTP/1.1" 200 None
+werkzeug:INFO:2022-10-06 19:52:43,431:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-06 19:52:43,431:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-06 19:52:57,908:127.0.0.1 - - [06/Oct/2022 19:52:57] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-06 19:52:57,916:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:52:59,190:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A172623%2Cn%3A689637011%2Cn%3A7073956011&dc&ds=v1%3AqDViYBH9UdPXIb6%2BJItEzscmB%2FhQtxtSSJCe5G2LKG8&qid=1665065123&rnid=689637011&ref=sr_nr_n_2&page=1 HTTP/1.1" 200 None
+werkzeug:INFO:2022-10-06 19:55:26,788:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-06 19:55:26,788:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-06 19:55:42,056:127.0.0.1 - - [06/Oct/2022 19:55:42] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-06 19:55:42,065:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 19:55:42,764:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A172623%2Cn%3A689637011%2Cn%3A7073956011&dc&ds=v1%3AqDViYBH9UdPXIb6%2BJItEzscmB%2FhQtxtSSJCe5G2LKG8&qid=1665065123&rnid=689637011&ref=sr_nr_n_2&page=1 HTTP/1.1" 200 None
