@@ -17,6 +17,7 @@ def update_items():
     passwd = os.getenv('PASSWD')
     arg = os.getenv('CLUSTER_ARG')
 
+
     # connect to the mongodb database
     client = pymongo.MongoClient(
         f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
@@ -24,7 +25,6 @@ def update_items():
     # tasks_db.productCategory
     try :
         db = client['tasks_db']
-        table = db['products']
         table = db['products']
     except Exception as e:
         print(f"Invalid credentials.")

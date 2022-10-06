@@ -34,7 +34,7 @@ def crawl_new_items_from_newegg(queue):
     print("\n-------Getting items from NewEgg.com ....------")
     while page_num <= total_pages:
         current_url = f"{url}&page={page_num}"
-        print("Url : ", current_url)
+        #print("Url : ", current_url)
 
         page = send_request(current_url)
         if not page:
@@ -60,7 +60,7 @@ def crawl_new_items_from_bestbuy(queue):
         page = send_request(url)
         if not page:
             return
-        print(f"URL : {url}")
+        #print(f"URL : {url}")
 
         products = bestbuy.get_urls_and_titles(page)
         for product in products:
@@ -102,7 +102,7 @@ def next_page_bestbuy(page):
 
     try :
         next_page_link =div.find('a', attrs = {'class' : 'sku-list-page-next'})
-        if  next_page_link:
+        if next_page_link.get('href'):
             return "https://www.bestbuy.com" + next_page_link.get('href')
         else :
             print("This is the last page.")

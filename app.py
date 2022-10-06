@@ -25,7 +25,7 @@ def start_crawler():
         print("No category address found for the given id.")
         return jsonify(message="NO category address url found.")
 
-    new_thread = threading.Thread(target=begin_crawling, args=(address, id))
+    new_thread = threading.Thread(target=begin_crawling, args=(address, categoryId))
     new_thread.start()
 
     return jsonify(message="Crawling process started.")

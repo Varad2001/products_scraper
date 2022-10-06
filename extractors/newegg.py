@@ -1,3 +1,5 @@
+import multiprocessing
+
 import dotenv
 import os
 import pymongo
@@ -140,7 +142,7 @@ def get_all_details(url, queue, category):
 
     seller_details = {}
 
-    results = {}
+    results = dict()
     #productID, productCategory, favoritedCount, lastUpdate, productBrand, productDescription,
     results['productID'] = get_product_id(page)
     results['productPrice'] =  get_price(page)
@@ -151,13 +153,15 @@ def get_all_details(url, queue, category):
     results['productBrand'] = get_brand(page)
     results['productDescription'] = get_description(page)
 
-    seller_details['sellerID'] = get_seller_id('NewEgg')
+    seller_details['sellerID'] = str(get_seller_id('NewEgg'))
     seller_details['sellerName'] = 'NewEgg'
     seller_details['productLink'] = url
     seller_details['productTitle'] = get_title(page)
     seller_details['imageLink'] = get_product_images(page)
 
-    results['sellers'] = seller_details
+    seller_details_list = []
+    seller_details_list.append(seller_details)
+    results['sellers'] = seller_details_list
 
     discount = get_discount_info(page)
     if discount :
@@ -171,16 +175,8 @@ def get_all_details(url, queue, category):
 url2 = "https://www.newegg.com/cerwin-vega-xls-215/p/0S6-00AA-00006?quicklink=true"
 url3= "https://www.newegg.com/polk-audio-300367-14-00-005/p/N82E16886290064?quicklink=true"
 url4 = "https://www.newegg.com/creality-ender-3-v2-black/p/288-00DY-00001"
-page = send_request(url2)
+page = send_request(url4)
 
-print(get_product_images(page))
-print(get_product_id(page))
-print(get_title(page))
-print(get_ratings(page))
-print(get_brand(page))
-print(get_description(page))
-print(get_price(page))
-print(get_discount_info(page))
-print(get_shipping_price(page))
-print(find_urls_and_titles_on_page(page))"""
+q = multiprocessing.Queue()
+print(type(get_all_details(url4, q, '546446')))"""
 

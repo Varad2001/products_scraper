@@ -158,9 +158,5 @@ def get_all_details(url, queue, category):
 
 url = "https://www.costco.com/home-theater-systems.html"
 url2 = "https://www.costco.com/klipsch-the-fives-speaker%2c-2-pack.product.100800459.html"
-page = requests.get(url2, headers=extractors.send_request.headers)
-page = BeautifulSoup(page.content, "html.parser")
-print(page.prettify())
 
-#print(find_urls_and_titles_on_page(page))
-print(get_product_id(page))
+page = send_request(url)

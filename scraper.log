@@ -3912,3 +3912,1185 @@ urllib3.connectionpool:DEBUG:2022-10-06 14:18:31,707:Starting new HTTPS connecti
 urllib3.connectionpool:DEBUG:2022-10-06 14:18:33,227:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
 urllib3.connectionpool:DEBUG:2022-10-06 14:18:53,695:Starting new HTTPS connection (1): www.newegg.com:443
 urllib3.connectionpool:DEBUG:2022-10-06 14:18:54,788:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22648
+root:ERROR:2022-10-06 15:26:54,135:list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\updater.py", line 42, in update_items
+    url = item['sellers']['productLink']
+TypeError: list indices must be integers or slices, not str
+urllib3.connectionpool:DEBUG:2022-10-06 15:26:54,157:Starting new HTTPS connection (1): www.newegg.com:443
+werkzeug:INFO:2022-10-06 15:27:05,798:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-06 15:27:05,798:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-06 15:27:30,325:127.0.0.1 - - [06/Oct/2022 15:27:30] "[33mGET / HTTP/1.1[0m" 404 -
+werkzeug:INFO:2022-10-06 15:28:25,249:127.0.0.1 - - [06/Oct/2022 15:28:25] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-06 15:28:25,260:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:28:26,787:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:28:27,589:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:28:40,147:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:28:40,857:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:28:43,064:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002 HTTP/1.1" 200 67560
+urllib3.connectionpool:DEBUG:2022-10-06 15:28:43,612:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:28:45,007:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:28:45,559:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:28:47,372:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=2 HTTP/1.1" 200 34520
+urllib3.connectionpool:DEBUG:2022-10-06 15:28:47,713:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:28:50,186:https://www.bestbuy.com:443 "GET /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:28:50,864:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:28:53,107:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=2&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:28:53,869:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:28:55,985:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=3&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:28:56,703:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:28:59,252:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=4&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:29:00,043:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:29:02,323:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=5&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:29:03,065:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:29:05,190:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=6&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:29:05,939:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:29:07,770:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=7&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+root:ERROR:2022-10-06 15:29:08,313:can only concatenate str (not "NoneType") to str
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\crawler.py", line 106, in next_page_bestbuy
+    return "https://www.bestbuy.com" + next_page_link.get('href')
+TypeError: can only concatenate str (not "NoneType") to str
+urllib3.connectionpool:DEBUG:2022-10-06 15:29:09,483:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:29:11,334:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23806
+root:ERROR:2022-10-06 15:29:19,439:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 15:29:20,016:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:29:32,256:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23806
+root:ERROR:2022-10-06 15:29:51,935:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 15:29:52,734:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:29:54,161:https://www.newegg.com:443 "GET /cerwin-vega-cwv-sl28/p/N82E16886716004 HTTP/1.1" 200 21616
+root:ERROR:2022-10-06 15:30:13,646:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 15:30:13,921:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:30:15,357:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
+root:ERROR:2022-10-06 15:30:35,006:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 15:30:35,037:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:30:36,480:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22648
+root:ERROR:2022-10-06 15:30:56,158:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 15:30:58,016:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:30:59,570:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
+root:ERROR:2022-10-06 15:31:18,974:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 15:31:19,005:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:31:20,535:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22648
+root:ERROR:2022-10-06 15:31:47,256:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+werkzeug:INFO:2022-10-06 15:41:03,345:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-06 15:41:03,345:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-06 15:41:58,817:127.0.0.1 - - [06/Oct/2022 15:41:58] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-06 15:41:58,829:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:42:00,353:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:42:01,155:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:42:13,649:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:42:14,382:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:42:16,533:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002 HTTP/1.1" 200 66530
+urllib3.connectionpool:DEBUG:2022-10-06 15:42:17,082:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:42:18,478:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:42:19,097:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:42:23,004:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=2 HTTP/1.1" 200 34611
+urllib3.connectionpool:DEBUG:2022-10-06 15:42:23,358:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:42:54,933:https://www.bestbuy.com:443 "GET /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:42:55,642:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:42:58,599:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=2&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:42:59,314:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:43:31,079:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=3&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:43:31,787:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:43:34,357:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=4&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:43:35,148:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:43:37,372:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=5&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:43:38,053:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:43:48,612:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=6&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:43:49,296:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:43:51,153:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=7&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+root:ERROR:2022-10-06 15:43:51,720:can only concatenate str (not "NoneType") to str
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\crawler.py", line 106, in next_page_bestbuy
+    return "https://www.bestbuy.com" + next_page_link.get('href')
+TypeError: can only concatenate str (not "NoneType") to str
+urllib3.connectionpool:DEBUG:2022-10-06 15:43:52,378:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:43:53,880:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 24123
+root:ERROR:2022-10-06 15:44:13,568:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 15:44:14,172:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:44:15,285:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23806
+root:ERROR:2022-10-06 15:44:46,082:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 15:44:46,759:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:44:48,143:https://www.newegg.com:443 "GET /cerwin-vega-cwv-sl28/p/N82E16886716004 HTTP/1.1" 200 21616
+root:ERROR:2022-10-06 15:45:07,780:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 15:45:08,018:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:45:09,121:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
+root:ERROR:2022-10-06 15:45:17,207:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 15:45:17,236:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:45:30,067:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22648
+root:ERROR:2022-10-06 15:45:49,606:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 15:45:51,484:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:45:52,928:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
+root:ERROR:2022-10-06 15:46:01,023:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 15:46:01,053:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:46:13,265:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22648
+root:ERROR:2022-10-06 15:46:21,574:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+werkzeug:INFO:2022-10-06 15:51:37,913:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-06 15:51:37,913:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-06 15:52:26,057:127.0.0.1 - - [06/Oct/2022 15:52:26] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-06 15:52:26,064:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:52:27,642:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:52:28,447:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:52:29,614:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:52:30,327:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:52:32,263:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:52:32,844:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:52:34,309:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:52:34,861:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:52:36,152:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=2 HTTP/1.1" 200 34736
+urllib3.connectionpool:DEBUG:2022-10-06 15:52:36,484:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:52:38,770:https://www.bestbuy.com:443 "GET /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:52:39,456:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:52:41,271:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=2&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:52:41,999:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:52:54,998:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=3&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:52:55,720:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:52:57,452:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=4&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:52:58,224:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:53:08,955:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=5&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:53:09,658:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:53:12,639:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=6&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 15:53:13,335:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:53:26,225:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=7&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+root:ERROR:2022-10-06 15:53:26,784:can only concatenate str (not "NoneType") to str
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\crawler.py", line 106, in next_page_bestbuy
+    return "https://www.bestbuy.com" + next_page_link.get('href')
+TypeError: can only concatenate str (not "NoneType") to str
+urllib3.connectionpool:DEBUG:2022-10-06 15:53:27,410:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:53:28,553:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23806
+root:ERROR:2022-10-06 15:53:48,294:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 15:53:48,875:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:53:50,093:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 24123
+root:ERROR:2022-10-06 15:53:59,617:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 15:54:00,455:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:54:01,357:https://www.newegg.com:443 "GET /cerwin-vega-cwv-sl28/p/N82E16886716004 HTTP/1.1" 200 21616
+root:ERROR:2022-10-06 15:54:23,480:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 15:54:23,705:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:54:24,878:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
+root:ERROR:2022-10-06 15:54:55,880:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 15:54:55,909:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:54:57,025:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22648
+root:ERROR:2022-10-06 15:55:16,416:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 15:55:18,907:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:55:20,327:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
+root:ERROR:2022-10-06 15:55:28,431:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 15:55:28,461:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 15:55:29,387:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22648
+root:ERROR:2022-10-06 15:55:44,363:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 69, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+werkzeug:INFO:2022-10-06 16:09:58,056:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-06 16:09:58,057:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-06 16:18:08,111:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-06 16:18:08,112:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-06 16:18:44,446:127.0.0.1 - - [06/Oct/2022 16:18:44] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-06 16:18:44,464:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:18:46,736:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:18:47,526:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:18:49,017:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:18:49,736:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:18:51,538:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:18:52,012:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:19:04,881:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:19:05,520:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:19:06,824:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=2 HTTP/1.1" 200 34559
+urllib3.connectionpool:DEBUG:2022-10-06 16:19:07,150:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:19:09,691:https://www.bestbuy.com:443 "GET /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:19:10,398:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:19:28,748:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=2&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:19:29,435:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:19:36,205:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=3&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:19:36,892:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:19:50,344:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=4&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:19:51,126:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:19:53,416:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=5&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:19:54,124:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:20:00,791:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=6&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:20:01,506:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:20:08,230:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=7&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+root:ERROR:2022-10-06 16:20:08,787:can only concatenate str (not "NoneType") to str
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\crawler.py", line 106, in next_page_bestbuy
+    return "https://www.bestbuy.com" + next_page_link.get('href')
+TypeError: can only concatenate str (not "NoneType") to str
+urllib3.connectionpool:DEBUG:2022-10-06 16:20:09,565:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:20:11,002:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23806
+root:ERROR:2022-10-06 16:20:19,374:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 71, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 16:20:19,965:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:20:32,155:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23806
+root:ERROR:2022-10-06 16:20:51,610:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 71, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 16:20:52,431:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:20:53,835:https://www.newegg.com:443 "GET /cerwin-vega-cwv-sl28/p/N82E16886716004 HTTP/1.1" 200 21616
+root:ERROR:2022-10-06 16:21:23,859:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 71, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 16:21:24,107:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:21:25,284:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
+root:ERROR:2022-10-06 16:21:40,453:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 71, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 16:21:40,483:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:21:41,699:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22648
+root:ERROR:2022-10-06 16:22:00,177:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 71, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 16:22:01,964:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:22:03,100:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
+root:ERROR:2022-10-06 16:22:33,991:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 71, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 16:22:34,024:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:22:35,120:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22648
+root:ERROR:2022-10-06 16:22:54,484:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 71, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+werkzeug:INFO:2022-10-06 16:29:43,718:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-06 16:29:43,718:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-06 16:29:50,010:127.0.0.1 - - [06/Oct/2022 16:29:50] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-06 16:29:50,016:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:29:51,632:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:29:52,377:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:29:53,560:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:29:54,268:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:29:55,866:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:29:56,327:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:29:57,699:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:29:58,204:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:30:10,883:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=2 HTTP/1.1" 200 34609
+urllib3.connectionpool:DEBUG:2022-10-06 16:30:11,202:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:30:13,489:https://www.bestbuy.com:443 "GET /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:30:14,139:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:30:16,506:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=2&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:30:17,189:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:30:19,486:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=3&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:30:20,196:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:30:22,352:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=4&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:30:23,085:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:30:31,056:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=5&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:30:31,764:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:30:34,389:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=6&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:30:35,061:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:30:40,632:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=7&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+root:ERROR:2022-10-06 16:30:41,164:can only concatenate str (not "NoneType") to str
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\crawler.py", line 106, in next_page_bestbuy
+    return "https://www.bestbuy.com" + next_page_link.get('href')
+TypeError: can only concatenate str (not "NoneType") to str
+urllib3.connectionpool:DEBUG:2022-10-06 16:30:41,692:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:30:42,841:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23806
+root:ERROR:2022-10-06 16:31:02,494:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 71, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 16:31:02,990:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:31:04,195:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 24123
+root:ERROR:2022-10-06 16:31:12,240:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 71, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 16:31:12,946:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:31:25,169:https://www.newegg.com:443 "GET /cerwin-vega-cwv-sl28/p/N82E16886716004 HTTP/1.1" 200 21616
+root:ERROR:2022-10-06 16:31:55,774:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 71, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 16:31:55,999:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:31:57,123:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
+root:ERROR:2022-10-06 16:32:05,465:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 71, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 16:32:05,499:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:32:06,632:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22648
+root:ERROR:2022-10-06 16:32:27,057:cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 71, in get_details_from_newegg_and_store
+    table.insert_one(results)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 621, in insert_one
+    self._insert_one(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\collection.py", line 550, in _insert_command
+    result = sock_info.command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\pool.py", line 766, in command
+    return command(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\network.py", line 127, in command
+    request_id, msg, size, max_doc_size = message._op_msg(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\pymongo\message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: cannot encode object: <built-in function id>, of type: <class 'builtin_function_or_method'>
+urllib3.connectionpool:DEBUG:2022-10-06 16:32:28,960:Starting new HTTPS connection (1): www.newegg.com:443
+werkzeug:INFO:2022-10-06 16:35:45,745:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-06 16:35:45,745:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-06 16:36:26,442:127.0.0.1 - - [06/Oct/2022 16:36:26] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-06 16:36:26,452:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:36:27,950:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:36:28,751:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:36:41,209:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:36:41,762:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:36:43,483:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:36:44,047:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:36:45,429:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:36:46,004:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:36:50,333:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=2 HTTP/1.1" 200 34728
+urllib3.connectionpool:DEBUG:2022-10-06 16:36:50,677:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:36:52,904:https://www.bestbuy.com:443 "GET /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:36:53,617:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:36:55,759:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=2&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:36:56,454:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:36:59,895:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=3&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:37:00,596:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:37:02,925:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=4&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:37:03,669:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:37:16,968:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=5&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:37:17,710:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:37:24,852:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=6&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 500 243363
+urllib3.connectionpool:DEBUG:2022-10-06 16:37:25,653:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:37:27,537:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=6&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:37:28,232:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:37:29,984:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=7&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+root:ERROR:2022-10-06 16:37:30,519:can only concatenate str (not "NoneType") to str
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\crawler.py", line 106, in next_page_bestbuy
+    return "https://www.bestbuy.com" + next_page_link.get('href')
+TypeError: can only concatenate str (not "NoneType") to str
+urllib3.connectionpool:DEBUG:2022-10-06 16:37:31,163:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:37:32,294:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23806
+urllib3.connectionpool:DEBUG:2022-10-06 16:37:42,096:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:37:54,311:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23806
+urllib3.connectionpool:DEBUG:2022-10-06 16:38:15,347:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:38:16,740:https://www.newegg.com:443 "GET /cerwin-vega-cwv-sl28/p/N82E16886716004 HTTP/1.1" 200 21616
+urllib3.connectionpool:DEBUG:2022-10-06 16:38:26,153:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:38:27,369:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
+urllib3.connectionpool:DEBUG:2022-10-06 16:38:50,706:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:38:52,105:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22648
+urllib3.connectionpool:DEBUG:2022-10-06 16:39:21,787:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:39:22,936:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
+urllib3.connectionpool:DEBUG:2022-10-06 16:39:43,171:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:39:44,371:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22648

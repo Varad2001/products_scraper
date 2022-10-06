@@ -1284,3 +1284,26 @@ urllib3.connectionpool:DEBUG:2022-10-06 13:24:59,200:Starting new HTTPS connecti
 urllib3.connectionpool:DEBUG:2022-10-06 13:25:01,723:https://www.bestbuy.com:443 "GET /site/home-audio-systems/home-theater-systems/abcat0203000.c?id=abcat0203000 HTTP/1.1" 200 None
 urllib3.connectionpool:DEBUG:2022-10-06 13:26:09,051:Starting new HTTPS connection (1): www.bestbuy.com:443
 urllib3.connectionpool:DEBUG:2022-10-06 13:26:11,221:https://www.bestbuy.com:443 "GET /site/definitive-technology-descend-dn10-10-sub-3xr-architecture-500w-peak-class-d-amplifier-2-10-bass-radiators-black/6467273.p?skuId=6467273 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 16:03:33,289:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:03:34,902:https://www.newegg.com:443 "GET /creality-ender-3-v2-black/p/288-00DY-00001 HTTP/1.1" 200 43553
+urllib3.connectionpool:DEBUG:2022-10-06 16:03:35,233:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:03:36,143:https://www.newegg.com:443 "GET /creality-ender-3-v2-black/p/288-00DY-00001 HTTP/1.1" 200 43552
+urllib3.connectionpool:DEBUG:2022-10-06 16:10:46,056:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:10:47,843:https://www.newegg.com:443 "GET /creality-ender-3-v2-black/p/288-00DY-00001 HTTP/1.1" 200 43553
+root:ERROR:2022-10-06 16:10:48,167:'type' object does not support item assignment
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\helpers.py", line 53, in get_details_from_newegg_and_store
+    results = newegg.get_all_details(url, q, category)
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\newegg.py", line 147, in get_all_details
+    results['productID'] = get_product_id(page)
+TypeError: 'type' object does not support item assignment
+urllib3.connectionpool:DEBUG:2022-10-06 16:11:46,295:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:11:48,247:https://www.newegg.com:443 "GET /creality-ender-3-v2-black/p/288-00DY-00001 HTTP/1.1" 200 44032
+urllib3.connectionpool:DEBUG:2022-10-06 16:12:55,885:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:12:57,012:https://www.newegg.com:443 "GET /creality-ender-3-v2-black/p/288-00DY-00001 HTTP/1.1" 200 43525
+urllib3.connectionpool:DEBUG:2022-10-06 16:27:31,713:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:27:33,291:https://www.newegg.com:443 "GET //p/0S6-00SH-00143 HTTP/1.1" 200 24112
+urllib3.connectionpool:DEBUG:2022-10-06 16:27:33,553:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:27:45,754:https://www.newegg.com:443 "GET //p/0S6-00SH-00143 HTTP/1.1" 200 23806
+urllib3.connectionpool:DEBUG:2022-10-06 16:28:13,376:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 16:28:14,525:https://www.newegg.com:443 "GET //p/0S6-00SH-00143 HTTP/1.1" 200 23806
