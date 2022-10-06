@@ -15,10 +15,11 @@ def update_items():
     dotenv.load_dotenv()
     user = os.getenv('USER')
     passwd = os.getenv('PASSWD')
+    arg = os.getenv('CLUSTER_ARG')
 
     # connect to the mongodb database
     client = pymongo.MongoClient(
-        f"mongodb+srv://{user}:{passwd}@cluster0.x6statp.mongodb.net/?retryWrites=true&w=majority")
+        f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
 
     # tasks_db.productCategory
     try :

@@ -22,10 +22,11 @@ def get_address_by_id(id):
     dotenv.load_dotenv()
     user = os.getenv('USER')
     passwd = os.getenv('PASSWD')
+    arg = os.getenv('CLUSTER_ARG')
 
     # connect to the mongodb database
     client = pymongo.MongoClient(
-        f"mongodb+srv://{user}:{passwd}@cluster0.x6statp.mongodb.net/?retryWrites=true&w=majority")
+        f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
 
     # tasks_db.productCategory
     db = client['tasks_db']
@@ -52,10 +53,11 @@ def get_details_from_newegg_and_store(url, q, category):
         dotenv.load_dotenv()
         user = os.getenv('USER')
         passwd = os.getenv('PASSWD')
+        arg = os.getenv('CLUSTER_ARG')
 
         # connect to the mongodb database
         client = pymongo.MongoClient(
-            f"mongodb+srv://{user}:{passwd}@cluster0.x6statp.mongodb.net/?retryWrites=true&w=majority")
+            f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
 
         db_name = 'tasks_db'
         table_name = "products"
@@ -79,10 +81,11 @@ def get_details_from_bestbuy_and_store(url, q, category):
         dotenv.load_dotenv()
         user = os.getenv('USER')
         passwd = os.getenv('PASSWD')
+        arg = os.getenv('CLUSTER_ARG')
 
         # connect to the mongodb database
         client = pymongo.MongoClient(
-            f"mongodb+srv://{user}:{passwd}@cluster0.x6statp.mongodb.net/?retryWrites=true&w=majority")
+            f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
 
         db_name = 'tasks_db'
         table_name = "products"
