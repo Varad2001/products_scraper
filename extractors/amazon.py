@@ -3,17 +3,17 @@ logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)
 
 
 def get_titles_urls_on_page(page):
-    print("Getting titles and urls of the sample items...")
+    print("Getting titles and urls of the sample items from amazon...")
     tags =  page.find_all('a', attrs={'class' : 'a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal'})
     results = []
-    print(f"{len(tags)} 'a' tags found on this page.")
+    #print(f"{len(tags)} 'a' tags found on this page.")
     for tag in tags:
         try :
             url = "https://www.amazon.com" + tag.get('href')
             title = tag.span.text
             results.append({'url' : url, 'title' : title})
         except Exception as e:
-            print(e)
+            logging.exception(e)
             continue
-    print(f"{len(results)} sample items found on this page...")
+    print(f"{len(results)} sample items found on this amazon page...")
     return results

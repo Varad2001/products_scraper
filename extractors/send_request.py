@@ -16,8 +16,8 @@ HEADERS = {
 }
 
 # create a user agent
-headers = {"User-Agent": "Mozilla/5.0 (X11; CrOS x86_64 12871.102.0) AppleWebKit/537.36 (KHTML, like Gecko) "
-                         "Chrome/81.0.4044.141 Safari/537.36"}
+headers = {"User-Agent":"Mozilla/5.0",
+           "Accept-Language": "en-US,en;q=0.9"}
 
 
 def get_proxy_details():
@@ -69,7 +69,7 @@ def get_proxy():
 
 def send_request(url):
 
-    ips = get_proxy()
+    """ips = get_proxy()
     for ip in ips:
         try :
             page = requests.get(url, headers=HEADERS, proxies=ip)
@@ -78,9 +78,26 @@ def send_request(url):
             else :
                 page = BeautifulSoup(page.content, "html.parser")
                 return page
+        except requests.exceptions.MissingSchema as e:
+            print("Invalid url given.")
+            return None
         except Exception as e:
             logging.exception(e)
             continue
         print("Sending request unsuccessful. Stopping the crawler...")
-        return None
+        return None"""
+    #print(f"Connecting to url : {url}")
+    for i in range(5):
+        try:
+            page = requests.get(url, headers=headers)
+            if page.status_code != 200:
+                print("Non-200 response received. Trying again...")
+            else:
+                page = BeautifulSoup(page.content, "html.parser")
+                return page
+        except Exception as e:
+            logging.exception(e)
+            print("Could not connect...")
+    print("Connection unsuccessful. Please try again after some time.")
+
 

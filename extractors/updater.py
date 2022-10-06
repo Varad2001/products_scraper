@@ -1,8 +1,14 @@
+import logging
+
 import pymongo
 import dotenv
 import os
-from extractors.newegg import get_all_details
+
+import requests
 from queue import Queue
+
+from extractors import newegg
+from extractors import send_request
 
 
 def update_items():
@@ -15,23 +21,53 @@ def update_items():
         f"mongodb+srv://{user}:{passwd}@cluster0.x6statp.mongodb.net/?retryWrites=true&w=majority")
 
     # tasks_db.productCategory
-    db = client['Products']
-    table = db['Products_details']
+    try :
+        db = client['tasks_db']
+        table = db['products']
+        table = db['products']
+    except Exception as e:
+        print(f"Invalid credentials.")
+        logging.exception(e)
+        return
 
     q = Queue()
     cursor = table.find({})
 
     for item in cursor:
-        print("updating")
-        url = item['sellers']['productLink']
-        category = item['productCategory']
+        print("Updating")
+
         try :
-            results = get_all_details(url, q, category)
-            table.insert_one(results)
-            print("update successful.")
+            obj_id = item['_id']
+            url = item['sellers']['productLink']
+            category = item['productCategory']
+            price = item['productPrice']
+            page = send_request.send_request(url)       # raise missing-schema exception if invalid url
+            if not page :
+                continue
+
+            new_price = newegg.get_price(page)
+            discount = newegg.get_discount_info(page)
+            if discount:
+                table.update_one(
+                    {'_id' : obj_id},
+                    {'$set' : {'productPrice': new_price, 'productPriceType' : 'Discounted', 'lastPrice' : price}}
+                )
+            else:
+                table.update_one(
+                    {'_id': obj_id},
+                    {'$set': {'productPrice': new_price}}
+                )
+
+            print("Update successful.")
+        except requests.exceptions.ConnectionError as e:
+            table.delete_one(
+                {'_id' : obj_id}
+            )
+            print("Item deleted.")
         except Exception as e:
-            print(e)
+            logging.exception(e)
             continue
 
+    print("Update finished.")
 
-update_items()
+#update_items()

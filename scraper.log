@@ -2486,3 +2486,1429 @@ Traceback (most recent call last):
 requests.exceptions.SSLError: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236452011&dc&ds=v1%3A5SDkCLjWeOZSaIXw%2FSDmqWR3Nd6zvrex1KU2gKQVK%2BY&qid=1664905130&rnid=12097481011&ref=sr_nr_n_1&page=3 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
 urllib3.connectionpool:DEBUG:2022-10-04 23:09:19,394:Starting new HTTPS connection (1): www.amazon.com:443
 urllib3.connectionpool:DEBUG:2022-10-04 23:09:20,133:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236452011&dc&ds=v1%3A5SDkCLjWeOZSaIXw%2FSDmqWR3Nd6zvrex1KU2gKQVK%2BY&qid=1664905130&rnid=12097481011&ref=sr_nr_n_1&page=3 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-05 22:50:37,708:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-05 22:50:38,744:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+root:ERROR:2022-10-05 22:50:38,884:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+root:ERROR:2022-10-05 22:50:38,898:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+root:ERROR:2022-10-05 22:50:38,899:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+root:ERROR:2022-10-05 22:50:38,900:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+root:ERROR:2022-10-05 22:50:38,901:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+root:ERROR:2022-10-05 22:50:38,902:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+root:ERROR:2022-10-05 22:50:38,903:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+root:ERROR:2022-10-05 22:50:38,904:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+root:ERROR:2022-10-05 22:50:38,905:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+root:ERROR:2022-10-05 22:50:38,906:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+urllib3.connectionpool:DEBUG:2022-10-05 22:51:50,093:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-05 22:51:50,643:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+root:ERROR:2022-10-05 22:51:50,784:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+root:ERROR:2022-10-05 22:51:50,794:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+root:ERROR:2022-10-05 22:51:50,795:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+root:ERROR:2022-10-05 22:51:50,796:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+root:ERROR:2022-10-05 22:51:50,798:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+root:ERROR:2022-10-05 22:51:50,799:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+root:ERROR:2022-10-05 22:51:50,801:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+root:ERROR:2022-10-05 22:51:50,802:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+root:ERROR:2022-10-05 22:51:50,803:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+root:ERROR:2022-10-05 22:51:50,804:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+urllib3.connectionpool:DEBUG:2022-10-05 22:52:10,390:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-05 22:52:10,890:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+root:ERROR:2022-10-05 22:52:11,038:Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'sfs': No scheme supplied. Perhaps you meant http://sfs?
+urllib3.connectionpool:DEBUG:2022-10-05 22:53:22,370:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-05 22:53:22,884:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-05 22:55:36,668:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-05 22:55:37,261:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-05 22:55:37,406:Starting new HTTPS connection (1): www.asdsfdsd.com:443
+root:ERROR:2022-10-05 22:55:37,664:HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD1600>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001B824BD1600>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD1600>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD1600>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+urllib3.connectionpool:DEBUG:2022-10-05 22:55:37,694:Starting new HTTPS connection (1): www.asdsfdsd.com:443
+root:ERROR:2022-10-05 22:55:37,723:HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD16F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001B824BD16F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD16F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD16F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+urllib3.connectionpool:DEBUG:2022-10-05 22:55:37,726:Starting new HTTPS connection (1): www.asdsfdsd.com:443
+root:ERROR:2022-10-05 22:55:37,754:HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD18A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001B824BD18A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD18A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD18A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+urllib3.connectionpool:DEBUG:2022-10-05 22:55:37,758:Starting new HTTPS connection (1): www.asdsfdsd.com:443
+root:ERROR:2022-10-05 22:55:37,786:HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD1630>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001B824BD1630>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD1630>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD1630>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+urllib3.connectionpool:DEBUG:2022-10-05 22:55:37,789:Starting new HTTPS connection (1): www.asdsfdsd.com:443
+root:ERROR:2022-10-05 22:55:37,817:HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD1750>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001B824BD1750>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD1750>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD1750>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+urllib3.connectionpool:DEBUG:2022-10-05 22:55:37,820:Starting new HTTPS connection (1): www.asdsfdsd.com:443
+root:ERROR:2022-10-05 22:55:37,848:HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD1930>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001B824BD1930>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD1930>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD1930>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+urllib3.connectionpool:DEBUG:2022-10-05 22:55:37,851:Starting new HTTPS connection (1): www.asdsfdsd.com:443
+root:ERROR:2022-10-05 22:55:37,880:HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD1810>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001B824BD1810>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD1810>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD1810>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+urllib3.connectionpool:DEBUG:2022-10-05 22:55:37,883:Starting new HTTPS connection (1): www.asdsfdsd.com:443
+root:ERROR:2022-10-05 22:55:37,911:HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD1960>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001B824BD1960>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD1960>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD1960>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+urllib3.connectionpool:DEBUG:2022-10-05 22:55:37,914:Starting new HTTPS connection (1): www.asdsfdsd.com:443
+root:ERROR:2022-10-05 22:55:37,948:HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD18D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001B824BD18D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD18D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD18D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+urllib3.connectionpool:DEBUG:2022-10-05 22:55:37,951:Starting new HTTPS connection (1): www.asdsfdsd.com:443
+root:ERROR:2022-10-05 22:55:37,979:HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD15A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001B824BD15A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD15A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B824BD15A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+urllib3.connectionpool:DEBUG:2022-10-05 22:55:49,858:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-05 22:55:50,324:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-05 22:55:50,470:Starting new HTTPS connection (1): www.asdsfdsd.com:443
+root:ERROR:2022-10-05 22:55:50,499:HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000017D249510C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000017D249510C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000017D249510C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.asdsfdsd.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000017D249510C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+urllib3.connectionpool:DEBUG:2022-10-05 22:58:41,501:Starting new HTTPS connection (1): www.googl.com:443
+urllib3.connection:WARNING:2022-10-05 22:58:42,225:Certificate did not match expected hostname: www.googl.com. Certificate: {'subject': ((('commonName', 'google.com'),),), 'issuer': ((('countryName', 'US'),), (('organizationName', 'Google Trust Services LLC'),), (('commonName', 'GTS CA 1C3'),)), 'version': 3, 'serialNumber': 'B5D6F8EAFF7A0D740A86482C98D89C3C', 'notBefore': 'Sep 12 08:20:35 2022 GMT', 'notAfter': 'Dec  5 08:20:34 2022 GMT', 'subjectAltName': (('DNS', 'google.com'), ('DNS', '*.appengine.google.com'), ('DNS', '*.bdn.dev'), ('DNS', '*.origin-test.bdn.dev'), ('DNS', '*.cloud.google.com'), ('DNS', '*.crowdsource.google.com'), ('DNS', '*.datacompute.google.com'), ('DNS', '*.google.ca'), ('DNS', '*.google.cl'), ('DNS', '*.google.co.in'), ('DNS', '*.google.co.jp'), ('DNS', '*.google.co.uk'), ('DNS', '*.google.com.ar'), ('DNS', '*.google.com.au'), ('DNS', '*.google.com.br'), ('DNS', '*.google.com.co'), ('DNS', '*.google.com.mx'), ('DNS', '*.google.com.tr'), ('DNS', '*.google.com.vn'), ('DNS', '*.google.de'), ('DNS', '*.google.es'), ('DNS', '*.google.fr'), ('DNS', '*.google.hu'), ('DNS', '*.google.it'), ('DNS', '*.google.nl'), ('DNS', '*.google.pl'), ('DNS', '*.google.pt'), ('DNS', '*.googleadapis.com'), ('DNS', '*.googleapis.cn'), ('DNS', '*.googlevideo.com'), ('DNS', '*.gstatic.cn'), ('DNS', '*.gstatic-cn.com'), ('DNS', 'googlecnapps.cn'), ('DNS', '*.googlecnapps.cn'), ('DNS', 'googleapps-cn.com'), ('DNS', '*.googleapps-cn.com'), ('DNS', 'gkecnapps.cn'), ('DNS', '*.gkecnapps.cn'), ('DNS', 'googledownloads.cn'), ('DNS', '*.googledownloads.cn'), ('DNS', 'recaptcha.net.cn'), ('DNS', '*.recaptcha.net.cn'), ('DNS', 'recaptcha-cn.net'), ('DNS', '*.recaptcha-cn.net'), ('DNS', 'widevine.cn'), ('DNS', '*.widevine.cn'), ('DNS', 'ampproject.org.cn'), ('DNS', '*.ampproject.org.cn'), ('DNS', 'ampproject.net.cn'), ('DNS', '*.ampproject.net.cn'), ('DNS', 'google-analytics-cn.com'), ('DNS', '*.google-analytics-cn.com'), ('DNS', 'googleadservices-cn.com'), ('DNS', '*.googleadservices-cn.com'), ('DNS', 'googlevads-cn.com'), ('DNS', '*.googlevads-cn.com'), ('DNS', 'googleapis-cn.com'), ('DNS', '*.googleapis-cn.com'), ('DNS', 'googleoptimize-cn.com'), ('DNS', '*.googleoptimize-cn.com'), ('DNS', 'doubleclick-cn.net'), ('DNS', '*.doubleclick-cn.net'), ('DNS', '*.fls.doubleclick-cn.net'), ('DNS', '*.g.doubleclick-cn.net'), ('DNS', 'doubleclick.cn'), ('DNS', '*.doubleclick.cn'), ('DNS', '*.fls.doubleclick.cn'), ('DNS', '*.g.doubleclick.cn'), ('DNS', 'dartsearch-cn.net'), ('DNS', '*.dartsearch-cn.net'), ('DNS', 'googletraveladservices-cn.com'), ('DNS', '*.googletraveladservices-cn.com'), ('DNS', 'googletagservices-cn.com'), ('DNS', '*.googletagservices-cn.com'), ('DNS', 'googletagmanager-cn.com'), ('DNS', '*.googletagmanager-cn.com'), ('DNS', 'googlesyndication-cn.com'), ('DNS', '*.googlesyndication-cn.com'), ('DNS', '*.safeframe.googlesyndication-cn.com'), ('DNS', 'app-measurement-cn.com'), ('DNS', '*.app-measurement-cn.com'), ('DNS', 'gvt1-cn.com'), ('DNS', '*.gvt1-cn.com'), ('DNS', 'gvt2-cn.com'), ('DNS', '*.gvt2-cn.com'), ('DNS', '2mdn-cn.net'), ('DNS', '*.2mdn-cn.net'), ('DNS', 'googleflights-cn.net'), ('DNS', '*.googleflights-cn.net'), ('DNS', 'admob-cn.com'), ('DNS', '*.admob-cn.com'), ('DNS', '*.gstatic.com'), ('DNS', '*.metric.gstatic.com'), ('DNS', '*.gvt1.com'), ('DNS', '*.gcpcdn.gvt1.com'), ('DNS', '*.gvt2.com'), ('DNS', '*.gcp.gvt2.com'), ('DNS', '*.url.google.com'), ('DNS', '*.youtube-nocookie.com'), ('DNS', '*.ytimg.com'), ('DNS', 'android.com'), ('DNS', '*.android.com'), ('DNS', '*.flash.android.com'), ('DNS', 'g.cn'), ('DNS', '*.g.cn'), ('DNS', 'g.co'), ('DNS', '*.g.co'), ('DNS', 'goo.gl'), ('DNS', 'www.goo.gl'), ('DNS', 'google-analytics.com'), ('DNS', '*.google-analytics.com'), ('DNS', '*.google.com'), ('DNS', 'googlecommerce.com'), ('DNS', '*.googlecommerce.com'), ('DNS', 'ggpht.cn'), ('DNS', '*.ggpht.cn'), ('DNS', 'urchin.com'), ('DNS', '*.urchin.com'), ('DNS', 'youtu.be'), ('DNS', 'youtube.com'), ('DNS', '*.youtube.com'), ('DNS', 'youtubeeducation.com'), ('DNS', '*.youtubeeducation.com'), ('DNS', 'youtubekids.com'), ('DNS', '*.youtubekids.com'), ('DNS', 'yt.be'), ('DNS', '*.yt.be'), ('DNS', 'android.clients.google.com'), ('DNS', 'developer.android.google.cn'), ('DNS', 'developers.android.google.cn'), ('DNS', 'source.android.google.cn'), ('DNS', 'google.ac'), ('DNS', '*.google.ac'), ('DNS', 'google.ad'), ('DNS', '*.google.ad'), ('DNS', 'google.ae'), ('DNS', '*.google.ae'), ('DNS', 'google.af'), ('DNS', '*.google.af'), ('DNS', 'google.ag'), ('DNS', '*.google.ag'), ('DNS', 'google.ai'), ('DNS', '*.google.ai'), ('DNS', 'google.al'), ('DNS', '*.google.al'), ('DNS', 'google.am'), ('DNS', '*.google.am'), ('DNS', 'google.as'), ('DNS', '*.google.as'), ('DNS', 'google.at'), ('DNS', '*.google.at'), ('DNS', 'google.az'), ('DNS', '*.google.az'), ('DNS', 'google.ba'), ('DNS', '*.google.ba'), ('DNS', 'google.be'), ('DNS', '*.google.be'), ('DNS', 'google.bf'), ('DNS', '*.google.bf'), ('DNS', 'google.bg'), ('DNS', '*.google.bg'), ('DNS', 'google.bi'), ('DNS', '*.google.bi'), ('DNS', 'google.bj'), ('DNS', '*.google.bj'), ('DNS', 'google.bs'), ('DNS', '*.google.bs'), ('DNS', 'google.bt'), ('DNS', '*.google.bt'), ('DNS', 'google.by'), ('DNS', '*.google.by'), ('DNS', 'google.bzh'), ('DNS', '*.google.bzh'), ('DNS', 'google.ca'), ('DNS', 'google.cat'), ('DNS', '*.google.cat'), ('DNS', 'google.cc'), ('DNS', '*.google.cc'), ('DNS', 'google.cd'), ('DNS', '*.google.cd'), ('DNS', 'google.cf'), ('DNS', '*.google.cf'), ('DNS', 'google.cg'), ('DNS', '*.google.cg'), ('DNS', 'google.ch'), ('DNS', '*.google.ch'), ('DNS', 'google.ci'), ('DNS', '*.google.ci'), ('DNS', 'google.cl'), ('DNS', 'google.cm'), ('DNS', '*.google.cm'), ('DNS', 'google.cn'), ('DNS', '*.google.cn'), ('DNS', 'google.co.ao'), ('DNS', '*.google.co.ao'), ('DNS', 'google.co.bw'), ('DNS', '*.google.co.bw'), ('DNS', 'google.co.ck'), ('DNS', '*.google.co.ck'), ('DNS', 'google.co.cr'), ('DNS', '*.google.co.cr'), ('DNS', 'google.co.hu'), ('DNS', '*.google.co.hu'), ('DNS', 'google.co.id'), ('DNS', '*.google.co.id'), ('DNS', 'google.co.il'), ('DNS', '*.google.co.il'), ('DNS', 'google.co.im'), ('DNS', '*.google.co.im'), ('DNS', 'google.co.in'), ('DNS', 'google.co.je'), ('DNS', '*.google.co.je'), ('DNS', 'google.co.jp'), ('DNS', 'google.co.ke'), ('DNS', '*.google.co.ke'), ('DNS', 'google.co.kr'), ('DNS', '*.google.co.kr'), ('DNS', 'google.co.ls'), ('DNS', '*.google.co.ls'), ('DNS', 'google.co.ma'), ('DNS', '*.google.co.ma'), ('DNS', 'google.co.mz'), ('DNS', '*.google.co.mz'), ('DNS', 'google.co.nz'), ('DNS', '*.google.co.nz'), ('DNS', 'google.co.th'), ('DNS', '*.google.co.th'), ('DNS', 'google.co.tz'), ('DNS', '*.google.co.tz'), ('DNS', 'google.co.ug'), ('DNS', '*.google.co.ug'), ('DNS', 'google.co.uk'), ('DNS', 'google.co.uz'), ('DNS', '*.google.co.uz'), ('DNS', 'google.co.ve'), ('DNS', '*.google.co.ve'), ('DNS', 'google.co.vi'), ('DNS', '*.google.co.vi'), ('DNS', 'google.co.za'), ('DNS', '*.google.co.za'), ('DNS', 'google.co.zm'), ('DNS', '*.google.co.zm'), ('DNS', 'google.co.zw'), ('DNS', '*.google.co.zw'), ('DNS', 'google.com.af'), ('DNS', '*.google.com.af'), ('DNS', 'google.com.ag'), ('DNS', '*.google.com.ag'), ('DNS', 'google.com.ai'), ('DNS', '*.google.com.ai'), ('DNS', 'google.com.ar'), ('DNS', 'google.com.au'), ('DNS', 'google.com.bd'), ('DNS', '*.google.com.bd'), ('DNS', 'google.com.bh'), ('DNS', '*.google.com.bh'), ('DNS', 'google.com.bn'), ('DNS', '*.google.com.bn'), ('DNS', 'google.com.bo'), ('DNS', '*.google.com.bo'), ('DNS', 'google.com.br'), ('DNS', 'google.com.by'), ('DNS', '*.google.com.by'), ('DNS', 'google.com.bz'), ('DNS', '*.google.com.bz'), ('DNS', 'google.com.co'), ('DNS', 'google.com.cu'), ('DNS', '*.google.com.cu'), ('DNS', 'google.com.cy'), ('DNS', '*.google.com.cy'), ('DNS', 'google.com.do'), ('DNS', '*.google.com.do'), ('DNS', 'google.com.ec'), ('DNS', '*.google.com.ec'), ('DNS', 'google.com.eg'), ('DNS', '*.google.com.eg'), ('DNS', 'google.com.et'), ('DNS', '*.google.com.et'), ('DNS', 'google.com.fj'), ('DNS', '*.google.com.fj'), ('DNS', 'google.com.ge'), ('DNS', '*.google.com.ge'), ('DNS', 'google.com.gh'), ('DNS', '*.google.com.gh'), ('DNS', 'google.com.gi'), ('DNS', '*.google.com.gi'), ('DNS', 'google.com.gr'), ('DNS', '*.google.com.gr'), ('DNS', 'google.com.gt'), ('DNS', '*.google.com.gt'), ('DNS', 'google.com.hk'), ('DNS', '*.google.com.hk'), ('DNS', 'google.com.iq'), ('DNS', '*.google.com.iq'), ('DNS', 'google.com.jm'), ('DNS', '*.google.com.jm'), ('DNS', 'google.com.jo'), ('DNS', '*.google.com.jo'), ('DNS', 'google.com.kh'), ('DNS', '*.google.com.kh'), ('DNS', 'google.com.kw'), ('DNS', '*.google.com.kw'), ('DNS', 'google.com.lb'), ('DNS', '*.google.com.lb'), ('DNS', 'google.com.ly'), ('DNS', '*.google.com.ly'), ('DNS', 'google.com.mm'), ('DNS', '*.google.com.mm'), ('DNS', 'google.com.mt'), ('DNS', '*.google.com.mt'), ('DNS', 'google.com.mx'), ('DNS', 'google.com.my'), ('DNS', '*.google.com.my'), ('DNS', 'google.com.na'), ('DNS', '*.google.com.na'), ('DNS', 'google.com.nf'), ('DNS', '*.google.com.nf'), ('DNS', 'google.com.ng'), ('DNS', '*.google.com.ng'), ('DNS', 'google.com.ni'), ('DNS', '*.google.com.ni'), ('DNS', 'google.com.np'), ('DNS', '*.google.com.np'), ('DNS', 'google.com.nr'), ('DNS', '*.google.com.nr'), ('DNS', 'google.com.om'), ('DNS', '*.google.com.om'), ('DNS', 'google.com.pa'), ('DNS', '*.google.com.pa'), ('DNS', 'google.com.pe'), ('DNS', '*.google.com.pe'), ('DNS', 'google.com.pg'), ('DNS', '*.google.com.pg'), ('DNS', 'google.com.ph'), ('DNS', '*.google.com.ph'), ('DNS', 'google.com.pk'), ('DNS', '*.google.com.pk'), ('DNS', 'google.com.pl'), ('DNS', '*.google.com.pl'), ('DNS', 'google.com.pr'), ('DNS', '*.google.com.pr'), ('DNS', 'google.com.py'), ('DNS', '*.google.com.py'), ('DNS', 'google.com.qa'), ('DNS', '*.google.com.qa'), ('DNS', 'google.com.ru'), ('DNS', '*.google.com.ru'), ('DNS', 'google.com.sa'), ('DNS', '*.google.com.sa'), ('DNS', 'google.com.sb'), ('DNS', '*.google.com.sb'), ('DNS', 'google.com.sg'), ('DNS', '*.google.com.sg'), ('DNS', 'google.com.sl'), ('DNS', '*.google.com.sl'), ('DNS', 'google.com.sv'), ('DNS', '*.google.com.sv'), ('DNS', 'google.com.tj'), ('DNS', '*.google.com.tj'), ('DNS', 'google.com.tn'), ('DNS', '*.google.com.tn'), ('DNS', 'google.com.tr'), ('DNS', 'google.com.tw'), ('DNS', '*.google.com.tw'), ('DNS', 'google.com.ua'), ('DNS', '*.google.com.ua'), ('DNS', 'google.com.uy'), ('DNS', '*.google.com.uy'), ('DNS', 'google.com.vc'), ('DNS', '*.google.com.vc'), ('DNS', 'google.com.ve'), ('DNS', '*.google.com.ve'), ('DNS', 'google.com.vn'), ('DNS', 'google.cv'), ('DNS', '*.google.cv'), ('DNS', 'google.cz'), ('DNS', '*.google.cz'), ('DNS', 'google.de'), ('DNS', 'google.dj'), ('DNS', '*.google.dj'), ('DNS', 'google.dk'), ('DNS', '*.google.dk'), ('DNS', 'google.dm'), ('DNS', '*.google.dm'), ('DNS', 'google.dz'), ('DNS', '*.google.dz'), ('DNS', 'google.ee'), ('DNS', '*.google.ee'), ('DNS', 'google.es'), ('DNS', 'google.eus'), ('DNS', '*.google.eus'), ('DNS', 'google.fi'), ('DNS', '*.google.fi'), ('DNS', 'google.fm'), ('DNS', '*.google.fm'), ('DNS', 'google.fr'), ('DNS', 'google.frl'), ('DNS', '*.google.frl'), ('DNS', 'google.ga'), ('DNS', '*.google.ga'), ('DNS', 'google.gal'), ('DNS', '*.google.gal'), ('DNS', 'google.ge'), ('DNS', '*.google.ge'), ('DNS', 'google.gg'), ('DNS', '*.google.gg'), ('DNS', 'google.gl'), ('DNS', '*.google.gl'), ('DNS', 'google.gm'), ('DNS', '*.google.gm'), ('DNS', 'google.gp'), ('DNS', '*.google.gp'), ('DNS', 'google.gr'), ('DNS', '*.google.gr'), ('DNS', 'google.gy'), ('DNS', '*.google.gy'), ('DNS', 'google.hk'), ('DNS', '*.google.hk'), ('DNS', 'google.hn'), ('DNS', '*.google.hn'), ('DNS', 'google.hr'), ('DNS', '*.google.hr'), ('DNS', 'google.ht'), ('DNS', '*.google.ht'), ('DNS', 'google.hu'), ('DNS', 'google.ie'), ('DNS', '*.google.ie'), ('DNS', 'google.im'), ('DNS', '*.google.im'), ('DNS', 'google.in'), ('DNS', '*.google.in'), ('DNS', 'google.info'), ('DNS', '*.google.info'), ('DNS', 'google.iq'), ('DNS', '*.google.iq'), ('DNS', 'google.ir'), ('DNS', '*.google.ir'), ('DNS', 'google.is'), ('DNS', '*.google.is'), ('DNS', 'google.it'), ('DNS', 'google.it.ao'), ('DNS', '*.google.it.ao'), ('DNS', 'google.je'), ('DNS', '*.google.je'), ('DNS', 'google.jo'), ('DNS', '*.google.jo'), ('DNS', 'google.jobs'), ('DNS', '*.google.jobs'), ('DNS', 'google.jp'), ('DNS', '*.google.jp'), ('DNS', 'google.kg'), ('DNS', '*.google.kg'), ('DNS', 'google.ki'), ('DNS', '*.google.ki'), ('DNS', 'google.kz'), ('DNS', '*.google.kz'), ('DNS', 'google.la'), ('DNS', '*.google.la'), ('DNS', 'google.li'), ('DNS', '*.google.li'), ('DNS', 'google.lk'), ('DNS', '*.google.lk'), ('DNS', 'google.lt'), ('DNS', '*.google.lt'), ('DNS', 'google.lu'), ('DNS', '*.google.lu'), ('DNS', 'google.lv'), ('DNS', '*.google.lv'), ('DNS', 'google.md'), ('DNS', '*.google.md'), ('DNS', 'google.me'), ('DNS', '*.google.me'), ('DNS', 'google.mg'), ('DNS', '*.google.mg'), ('DNS', 'google.mk'), ('DNS', '*.google.mk'), ('DNS', 'google.ml'), ('DNS', '*.google.ml'), ('DNS', 'google.mn'), ('DNS', '*.google.mn'), ('DNS', 'google.ms'), ('DNS', '*.google.ms'), ('DNS', 'google.mu'), ('DNS', '*.google.mu'), ('DNS', 'google.mv'), ('DNS', '*.google.mv'), ('DNS', 'google.mw'), ('DNS', '*.google.mw'), ('DNS', 'google.ne'), ('DNS', '*.google.ne'), ('DNS', 'google.ne.jp'), ('DNS', '*.google.ne.jp'), ('DNS', 'google.net'), ('DNS', '*.google.net'), ('DNS', 'google.ng'), ('DNS', '*.google.ng'), ('DNS', 'google.nl'), ('DNS', 'google.no'), ('DNS', '*.google.no'), ('DNS', 'google.nr'), ('DNS', '*.google.nr'), ('DNS', 'google.nu'), ('DNS', '*.google.nu'), ('DNS', 'google.off.ai'), ('DNS', '*.google.off.ai'), ('DNS', 'google.pk'), ('DNS', '*.google.pk'), ('DNS', 'google.pl'), ('DNS', 'google.pn'), ('DNS', '*.google.pn'), ('DNS', 'google.ps'), ('DNS', '*.google.ps'), ('DNS', 'google.pt'), ('DNS', 'google.ro'), ('DNS', '*.google.ro'), ('DNS', 'google.rs'), ('DNS', '*.google.rs'), ('DNS', 'google.ru'), ('DNS', '*.google.ru'), ('DNS', 'google.rw'), ('DNS', '*.google.rw'), ('DNS', 'google.sc'), ('DNS', '*.google.sc'), ('DNS', 'google.se'), ('DNS', '*.google.se'), ('DNS', 'google.sh'), ('DNS', '*.google.sh'), ('DNS', 'google.si'), ('DNS', '*.google.si'), ('DNS', 'google.sk'), ('DNS', '*.google.sk'), ('DNS', 'google.sm'), ('DNS', '*.google.sm'), ('DNS', 'google.sn'), ('DNS', '*.google.sn'), ('DNS', 'google.so'), ('DNS', '*.google.so'), ('DNS', 'google.sr'), ('DNS', '*.google.sr'), ('DNS', 'google.st'), ('DNS', '*.google.st'), ('DNS', 'google.td'), ('DNS', '*.google.td'), ('DNS', 'google.tel'), ('DNS', '*.google.tel'), ('DNS', 'google.tg'), ('DNS', '*.google.tg'), ('DNS', 'google.tk'), ('DNS', '*.google.tk'), ('DNS', 'google.tl'), ('DNS', '*.google.tl'), ('DNS', 'google.tm'), ('DNS', '*.google.tm'), ('DNS', 'google.tn'), ('DNS', '*.google.tn'), ('DNS', 'google.to'), ('DNS', '*.google.to'), ('DNS', 'google.tt'), ('DNS', '*.google.tt'), ('DNS', 'google.us'), ('DNS', '*.google.us'), ('DNS', 'google.uz'), ('DNS', '*.google.uz'), ('DNS', 'google.vg'), ('DNS', '*.google.vg'), ('DNS', 'google.vu'), ('DNS', '*.google.vu'), ('DNS', 'google.ws'), ('DNS', '*.google.ws'), ('DNS', 'gstatic.com'), ('DNS', '*.2mdn.net'), ('DNS', '*.au.doubleclick.net'), ('DNS', '*.cc-dt.com'), ('DNS', '*.de.doubleclick.net'), ('DNS', 'doubleclick.com'), ('DNS', '*.doubleclick.com'), ('DNS', '*.fls.doubleclick.net'), ('DNS', '*.fr.doubleclick.net'), ('DNS', '*.jp.doubleclick.net'), ('DNS', '*.uk.doubleclick.net'), ('DNS', 'ad.mo.doubleclick.net'), ('DNS', 'doubleclick.net'), ('DNS', '*.doubleclick.net'), ('DNS', '*.googleadsserving.cn'), ('DNS', '*.googleusercontent.cn'), ('DNS', '*.safenup.googleusercontent.cn'), ('DNS', 'google.ua'), ('DNS', '*.google.ua')), 'OCSP': ('http://ocsp.pki.goog/gts1c3',), 'caIssuers': ('http://pki.goog/repo/certs/gts1c3.der',), 'crlDistributionPoints': ('http://crls.pki.goog/gts1c3/QqFxbi9M48c.crl',)}
+urllib3.connectionpool:DEBUG:2022-10-05 22:58:45,452:Starting new HTTPS connection (1): www.google.com:443
+urllib3.connectionpool:DEBUG:2022-10-05 22:58:45,831:https://www.google.com:443 "GET / HTTP/1.1" 200 None
+charset_normalizer:DEBUG:2022-10-05 22:58:46,123:Encoding detection: Found cp1250 as plausible (best-candidate) for content. With 13 alternatives.
+root:ERROR:2022-10-06 01:00:26,742:list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\updater.py", line 41, in update_items
+    url = item['sellers']['productLink']
+TypeError: list indices must be integers or slices, not str
+werkzeug:INFO:2022-10-06 01:00:26,758:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-06 01:00:26,758:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-06 01:00:31,582:127.0.0.1 - - [06/Oct/2022 01:00:31] "[33mGET / HTTP/1.1[0m" 404 -
+werkzeug:INFO:2022-10-06 01:00:34,559:127.0.0.1 - - [06/Oct/2022 01:00:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+werkzeug:INFO:2022-10-06 01:00:46,902:127.0.0.1 - - [06/Oct/2022 01:00:46] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-06 01:00:46,916:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:00:46,917:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:00:47,570:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 01:00:47,603:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 01:00:47,710:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:00:47,845:Starting new HTTPS connection (1): www.amazon.com:443
+root:ERROR:2022-10-06 01:01:08,821:HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/pl?N=100008225%20600030002 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002743AEC68C0>, 'Connection to 20.212.168.206 timed out. (connect timeout=None)'))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x000002743AEC68C0>, 'Connection to 20.212.168.206 timed out. (connect timeout=None)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/pl?N=100008225%20600030002 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002743AEC68C0>, 'Connection to 20.212.168.206 timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 553, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/pl?N=100008225%20600030002 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002743AEC68C0>, 'Connection to 20.212.168.206 timed out. (connect timeout=None)'))
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:08,844:Starting new HTTPS connection (1): www.newegg.com:443
+root:ERROR:2022-10-06 01:01:08,882:HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002743B24A530>, 'Connection to 20.212.168.206 timed out. (connect timeout=None)'))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x000002743B24A530>, 'Connection to 20.212.168.206 timed out. (connect timeout=None)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002743B24A530>, 'Connection to 20.212.168.206 timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 553, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002743B24A530>, 'Connection to 20.212.168.206 timed out. (connect timeout=None)'))
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:08,885:Starting new HTTPS connection (1): www.amazon.com:443
+root:ERROR:2022-10-06 01:01:09,646:HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))
+root:ERROR:2022-10-06 01:01:09,650:HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/pl?N=100008225%20600030002 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/pl?N=100008225%20600030002 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/pl?N=100008225%20600030002 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:09,657:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:09,660:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:10,633:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:10,920:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002 HTTP/1.1" 200 65923
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:11,127:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:11,251:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:11,656:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:11,791:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:11,793:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:11,923:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:12,761:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:27,987:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:28,217:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:28,684:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:28,811:Starting new HTTPS connection (1): www.newegg.com:443
+root:ERROR:2022-10-06 01:01:49,845:HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/pl?N=100008225%20600030002&page=2 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002743ADBA740>, 'Connection to 20.212.168.206 timed out. (connect timeout=None)'))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x000002743ADBA740>, 'Connection to 20.212.168.206 timed out. (connect timeout=None)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/pl?N=100008225%20600030002&page=2 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002743ADBA740>, 'Connection to 20.212.168.206 timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 553, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/pl?N=100008225%20600030002&page=2 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002743ADBA740>, 'Connection to 20.212.168.206 timed out. (connect timeout=None)'))
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:49,848:Starting new HTTPS connection (1): www.newegg.com:443
+root:ERROR:2022-10-06 01:01:50,469:HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/pl?N=100008225%20600030002&page=2 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/pl?N=100008225%20600030002&page=2 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\send_request.py", line 75, in send_request
+    page = requests.get(url, headers=HEADERS, proxies=ip)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\Products_scraper\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.newegg.com', port=443): Max retries exceeded with url: /p/pl?N=100008225%20600030002&page=2 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:50,473:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:51,640:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=2 HTTP/1.1" 200 36363
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:51,870:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:52,424:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 01:01:52,562:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:02:02,572:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 25078
+urllib3.connectionpool:DEBUG:2022-10-06 01:02:11,590:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:02:12,137:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 01:02:12,323:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:02:12,892:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 25078
+urllib3.connectionpool:DEBUG:2022-10-06 01:02:21,831:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:02:22,351:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 01:02:22,528:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:02:23,099:https://www.newegg.com:443 "GET /cerwin-vega-cwv-sl28/p/N82E16886716004 HTTP/1.1" 200 22166
+urllib3.connectionpool:DEBUG:2022-10-06 01:02:33,546:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:02:34,049:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 01:02:34,260:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:02:36,062:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 24228
+werkzeug:INFO:2022-10-06 01:05:49,705:127.0.0.1 - - [06/Oct/2022 01:05:49] "GET /update HTTP/1.1" 200 -
+root:ERROR:2022-10-06 01:05:54,129:list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\updater.py", line 41, in update_items
+    url = item['sellers']['productLink']
+TypeError: list indices must be integers or slices, not str
+urllib3.connectionpool:DEBUG:2022-10-06 01:05:54,131:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:05:54,631:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 01:05:54,780:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:05:55,716:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 24228
+urllib3.connectionpool:DEBUG:2022-10-06 01:05:55,786:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:05:56,253:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 01:05:56,390:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:05:56,711:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 24228
+urllib3.connectionpool:DEBUG:2022-10-06 01:05:56,780:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:05:57,339:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 01:05:57,526:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:05:57,862:https://www.newegg.com:443 "GET /cerwin-vega-cwv-sl28/p/N82E16886716004 HTTP/1.1" 200 22166
+urllib3.connectionpool:DEBUG:2022-10-06 01:05:57,909:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:05:58,354:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 01:05:58,493:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 01:05:59,159:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 25078
+root:ERROR:2022-10-06 14:04:01,416:list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\updater.py", line 41, in update_items
+    url = item['sellers']['productLink']
+TypeError: list indices must be integers or slices, not str
+urllib3.connectionpool:DEBUG:2022-10-06 14:04:01,426:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:04:03,447:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23806
+urllib3.connectionpool:DEBUG:2022-10-06 14:04:04,106:Starting new HTTPS connection (1): www.newegg.com:443
+werkzeug:INFO:2022-10-06 14:04:28,867:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-06 14:04:28,868:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-06 14:04:47,099:127.0.0.1 - - [06/Oct/2022 14:04:47] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-06 14:04:47,121:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:04:47,123:Starting new HTTPS connection (1): www.amazon.com:443
+werkzeug:INFO:2022-10-06 14:04:47,159:127.0.0.1 - - [06/Oct/2022 14:04:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+urllib3.connectionpool:DEBUG:2022-10-06 14:04:48,689:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 14:04:48,879:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 14:04:49,375:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:04:49,494:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:04:50,660:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 14:04:50,930:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 14:04:51,512:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:05:04,272:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=2 HTTP/1.1" 200 35765
+urllib3.connectionpool:DEBUG:2022-10-06 14:05:04,599:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:05:37,616:https://www.bestbuy.com:443 "GET /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 14:05:38,267:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:05:40,521:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=2&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 14:05:41,235:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:05:43,285:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=3&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 14:05:43,980:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:05:55,472:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=4&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 14:05:56,220:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:05:58,216:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=5&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 14:05:58,879:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:06:10,171:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=6&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 14:06:10,847:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:06:12,627:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=7&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+root:ERROR:2022-10-06 14:06:13,152:can only concatenate str (not "NoneType") to str
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\crawler.py", line 113, in next_page_bestbuy
+    return "https://www.bestbuy.com" + next_page_link.get('href')
+TypeError: can only concatenate str (not "NoneType") to str
+urllib3.connectionpool:DEBUG:2022-10-06 14:06:13,676:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:06:15,329:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23806
+urllib3.connectionpool:DEBUG:2022-10-06 14:06:36,314:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:06:37,433:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23806
+urllib3.connectionpool:DEBUG:2022-10-06 14:06:58,297:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:07:00,034:https://www.newegg.com:443 "GET /cerwin-vega-cwv-sl28/p/N82E16886716004 HTTP/1.1" 200 21616
+urllib3.connectionpool:DEBUG:2022-10-06 14:07:09,303:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:07:10,507:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
+urllib3.connectionpool:DEBUG:2022-10-06 14:07:37,278:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:07:38,894:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22648
+urllib3.connectionpool:DEBUG:2022-10-06 14:08:00,890:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:08:02,446:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
+urllib3.connectionpool:DEBUG:2022-10-06 14:08:11,340:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:08:12,529:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22648
+werkzeug:INFO:2022-10-06 14:15:12,341:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-06 14:15:12,341:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-06 14:15:21,441:127.0.0.1 - - [06/Oct/2022 14:15:21] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-06 14:15:21,451:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:15:23,021:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 14:15:23,766:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:15:36,303:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 14:15:36,996:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:15:39,994:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 14:15:40,448:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:15:46,214:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 14:15:46,781:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:15:59,628:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=2 HTTP/1.1" 200 35937
+urllib3.connectionpool:DEBUG:2022-10-06 14:15:59,955:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:16:02,709:https://www.bestbuy.com:443 "GET /site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 14:16:03,355:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:16:16,524:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=2&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 14:16:17,268:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:16:19,391:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=3&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 14:16:20,098:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:16:30,716:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=4&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 14:16:31,431:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:16:33,473:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=5&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 14:16:34,375:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:16:36,421:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=6&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 14:16:37,214:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:16:39,040:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?_dyncharset=UTF-8&browsedCategory=abcat0205003&cp=7&id=pcat17071&iht=n&ks=960&list=y&sc=Global&st=categoryid%24abcat0205003&type=page&usc=All%20Categories HTTP/1.1" 200 None
+root:ERROR:2022-10-06 14:16:39,562:can only concatenate str (not "NoneType") to str
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\crawler.py", line 113, in next_page_bestbuy
+    return "https://www.bestbuy.com" + next_page_link.get('href')
+TypeError: can only concatenate str (not "NoneType") to str
+urllib3.connectionpool:DEBUG:2022-10-06 14:16:40,542:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:16:41,707:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23806
+urllib3.connectionpool:DEBUG:2022-10-06 14:16:51,610:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:16:52,526:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 23806
+urllib3.connectionpool:DEBUG:2022-10-06 14:17:24,759:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:17:26,153:https://www.newegg.com:443 "GET /cerwin-vega-cwv-sl28/p/N82E16886716004 HTTP/1.1" 200 21616
+urllib3.connectionpool:DEBUG:2022-10-06 14:17:46,855:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:17:47,976:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
+urllib3.connectionpool:DEBUG:2022-10-06 14:18:08,207:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:18:09,342:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22648
+urllib3.connectionpool:DEBUG:2022-10-06 14:18:31,707:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:18:33,227:https://www.newegg.com:443 "GET /p/0S6-000F-000F2 HTTP/1.1" 200 21766
+urllib3.connectionpool:DEBUG:2022-10-06 14:18:53,695:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 14:18:54,788:https://www.newegg.com:443 "GET /p/0S6-000F-000F8 HTTP/1.1" 200 22648

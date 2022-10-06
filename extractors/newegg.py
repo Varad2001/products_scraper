@@ -1,11 +1,12 @@
-from bs4 import BeautifulSoup
-import requests
-from extractors.send_request import send_request
+import dotenv
+import os
+import pymongo
 from datetime import datetime
-import dotenv, os, pymongo
+
+from extractors.send_request import send_request
+
 import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
-
 
 
 def get_seller_id(name):
@@ -25,7 +26,6 @@ def get_seller_id(name):
     for document in cursor:
         id = document['_id']
         return id
-
 
 
 def find_urls_and_titles_on_page(page):
@@ -121,7 +121,8 @@ def get_shipping_price(page):
 
 
 def get_product_images(page):
-    tags = page.find_all('img' , attrs= {'class' : 'product-view-img-original'})
+    div = page.find('div' , attrs={'class' : 'swiper-gallery-thumbs'})
+    tags = div.find_all('img' , attrs= {'class' : 'product-view-img-original'})
     links = []
     for tag in tags:
         try :
@@ -162,7 +163,6 @@ def get_all_details(url, queue, category):
     if discount :
         results['productPriceType'] = "Discounted"
         results['lastPrice'] = discount
-
 
     return results
 

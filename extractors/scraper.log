@@ -1172,3 +1172,115 @@ urllib3.connectionpool:DEBUG:2022-10-05 22:14:12,020:Starting new HTTPS connecti
 urllib3.connectionpool:DEBUG:2022-10-05 22:14:12,510:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
 urllib3.connectionpool:DEBUG:2022-10-05 22:14:12,771:Starting new HTTPS connection (1): www.newegg.com:443
 urllib3.connectionpool:DEBUG:2022-10-05 22:14:13,151:https://www.newegg.com:443 "GET /cerwin-vega-xls-215/p/0S6-00AA-00006?quicklink=true HTTP/1.1" 200 25287
+root:ERROR:2022-10-06 00:56:28,294:list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\updater.py", line 41, in update_items
+    url = item['sellers']['productLink']
+TypeError: list indices must be integers or slices, not str
+urllib3.connectionpool:DEBUG:2022-10-06 09:25:13,600:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 09:26:00,992:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 09:26:30,335:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 09:27:36,393:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 09:27:53,051:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 09:30:09,686:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 09:30:10,813:https://www.bestbuy.com:443 "GET / HTTP/1.1" 403 264
+charset_normalizer:DEBUG:2022-10-06 09:30:10,841:Encoding detection: ascii is most likely the one.
+urllib3.connectionpool:DEBUG:2022-10-06 09:31:00,862:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 09:31:01,587:https://www.bestbuy.com:443 "GET /site/home-audio-systems/home-theater-systems/abcat0203000.c?id=abcat0203000 HTTP/1.1" 403 360
+charset_normalizer:DEBUG:2022-10-06 09:31:01,592:Encoding detection: ascii is most likely the one.
+urllib3.connectionpool:DEBUG:2022-10-06 09:31:28,672:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 09:31:29,837:https://www.bestbuy.com:443 "GET /site/home-audio-systems/home-theater-systems/abcat0203000.c?id=abcat0203000 HTTP/1.1" 403 361
+charset_normalizer:DEBUG:2022-10-06 09:31:29,842:Encoding detection: ascii is most likely the one.
+urllib3.connectionpool:DEBUG:2022-10-06 09:32:02,335:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 09:32:45,198:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 09:32:57,736:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 09:33:16,950:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 09:33:32,688:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 09:39:36,493:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:02:45,978:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:05:51,877:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:05:52,942:https://www.bestbuy.com:443 "GET /site/home-audio-systems/home-theater-systems/abcat0203000.c?id=abcat0203000 HTTP/1.1" 403 360
+charset_normalizer:DEBUG:2022-10-06 10:05:52,953:Encoding detection: ascii is most likely the one.
+urllib3.connectionpool:DEBUG:2022-10-06 10:09:00,005:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:09:01,246:https://www.bestbuy.com:443 "GET /site/home-audio-systems/home-theater-systems/abcat0203000.c?id=abcat0203000&=&render=download HTTP/1.1" 403 360
+charset_normalizer:DEBUG:2022-10-06 10:09:01,251:Encoding detection: ascii is most likely the one.
+urllib3.connectionpool:DEBUG:2022-10-06 10:11:19,990:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:12:18,213:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:12:52,403:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:14:24,947:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:20:40,083:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:20:40,544:https://www.bestbuy.com:443 "GET /site/klipsch-next-gen-reference-series-quad-3-1-2-400-watt-passive-2-way-center-channel-speaker-black/6501485.p?skuId=6501485 HTTP/1.1" 200 1657
+urllib3.connectionpool:DEBUG:2022-10-06 10:21:30,536:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:21:30,644:https://www.bestbuy.com:443 "GET /site/home-audio-systems/home-theater-systems/abcat0203000.c?id=abcat0203000 HTTP/1.1" 200 1657
+urllib3.connectionpool:DEBUG:2022-10-06 10:22:08,879:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:22:08,983:https://www.bestbuy.com:443 "GET /site/home-audio-systems/home-theater-systems/abcat0203000.c?id=abcat0203000 HTTP/1.1" 200 1657
+urllib3.connectionpool:DEBUG:2022-10-06 10:22:31,801:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:22:31,947:https://www.bestbuy.com:443 "GET /site/home-audio-systems/home-theater-systems/abcat0203000.c?id=abcat0203000 HTTP/1.1" 200 1657
+urllib3.connectionpool:DEBUG:2022-10-06 10:26:20,977:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:26:22,044:https://www.bestbuy.com:443 "GET /site/home-audio-systems/home-theater-systems/abcat0203000.c?id=abcat0203000 HTTP/1.1" 200 1657
+urllib3.connectionpool:DEBUG:2022-10-06 10:27:52,354:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:27:52,712:https://www.bestbuy.com:443 "GET /site/home-audio-systems/home-theater-systems/abcat0203000.c?id=abcat0203000 HTTP/1.1" 200 1657
+urllib3.connectionpool:DEBUG:2022-10-06 10:33:24,307:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:33:26,365:https://www.bestbuy.com:443 "GET /site/home-audio-systems/home-theater-systems/abcat0203000.c?id=abcat0203000 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 10:35:37,723:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:36:36,800:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:36:38,500:https://www.bestbuy.com:443 "GET /site/home-audio-systems/home-theater-systems/abcat0203000.c?id=abcat0203000 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 10:44:24,969:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:44:27,452:https://www.bestbuy.com:443 "GET /site/home-audio-systems/home-theater-systems/abcat0203000.c?id=abcat0203000 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 10:47:55,684:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:47:57,295:https://www.bestbuy.com:443 "GET /site/home-audio-systems/home-theater-systems/abcat0203000.c?id=abcat0203000 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 10:47:58,061:Starting new HTTPS connection (1): free-proxy-list.net:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:47:58,941:https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 10:47:59,196:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:52:41,298:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:52:43,265:https://www.bestbuy.com:443 "GET /site/home-audio-systems/home-theater-systems/abcat0203000.c?id=abcat0203000 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 10:57:10,373:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 10:57:12,087:https://www.bestbuy.com:443 "GET /site/polk-audio-polk-reserve-series-r300-compact-center-channel-speaker-new-1-pinnacle-ring-tweeter-dual-5-25-turbine-cone-woofers-black/6465721.p?skuId=6465721 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:01:12,338:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:01:13,954:https://www.bestbuy.com:443 "GET /site/polk-audio-polk-reserve-series-r300-compact-center-channel-speaker-new-1-pinnacle-ring-tweeter-dual-5-25-turbine-cone-woofers-black/6465721.p?skuId=6465721 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:03:19,480:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:03:20,969:https://www.bestbuy.com:443 "GET /site/polk-audio-polk-reserve-series-r300-compact-center-channel-speaker-new-1-pinnacle-ring-tweeter-dual-5-25-turbine-cone-woofers-black/6465721.p?skuId=6465721 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:07:38,549:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:07:40,016:https://www.bestbuy.com:443 "GET /site/polk-audio-polk-reserve-series-r300-compact-center-channel-speaker-new-1-pinnacle-ring-tweeter-dual-5-25-turbine-cone-woofers-black/6465721.p?skuId=6465721 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:14:13,002:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:14:14,647:https://www.bestbuy.com:443 "GET /site/polk-audio-polk-reserve-series-r300-compact-center-channel-speaker-new-1-pinnacle-ring-tweeter-dual-5-25-turbine-cone-woofers-black/6465721.p?skuId=6465721 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:15:07,096:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:15:08,713:https://www.bestbuy.com:443 "GET /site/polk-audio-polk-reserve-series-r300-compact-center-channel-speaker-new-1-pinnacle-ring-tweeter-dual-5-25-turbine-cone-woofers-black/6465721.p?skuId=6465721 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:15:43,269:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:15:44,792:https://www.bestbuy.com:443 "GET /site/polk-audio-polk-reserve-series-r300-compact-center-channel-speaker-new-1-pinnacle-ring-tweeter-dual-5-25-turbine-cone-woofers-black/6465721.p?skuId=6465721 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:16:04,013:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:16:05,545:https://www.bestbuy.com:443 "GET /site/polk-audio-polk-reserve-series-r300-compact-center-channel-speaker-new-1-pinnacle-ring-tweeter-dual-5-25-turbine-cone-woofers-black/6465721.p?skuId=6465721 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:17:07,421:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:17:08,930:https://www.bestbuy.com:443 "GET /site/polk-audio-polk-reserve-series-r300-compact-center-channel-speaker-new-1-pinnacle-ring-tweeter-dual-5-25-turbine-cone-woofers-black/6465721.p?skuId=6465721 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:18:13,401:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:18:14,876:https://www.bestbuy.com:443 "GET /site/polk-audio-polk-reserve-series-r300-compact-center-channel-speaker-new-1-pinnacle-ring-tweeter-dual-5-25-turbine-cone-woofers-black/6465721.p?skuId=6465721 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:21:39,728:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:21:41,313:https://www.bestbuy.com:443 "GET /site/polk-audio-polk-reserve-series-r300-compact-center-channel-speaker-new-1-pinnacle-ring-tweeter-dual-5-25-turbine-cone-woofers-black/6465721.p?skuId=6465721 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:23:27,160:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:23:28,731:https://www.bestbuy.com:443 "GET /site/martinlogan-motion-4-90-watt-passive-2-way-center-channel-speaker-gloss-black/5870730.p?skuId=5870730 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:28:20,890:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:28:22,690:https://www.bestbuy.com:443 "GET /site/martinlogan-motion-4-90-watt-passive-2-way-center-channel-speaker-gloss-black/5870730.p?skuId=5870730 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:29:14,845:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:29:16,212:https://www.bestbuy.com:443 "GET /site/martinlogan-motion-4-90-watt-passive-2-way-center-channel-speaker-gloss-black/5870730.p?skuId=5870730 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:30:43,746:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:30:45,258:https://www.bestbuy.com:443 "GET /site/polk-audio-polk-reserve-series-r300-compact-center-channel-speaker-new-1-pinnacle-ring-tweeter-dual-5-25-turbine-cone-woofers-black/6465721.p?skuId=6465721 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:31:02,400:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:31:03,603:https://www.bestbuy.com:443 "GET /site/polk-audio-polk-reserve-series-r300-compact-center-channel-speaker-new-1-pinnacle-ring-tweeter-dual-5-25-turbine-cone-woofers-black/6465721.p?skuId=6465721 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:31:09,172:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:31:10,858:https://www.bestbuy.com:443 "GET /site/polk-audio-polk-reserve-series-r300-compact-center-channel-speaker-new-1-pinnacle-ring-tweeter-dual-5-25-turbine-cone-woofers-black/6465721.p?skuId=6465721 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:35:19,457:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:35:21,033:https://www.bestbuy.com:443 "GET /site/polk-audio-polk-reserve-series-r300-compact-center-channel-speaker-new-1-pinnacle-ring-tweeter-dual-5-25-turbine-cone-woofers-black/6465721.p?skuId=6465721 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:37:09,316:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:37:10,912:https://www.bestbuy.com:443 "GET /site/polk-audio-polk-reserve-series-r300-compact-center-channel-speaker-new-1-pinnacle-ring-tweeter-dual-5-25-turbine-cone-woofers-black/6465721.p?skuId=6465721 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:38:23,034:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:38:24,827:https://www.bestbuy.com:443 "GET /site/polk-audio-polk-reserve-series-r300-compact-center-channel-speaker-new-1-pinnacle-ring-tweeter-dual-5-25-turbine-cone-woofers-black/6465721.p?skuId=6465721 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:42:20,521:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:42:22,496:https://www.bestbuy.com:443 "GET /site/polk-audio-polk-reserve-series-r300-compact-center-channel-speaker-new-1-pinnacle-ring-tweeter-dual-5-25-turbine-cone-woofers-black/6465721.p?skuId=6465721 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:42:43,270:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:42:44,717:https://www.bestbuy.com:443 "GET /site/definitive-technology-descend-dn10-10-sub-3xr-architecture-500w-peak-class-d-amplifier-2-10-bass-radiators-black/6467273.p?skuId=6467273 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 11:43:25,695:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 11:43:27,109:https://www.bestbuy.com:443 "GET /site/definitive-technology-descend-dn10-10-sub-3xr-architecture-500w-peak-class-d-amplifier-2-10-bass-radiators-black/6467273.p?skuId=6467273 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 13:24:59,200:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 13:25:01,723:https://www.bestbuy.com:443 "GET /site/home-audio-systems/home-theater-systems/abcat0203000.c?id=abcat0203000 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-06 13:26:09,051:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-06 13:26:11,221:https://www.bestbuy.com:443 "GET /site/definitive-technology-descend-dn10-10-sub-3xr-architecture-500w-peak-class-d-amplifier-2-10-bass-radiators-black/6467273.p?skuId=6467273 HTTP/1.1" 200 None
