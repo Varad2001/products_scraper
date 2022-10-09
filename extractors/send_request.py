@@ -2,6 +2,7 @@
 import requests
 from bs4 import BeautifulSoup
 from fp.fp import FreeProxy
+
 import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
 
@@ -20,6 +21,10 @@ HEADERS = {
 headers = {"User-Agent":"Mozilla/5.0",
            "Accept-Language": "en-US,en;q=0.9"}
 
+
+#proxy = FreeProxy(country_id=['US']).get()
+#proxy = {'http': proxy}
+#print("Proxy created.")
 
 def get_proxy_details():
     """
@@ -60,10 +65,11 @@ def get_proxy():
     proxies = get_proxy_details()
     ips = []            # dict : {'http/s' : '<ip>' }
     for proxy in proxies:
-        if proxy['Https'] == 'yes' :
-            ips.append({'https' : proxy["IP Address"]+':'+proxy["Port"]})
-        else :
-            ips.append({'http' : proxy["IP Address"]+':'+proxy["Port"]})
+        if proxy['Country'].strip() == 'United States':
+            if proxy['Https'] == 'yes' :
+                ips.append({'https' : proxy["IP Address"]+':'+proxy["Port"]})
+            else :
+                ips.append({'http' : proxy["IP Address"]+':'+proxy["Port"]})
 
     return ips
 
@@ -71,9 +77,10 @@ def get_proxy():
 def send_request(url):
 
     """ips = get_proxy()
+    print(ips)
     for ip in ips:
         try :
-            page = requests.get(url, headers=HEADERS, proxies=ip)
+            page = requests.get(url, headers=headers, proxies=ip)
             if page.status_code != 200:
                 print("Non-200 response received. Trying again...")
             else :
@@ -86,40 +93,38 @@ def send_request(url):
             logging.exception(e)
             continue
         print("Sending request unsuccessful. Stopping the crawler...")
-        return None"""
+        return None
     #print(f"Connecting to url : {url}")
-    for i in range(5):
+    #global proxy
+    f = open('extractors/http.txt', 'r')
+    proxies = f.readlines()
+    for proxy in proxies:
         try:
-            #proxy = FreeProxy(country_id=['US']).get()
-            #proxy = {'http': proxy}
-            page = requests.get(url, headers=headers)
+            proxy = proxy.replace('\n', '').strip()
+            proxy = {'http' : proxy}
+            page = requests.get(url, headers=headers, proxies=proxy)
+            #print("Using proxy...")
             if page.status_code != 200:
                 print("Non-200 response received. Trying again...")
             else:
                 page = BeautifulSoup(page.content, "html.parser")
-                #print(page.prettify())
                 return page
         except Exception as e:
             logging.exception(e)
             print("Could not connect...")
-    print("Connection unsuccessful. Please try again after some time.")
+    print("Connection unsuccessful. Please try again after some time.")"""
 
-"""proxy = FreeProxy(country_id=['US']).get()
-proxy = {'http': proxy}
-url2 = "https://www.bestbuy.com/site/definitive-technology-descend-dn10-10-sub-3xr-architecture-500w-peak-class-d-amplifier-2-10-bass-radiators-black/6467273.p?skuId=6467273&intl=nosplash"
+    username = "geonode_Pctp7P4IXd-country-US"
+    password = "39453242-2f35-4083-8a5e-d11a0b68ac36"
+    GEONODE_DNS = "rotating-residential.geonode.com:10000"
+    urlToGet =url
+    proxy = {"http": "http://{}:{}@{}".format(username, password, GEONODE_DNS)}
 
-cookie = {'s_cc' : 'true',
-          'c2' : 'Best%20Buy',
-          'CTE20' : 'T',
-          'AMCVS_F6301253512D2BDB0A490D45%40AdobeOrg' : '1',
-          'bby_prc_lb': 'p-prc-w',
-          'bby_rdp': 'I',
-          '_cs_c' : '1',
-          'bby_cbc_lb' : 'p-browse-e',
-          'ltc': '%20',
-          'bby_loc_lb' : 'p-loc-e'}
+    r = requests.get(urlToGet, proxies=proxy, headers=headers)
 
-page = requests.get(url2, headers=headers, proxies=proxy, cookies=cookie)
-page = BeautifulSoup(page.content, "html.parser")
-print(page.prettify())"""
+    page = BeautifulSoup(r.content, "html.parser")
+    return page
+
+
+
 

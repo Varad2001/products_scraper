@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<body>
+<br>
+<p>Total items : {{ session.total_items }} </p>
+<p>Viewed items : {{ session.viewed_items }}</p>
+<p>Updated items : {{ session.updated_items }}</p>
+
+    <br><hr>
+    <form action="/get_item" method="post">
+        <p>Skip this item and get next item:<button type="submit">Get next</button> </p>
+    </form>
+    <br><hr>
+{% for item in data %}
+<h1>Sample item:</h1>
+
+    <table border="1">
+    <tr>
+    <td>Seller :</td><td> {{ item['sample_item']['sellerName'] }}</td>
+        </tr>
+        <tr>
+    <td>Title : </td><td> {{ item['sample_item']['productTitle'] }}</td>
+        </tr>
+        <tr>
+    <td>Description :  </td><td>{{ item['sample_item']['productDescription'] }}</td>
+        </tr>
+        <tr>
+    <td>Brand : </td><td> {{ item['sample_item']['productBrand'] }}</td>
+        </tr>
+        <tr>
+    <td>Images : </td><td>
+            {% if item['sample_item']['imageLink'] is not none %}
+            {% for link in item['sample_item']['imageLink'] %}
+           <ul><li><a href="{{ link }}">{{ link }}</a></li> </ul>
+        {% endfor %}
+        {% else %}
+        None
+        {% endif %}
+        </td>
+        </tr>
+        <tr>
+    <td>Price : </td><td> {{ item['sample_item']['productPrice'] }}</td>
+        </tr>
+        <tr>
+    <td>Url : </td><td> {{ item['sample_item']['productLink'] }}</td>
+        </tr>
+</table>
+    {% for similar_item in item['similar_items'] %}
+
+    <h3>Similar item:</h3>
+<table border="1">
+    <tr>
+    <td>Seller:</td><td>  {{ similar_item['sellerName'] }}</td>
+    </tr>
+    <tr>
+    <td>Title : </td><td> {{ similar_item['productTitle'] }}</td>
+    </tr>
+    <tr>
+    <td>Description : </td><td> {{ similar_item['productDescription'] }}</td>
+    </tr>
+    <tr>
+    <td>Brand : </td><td> {{ similar_item['productBrand'] }}</td>
+    </tr>
+    <tr>
+    <td>Images : </td><td>
+            {% if similar_item['imageLink'] is not none %}
+            {% for link in similar_item['imageLink'] %}
+           <ul><li><a href="{{ link }}">{{ link }}</a></li> </ul>
+        {% endfor %}
+        {% else %}
+        None
+        {% endif %}
+        </td>
+        </tr>
+    <tr>
+    <td>Price : </td><td> {{ similar_item['productPrice'] }}</td>
+    </tr>
+    <tr>
+    <td>Url : </td><td> {{ similar_item['productLink'] }}</td>
+    </tr>
+</table>
+
+    {% endfor %}
+<br><br>
+    <hr><hr>
+    {% endfor %}
+    <br>
+    <form action="/update_ratings" method="post" style="text-align:center;">
+        <p>Enter your ratings:</p>
+        <p>Title rating : <input type="number" name="titleRating" min="0" max="1" required> </p>
+        <p>Description rating : <input type="number" name="descriptionRating" min="0" max="1" required> </p>
+        <p>Image rating : <input type="number" name="imageRating" min="0" max="1"> </p>
+
+    <p> Id : <input type="text"  name="id" value="{{ id }}" readonly></p>
+        <button type="submit">Update</button>
+    </form>
+
+<br><hr>
+    <p>Delete this item from products database : </p>
+<form action="/delete_item" method="post" style="text-align:center;">
+    <p> Id : <input type="text"  name="id" value="{{ id }}" readonly></p>
+        <button type="submit">Delete</button>
+</form>
+</body>
+</html>

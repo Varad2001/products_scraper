@@ -1,11 +1,14 @@
+import multiprocessing
+import threading
 from queue import Queue
 
-from extractors.send_request import send_request
+
+from extractors import send_request
 from similarity_checker import check_similarity
 
 from extractors import newegg, bestbuy
 from extractors import amazon
-from extractors.helpers import get_details_from_newegg_and_store, get_details_from_bestbuy_and_store
+from extractors.helpers import store_data
 
 import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
@@ -14,7 +17,7 @@ logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)
 def crawl_new_items_from_newegg(queue, url):
 
     #url = "https://www.newegg.com/p/pl?N=100008225%20600030002"
-    page = send_request(url)
+    page = send_request.send_request(url)
 
     if not page:
         return
@@ -36,7 +39,7 @@ def crawl_new_items_from_newegg(queue, url):
         current_url = f"{url}&page={page_num}"
         #print("Url : ", current_url)
 
-        page = send_request(current_url)
+        page = send_request.send_request(current_url)
         if not page:
             continue
 
@@ -58,7 +61,7 @@ def crawl_new_items_from_bestbuy(queue, url):
     print("\n-------Getting new items from BestBuy.com ...----")
     while True:
         url = url + "&intl=nosplash"
-        page = send_request(url)
+        page = send_request.send_request(url)
         if not page:
             return
         #print(f"URL : {url}")
@@ -96,7 +99,7 @@ def next_page_amazon(page):
         except Exception as e:
             logging.exception(e)
             return 0
-
+        print(current, final)
         try :
             if int(current) == int(final):
                 print("This is the last page..")
@@ -137,10 +140,11 @@ def crawl_sample_items(sample_url, queue):
 
     while not finished:
 
-        current_url = url + f"&page={page_num}"
-        #print(f"Going to url : {current_url}")
+        current_url = url + f"&page={page_num}" + f"&ref=sr_pg_{page_num}"
+        print(f"Going to url : {current_url}")
 
-        page = send_request(current_url)
+        #page = send_request.send_request(current_url)
+        page = send_request.send_request(current_url)
 
         if not page:
             return
@@ -171,37 +175,71 @@ def begin_crawling(address, categoryId, urls):
     new_products_bestbuy = list()       # store new items extracted from Bestbuy.com
     items_to_be_inserted = Queue()      # store items that are to be inserted in the database
 
-    crawl_sample_items(sample_url, sample_products)
+    sample_crawler = threading.Thread(target=crawl_sample_items, args=(sample_url, sample_products))
+    #crawl_sample_items(sample_url, sample_products)
+    sample_crawler.start()
+    sample_crawler.join()
 
-    crawl_new_items_from_newegg(new_products_newegg, newegg_url)
-    crawl_new_items_from_bestbuy(new_products_bestbuy, bestbuy_url)
+    #crawl_new_items_from_newegg(new_products_newegg, newegg_url)
+    newegg_crawler = threading.Thread(target=crawl_new_items_from_newegg, args=(new_products_newegg, newegg_url))
+    newegg_crawler.start()
+    newegg_crawler.join()
+
+    #crawl_new_items_from_bestbuy(new_products_bestbuy, bestbuy_url)
+    bestbuy_crawler = threading.Thread(target=crawl_new_items_from_bestbuy, args=(new_products_bestbuy, bestbuy_url))
+    bestbuy_crawler.start()
+    bestbuy_crawler.join()
+
 
     print("\n------Starting comparisons....------")
     while not sample_products.empty():
         sample_product = sample_products.get()
         sample_title = sample_product['title']
+        sample_data = None
+        similar_items = []
 
         print("\nSample item : ", sample_title)
 
-        #print("Comparing item Newegg.com...")
+
         for item in new_products_newegg:
             if check_similarity([sample_title, item['title']]) > 0.5:
-                print("Similar product found on Newegg : ", item['title'])
-                if get_details_from_newegg_and_store(item['url'], items_to_be_inserted, categoryId):
-                    print("Item stored successfully.")
-                else:
-                    print("Could not save item.")
-        #print("Comparison with Newegg complete.")
+                if not sample_data:
+                    sample_data = amazon.get_all_details(sample_product['url'])
 
-        #print("Comparing item with BestBuy...")
+                item_data = newegg.get_all_details(item['url'])
+                if not (sample_data['productDescription'] == 'NA' or item_data['productDescription'] == 'NA'):
+                    if check_similarity([sample_data['productDescription'], item_data['productDescription']]) > 0.3:
+                        print("Similar item found on Newegg.")
+                        similar_items.append(item_data)
+                else:
+                    print("Similar item found on Newegg.")
+                    similar_items.append(item_data)
+
+
         for item in new_products_bestbuy:
             if check_similarity([sample_title, item['title']]) > 0.5:
-                print("Similar product found on Bestbuy : ", item['title'])
-                if get_details_from_bestbuy_and_store(item['url'], items_to_be_inserted, categoryId):
-                    print("Item stored successfully.")
+                if not sample_data:
+                    sample_data = amazon.get_all_details(sample_product['url'])
+
+                item_data = bestbuy.get_all_details(item['url'],categoryId)
+
+                if not (sample_data['productDescription'] == 'NA' or item_data['productDescription'] == 'NA'):
+                    if check_similarity([sample_data['productDescription'], item_data['productDescription']]) > 0.3:
+                        print("Similar item found on Bestbuy.")
+                        similar_items.append(item_data)
                 else:
-                    print("Could not save item.")
-        #print("Comparison with Bestbuy complete.")
+                    print("Similar item found on Bestbuy.")
+                    similar_items.append(item_data)
+
+        if len(similar_items) > 0:
+            print("Saving similar items...")
+            similar_items.append(sample_data)
+            items_to_be_inserted.put(similar_items)
+            #store_data(items_to_be_inserted, categoryId)
+            storing_process = threading.Thread(target=store_data, args=(items_to_be_inserted, categoryId))
+            storing_process.start()
+            storing_process.join()
+
 
     print("\n-------Crawling finished.--------")
 
@@ -215,4 +253,8 @@ url2 = "https://www.amazon.com/s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A
 url3 = "https://www.amazon.com/s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A9977442011%2Cn%3A12097481011%2Cn%3A3236452011&dc&page=3&qid=1664904691&rnid=12097481011&ref=sr_pg_3"
 page = send_request(url3)
 
-print(next_page(page))"""
+print(next_page(page))
+url = "https://www.amazon.com/s?k=Home+Theater+Systems&i=electronics&rh=n%3A281056&c=ts&qid=1665155417&ts_id=281056"
+crawl_sample_items(url, multiprocessing.Queue())"""
+
+

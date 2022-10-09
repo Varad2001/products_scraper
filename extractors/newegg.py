@@ -5,8 +5,7 @@ import os
 import pymongo
 from datetime import datetime
 
-from extractors.send_request import send_request
-
+from extractors import send_request
 import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
 
@@ -20,14 +19,18 @@ def get_seller_id(name):
     client = pymongo.MongoClient(
         f"mongodb+srv://{user}:{passwd}@cluster0.x6statp.mongodb.net/?retryWrites=true&w=majority")
 
-    # tasks_db.productCategory
-    db = client['tasks_db']
-    table = db['productSellers']
+    try :
+        # tasks_db.productCategory
+        db = client['tasks_db']
+        table = db['productSellers']
 
-    cursor = table.find({'sellerName' : 'NewEgg'})
-    for document in cursor:
-        id = document['_id']
-        return id
+        cursor = table.find({'sellerName' : 'NewEgg'})
+        for document in cursor:
+            id = document['_id']
+            return id
+    except Exception as e:
+        logging.exception(e)
+        print("Failed to retrieve the seller id for Newegg. Please check your credentials.")
 
 
 def find_urls_and_titles_on_page(page):
@@ -70,9 +73,12 @@ def get_ratings(page):
     rating = page.find('span', attrs={'class' : 'rating-views-num'})
     rating_num = page.find('span', attrs={'class' : 'rating-views-count'})
     if rating_num:
-        rating_num = rating_num.string
-        rating = rating.string
-        return {'Rating' : rating, 'Number_of_ratings' : rating_num}
+        try:
+            rating_num = rating_num.string
+            rating = rating.string
+            return {'Rating' : rating, 'Number_of_ratings' : rating_num}
+        except:
+            return None
     else :
         return None
 
@@ -80,9 +86,12 @@ def get_ratings(page):
 def get_brand(page):
     rows = page.find_all('tr')
     for row in rows:
-        if row.th and row.td:
-            if 'Brand' in row.th:
-                return row.td.string
+        try:
+            if row.th and row.td:
+                if 'Brand' in row.th:
+                    return row.td.string
+        except:
+            continue
     return None
 
 
@@ -98,12 +107,17 @@ def get_description(page):
                 continue
         return desc
 
+    return "NA"
+
 
 def get_price(page):
     price_tag = page.find('li', attrs={'class' : 'price-current'})
     if price_tag:
-        price = price_tag.strong.string + price_tag.sup.string
-        return price
+        try:
+            price = price_tag.strong.string + price_tag.sup.string
+            return price
+        except:
+            return None
     else :
         return None
 
@@ -124,6 +138,8 @@ def get_shipping_price(page):
 
 def get_product_images(page):
     div = page.find('div' , attrs={'class' : 'swiper-gallery-thumbs'})
+    if not div:
+        return None
     tags = div.find_all('img' , attrs= {'class' : 'product-view-img-original'})
     links = []
     for tag in tags:
@@ -137,8 +153,8 @@ def get_product_images(page):
     return links
 
 
-def get_all_details(url, queue, category):
-    page = send_request(url)
+def get_all_details(url):      # queue : reserved for the future use of multiprocessing
+    page = send_request.send_request(url)
 
     seller_details = {}
 
@@ -147,21 +163,18 @@ def get_all_details(url, queue, category):
     results['productID'] = get_product_id(page)
     results['productPrice'] =  get_price(page)
     results['productShippingFee'] = get_shipping_price(page)
-    results['productCategory'] = category
+    #results['productCategory'] = category
     results['favoritedCount'] = get_ratings(page)
-    results['lastUpdate'] = str(datetime.timestamp(datetime.now()))
+    #results['lastUpdate'] = str(datetime.timestamp(datetime.now()))
     results['productBrand'] = get_brand(page)
     results['productDescription'] = get_description(page)
 
-    seller_details['sellerID'] = str(get_seller_id('NewEgg'))
-    seller_details['sellerName'] = 'NewEgg'
-    seller_details['productLink'] = url
-    seller_details['productTitle'] = get_title(page)
-    seller_details['imageLink'] = get_product_images(page)
+    results['sellerID'] = str(get_seller_id('NewEgg'))
+    results['sellerName'] = 'NewEgg'
+    results['productLink'] = url
+    results['productTitle'] = get_title(page)
+    results['imageLink'] = get_product_images(page)
 
-    seller_details_list = []
-    seller_details_list.append(seller_details)
-    results['sellers'] = seller_details_list
 
     discount = get_discount_info(page)
     if discount :

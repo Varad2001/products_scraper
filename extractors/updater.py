@@ -36,9 +36,9 @@ def update_items():
 
     for item in cursor:
         print("Updating")
-
+        obj_id = item['_id']
         try :
-            obj_id = item['_id']
+
             url = item['sellers']['productLink']
             category = item['productCategory']
             price = item['productPrice']

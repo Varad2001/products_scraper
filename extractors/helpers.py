@@ -5,6 +5,7 @@ import dotenv
 import os
 import pymongo
 from bson import ObjectId
+from datetime import datetime
 
 from extractors import newegg, bestbuy
 
@@ -48,9 +49,43 @@ def get_address_by_id(id):
             return None, None
 
 
+def store_data(queue, cateogry):
+    while not queue.empty():
+        try :
+            results = {'productCategory' : cateogry, 'lastUpdate' : datetime.timestamp(datetime.now())}
+            sellers = queue.get()
+            results['sellers'] = sellers
+            dotenv.load_dotenv()
+            user = os.getenv('USER')
+            passwd = os.getenv('PASSWD')
+            arg = os.getenv('CLUSTER_ARG')
+            db_name = os.getenv('db_name')
+            table_name = os.getenv('table_name')
+
+            # connect to the mongodb database
+            client = pymongo.MongoClient(
+                f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
+
+            # db_name = 'tasks_db'
+            # table_name = "products"
+
+            db = client[db_name]
+            table = db[table_name]
+
+            table.insert_one(results)
+
+            client.close()
+            print("Item saved successfully.")
+            return True
+        except Exception as e:
+            logging.exception(e)
+            print("Could not save the details to database.")
+            return False
+
+
 def get_details_from_newegg_and_store(url, q, category):
     try :
-        results = newegg.get_all_details(url, q, category)
+        results = newegg.get_all_details(url, category)
 
         dotenv.load_dotenv()
         user = os.getenv('USER')
@@ -76,13 +111,12 @@ def get_details_from_newegg_and_store(url, q, category):
         logging.exception(e)
         print("Could not save the details to database.")
         print(url)
-        print(results)
         return False
 
 
-def get_details_from_bestbuy_and_store(url, q, category):
+def get_details_from_bestbuy_and_store(url,  category):
     try :
-        results = bestbuy.get_all_details(url, q, category)
+        results = bestbuy.get_all_details(url, category)
 
         dotenv.load_dotenv()
         user = os.getenv('USER')

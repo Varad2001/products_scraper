@@ -3,7 +3,7 @@ import os
 import dotenv
 import pymongo
 from datetime import datetime
-from extractors.send_request import send_request
+from  extractors import send_request
 
 import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
@@ -18,14 +18,18 @@ def get_seller_id(name):
     client = pymongo.MongoClient(
         f"mongodb+srv://{user}:{passwd}@cluster0.x6statp.mongodb.net/?retryWrites=true&w=majority")
 
-    # tasks_db.productCategory
-    db = client['tasks_db']
-    table = db['productSellers']
+    try :
+        # tasks_db.productCategory
+        db = client['tasks_db']
+        table = db['productSellers']
 
-    cursor = table.find({'sellerName' : 'BestBuy'})
-    for document in cursor:
-        id = document['_id']
-        return id
+        cursor = table.find({'sellerName' : 'BestBuy'})
+        for document in cursor:
+            id = document['_id']
+            return id
+    except Exception as e:
+        logging.exception(e)
+        print("Failed to retrieve seller if for Bestbuy. Please check your credentials.")
 
 
 def get_urls_and_titles(page):
@@ -83,13 +87,13 @@ def get_price(page):
 def get_description(page):
     tag = page.find('div', attrs= {'class' : 'shop-product-description'})
     if not tag:
-        return None
+        return "NA"
 
     try :
         return tag.div.div.text.strip()
     except Exception as e:
         logging.exception(e)
-        return None
+        return 'NA'
 
 
 def get_brand(page):
@@ -151,29 +155,25 @@ def get_discount_info(page):
         return None
 
 
-def get_all_details(url,q, category):
-    page = send_request(url)
+def get_all_details(url, category):
+    page = send_request.send_request(url)
 
-    seller_details = {}
 
     results = {}
 
     results['productID'] = get_product_id(page)
     results['productPrice'] = get_price(page)
-    #results['productShippingFee'] = get_shipping_price(page)
-    results['productCategory'] = category
     results['favoritedCount'] = get_rating(page)
-    results['lastUpdate'] = str(datetime.timestamp(datetime.now()))
+    #results['lastUpdate'] = str(datetime.timestamp(datetime.now()))
     results['productBrand'] = get_brand(page)
     results['productDescription'] = get_description(page)
 
-    seller_details['sellerID'] = get_seller_id('BestBuy')
-    seller_details['sellerName'] = 'BestBuy'
-    seller_details['productLink'] = url
-    seller_details['productTitle'] = get_title(page)
-    seller_details['imageLink'] = get_product_imgs(page)
+    results['sellerID'] = get_seller_id('BestBuy')
+    results['sellerName'] = 'BestBuy'
+    results['productLink'] = url
+    results['productTitle'] = get_title(page)
+    results['imageLink'] = get_product_imgs(page)
 
-    results['sellers'] = seller_details
 
     discount = get_discount_info(page)
     if discount:
