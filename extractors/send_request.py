@@ -1,7 +1,7 @@
 
 import requests
 from bs4 import BeautifulSoup
-from fp.fp import FreeProxy
+
 
 import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
