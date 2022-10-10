@@ -24,3 +24,68 @@ urllib3.connectionpool:DEBUG:2022-10-08 17:21:09,568:Starting new HTTPS connecti
 urllib3.connectionpool:DEBUG:2022-10-08 17:21:11,897:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
 urllib3.connectionpool:DEBUG:2022-10-08 19:59:15,371:Starting new HTTPS connection (1): www.amazon.com:443
 urllib3.connectionpool:DEBUG:2022-10-08 19:59:16,409:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-09 23:08:31,569:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-09 23:08:33,667:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 24923
+urllib3.connectionpool:DEBUG:2022-10-09 23:08:46,074:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-09 23:08:46,543:https://www.amazon.com:443 "GET /Dayton-Audio-T652-2-Way-Speaker/dp/B00Q3MG05S/ref=sr_1_1?c=ts&keywords=Floorstanding+Speakers&qid=1665239554&qu=eyJxc2MiOiI3LjIzIiwicXNhIjoiNi40NyIsInFzcCI6IjQuNDcifQ%3D%3D&s=aht&sr=1-1&ts_id=3236453011 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-09 23:09:01,069:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-09 23:09:01,851:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 24923
+urllib3.connectionpool:DEBUG:2022-10-09 23:09:14,271:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-09 23:09:15,218:https://www.amazon.com:443 "GET /Dayton-Audio-T652-AIR-Speaker-Tweeter/dp/B07777GY34/ref=sr_1_4?c=ts&keywords=Floorstanding+Speakers&qid=1665239554&qu=eyJxc2MiOiI3LjIzIiwicXNhIjoiNi40NyIsInFzcCI6IjQuNDcifQ%3D%3D&s=aht&sr=1-4&ts_id=3236453011 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-09 23:09:29,839:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-09 23:09:30,809:https://www.newegg.com:443 "GET /fluance-xl8fw/p/0S6-004W-000J2 HTTP/1.1" 200 24631
+urllib3.connectionpool:DEBUG:2022-10-09 23:09:43,420:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-09 23:09:44,070:https://www.newegg.com:443 "GET /fluance-xl8f/p/0S6-004W-000J5 HTTP/1.1" 200 24628
+urllib3.connectionpool:DEBUG:2022-10-09 23:09:56,506:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-09 23:09:56,918:https://www.amazon.com:443 "GET /Fluance-Performance-Floorstanding-Loudspeakers-Down-Firing/dp/B08GCT2QG9/ref=sr_1_9?c=ts&keywords=Floorstanding+Speakers&qid=1665239554&qu=eyJxc2MiOiI3LjIzIiwicXNhIjoiNi40NyIsInFzcCI6IjQuNDcifQ%3D%3D&s=aht&sr=1-9&ts_id=3236453011 HTTP/1.1" 200 None
+root:ERROR:2022-10-09 23:09:59,032:could not convert string to float: 'Page 1 of 1'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\amazon.py", line 82, in get_price
+    price = float(price_tag.string.replace('$', ''))
+ValueError: could not convert string to float: 'Page 1 of 1'
+urllib3.connectionpool:DEBUG:2022-10-09 23:10:11,471:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-09 23:10:12,208:https://www.newegg.com:443 "GET /fluance-ai81b/p/0S6-004W-000S9 HTTP/1.1" 200 25172
+urllib3.connectionpool:DEBUG:2022-10-09 23:10:24,633:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-09 23:10:25,243:https://www.newegg.com:443 "GET /fluance-ai81/p/0S6-004W-000T2 HTTP/1.1" 200 25165
+urllib3.connectionpool:DEBUG:2022-10-09 23:10:37,647:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-09 23:10:38,354:https://www.newegg.com:443 "GET /fluance-ai81w/p/0S6-004W-000T3 HTTP/1.1" 200 24327
+urllib3.connectionpool:DEBUG:2022-10-09 23:10:50,954:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-09 23:10:51,719:https://www.amazon.com:443 "GET /Fluance-Floorstanding-Amplifier-Listening-Turntable/dp/B0B786MLN9/ref=sr_1_10?c=ts&keywords=Floorstanding+Speakers&qid=1665239554&qu=eyJxc2MiOiI3LjIzIiwicXNhIjoiNi40NyIsInFzcCI6IjQuNDcifQ%3D%3D&s=aht&sr=1-10&ts_id=3236453011 HTTP/1.1" 200 None
+root:ERROR:2022-10-09 23:10:53,768:could not convert string to float: 'Page 1 of 1'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\amazon.py", line 82, in get_price
+    price = float(price_tag.string.replace('$', ''))
+ValueError: could not convert string to float: 'Page 1 of 1'
+urllib3.connectionpool:DEBUG:2022-10-09 23:11:06,195:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-09 23:11:06,862:https://www.newegg.com:443 "GET /fluance-hff/p/0N6-0174-00011 HTTP/1.1" 200 24485
+urllib3.connectionpool:DEBUG:2022-10-09 23:11:19,336:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-09 23:11:19,997:https://www.newegg.com:443 "GET /fluance-hffw/p/0N6-0174-00010 HTTP/1.1" 200 24508
+urllib3.connectionpool:DEBUG:2022-10-09 23:11:32,443:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-09 23:11:32,832:https://www.amazon.com:443 "GET /Fluance-Signature-Three-Way-Floorstanding-HFFW/dp/B01A174PMK/ref=sr_1_12?c=ts&keywords=Floorstanding+Speakers&qid=1665239554&qu=eyJxc2MiOiI3LjIzIiwicXNhIjoiNi40NyIsInFzcCI6IjQuNDcifQ%3D%3D&s=aht&sr=1-12&ts_id=3236453011 HTTP/1.1" 200 None
+root:ERROR:2022-10-09 23:11:34,530:could not convert string to float: 'Page 1 of 1'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\amazon.py", line 82, in get_price
+    price = float(price_tag.string.replace('$', ''))
+ValueError: could not convert string to float: 'Page 1 of 1'
+urllib3.connectionpool:DEBUG:2022-10-09 23:11:46,910:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-09 23:11:51,282:https://www.bestbuy.com:443 "GET /site/elac-uni-fi-2-0-floorstanding-speaker-each-black/6429592.p?skuId=6429592 HTTP/1.1" 200 1654
+urllib3.connectionpool:DEBUG:2022-10-09 23:12:03,761:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-09 23:12:04,271:https://www.amazon.com:443 "GET /ELAC-Uni-Fi-Floorstanding-Speaker-UF52-BK/dp/B08FF86RYZ/ref=sr_1_125?c=ts&keywords=Floorstanding+Speakers&qid=1665240832&qu=eyJxc2MiOiI3LjIzIiwicXNhIjoiNi40NyIsInFzcCI6IjQuNDcifQ%3D%3D&s=aht&sr=1-125&ts_id=3236453011 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-09 23:12:18,623:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-09 23:12:18,875:https://www.bestbuy.com:443 "GET /site/definitive-technology-high-performance-2-way-height-speaker-module-black/5023608.p?skuId=5023608 HTTP/1.1" 200 1654
+urllib3.connectionpool:DEBUG:2022-10-09 23:12:31,246:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-09 23:12:31,668:https://www.amazon.com:443 "GET /Definitive-Technology-BP9080-Performance-Speaker/dp/B00422L380/ref=sr_1_129?c=ts&keywords=Floorstanding+Speakers&qid=1665240832&qu=eyJxc2MiOiI3LjIzIiwicXNhIjoiNi40NyIsInFzcCI6IjQuNDcifQ%3D%3D&s=aht&sr=1-129&ts_id=3236453011 HTTP/1.1" 200 None
+root:ERROR:2022-10-09 23:12:33,977:could not convert string to float: '1,749.00'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\amazon.py", line 82, in get_price
+    price = float(price_tag.string.replace('$', ''))
+ValueError: could not convert string to float: '1,749.00'
+urllib3.connectionpool:DEBUG:2022-10-09 23:12:46,349:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-09 23:12:46,615:https://www.bestbuy.com:443 "GET /site/dali-oberon-7-floorstanding-speaker-each-light-oak/6450894.p?skuId=6450894 HTTP/1.1" 200 1654
+urllib3.connectionpool:DEBUG:2022-10-09 23:12:58,971:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-09 23:12:59,380:https://www.amazon.com:443 "GET /Oberon-Floor-Standing-Speakers-White/dp/B07KFPK7B2/ref=sr_1_141?c=ts&keywords=Floorstanding+Speakers&qid=1665240832&qu=eyJxc2MiOiI3LjIzIiwicXNhIjoiNi40NyIsInFzcCI6IjQuNDcifQ%3D%3D&s=aht&sr=1-141&ts_id=3236453011 HTTP/1.1" 200 None
+root:ERROR:2022-10-09 23:13:01,157:could not convert string to float: 'Page 1 of 1  '
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\amazon.py", line 82, in get_price
+    price = float(price_tag.string.replace('$', ''))
+ValueError: could not convert string to float: 'Page 1 of 1  '

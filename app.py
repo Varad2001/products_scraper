@@ -1,18 +1,17 @@
-import multiprocessing
-import time
-from flask import Flask, jsonify, render_template, request, session, redirect, url_for
+from flask import Flask, jsonify, render_template, request, session, redirect
 from flask_session import Session
-import logging
 import threading
-from rating import get_all_data, store_user_ratings, delete_item, update_similarity_scores
+from rating import get_data_by_id, store_user_ratings, delete_item, update_similarity_scores, get_data_by_brand_name
 from crawler import begin_crawling
-from extractors.helpers import get_address_by_id
-from extractors.updater import update_items
-
+import redis_ops
+from updater import update_items
+from extractors import helpers
+import logging
 
 app = Flask(__name__)
 app.config['SESSION_TYPE']  = 'filesystem'
 Session(app)
+
 
 @app.route('/begin_crawl', methods=["POST", "GET"])
 def start_crawler():
@@ -23,8 +22,8 @@ def start_crawler():
             'newegg' : 'https://www.newegg.com/p/pl?N=100008225%20600030002'}
 
     try :
-        #address, category = get_address_by_id(categoryId)
-        address = "https://www.amazon.com/s?k=Floorstanding+Speakers&i=electronics&rh=n%3A3236453011&c=ts&qid=1665238284&ts_id=3236453011"
+        address, category = helpers.get_address_by_id(categoryId)
+
     except Exception as e:
         logging.exception(e)
         print("Could not retrieve category address.")
@@ -54,25 +53,45 @@ def home():
     return render_template('index.html')
 
 
-@app.route('/get_data', methods=['POST'])
-def get_data():
-    data = get_all_data('demo', 'products')
-    session['data'] = data
-    session['total_items'] = len(data)
-    session['viewed_items'] = 0
-    session['updated_items'] = 0
-    session['rating_info'] = {
-        'titleScore' : 0,
-        'descriptionScore' : 0,
-        'imageScore' : 0
-    }
-    return redirect('/get_item')
+@app.route('/get_data_by_id', methods=['POST'])
+def get_data_by_id_value():
+    if request.method == "POST":
+        id = request.form['id']
+        data = get_data_by_id(id)
+        session['data'] = data
+        session['total_items'] = len(data)
+        session['viewed_items'] = 0
+        session['updated_items'] = 0
+        session['rating_info'] = {
+            'titleScore' : 0,
+            'descriptionScore' : 0,
+            'imageScore' : 0
+        }
+        return redirect('/get_item')
+
+
+@app.route('/get_data_by_brand', methods=['POST'])
+def get_data_by_brand():
+    if request.method == "POST":
+        brand = request.form['brand']
+        data = get_data_by_brand_name(brand)
+        session['data'] = data
+        session['total_items'] = len(data)
+        session['viewed_items'] = 0
+        session['updated_items'] = 0
+        session['rating_info'] = {
+            'titleScore' : 0,
+            'descriptionScore' : 0,
+            'imageScore' : 0
+        }
+        return redirect('/get_item')
 
 
 @app.route('/get_item', methods=['GET', 'POST'])
 def get_item():
     try:
         item = session['data'].pop()
+        print(item)
     except IndexError :
         return render_template('final.html')
 
@@ -97,14 +116,16 @@ def update_ratings():
             return redirect('/get_item')
 
         session['updated_items'] += 1
-        session['rating_info']['titleScore'] += data['titleRating']
-        session['rating_info']['descriptionScore'] += data['descriptionRating']
-        session['rating_info']['imageScore'] += data['imageRating']
 
-        if session['updated_items'] == 100:
-            update_similarity_scores(session['rating_info'], 100)
-            session['updates_items'] = 0
-            session['rating_info'] = {}
+        r = redis_ops.connect_redis()
+        if r:
+            redis_ops.increase_value(r, 'count')
+            updated_items_till_now = redis_ops.get_value(r, 'count')
+            if updated_items_till_now:
+                if updated_items_till_now >= 100:
+                    new_thread = threading.Thread(target=update_similarity_scores)
+                    new_thread.start()
+                    print("Updating similarity scores...")
 
         return redirect('/get_item')
 
@@ -123,10 +144,9 @@ def delete():
 
 @app.route('/update_similarity', methods=["POST"])
 def update_similarity():
-    update_similarity_scores(session['rating_info'], session['updated_items'])
+    update_similarity_scores()
     session['updates_items'] = 0
     session['rating_info'] = {}
-
 
 
 if __name__ == '__main__' :

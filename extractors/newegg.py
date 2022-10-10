@@ -1,9 +1,8 @@
-import multiprocessing
 
 import dotenv
 import os
 import pymongo
-from datetime import datetime
+import settings
 
 from extractors import send_request
 import logging
@@ -21,8 +20,10 @@ def get_seller_id(name):
 
     try :
         # tasks_db.productCategory
-        db = client['tasks_db']
-        table = db['productSellers']
+        db_name = settings.db_products
+        table_name = settings.products_sellers_table
+        db = client[db_name]
+        table = db[table_name]
 
         cursor = table.find({'sellerName' : 'NewEgg'})
         for document in cursor:
@@ -49,7 +50,6 @@ def find_urls_and_titles_on_page(page):
 
 def get_product_id(page):
 
-    #id = page.find('span', attrs = {'class' : 'product-item-number'})
     id = page.find('em')
     if id:
         return id.string
@@ -156,16 +156,12 @@ def get_product_images(page):
 def get_all_details(url):      # queue : reserved for the future use of multiprocessing
     page = send_request.send_request(url)
 
-    seller_details = {}
-
     results = dict()
-    #productID, productCategory, favoritedCount, lastUpdate, productBrand, productDescription,
+
     results['productID'] = get_product_id(page)
     results['productPrice'] =  get_price(page)
     results['productShippingFee'] = get_shipping_price(page)
-    #results['productCategory'] = category
     results['favoritedCount'] = get_ratings(page)
-    #results['lastUpdate'] = str(datetime.timestamp(datetime.now()))
     results['productBrand'] = get_brand(page)
     results['productDescription'] = get_description(page)
 
@@ -174,7 +170,6 @@ def get_all_details(url):      # queue : reserved for the future use of multipro
     results['productLink'] = url
     results['productTitle'] = get_title(page)
     results['imageLink'] = get_product_images(page)
-
 
     discount = get_discount_info(page)
     if discount :

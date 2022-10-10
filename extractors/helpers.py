@@ -1,13 +1,12 @@
-import logging
-import multiprocessing
 
 import dotenv
 import os
 import pymongo
 from bson import ObjectId
 from datetime import datetime
-
-from extractors import newegg, bestbuy
+import settings
+import logging
+logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
 
 
 def format_url(url):
@@ -32,8 +31,10 @@ def get_address_by_id(id):
         f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
 
     # tasks_db.productCategory
-    db = client['tasks_db']
-    table = db['productCategory']
+    db_name = settings.db_products
+    table_name = settings.products_category_table
+    db = client[db_name]
+    table = db[table_name]
 
     id = ObjectId(id)
 
@@ -49,25 +50,23 @@ def get_address_by_id(id):
             return None, None
 
 
-def store_data(queue, cateogry):
+def store_data(queue, category):
     while not queue.empty():
         try :
-            results = {'productCategory' : cateogry, 'lastUpdate' : datetime.timestamp(datetime.now())}
+            results = {'productCategory' : category, 'lastUpdate' : datetime.timestamp(datetime.now())}
             sellers = queue.get()
             results['sellers'] = sellers
+
             dotenv.load_dotenv()
             user = os.getenv('USER')
             passwd = os.getenv('PASSWD')
             arg = os.getenv('CLUSTER_ARG')
-            db_name = os.getenv('db_name')
-            table_name = os.getenv('table_name')
+            db_name = settings.db_products
+            table_name = settings.products_table
 
             # connect to the mongodb database
             client = pymongo.MongoClient(
                 f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
-
-            # db_name = 'tasks_db'
-            # table_name = "products"
 
             db = client[db_name]
             table = db[table_name]
@@ -83,65 +82,51 @@ def store_data(queue, cateogry):
             return False
 
 
-def get_details_from_newegg_and_store(url, q, category):
-    try :
-        results = newegg.get_all_details(url, category)
-
+def product_already_in_database(url):
+    try:
         dotenv.load_dotenv()
         user = os.getenv('USER')
         passwd = os.getenv('PASSWD')
         arg = os.getenv('CLUSTER_ARG')
-        db_name = os.getenv('db_name')
-        table_name = os.getenv('table_name')
+
+        db_name = settings.db_products
+        table_name = settings.products_table
 
         # connect to the mongodb database
         client = pymongo.MongoClient(
             f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
 
-        #db_name = 'tasks_db'
-        #table_name = "products"
         db = client[db_name]
         table = db[table_name]
 
-        table.insert_one(results)
-
-        client.close()
-        return True
+        results = table.count_documents(
+            { "sellers.productLink" : url}
+        )
+        if results:
+            return True
+        else:
+            return False
     except Exception as e:
         logging.exception(e)
-        print("Could not save the details to database.")
-        print(url)
         return False
 
 
-def get_details_from_bestbuy_and_store(url,  category):
-    try :
-        results = bestbuy.get_all_details(url, category)
+def get_similarity_scores():
+    dotenv.load_dotenv()
+    user = os.getenv('USER')
+    passwd = os.getenv('PASSWD')
+    arg = os.getenv('CLUSTER_ARG')
 
-        dotenv.load_dotenv()
-        user = os.getenv('USER')
-        passwd = os.getenv('PASSWD')
-        arg = os.getenv('CLUSTER_ARG')
-        db_name = os.getenv('db_name')
-        table_name = os.getenv('table_name')
+    # connect to the mongodb database
+    client = pymongo.MongoClient(
+        f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
 
-        # connect to the mongodb database
-        client = pymongo.MongoClient(
-            f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
+    db_name = settings.db_rating
+    table_name = settings.settings_table
 
-        #db_name = 'tasks_db'
-        #table_name = "products"
-        db = client[db_name]
-        table = db[table_name]
+    db= client[db_name]
+    table = db[table_name]
 
-        table.insert_one(results)
+    cursor = list(table.find({}))
+    return cursor[0]
 
-        client.close()
-        return True
-    except Exception as e:
-        logging.exception(e)
-        print("Could not save the details to database.")
-        return False
-
-"""url4 = "https://www.newegg.com/creality-ender-3-v2-black/p/288-00DY-00001"
-print(get_details_from_newegg_and_store(url4, multiprocessing.Queue(), '4534535'))"""

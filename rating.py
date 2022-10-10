@@ -2,9 +2,10 @@ import pymongo
 import os
 import dotenv
 from bson import ObjectId
+import settings
 
 
-def get_all_data(db_name, table_name):
+def get_all_data():
 
     dotenv.load_dotenv()
     user = os.getenv('USER')
@@ -15,6 +16,8 @@ def get_all_data(db_name, table_name):
     client = pymongo.MongoClient(
         f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
 
+    db_name = settings.db_products
+    table_name = settings.products_table
     db = client[db_name]
     table = db[table_name]
 
@@ -49,8 +52,8 @@ def store_user_ratings(ratings):
     client = pymongo.MongoClient(
         f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
 
-    db_name = 'ratings'
-    table_name = 'userRating'
+    db_name = settings.db_rating
+    table_name = settings.userRating_table
     db = client[db_name]
     table = db[table_name]
 
@@ -80,8 +83,8 @@ def delete_item(id):
     client = pymongo.MongoClient(
         f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
 
-    db_name = 'demo'
-    table_name = 'products'
+    db_name = settings.db_products
+    table_name = settings.products_table
     db = client[db_name]
     table = db[table_name]
 
@@ -92,7 +95,7 @@ def delete_item(id):
     )
 
 
-def update_similarity_scores(rating_info, total_updated_items):
+def update_similarity_scores():
     dotenv.load_dotenv()
     user = os.getenv('USER')
     passwd = os.getenv('PASSWD')
@@ -102,40 +105,86 @@ def update_similarity_scores(rating_info, total_updated_items):
     client = pymongo.MongoClient(
         f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
 
-    db_name = 'ratings'
-    table_name = 'settings'
+    db_name = settings.db_rating
+
+    db = client[db_name]
+    table = db[settings.userRating_table]
+
+    cursor = list(table.find({}).limit(100))
+    total_ratings= {'titleRating' : 0 , 'descriptionRating' : 0, 'imageRating' : 0}
+
+    for rating in cursor:
+        total_ratings['titleRating'] += int(rating['titleRating'])
+        total_ratings['descriptionRating'] += int(rating['descriptionRating'])
+        total_ratings['imageRating'] += int(rating['imageRating'])
+
+    scores_table = db[settings.settings_table]
+
+    similarity_scores = list(scores_table.find({}))[0]
+    id = similarity_scores['_id']
+    del similarity_scores['_id']
+
+    if total_ratings['titleRating'] <= 50 :
+        similarity_scores['titleScore'] += 1
+    if total_ratings['descriptionRating'] <= 50:
+        similarity_scores['descriptionScore'] += 1
+    if total_ratings['imageRating'] <= 50:
+        similarity_scores['imageScore'] += 1
+
+    scores_table.update_one(
+        {'_id' : id},
+        {'$set' : {'titleScore' : similarity_scores['titleScore'],
+                   'descriptionScore' : similarity_scores['descriptionScore'],
+                   'imageScore' : similarity_scores['imageScore']}}
+    )
+
+
+def get_data_by_id(id):
+    dotenv.load_dotenv()
+    user = os.getenv('USER')
+    passwd = os.getenv('PASSWD')
+    arg = os.getenv('CLUSTER_ARG')
+
+    # connect to the mongodb database
+    client = pymongo.MongoClient(
+        f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
+
+    db_name = settings.db_products
+    table_name = settings.products_table
+
     db = client[db_name]
     table = db[table_name]
 
-    cursor = list(table.find({}))
-    scores = cursor[0]
-    id = scores['_id']
-    del scores['_id']
+    id = ObjectId(id)
 
-    correct_titles = rating_info['titleScore']
-    correct_descriptions = rating_info['descriptionScore']
-    correct_images = rating_info['imageScore']
+    cursor = list(table.find({'_id' : id}))
+    results = []
+    for item in cursor:
+        results.append(restructure_document(item))
 
-    correct_titles_avg = correct_titles / total_updated_items * 100
-    correct_descriptions_avg = correct_descriptions / total_updated_items * 100
-    correct_images_avg = correct_images / total_updated_items * 100
-
-    # if average is less than 50, it means the incorrect items are more than 50%, hence increase the score
-    if correct_titles_avg <= 50 :
-        scores['titleScore'] += 1
-    if correct_descriptions_avg <= 50:
-        scores['descriptionScore'] += 1
-    if correct_images_avg <= 50:
-        scores['imageScore'] += 1
-
-    table.update_one(
-        {'_id' : id},
-        {'$set' : scores}
-    )
-
-    client.close()
+    return results
 
 
+def get_data_by_brand_name(brand):
+    dotenv.load_dotenv()
+    user = os.getenv('USER')
+    passwd = os.getenv('PASSWD')
+    arg = os.getenv('CLUSTER_ARG')
 
+    # connect to the mongodb database
+    client = pymongo.MongoClient(
+        f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
+
+    db_name = settings.db_products
+    table_name = settings.products_table
+    db = client[db_name]
+    table = db[table_name]
+
+    items = list(table.find({'sellers.productBrand' : brand}))
+    results = []
+    for item in items:
+        results.append(restructure_document(item))
+
+    return results
 
 

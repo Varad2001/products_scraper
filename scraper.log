@@ -8747,3 +8747,143 @@ werkzeug:WARNING:2022-10-09 17:46:08,005: * Debugger is active!
 werkzeug:INFO:2022-10-09 17:46:08,012: * Debugger PIN: 123-424-637
 werkzeug:INFO:2022-10-09 17:47:08,717: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\rating.py', reloading
 werkzeug:INFO:2022-10-09 17:47:09,007: * Restarting with stat
+urllib3.connectionpool:DEBUG:2022-10-10 12:34:02,990:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-10 12:34:05,199:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 24734
+werkzeug:INFO:2022-10-10 12:35:00,184:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-10 12:35:00,184:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-10 12:35:00,186: * Restarting with stat
+werkzeug:WARNING:2022-10-10 12:35:02,030: * Debugger is active!
+werkzeug:INFO:2022-10-10 12:35:02,039: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 12:35:04,637:127.0.0.1 - - [10/Oct/2022 12:35:04] "[33mGET / HTTP/1.1[0m" 404 -
+werkzeug:INFO:2022-10-10 12:35:07,848:127.0.0.1 - - [10/Oct/2022 12:35:07] "GET /index HTTP/1.1" 200 -
+werkzeug:INFO:2022-10-10 12:35:08,375:127.0.0.1 - - [10/Oct/2022 12:35:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+werkzeug:INFO:2022-10-10 12:36:07,636:127.0.0.1 - - [10/Oct/2022 12:36:07] "[32mPOST /get_data_by_brand HTTP/1.1[0m" 302 -
+werkzeug:INFO:2022-10-10 12:36:07,653:127.0.0.1 - - [10/Oct/2022 12:36:07] "[35m[1mGET /get_item HTTP/1.1[0m" 500 -
+werkzeug:INFO:2022-10-10 12:36:07,765:127.0.0.1 - - [10/Oct/2022 12:36:07] "[36mGET /get_item?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug:INFO:2022-10-10 12:36:07,766:127.0.0.1 - - [10/Oct/2022 12:36:07] "[36mGET /get_item?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug:INFO:2022-10-10 12:36:07,796:127.0.0.1 - - [10/Oct/2022 12:36:07] "[36mGET /get_item?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug:INFO:2022-10-10 12:36:07,821:127.0.0.1 - - [10/Oct/2022 12:36:07] "[36mGET /get_item?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug:INFO:2022-10-10 12:37:11,077: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\rating.py', reloading
+werkzeug:INFO:2022-10-10 12:37:11,727: * Restarting with stat
+werkzeug:WARNING:2022-10-10 12:37:17,156: * Debugger is active!
+werkzeug:INFO:2022-10-10 12:37:17,162: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 12:37:28,343: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\rating.py', reloading
+werkzeug:INFO:2022-10-10 12:37:28,558: * Restarting with stat
+werkzeug:WARNING:2022-10-10 12:37:30,626: * Debugger is active!
+werkzeug:INFO:2022-10-10 12:37:30,632: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 12:37:32,681: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\rating.py', reloading
+werkzeug:INFO:2022-10-10 12:37:32,808: * Restarting with stat
+werkzeug:WARNING:2022-10-10 12:37:34,776: * Debugger is active!
+werkzeug:INFO:2022-10-10 12:37:34,784: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 12:37:39,467:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-10 12:37:39,467:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-10 12:37:39,469: * Restarting with stat
+werkzeug:WARNING:2022-10-10 12:37:41,664: * Debugger is active!
+werkzeug:INFO:2022-10-10 12:37:41,670: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 12:37:56,056:127.0.0.1 - - [10/Oct/2022 12:37:56] "[32mPOST /get_data_by_brand HTTP/1.1[0m" 302 -
+werkzeug:INFO:2022-10-10 12:37:56,073:127.0.0.1 - - [10/Oct/2022 12:37:56] "[35m[1mGET /get_item HTTP/1.1[0m" 500 -
+werkzeug:INFO:2022-10-10 12:37:56,180:127.0.0.1 - - [10/Oct/2022 12:37:56] "[36mGET /get_item?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug:INFO:2022-10-10 12:37:56,181:127.0.0.1 - - [10/Oct/2022 12:37:56] "[36mGET /get_item?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug:INFO:2022-10-10 12:37:56,189:127.0.0.1 - - [10/Oct/2022 12:37:56] "[36mGET /get_item?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug:INFO:2022-10-10 12:39:28,217: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\app.py', reloading
+werkzeug:INFO:2022-10-10 12:39:28,369: * Restarting with stat
+werkzeug:WARNING:2022-10-10 12:39:30,276: * Debugger is active!
+werkzeug:INFO:2022-10-10 12:39:30,283: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 12:39:34,335:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-10 12:39:34,335:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-10 12:39:34,337: * Restarting with stat
+werkzeug:WARNING:2022-10-10 12:39:36,337: * Debugger is active!
+werkzeug:INFO:2022-10-10 12:39:36,343: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 12:39:49,632:127.0.0.1 - - [10/Oct/2022 12:39:49] "[32mPOST /get_data_by_brand HTTP/1.1[0m" 302 -
+werkzeug:INFO:2022-10-10 12:39:49,659:127.0.0.1 - - [10/Oct/2022 12:39:49] "[35m[1mGET /get_item HTTP/1.1[0m" 500 -
+werkzeug:INFO:2022-10-10 12:39:49,801:127.0.0.1 - - [10/Oct/2022 12:39:49] "[36mGET /get_item?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug:INFO:2022-10-10 12:39:49,803:127.0.0.1 - - [10/Oct/2022 12:39:49] "[36mGET /get_item?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug:INFO:2022-10-10 12:39:49,814:127.0.0.1 - - [10/Oct/2022 12:39:49] "[36mGET /get_item?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug:INFO:2022-10-10 12:40:51,530: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\rating.py', reloading
+werkzeug:INFO:2022-10-10 12:40:51,707: * Restarting with stat
+werkzeug:WARNING:2022-10-10 12:41:06,353: * Debugger is active!
+werkzeug:INFO:2022-10-10 12:41:06,365: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 12:41:26,709: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\rating.py', reloading
+werkzeug:INFO:2022-10-10 12:41:26,854: * Restarting with stat
+werkzeug:WARNING:2022-10-10 12:41:41,337: * Debugger is active!
+werkzeug:INFO:2022-10-10 12:41:41,343: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 12:41:52,552: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\rating.py', reloading
+werkzeug:INFO:2022-10-10 12:41:52,759: * Restarting with stat
+werkzeug:INFO:2022-10-10 12:41:56,931:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-10 12:41:56,931:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-10 12:41:56,933: * Restarting with stat
+werkzeug:WARNING:2022-10-10 12:41:59,107: * Debugger is active!
+werkzeug:INFO:2022-10-10 12:41:59,113: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 12:42:12,592:127.0.0.1 - - [10/Oct/2022 12:42:12] "[32mPOST /get_data_by_brand HTTP/1.1[0m" 302 -
+werkzeug:INFO:2022-10-10 12:42:12,620:127.0.0.1 - - [10/Oct/2022 12:42:12] "GET /get_item HTTP/1.1" 200 -
+werkzeug:INFO:2022-10-10 12:42:38,937:127.0.0.1 - - [10/Oct/2022 12:42:38] "[35m[1mPOST /update_ratings HTTP/1.1[0m" 500 -
+werkzeug:INFO:2022-10-10 12:42:39,052:127.0.0.1 - - [10/Oct/2022 12:42:39] "[36mGET /update_ratings?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug:INFO:2022-10-10 12:42:39,053:127.0.0.1 - - [10/Oct/2022 12:42:39] "[36mGET /update_ratings?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug:INFO:2022-10-10 12:42:39,061:127.0.0.1 - - [10/Oct/2022 12:42:39] "[36mGET /update_ratings?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug:INFO:2022-10-10 12:43:42,634: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\redis_ops.py', reloading
+werkzeug:INFO:2022-10-10 12:43:42,773: * Restarting with stat
+werkzeug:WARNING:2022-10-10 12:43:45,969: * Debugger is active!
+werkzeug:INFO:2022-10-10 12:43:45,975: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 12:43:50,043: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\redis_ops.py', reloading
+werkzeug:INFO:2022-10-10 12:43:50,279: * Restarting with stat
+werkzeug:WARNING:2022-10-10 12:43:52,465: * Debugger is active!
+werkzeug:INFO:2022-10-10 12:43:52,471: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 12:44:07,685: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\redis_ops.py', reloading
+werkzeug:INFO:2022-10-10 12:44:07,860: * Restarting with stat
+werkzeug:WARNING:2022-10-10 12:44:09,834: * Debugger is active!
+werkzeug:INFO:2022-10-10 12:44:09,840: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 12:44:15,668:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-10 12:44:15,669:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-10 12:44:15,674: * Restarting with stat
+werkzeug:WARNING:2022-10-10 12:44:18,743: * Debugger is active!
+werkzeug:INFO:2022-10-10 12:44:18,751: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 12:44:33,462:127.0.0.1 - - [10/Oct/2022 12:44:33] "[32mPOST /get_data_by_brand HTTP/1.1[0m" 302 -
+werkzeug:INFO:2022-10-10 12:44:33,482:127.0.0.1 - - [10/Oct/2022 12:44:33] "GET /get_item HTTP/1.1" 200 -
+werkzeug:INFO:2022-10-10 12:44:52,443:127.0.0.1 - - [10/Oct/2022 12:44:52] "[32mPOST /update_ratings HTTP/1.1[0m" 302 -
+werkzeug:INFO:2022-10-10 12:44:52,452:127.0.0.1 - - [10/Oct/2022 12:44:52] "GET /get_item HTTP/1.1" 200 -
+werkzeug:INFO:2022-10-10 12:44:54,912:127.0.0.1 - - [10/Oct/2022 12:44:54] "POST /get_item HTTP/1.1" 200 -
+werkzeug:INFO:2022-10-10 12:44:57,980:127.0.0.1 - - [10/Oct/2022 12:44:57] "POST /get_item HTTP/1.1" 200 -
+werkzeug:INFO:2022-10-10 12:45:01,915:127.0.0.1 - - [10/Oct/2022 12:45:01] "POST /index HTTP/1.1" 200 -
+werkzeug:INFO:2022-10-10 14:24:19,724: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\test.py', reloading
+werkzeug:INFO:2022-10-10 14:24:20,690: * Restarting with stat
+werkzeug:WARNING:2022-10-10 14:24:23,763: * Debugger is active!
+werkzeug:INFO:2022-10-10 14:24:23,771: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 14:32:18,583: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\test.py', reloading
+werkzeug:INFO:2022-10-10 14:32:18,832: * Restarting with stat
+werkzeug:WARNING:2022-10-10 14:32:21,971: * Debugger is active!
+werkzeug:INFO:2022-10-10 14:32:21,979: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 14:32:37,360: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\test.py', reloading
+werkzeug:INFO:2022-10-10 14:32:37,596: * Restarting with stat
+werkzeug:WARNING:2022-10-10 14:32:39,635: * Debugger is active!
+werkzeug:INFO:2022-10-10 14:32:39,642: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 14:32:59,973: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\test.py', reloading
+werkzeug:INFO:2022-10-10 14:33:00,167: * Restarting with stat
+werkzeug:WARNING:2022-10-10 14:33:02,880: * Debugger is active!
+werkzeug:INFO:2022-10-10 14:33:02,887: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 14:33:07,006: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\test.py', reloading
+werkzeug:INFO:2022-10-10 14:33:07,273: * Restarting with stat
+werkzeug:WARNING:2022-10-10 14:33:09,787: * Debugger is active!
+werkzeug:INFO:2022-10-10 14:33:09,797: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 14:33:46,457: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\test.py', reloading
+werkzeug:INFO:2022-10-10 14:33:46,826: * Restarting with stat
+werkzeug:WARNING:2022-10-10 14:34:00,327: * Debugger is active!
+werkzeug:INFO:2022-10-10 14:34:00,457: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 14:34:24,886: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\test.py', reloading
+werkzeug:INFO:2022-10-10 14:34:25,116: * Restarting with stat
+werkzeug:WARNING:2022-10-10 14:34:29,815: * Debugger is active!
+werkzeug:INFO:2022-10-10 14:34:29,831: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 14:35:39,067: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\extractors\\send_request.py', reloading
+werkzeug:INFO:2022-10-10 14:35:39,499: * Restarting with stat
+werkzeug:WARNING:2022-10-10 14:35:43,412: * Debugger is active!
+werkzeug:INFO:2022-10-10 14:35:43,424: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 14:35:51,554: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\extractors\\send_request.py', reloading
+werkzeug:INFO:2022-10-10 14:35:51,814: * Restarting with stat
+werkzeug:WARNING:2022-10-10 14:35:54,119: * Debugger is active!
+werkzeug:INFO:2022-10-10 14:35:54,127: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 14:36:16,542: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\extractors\\send_request.py', reloading
+werkzeug:INFO:2022-10-10 14:36:16,994: * Restarting with stat

@@ -1,27 +1,47 @@
-import multiprocessing
 import os
 import dotenv
 import pymongo
-from datetime import datetime
-from  extractors import send_request
+from extractors import send_request
+import settings
 
 import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
+
+
+def next_page_bestbuy(page):
+
+    div = page.find('div', attrs = {'class' : 'footer-pagination'})
+    if not div:
+        return False
+
+    try :
+        next_page_link =div.find('a', attrs = {'class' : 'sku-list-page-next'})
+        if next_page_link.get('href'):
+            return "https://www.bestbuy.com" + next_page_link.get('href')
+        else :
+            print("This is the last page.")
+            return False
+    except Exception as e:
+        logging.exception(e)
+        return False
 
 
 def get_seller_id(name):
     dotenv.load_dotenv()
     user = os.getenv('USER')
     passwd = os.getenv('PASSWD')
+    arg = os.getenv('CLUSTER_ARG')
 
     # connect to the mongodb database
     client = pymongo.MongoClient(
-        f"mongodb+srv://{user}:{passwd}@cluster0.x6statp.mongodb.net/?retryWrites=true&w=majority")
+        f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
 
     try :
         # tasks_db.productCategory
-        db = client['tasks_db']
-        table = db['productSellers']
+        db_name = settings.db_products
+        table_name = settings.products_sellers_table
+        db = client[db_name]
+        table = db[table_name]
 
         cursor = table.find({'sellerName' : 'BestBuy'})
         for document in cursor:
@@ -155,16 +175,14 @@ def get_discount_info(page):
         return None
 
 
-def get_all_details(url, category):
+def get_all_details(url):
     page = send_request.send_request(url)
-
 
     results = {}
 
     results['productID'] = get_product_id(page)
     results['productPrice'] = get_price(page)
     results['favoritedCount'] = get_rating(page)
-    #results['lastUpdate'] = str(datetime.timestamp(datetime.now()))
     results['productBrand'] = get_brand(page)
     results['productDescription'] = get_description(page)
 
@@ -173,7 +191,6 @@ def get_all_details(url, category):
     results['productLink'] = url
     results['productTitle'] = get_title(page)
     results['imageLink'] = get_product_imgs(page)
-
 
     discount = get_discount_info(page)
     if discount:

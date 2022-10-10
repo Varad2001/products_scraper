@@ -1,24 +1,61 @@
-import logging
-logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
+
 import dotenv
 import os
 import pymongo
+
+import settings
 from extractors import send_request
+import logging
+logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
+
+
+def next_page_amazon(page):
+
+    info_tag = page.find('div', attrs={"cel_widget_id" : "UPPER-RESULT_INFO_BAR-0"})
+    if info_tag:
+        info = info_tag.find('span').string.split(' ')
+        try :
+            current = info[0].split('-')[1]
+            current = current.replace(',',  '')
+        except Exception as e:
+            print("This is the only page...")
+            return 0
+
+        try :
+            final = info[2]
+            if final == 'over':
+                final = info[3].replace(',', '')
+        except Exception as e:
+            logging.exception(e)
+            return 0
+        print(current, final)
+        try :
+            if int(current) == int(final):
+                print("This is the last page..")
+                return 0
+            else :
+                return 1
+        except Exception as e:
+            logging.exception(e)
+            return 0
 
 
 def get_seller_id(name):
     dotenv.load_dotenv()
     user = os.getenv('USER')
     passwd = os.getenv('PASSWD')
+    arg =  os.getenv('CLUSTER_ARG')
 
     # connect to the mongodb database
     client = pymongo.MongoClient(
-        f"mongodb+srv://{user}:{passwd}@cluster0.x6statp.mongodb.net/?retryWrites=true&w=majority")
+        f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
 
     try :
         # tasks_db.productCategory
-        db = client['tasks_db']
-        table = db['productSellers']
+        db_name = settings.db_products
+        table_name = settings.products_category_table
+        db = client[db_name]
+        table = db[table_name]
 
         cursor = table.find({'sellerName' : 'NewEgg'})
         for document in cursor:
@@ -33,7 +70,7 @@ def get_titles_urls_on_page(page):
     print("Getting titles and urls of the sample items from amazon...")
     tags =  page.find_all('a', attrs={'class' : 'a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal'})
     results = []
-    #print(f"{len(tags)} 'a' tags found on this page.")
+
     for tag in tags:
         try :
             url = "https://www.amazon.com" + tag.get('href')
@@ -73,6 +110,7 @@ def get_title(page):
     except Exception as e:
         return None
 
+
 def get_price(page):
     price_tag = page.find('span', attrs={'class' : 'a-offscreen'})
     if price_tag == None:
@@ -101,6 +139,7 @@ def get_brand(page):
         except :
             continue
     return None
+
 
 def get_img_links(page):
     tag = page.find('div', attrs={'id' : 'altImages'})
@@ -150,15 +189,13 @@ def get_product_id(page):
     return None
 
 
-def get_all_details(url):      # queue : reserved for the future use of multiprocessing
+def get_all_details(url):
     page = send_request.send_request(url)
 
-
     results = dict()
-    #productID, productCategory, favoritedCount, lastUpdate, productBrand, productDescription,
+
     results['productID'] = get_product_id(page)
     results['productPrice'] =  get_price(page)
-    #results['productCategory'] = category
     results['favoritedCount'] = get_ratings(page)
     results['productBrand'] = get_brand(page)
     results['productDescription'] = get_description(page)
@@ -168,7 +205,6 @@ def get_all_details(url):      # queue : reserved for the future use of multipro
     results['productLink'] = url
     results['productTitle'] = get_title(page)
     results['imageLink'] = get_img_links(page)
-
 
     return results
 
