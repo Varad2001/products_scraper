@@ -9,15 +9,36 @@ import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
 
 
-def format_url(url):
-    url2 = url.split('//')[1].split('/')
-    result = url2[0]
-    for s in url2[1:4]:
-        result += f"/{s}"
+def format_url(url, str):
 
-    result = "https://" + result
+    if not str in url :
+        return 0
+    url_parts = url.split(str)
+
+    second_part = url_parts[1]
+
+    for i in range(len(second_part)):
+        if second_part[i] != '&':
+            continue
+        else:
+            second_part = second_part[i:]
+            break
+
+    result = url_parts[0] + second_part
 
     return result
+
+
+def get_formatted_url(url):
+    new_url = format_url(url, "&page=")
+    if new_url:
+        url = new_url
+
+    new_url = format_url(url, "&ref=sr_pg_")
+    if new_url:
+        url = new_url
+
+    return url
 
 
 def get_address_by_id(id):
@@ -150,5 +171,4 @@ def get_similarity_scores():
 
     cursor = list(table.find({}))
     return cursor[0]
-
 

@@ -27,12 +27,15 @@ def start_crawler():
         return jsonify(message="Begin_crawl failed as app settings could not be fetched.")
 
     categoryId = app_settings['amazonCategoryId']
+    bestbuy_url = helpers.get_formatted_url(app_settings['bestbuyUrl'])
+    newegg_url = helpers.get_formatted_url(app_settings['neweggUrl'])
 
-    urls = {'bestbuy' : app_settings['bestbuyUrl'],
-            'newegg' : app_settings['neweggUrl']}
+    urls = {'bestbuy' : bestbuy_url,
+            'newegg' : newegg_url}
 
     try :
         address, category = helpers.get_address_by_id(categoryId)
+        address = helpers.get_formatted_url(address)
 
     except Exception as e:
         print("Could not retrieve category address.")

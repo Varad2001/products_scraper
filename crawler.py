@@ -85,6 +85,7 @@ def crawl_sample_items(sample_url, queue):
     item_queue = queue
     page_num = 1
     finished = False
+
     print("\n-----Crawling sample items from amazon ----")
 
     while not finished:
