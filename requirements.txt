@@ -6,3 +6,4 @@ gunicorn
 pymongo[srv]
 python-dotenv
 sklearn
+redis
