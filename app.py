@@ -121,7 +121,6 @@ def get_data_by_brand():
 def get_item():
     try:
         item = session['data'].pop()
-        print(item)
     except IndexError :
         return render_template('final.html')
 
@@ -172,7 +171,7 @@ def delete():
         return redirect('/get_item')
 
 
-@app.route('/update_similarity', methods=["POST"])
+@app.route('/update_similarity', methods=["GET", "POST"])
 def update_similarity():
 
     update_similarity_scores()

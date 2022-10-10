@@ -8887,3 +8887,38 @@ werkzeug:WARNING:2022-10-10 14:35:54,119: * Debugger is active!
 werkzeug:INFO:2022-10-10 14:35:54,127: * Debugger PIN: 123-424-637
 werkzeug:INFO:2022-10-10 14:36:16,542: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\extractors\\send_request.py', reloading
 werkzeug:INFO:2022-10-10 14:36:16,994: * Restarting with stat
+werkzeug:INFO:2022-10-10 16:12:26,463:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-10 16:12:26,464:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-10 16:12:26,466: * Restarting with stat
+werkzeug:WARNING:2022-10-10 16:12:28,742: * Debugger is active!
+werkzeug:INFO:2022-10-10 16:12:28,751: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 16:13:05,730:127.0.0.1 - - [10/Oct/2022 16:13:05] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-10 16:13:05,739:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-10 16:13:06,840:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=1&ref=sr_pg_1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-10 16:13:07,819:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-10 16:13:08,621:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&ref=sr_nr_n_4&page=2&ref=sr_pg_2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-10 16:13:09,481:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-10 16:13:11,683:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-10 16:13:12,096:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-10 16:13:12,950:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-10 16:13:13,272:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-10 16:13:13,908:https://www.newegg.com:443 "GET /p/pl?N=100008225%20600030002&page=2 HTTP/1.1" 200 35713
+urllib3.connectionpool:DEBUG:2022-10-10 16:14:03,771:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-10 16:14:04,199:https://www.amazon.com:443 "GET /Dayton-Audio-T652-2-Way-Speaker/dp/B00Q3MG05S/ref=sr_1_2?qid=1665398586&rnid=172563&s=electronics&sr=1-2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-10 16:14:18,360:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-10 16:14:19,150:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 24964
+urllib3.connectionpool:DEBUG:2022-10-10 16:15:08,958:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-10 16:15:09,543:https://www.amazon.com:443 "GET /Dayton-Audio-T652-AIR-Speaker-Tweeter/dp/B07777GY34/ref=sr_1_3?qid=1665398586&rnid=172563&s=electronics&sr=1-3 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-10 16:15:23,584:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-10 16:15:24,284:https://www.newegg.com:443 "GET /p/0S6-00SH-00143 HTTP/1.1" 200 24964
+werkzeug:INFO:2022-10-10 16:16:18,388: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\test.py', reloading
+werkzeug:INFO:2022-10-10 16:16:19,098: * Restarting with stat
+werkzeug:WARNING:2022-10-10 16:16:22,203: * Debugger is active!
+werkzeug:INFO:2022-10-10 16:16:22,212: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-10 16:24:48,485:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-10 16:24:48,485:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-10 16:24:48,486: * Restarting with stat
+werkzeug:WARNING:2022-10-10 16:24:50,693: * Debugger is active!
+werkzeug:INFO:2022-10-10 16:24:50,701: * Debugger PIN: 123-424-637

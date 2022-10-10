@@ -28,7 +28,7 @@ def next_page_amazon(page):
         except Exception as e:
             logging.exception(e)
             return 0
-        print(current, final)
+        # print(current, final)
         try :
             if int(current) == int(final):
                 print("This is the last page..")

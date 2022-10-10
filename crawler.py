@@ -62,7 +62,7 @@ def crawl_new_items_from_bestbuy(queue, url):
         page = send_request.send_request(url)
         if not page:
             return
-        print(f"URL : {url}")
+        # print(f"URL : {url}")
 
         products = bestbuy.get_urls_and_titles(page)
         for product in products:
