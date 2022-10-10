@@ -62,7 +62,7 @@ def crawl_new_items_from_bestbuy(queue, url):
         page = send_request.send_request(url)
         if not page:
             return
-        #print(f"URL : {url}")
+        print(f"URL : {url}")
 
         products = bestbuy.get_urls_and_titles(page)
         for product in products:
@@ -154,14 +154,21 @@ def begin_crawling(address, categoryId, urls):
 
         print("\nSample item : ", sample_title)
 
-        similarity_scores = get_similarity_scores()
+        try :
+            similarity_scores = get_similarity_scores()
+        except Exception as e:
+            print("Could not fetch similarity scores.")
+            print(e)
+            return
+
         for item in new_products_newegg:
-            if check_similarity([sample_title, item['title']]) > \
-                    int(similarity_scores['titleScore']) / 100:
+
+            if check_similarity([sample_title, item['title']]) > int(similarity_scores['titleScore']) / 100:
                 if not sample_data:
                     sample_data = amazon.get_all_details(sample_product['url'])
 
                 item_data = newegg.get_all_details(item['url'])
+
                 if not (sample_data['productDescription'] == 'NA' or item_data['productDescription'] == 'NA'):
                     if check_similarity([sample_data['productDescription'], item_data['productDescription']]) > \
                             int(similarity_scores['descriptionScore']) / 100:
@@ -173,8 +180,8 @@ def begin_crawling(address, categoryId, urls):
 
 
         for item in new_products_bestbuy:
-            if check_similarity([sample_title, item['title']]) > \
-                    int(similarity_scores['titleScore']) / 100:
+
+            if check_similarity([sample_title, item['title']]) > int(similarity_scores['titleScore']) / 100:
                 if not sample_data:
                     sample_data = amazon.get_all_details(sample_product['url'])
 

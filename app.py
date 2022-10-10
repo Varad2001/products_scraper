@@ -1,11 +1,14 @@
 from flask import Flask, jsonify, render_template, request, session, redirect
 from flask_session import Session
 import threading
+
 from rating import get_data_by_id, store_user_ratings, delete_item, update_similarity_scores, get_data_by_brand_name
 from crawler import begin_crawling
-import redis_ops
+
 from updater import update_items
 from extractors import helpers
+
+import redis_ops
 import logging
 
 app = Flask(__name__)
@@ -16,36 +19,53 @@ Session(app)
 @app.route('/begin_crawl', methods=["POST", "GET"])
 def start_crawler():
 
-    categoryId = "6338422f02cdaa0d51efb354"
+    try:
+        app_settings = helpers.get_app_settings()
+    except Exception as e:
+        print('Could not fetch app settings.')
+        print(e)
+        return jsonify(message="Begin_crawl failed as app settings could not be fetched.")
 
-    urls = {'bestbuy' : 'https://www.bestbuy.com/site/speakers/floor-speakers/abcat0205003.c?id=abcat0205003',
-            'newegg' : 'https://www.newegg.com/p/pl?N=100008225%20600030002'}
+    categoryId = app_settings['amazonCategoryId']
+
+    urls = {'bestbuy' : app_settings['bestbuyUrl'],
+            'newegg' : app_settings['neweggUrl']}
 
     try :
         address, category = helpers.get_address_by_id(categoryId)
 
     except Exception as e:
-        logging.exception(e)
         print("Could not retrieve category address.")
-        return
+        print(e)
+        return jsonify(message="Begin_crawl failed as app settings could not be fetched.")
 
     if not address:
         print("No category address found for the given id.")
         return jsonify(message="NO category address url found.")
 
-    new_thread = threading.Thread(target=begin_crawling, args=(address, categoryId, urls))
-    new_thread.start()
+    try :
+        new_thread = threading.Thread(target=begin_crawling, args=(address, categoryId, urls))
+        new_thread.start()
 
-    return jsonify(message="Crawling process started.")
+        return jsonify(message="Crawling process started.")
+    except Exception as e:
+        print("Could not start crawling function.")
+        print(e)
+        return jsonify(message="Something went wrong. Please check the logs..")
 
 
 @app.route('/update', methods=["POST", "GET"])
 def update():
-    print("updating items...")
-    new_thread = threading.Thread(target=update_items)
-    new_thread.start()
+    try :
+        print("Updating items...")
+        new_thread = threading.Thread(target=update_items)
+        new_thread.start()
 
-    return jsonify(message="update began...")
+        return jsonify(message="Update began...")
+    except Exception  as e:
+        print("Could not start update function.")
+        print(e)
+        return jsonify(message="Something went wrong. Please check the logs.")
 
 
 @app.route('/index', methods=['POST', 'GET'])
@@ -56,35 +76,45 @@ def home():
 @app.route('/get_data_by_id', methods=['POST'])
 def get_data_by_id_value():
     if request.method == "POST":
-        id = request.form['id']
-        data = get_data_by_id(id)
-        session['data'] = data
-        session['total_items'] = len(data)
-        session['viewed_items'] = 0
-        session['updated_items'] = 0
-        session['rating_info'] = {
-            'titleScore' : 0,
-            'descriptionScore' : 0,
-            'imageScore' : 0
-        }
-        return redirect('/get_item')
+        try :
+            id = request.form['id']
+            data = get_data_by_id(id)
+            session['data'] = data
+            session['total_items'] = len(data)
+            session['viewed_items'] = 0
+            session['updated_items'] = 0
+            session['rating_info'] = {
+                'titleScore' : 0,
+                'descriptionScore' : 0,
+                'imageScore' : 0
+            }
+            return redirect('/get_item')
+        except Exception as e:
+            print("Getting data failed.")
+            print(e)
+            return jsonify(message='Something went wrong. Please check the logs.')
 
 
 @app.route('/get_data_by_brand', methods=['POST'])
 def get_data_by_brand():
     if request.method == "POST":
-        brand = request.form['brand']
-        data = get_data_by_brand_name(brand)
-        session['data'] = data
-        session['total_items'] = len(data)
-        session['viewed_items'] = 0
-        session['updated_items'] = 0
-        session['rating_info'] = {
-            'titleScore' : 0,
-            'descriptionScore' : 0,
-            'imageScore' : 0
-        }
-        return redirect('/get_item')
+        try :
+            brand = request.form['brand']
+            data = get_data_by_brand_name(brand)
+            session['data'] = data
+            session['total_items'] = len(data)
+            session['viewed_items'] = 0
+            session['updated_items'] = 0
+            session['rating_info'] = {
+                'titleScore' : 0,
+                'descriptionScore' : 0,
+                'imageScore' : 0
+            }
+            return redirect('/get_item')
+        except Exception as e:
+            print("Getting data failed.")
+            print(e)
+            return jsonify(message='Something went wrong. Please check the logs.')
 
 
 @app.route('/get_item', methods=['GET', 'POST'])
@@ -144,9 +174,11 @@ def delete():
 
 @app.route('/update_similarity', methods=["POST"])
 def update_similarity():
+
     update_similarity_scores()
     session['updates_items'] = 0
     session['rating_info'] = {}
+
 
 
 if __name__ == '__main__' :

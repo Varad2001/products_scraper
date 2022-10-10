@@ -50,6 +50,27 @@ def get_address_by_id(id):
             return None, None
 
 
+def get_app_settings():
+    dotenv.load_dotenv()
+    user = os.getenv('USER')
+    passwd = os.getenv('PASSWD')
+    arg = os.getenv('CLUSTER_ARG')
+
+    # connect to the mongodb database
+    client = pymongo.MongoClient(
+        f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
+
+    # tasks_db.productCategory
+    db_name = settings.db_settings
+    table_name = "settings"
+    db = client[db_name]
+    table = db[table_name]
+
+    setting = list(table.find({}).limit(1))[0]
+
+    return setting
+
+
 def store_data(queue, category):
     while not queue.empty():
         try :
@@ -129,4 +150,5 @@ def get_similarity_scores():
 
     cursor = list(table.find({}))
     return cursor[0]
+
 
