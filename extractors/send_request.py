@@ -9,7 +9,7 @@ logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)
 # get proxy from scraperapi
 def get_proxy():
     proxies =  {
-  "http": "http://scraperapi:e64ba69d552fdfcc057457832473e72b@proxy-server.scraperapi.com:8001"
+  "http": "http://scraperapi.render=true.country_code=us:e64ba69d552fdfcc057457832473e72b@proxy-server.scraperapi.com:8001"
     }
 
     return proxies

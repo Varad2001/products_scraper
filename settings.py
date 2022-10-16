@@ -9,7 +9,6 @@ products_sellers_table = "productSellers"
 
 # database details where ratings info is stored
 db_rating = "ratings"
-settings_table = "settings"
 userRating_table = "userRating"
 
 

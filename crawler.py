@@ -7,7 +7,7 @@ from similarity_checker import check_similarity
 
 from extractors import newegg, bestbuy
 from extractors import amazon
-from extractors.helpers import store_data, product_already_in_database, get_similarity_scores
+from extractors.helpers import store_data, product_already_in_database, get_similarity_scores, get_important_text
 
 import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
@@ -93,7 +93,6 @@ def crawl_sample_items(sample_url, queue):
         current_url = url + f"&page={page_num}" + f"&ref=sr_pg_{page_num}"
         print(f"Going to url : {current_url}")
 
-        #page = send_request.send_request(current_url)
         page = send_request.send_request(current_url)
 
         if not page:
@@ -114,34 +113,27 @@ def crawl_sample_items(sample_url, queue):
     print(f"----Finished crawling sample items. Extracted : {item_queue.qsize()}----\n")
 
 
-def begin_crawling(address, categoryId, urls):
+def begin_crawling(address, categoryId):
 
     sample_url = address
-    bestbuy_url = urls['bestbuy']
-    newegg_url = urls['newegg']
 
     sample_products = Queue()           # store sample products from amazon
     new_products_newegg = list()        # store new items extracted from Newegg.com
     new_products_bestbuy = list()       # store new items extracted from Bestbuy.com
     items_to_be_inserted = Queue()      # store items that are to be inserted in the database
 
-    sample_crawler = threading.Thread(target=crawl_sample_items, args=(sample_url, sample_products))
-    #crawl_sample_items(sample_url, sample_products)
-    sample_crawler.start()
-    sample_crawler.join()
+    # get similarity scores
+    try:
+        similarity_scores = get_similarity_scores()
+    except Exception as e:
+        print("Could not fetch similarity scores.")
+        print(e)
+        return
 
-    #crawl_new_items_from_newegg(new_products_newegg, newegg_url)
-    newegg_crawler = threading.Thread(target=crawl_new_items_from_newegg, args=(new_products_newegg, newegg_url))
-    newegg_crawler.start()
-    newegg_crawler.join()
+    # extract sample items from amazon
+    crawl_sample_items(sample_url, sample_products)
 
-    #crawl_new_items_from_bestbuy(new_products_bestbuy, bestbuy_url)
-    bestbuy_crawler = threading.Thread(target=crawl_new_items_from_bestbuy, args=(new_products_bestbuy, bestbuy_url))
-    bestbuy_crawler.start()
-    bestbuy_crawler.join()
-
-
-    print("\n------Starting comparisons....------")
+    print("-----Processing each sample item...------")
     while not sample_products.empty():
         sample_product = sample_products.get()
 
@@ -153,14 +145,29 @@ def begin_crawling(address, categoryId, urls):
         sample_data = None
         similar_items = []
 
-        print("\nSample item : ", sample_title)
-
+        # extract important part of the title
         try :
-            similarity_scores = get_similarity_scores()
+            keywords = get_important_text(sample_title)
+            keywords = keywords[0] + ' ' + keywords[1]
         except Exception as e:
-            print("Could not fetch similarity scores.")
+            print("Could not extract important parts from title. Using sample title as keywords...")
+            keywords = sample_title
+
+        # generate urls for searching this keyword in the search boxes of other sites
+        try:
+            bestbuy_url = bestbuy.get_bestbuy_url(keywords)
+            newegg_url = newegg.get_newegg_url(keywords)
+        except Exception as  e:
+            print("Could not generate urls for searching due to the following error.")
             print(e)
             return
+
+        # extract items from search results
+        crawl_new_items_from_newegg(new_products_newegg, newegg_url)
+        crawl_new_items_from_bestbuy(new_products_bestbuy, bestbuy_url)
+
+        # now the items have been extracted,
+        print("\nSample item : ", sample_title)
 
         for item in new_products_newegg:
 

@@ -3,9 +3,15 @@ import dotenv
 import pymongo
 from extractors import send_request
 import settings
-
 import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
+
+
+def get_bestbuy_url(keywords):
+    search_url = "https://www.bestbuy.com/site/searchpage.jsp?st="
+    keywords = keywords.replace(' ' , '+')
+    url = search_url + keywords
+    return url
 
 
 def next_page_bestbuy(page):

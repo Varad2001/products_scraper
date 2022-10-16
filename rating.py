@@ -118,24 +118,22 @@ def update_similarity_scores():
         total_ratings['descriptionRating'] += int(rating['descriptionRating'])
         total_ratings['imageRating'] += int(rating['imageRating'])
 
-    scores_table = db[settings.settings_table]
-
-    similarity_scores = list(scores_table.find({}))[0]
-    id = similarity_scores['_id']
-    del similarity_scores['_id']
-
+    db = client[settings.db_settings]
+    scores_table = db['settings']
+    scores = list(scores_table.find({}).limit(1))[0]
+    id = scores['_id']
+    similarity_scores = scores['similarityScores']
     if total_ratings['titleRating'] <= 50 :
-        similarity_scores['titleScore'] += 1
+        similarity_scores['titleScore'] = 1 + int(similarity_scores['titleScore'])
     if total_ratings['descriptionRating'] <= 50:
-        similarity_scores['descriptionScore'] += 1
+        similarity_scores['descriptionScore'] = 1 + int(similarity_scores['descriptionScore'])
     if total_ratings['imageRating'] <= 50:
-        similarity_scores['imageScore'] += 1
+        similarity_scores['imageScore'] = 1 + int(similarity_scores['imageScore'])
 
     scores_table.update_one(
         {'_id' : id},
-        {'$set' : {'titleScore' : similarity_scores['titleScore'],
-                   'descriptionScore' : similarity_scores['descriptionScore'],
-                   'imageScore' : similarity_scores['imageScore']}}
+        {'$set' : {'similarityScores' : similarity_scores}
+         }
     )
 
 
@@ -188,3 +186,4 @@ def get_data_by_brand_name(brand):
     return results
 
 
+update_similarity_scores()

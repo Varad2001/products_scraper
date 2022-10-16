@@ -10,6 +10,11 @@ logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)
 
 
 def next_page_amazon(page):
+    """
+
+    :param page:
+    :return: Returns if there is any next page on amazon
+    """
 
     info_tag = page.find('div', attrs={"cel_widget_id" : "UPPER-RESULT_INFO_BAR-0"})
     if info_tag:

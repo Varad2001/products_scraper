@@ -9,6 +9,13 @@ import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
 
 
+def get_newegg_url(keywords):
+    search_url = "https://www.newegg.com/p/pl?d="
+    keywords = keywords.replace(' ' , '+')
+    url = search_url + keywords
+    return url
+
+
 def get_seller_id(name):
     dotenv.load_dotenv()
     user = os.getenv('USER')

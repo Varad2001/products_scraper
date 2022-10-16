@@ -4,9 +4,19 @@ import os
 import pymongo
 from bson import ObjectId
 from datetime import datetime
+from rake_nltk import Rake
+import nltk
 import settings
 import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
+
+
+def get_important_text(text):
+    nltk.download('stopwords')
+    nltk.download('punkt')
+    r = Rake()
+    r.extract_keywords_from_text(text)
+    return r.get_ranked_phrases()
 
 
 def format_url(url, str):
@@ -163,12 +173,12 @@ def get_similarity_scores():
     client = pymongo.MongoClient(
         f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
 
-    db_name = settings.db_rating
-    table_name = settings.settings_table
+    db_name = settings.db_settings
+    table_name = 'settings'
 
     db= client[db_name]
     table = db[table_name]
 
     cursor = list(table.find({}))
-    return cursor[0]
+    return cursor[0]['similarityScores']
 
