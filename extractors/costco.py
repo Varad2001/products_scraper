@@ -84,7 +84,6 @@ def get_price(page):
         return None
 
 
-
 def get_ratings(page):
     rating_tag = page.find('div' , attrs={"itemprop" : "ratingValue"})
     tag = page.find('span', attrs={'class' : 'bv-rating'})
@@ -122,8 +121,6 @@ def get_description(page):
             except :
                 continue
         return desc
-
-
 
 
 def get_discount_info(page):
@@ -172,21 +169,15 @@ def get_all_details(url, queue, category):
     return results
 
 
-
-
-url = "https://www.costco.com/home-theater-systems.html"
+"""url = "https://www.costco.com/home-theater-systems.html"
 url2 = "https://www.costco.com/klipsch-the-fives-speaker%2c-2-pack.product.100800459.html"
 url3 = "https://www.costco.com/jbl-bar-5.1-channel-soundbar-multibeam%e2%84%a2-sound-technology.product.100982543.html"
 url4 = "https://www.costco.com/klipsch-reference-dolby-atmos-5.0.2-home-theater-system.product.100665767.html"
 
-#page = send_request(url4)
-from requests_html import HTMLSession
-session = HTMLSession()
-r = session.get(url4)
-r.html.render()
-page = BeautifulSoup(r.content, "html.parser")
-#page = send_request(url4)
+page = send_request(url4)
+time.sleep(1)
 #print(find_urls_and_titles_on_page(page))
 #print(get_product_id(page))
 #print(get_title(page))
-print(get_price(page))
+
+print(get_price(page))"""

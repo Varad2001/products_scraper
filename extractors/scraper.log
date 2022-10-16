@@ -89,3 +89,25 @@ Traceback (most recent call last):
   File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\amazon.py", line 82, in get_price
     price = float(price_tag.string.replace('$', ''))
 ValueError: could not convert string to float: 'Page 1 of 1  '
+urllib3.connectionpool:DEBUG:2022-10-16 16:10:32,738:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-16 16:10:34,442:https://www.costco.com:443 "GET /klipsch-reference-dolby-atmos-5.0.2-home-theater-system.product.100665767.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-16 16:10:43,674:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-16 16:10:45,390:https://www.costco.com:443 "GET /home-theater-systems.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-16 16:11:01,220:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-16 16:11:04,115:https://www.costco.com:443 "GET /klipsch-the-fives-speaker%2C-2-pack.product.100800459.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-16 16:11:09,685:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-16 16:11:12,803:https://www.costco.com:443 "GET /jbl-bar-5.1-channel-soundbar-multibeam%E2%84%A2-sound-technology.product.100982543.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-16 16:11:18,253:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-16 16:11:18,912:https://www.costco.com:443 "GET /klipsch-reference-dolby-atmos-5.0.2-home-theater-system.product.100665767.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-16 16:11:25,856:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-16 16:11:26,060:https://www.costco.com:443 "GET /klipsch-reference-dolby-atmos-5.0.2-home-theater-system.product.100665767.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-16 16:11:31,450:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-16 16:11:34,671:https://www.costco.com:443 "GET /jbl-bar-5.1-channel-soundbar-multibeam%E2%84%A2-sound-technology.product.100982543.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-16 16:11:42,589:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-16 16:11:42,690:https://www.costco.com:443 "GET /jbl-bar-5.1-channel-soundbar-multibeam%E2%84%A2-sound-technology.product.100982543.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-16 16:16:37,899:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-16 16:16:40,683:https://www.costco.com:443 "GET /jbl-bar-5.1-channel-soundbar-multibeam%E2%84%A2-sound-technology.product.100982543.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-16 16:16:49,386:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-16 16:16:50,435:https://www.costco.com:443 "GET /klipsch-the-fives-speaker%2C-2-pack.product.100800459.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-16 16:17:16,377:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-16 16:17:16,683:https://www.costco.com:443 "GET /klipsch-reference-dolby-atmos-5.0.2-home-theater-system.product.100665767.html HTTP/1.1" 200 None

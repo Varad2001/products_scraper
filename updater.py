@@ -7,6 +7,7 @@ from datetime import datetime
 from queue import Queue
 from multiprocessing import Pool
 from extractors import newegg, amazon, bestbuy
+from extractors.helpers import get_app_settings
 import settings
 
 
@@ -33,7 +34,7 @@ def update_items():
         return
 
     cursor = list(table.find({}))
-    max_threads = 4
+    max_threads = get_app_settings()['max_threads']
     pool = Pool(max_threads)
     procs = []
 
