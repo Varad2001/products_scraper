@@ -8,12 +8,12 @@ products_sellers_table = "productSellers"
 
 
 # database details where ratings info is stored
-db_rating = "ratings"
+db_rating = "tasks_db"
 userRating_table = "userRating"
 
 
 # database where app settings are stored
-db_settings = "app_settings"
+db_settings = "tasks_db"
 
 
 

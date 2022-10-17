@@ -122,7 +122,7 @@ def get_price(page):
     if price_tag:
         try:
             price = price_tag.strong.string + price_tag.sup.string
-            return price
+            return price.replace(', ', '')
         except:
             return None
     else :

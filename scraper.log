@@ -9908,3 +9908,488 @@ urllib3.connectionpool:DEBUG:2022-10-16 15:32:30,263:Starting new HTTPS connecti
 urllib3.connectionpool:DEBUG:2022-10-16 15:32:30,345:https://www.newegg.com:443 "GET /p/0TF-0319-00062?Description=paper%20speaker%20cone%20subwoofer%20cones%20drum%20paper%200%20uxcell%202&cm_re=paper_speaker%20cone%20subwoofer%20cones%20drum%20paper%200%20uxcell%202-_-0TF-0319-00062-_-Product HTTP/1.1" 200 23094
 urllib3.connectionpool:DEBUG:2022-10-16 15:32:30,755:https://www.newegg.com:443 "GET /p/0S6-007V-001T2?Description=paper%20speaker%20cone%20subwoofer%20drum%20paper%202%202%20foam%20surround&cm_re=paper_speaker%20cone%20subwoofer%20drum%20paper%202%202%20foam%20surround-_-9SIA27CEC44039-_-Product HTTP/1.1" 200 23110
 urllib3.connectionpool:DEBUG:2022-10-16 15:32:31,465:https://www.newegg.com:443 "GET /p/0S6-007V-00054?Description=paper%20speaker%20cone%20subwoofer%20drum%20paper%202%202%20foam%20surround&cm_re=paper_speaker%20cone%20subwoofer%20drum%20paper%202%202%20foam%20surround-_-9SIA27CHG60435-_-Product HTTP/1.1" 200 23089
+werkzeug:INFO:2022-10-17 15:42:06,234:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-17 15:42:06,235:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-17 15:42:06,237: * Restarting with stat
+werkzeug:WARNING:2022-10-17 15:42:21,791: * Debugger is active!
+werkzeug:INFO:2022-10-17 15:42:21,810: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-17 15:42:21,830:127.0.0.1 - - [17/Oct/2022 15:42:21] "[33mGET / HTTP/1.1[0m" 404 -
+werkzeug:INFO:2022-10-17 15:42:21,914:127.0.0.1 - - [17/Oct/2022 15:42:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+werkzeug:INFO:2022-10-17 15:42:50,279:127.0.0.1 - - [17/Oct/2022 15:42:50] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:02,754:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:03,478:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&page=1&ref=sr_pg_1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:04,199:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:04,731:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&page=2&ref=sr_pg_2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:18,332:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:19,545:https://www.newegg.com:443 "GET /p/pl?d=high+power+audio+300w+sound+tower HTTP/1.1" 200 30657
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:19,636:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:21,060:https://www.newegg.com:443 "GET /p/pl?d=high+power+audio+300w+sound+tower&page=1 HTTP/1.1" 200 30637
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:21,139:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:26,530:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:26,748:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:32,504:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=2&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:32,815:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:37,683:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=3&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:37,972:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:42,584:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=4&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:42,885:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:48,656:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=5&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:48,932:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:53,472:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=6&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:53,821:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:43:54,228:https://www.amazon.com:443 "GET /Samsung-MX-T40-Sound-Tower-Power/dp/B08WZFC7MV/ref=sr_1_1?qid=1666001583&rnid=172563&s=electronics&sr=1-1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:44:09,072:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:44:09,816:https://www.newegg.com:443 "GET /samsung-mx-t40-za/p/N82E16886508419?Description=high%20power%20audio%20300w%20sound%20tower&cm_re=high_power%20audio%20300w%20sound%20tower-_-86-508-419-_-Product HTTP/1.1" 200 23113
+urllib3.connectionpool:DEBUG:2022-10-17 15:44:22,260:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:44:22,946:https://www.newegg.com:443 "GET /samsung-mx-t40-sound-tower/p/0S6-0009-001G2?Description=high%20power%20audio%20300w%20sound%20tower&cm_re=high_power%20audio%20300w%20sound%20tower-_-9SIA3YFHPS6936-_-Product HTTP/1.1" 200 22660
+urllib3.connectionpool:DEBUG:2022-10-17 15:44:35,384:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:44:36,022:https://www.newegg.com:443 "GET /p/0G7-0019-000G0?Description=high%20power%20audio%20300w%20sound%20tower&cm_re=high_power%20audio%20300w%20sound%20tower-_-9SIAJ7WGZG4414-_-Product HTTP/1.1" 200 22558
+urllib3.connectionpool:DEBUG:2022-10-17 15:44:48,521:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:44:49,127:https://www.newegg.com:443 "GET /p/0NW-019D-00V49?Description=high%20power%20audio%20300w%20sound%20tower&cm_re=high_power%20audio%20300w%20sound%20tower-_-9SIAT52JJR6839-_-Product HTTP/1.1" 200 21152
+urllib3.connectionpool:DEBUG:2022-10-17 15:45:01,580:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:45:02,107:https://www.bestbuy.com:443 "GET /site/samsung-mx-st90b-sound-tower-high-power-audio-1700w-black/6514564.p?skuId=6514564 HTTP/1.1" 200 1652
+urllib3.connectionpool:DEBUG:2022-10-17 15:45:14,622:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:45:15,270:https://www.bestbuy.com:443 "GET /site/samsung-mx-t40-2ch-sound-tower-with-high-power-audio-black/6455177.p?skuId=6455177 HTTP/1.1" 200 1652
+werkzeug:INFO:2022-10-17 15:46:42,217: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\crawler.py', reloading
+werkzeug:INFO:2022-10-17 15:46:43,016: * Restarting with stat
+werkzeug:WARNING:2022-10-17 15:47:01,852: * Debugger is active!
+werkzeug:INFO:2022-10-17 15:47:01,859: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-17 15:48:00,654: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\extractors\\helpers.py', reloading
+werkzeug:INFO:2022-10-17 15:48:00,976: * Restarting with stat
+werkzeug:INFO:2022-10-17 15:48:31,454:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-17 15:48:31,455:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-17 15:48:31,456: * Restarting with stat
+werkzeug:WARNING:2022-10-17 15:48:48,826: * Debugger is active!
+werkzeug:INFO:2022-10-17 15:48:48,834: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-17 15:49:13,829:127.0.0.1 - - [17/Oct/2022 15:49:13] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-17 15:49:26,317:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:49:26,989:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&page=1&ref=sr_pg_1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:49:27,891:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:49:28,466:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&page=2&ref=sr_pg_2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:49:42,282:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:49:43,635:https://www.newegg.com:443 "GET /p/pl?d=high+power+audio+300w+sound+tower HTTP/1.1" 200 30634
+urllib3.connectionpool:DEBUG:2022-10-17 15:49:43,737:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:49:44,486:https://www.newegg.com:443 "GET /p/pl?d=high+power+audio+300w+sound+tower&page=1 HTTP/1.1" 200 30637
+urllib3.connectionpool:DEBUG:2022-10-17 15:49:44,626:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:49:49,228:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:49:49,609:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:49:54,488:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=2&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:49:54,743:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:49:59,435:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=3&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:49:59,695:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:50:02,888:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=4&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:50:03,085:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:50:06,387:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=5&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:50:06,589:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:50:11,502:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=6&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:50:11,776:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:50:12,308:https://www.amazon.com:443 "GET /Samsung-MX-T40-Sound-Tower-Power/dp/B08WZFC7MV/ref=sr_1_1?qid=1666001966&rnid=172563&s=electronics&sr=1-1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:50:27,114:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:50:27,518:https://www.newegg.com:443 "GET /samsung-mx-t40-za/p/N82E16886508419?Description=high%20power%20audio%20300w%20sound%20tower&cm_re=high_power%20audio%20300w%20sound%20tower-_-86-508-419-_-Product HTTP/1.1" 200 23113
+urllib3.connectionpool:DEBUG:2022-10-17 15:50:40,043:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:50:40,422:https://www.newegg.com:443 "GET /samsung-mx-t40-sound-tower/p/0S6-0009-001G2?Description=high%20power%20audio%20300w%20sound%20tower&cm_re=high_power%20audio%20300w%20sound%20tower-_-9SIA3YFHPS6936-_-Product HTTP/1.1" 200 22660
+urllib3.connectionpool:DEBUG:2022-10-17 15:50:52,868:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:50:53,263:https://www.newegg.com:443 "GET /p/0G7-0019-000G0?Description=high%20power%20audio%20300w%20sound%20tower&cm_re=high_power%20audio%20300w%20sound%20tower-_-9SIAJ7WGZG4414-_-Product HTTP/1.1" 200 22558
+urllib3.connectionpool:DEBUG:2022-10-17 15:51:05,783:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:51:06,141:https://www.newegg.com:443 "GET /p/0NW-019D-00V49?Description=high%20power%20audio%20300w%20sound%20tower&cm_re=high_power%20audio%20300w%20sound%20tower-_-9SIAT52JJR6839-_-Product HTTP/1.1" 200 21833
+urllib3.connectionpool:DEBUG:2022-10-17 15:51:18,586:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:51:18,972:https://www.bestbuy.com:443 "GET /site/samsung-mx-t40-2ch-sound-tower-with-high-power-audio-black/6455177.p?skuId=6455177 HTTP/1.1" 200 1652
+urllib3.connectionpool:DEBUG:2022-10-17 15:51:56,731:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:51:57,886:https://www.newegg.com:443 "GET /p/pl?d=dayton+audio+t652+dual+6+way+tower+speaker+pair HTTP/1.1" 200 20905
+urllib3.connectionpool:DEBUG:2022-10-17 15:51:57,925:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:51:58,591:https://www.newegg.com:443 "GET /p/pl?d=dayton+audio+t652+dual+6+way+tower+speaker+pair&page=1 HTTP/1.1" 200 20909
+urllib3.connectionpool:DEBUG:2022-10-17 15:51:58,642:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:52:03,292:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=dayton+audio+t652+dual+6+way+tower+speaker+pair&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:52:03,554:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:52:36,088:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=2&id=pcat17071&st=dayton+audio+t652+dual+6+way+tower+speaker+pair&intl=nosplash HTTP/1.1" 500 243363
+urllib3.connectionpool:DEBUG:2022-10-17 15:52:36,181:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:52:37,156:https://www.amazon.com:443 "GET /Dayton-Audio-T652-2-Way-Speaker/dp/B00Q3MG05S/ref=sr_1_2?qid=1666001966&rnid=172563&s=electronics&sr=1-2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:52:52,116:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:52:53,002:https://www.newegg.com:443 "GET /dayton-audio-t652/p/0S6-00SH-00036?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-0S6-00SH-00036-_-Product HTTP/1.1" 200 24093
+urllib3.connectionpool:DEBUG:2022-10-17 15:53:05,443:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:53:06,129:https://www.newegg.com:443 "GET /p/0S6-00SH-00143?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-0S6-00SH-00143-_-Product HTTP/1.1" 200 24932
+urllib3.connectionpool:DEBUG:2022-10-17 15:53:18,598:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:53:19,226:https://www.newegg.com:443 "GET /p/12K-02BD-00170?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-9SIAU2EHPG7481-_-Product HTTP/1.1" 200 21896
+urllib3.connectionpool:DEBUG:2022-10-17 15:53:31,685:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:53:32,759:https://www.newegg.com:443 "GET /p/12K-02BD-00136?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-9SIA6U2HGW7950-_-Product HTTP/1.1" 200 22300
+urllib3.connectionpool:DEBUG:2022-10-17 15:53:45,228:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:53:45,905:https://www.newegg.com:443 "GET /p/12K-02BD-00171?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-12K-02BD-00171-_-Product HTTP/1.1" 200 22908
+urllib3.connectionpool:DEBUG:2022-10-17 15:54:23,511:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:54:24,654:https://www.newegg.com:443 "GET /p/pl?d=way+tower+speaker+pair+dayton+audio+t652 HTTP/1.1" 200 20867
+urllib3.connectionpool:DEBUG:2022-10-17 15:54:24,706:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:54:25,562:https://www.newegg.com:443 "GET /p/pl?d=way+tower+speaker+pair+dayton+audio+t652&page=1 HTTP/1.1" 200 20871
+urllib3.connectionpool:DEBUG:2022-10-17 15:54:25,614:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:54:30,117:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=way+tower+speaker+pair+dayton+audio+t652&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:54:30,309:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:54:30,951:https://www.amazon.com:443 "GET /Dayton-Audio-T652-AIR-Speaker-Tweeter/dp/B07777GY34/ref=sr_1_3?qid=1666001966&rnid=172563&s=electronics&sr=1-3 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:54:46,258:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:54:47,036:https://www.newegg.com:443 "GET /dayton-audio-t652/p/0S6-00SH-00036?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-0S6-00SH-00036-_-Product HTTP/1.1" 200 25121
+urllib3.connectionpool:DEBUG:2022-10-17 15:54:59,502:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:55:00,513:https://www.newegg.com:443 "GET /p/0S6-00SH-00143?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-0S6-00SH-00143-_-Product HTTP/1.1" 200 24053
+urllib3.connectionpool:DEBUG:2022-10-17 15:55:12,974:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:55:13,603:https://www.newegg.com:443 "GET /p/12K-02BD-00170?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-9SIAU2EHPG7481-_-Product HTTP/1.1" 200 21896
+urllib3.connectionpool:DEBUG:2022-10-17 15:55:26,011:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:55:26,652:https://www.newegg.com:443 "GET /p/12K-02BD-00136?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-9SIA6U2HGW7950-_-Product HTTP/1.1" 200 22300
+urllib3.connectionpool:DEBUG:2022-10-17 15:55:39,172:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:55:39,833:https://www.newegg.com:443 "GET /p/12K-02BD-00171?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-12K-02BD-00171-_-Product HTTP/1.1" 200 21896
+urllib3.connectionpool:DEBUG:2022-10-17 15:55:52,316:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:55:53,045:https://www.newegg.com:443 "GET /p/12K-02BD-00170?Description=way%20tower%20speaker%20pair%20dayton%20audio%20t652&cm_re=way_tower%20speaker%20pair%20dayton%20audio%20t652-_-9SIAU2EHPG7481-_-Product HTTP/1.1" 200 20923
+urllib3.connectionpool:DEBUG:2022-10-17 15:56:05,550:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:56:06,604:https://www.newegg.com:443 "GET /p/12K-02BD-00136?Description=way%20tower%20speaker%20pair%20dayton%20audio%20t652&cm_re=way_tower%20speaker%20pair%20dayton%20audio%20t652-_-9SIA6U2HGW7950-_-Product HTTP/1.1" 200 22297
+urllib3.connectionpool:DEBUG:2022-10-17 15:56:19,025:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:56:19,628:https://www.newegg.com:443 "GET /dayton-audio-t652/p/0S6-00SH-00036?Description=way%20tower%20speaker%20pair%20dayton%20audio%20t652&cm_re=way_tower%20speaker%20pair%20dayton%20audio%20t652-_-0S6-00SH-00036-_-Product HTTP/1.1" 200 24078
+urllib3.connectionpool:DEBUG:2022-10-17 15:56:32,111:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:56:32,455:https://www.newegg.com:443 "GET /p/0S6-00SH-00143?Description=way%20tower%20speaker%20pair%20dayton%20audio%20t652&cm_re=way_tower%20speaker%20pair%20dayton%20audio%20t652-_-0S6-00SH-00143-_-Product HTTP/1.1" 200 24420
+urllib3.connectionpool:DEBUG:2022-10-17 15:56:44,892:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:56:45,248:https://www.newegg.com:443 "GET /p/12K-02BD-00171?Description=way%20tower%20speaker%20pair%20dayton%20audio%20t652&cm_re=way_tower%20speaker%20pair%20dayton%20audio%20t652-_-12K-02BD-00171-_-Product HTTP/1.1" 200 22908
+urllib3.connectionpool:DEBUG:2022-10-17 15:57:22,776:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:57:23,922:https://www.newegg.com:443 "GET /p/pl?d=standing+pyle HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:57:24,030:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:57:24,985:https://www.newegg.com:443 "GET /p/pl?d=standing+pyle&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:57:25,105:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:57:29,055:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=standing+pyle&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:57:29,239:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:57:30,209:https://www.amazon.com:443 "GET /Pyle-PSUFM1035A-Black-Floor-Standing/dp/B00EM7C89I/ref=sr_1_4?qid=1666001966&rnid=172563&s=electronics&sr=1-4 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 15:57:44,581:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:57:45,200:https://www.newegg.com:443 "GET /p/1B4-00C8-00147?Description=standing%20pyle&cm_re=standing_pyle-_-9SIAU2EHAM3432-_-Product HTTP/1.1" 200 23818
+urllib3.connectionpool:DEBUG:2022-10-17 15:58:22,917:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:58:23,917:https://www.newegg.com:443 "GET /p/pl?d=way+floor+speaker+28+dual+8 HTTP/1.1" 200 21119
+urllib3.connectionpool:DEBUG:2022-10-17 15:58:23,978:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 15:58:24,817:https://www.newegg.com:443 "GET /p/pl?d=way+floor+speaker+28+dual+8&page=1 HTTP/1.1" 200 21124
+urllib3.connectionpool:DEBUG:2022-10-17 15:58:24,858:Starting new HTTPS connection (1): www.bestbuy.com:443
+werkzeug:INFO:2022-10-17 15:58:48,146: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\crawler.py', reloading
+werkzeug:INFO:2022-10-17 15:58:48,519: * Restarting with stat
+werkzeug:INFO:2022-10-17 16:01:21,321:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-17 16:01:21,321:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-17 16:01:21,323: * Restarting with stat
+werkzeug:WARNING:2022-10-17 16:01:36,676: * Debugger is active!
+werkzeug:INFO:2022-10-17 16:01:36,685: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-17 16:02:01,626:127.0.0.1 - - [17/Oct/2022 16:02:01] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:13,994:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:14,734:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&page=1&ref=sr_pg_1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:15,250:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:15,755:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&page=2&ref=sr_pg_2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:29,128:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:32,296:https://www.newegg.com:443 "GET /p/pl?d=high+power+audio+300w+sound+tower HTTP/1.1" 200 30658
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:32,376:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:33,379:https://www.newegg.com:443 "GET /p/pl?d=high+power+audio+300w+sound+tower&page=1 HTTP/1.1" 200 30765
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:33,461:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:37,302:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:37,657:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:40,241:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=2&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:40,579:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:45,031:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=3&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:45,309:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:50,656:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=4&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:51,043:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:54,015:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=5&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:54,378:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:59,223:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=6&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:02:59,584:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:03:00,191:https://www.amazon.com:443 "GET /Samsung-MX-T40-Sound-Tower-Power/dp/B08WZFC7MV/ref=sr_1_1?qid=1666002734&rnid=172563&s=electronics&sr=1-1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:03:14,958:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:03:15,592:https://www.newegg.com:443 "GET /samsung-mx-t40-sound-tower/p/0S6-0009-001G2?Description=high%20power%20audio%20300w%20sound%20tower&cm_re=high_power%20audio%20300w%20sound%20tower-_-9SIA3YFHPS6936-_-Product HTTP/1.1" 200 21943
+urllib3.connectionpool:DEBUG:2022-10-17 16:03:28,061:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:03:28,759:https://www.newegg.com:443 "GET /p/0G7-0019-000G0?Description=high%20power%20audio%20300w%20sound%20tower&cm_re=high_power%20audio%20300w%20sound%20tower-_-9SIAJ7WGZG4414-_-Product HTTP/1.1" 200 23317
+urllib3.connectionpool:DEBUG:2022-10-17 16:03:41,337:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:03:41,958:https://www.bestbuy.com:443 "GET /site/samsung-mx-t40-2ch-sound-tower-with-high-power-audio-black/6455177.p?skuId=6455177 HTTP/1.1" 200 1652
+urllib3.connectionpool:DEBUG:2022-10-17 16:04:06,956:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:04:07,699:https://www.newegg.com:443 "GET /p/pl?d=dayton+audio+t652+dual+6+way+tower+speaker+pair HTTP/1.1" 200 20905
+urllib3.connectionpool:DEBUG:2022-10-17 16:04:07,753:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:04:08,527:https://www.newegg.com:443 "GET /p/pl?d=dayton+audio+t652+dual+6+way+tower+speaker+pair&page=1 HTTP/1.1" 200 20933
+urllib3.connectionpool:DEBUG:2022-10-17 16:04:08,573:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:04:11,810:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=dayton+audio+t652+dual+6+way+tower+speaker+pair&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:04:11,965:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:04:16,666:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=2&id=pcat17071&st=dayton+audio+t652+dual+6+way+tower+speaker+pair&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:04:16,908:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:04:17,313:https://www.amazon.com:443 "GET /Dayton-Audio-T652-2-Way-Speaker/dp/B00Q3MG05S/ref=sr_1_2?qid=1666002734&rnid=172563&s=electronics&sr=1-2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:04:32,107:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:04:32,513:https://www.newegg.com:443 "GET /dayton-audio-t652/p/0S6-00SH-00036?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-0S6-00SH-00036-_-Product HTTP/1.1" 200 25121
+urllib3.connectionpool:DEBUG:2022-10-17 16:04:44,993:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:04:45,698:https://www.newegg.com:443 "GET /p/0S6-00SH-00143?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-0S6-00SH-00143-_-Product HTTP/1.1" 200 24053
+urllib3.connectionpool:DEBUG:2022-10-17 16:04:58,135:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:04:58,796:https://www.newegg.com:443 "GET /p/12K-02BD-00170?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-9SIAU2EHPG7481-_-Product HTTP/1.1" 200 20927
+urllib3.connectionpool:DEBUG:2022-10-17 16:05:11,242:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:05:12,597:https://www.newegg.com:443 "GET /p/12K-02BD-00136?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-9SIA6U2HGW7950-_-Product HTTP/1.1" 200 23169
+urllib3.connectionpool:DEBUG:2022-10-17 16:05:25,094:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:05:25,871:https://www.newegg.com:443 "GET /p/12K-02BD-00171?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-12K-02BD-00171-_-Product HTTP/1.1" 200 22908
+urllib3.connectionpool:DEBUG:2022-10-17 16:06:03,811:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:06:04,559:https://www.newegg.com:443 "GET /p/pl?d=way+tower+speaker+pair+dayton+audio+t652 HTTP/1.1" 200 20868
+urllib3.connectionpool:DEBUG:2022-10-17 16:06:04,608:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:06:05,298:https://www.newegg.com:443 "GET /p/pl?d=way+tower+speaker+pair+dayton+audio+t652&page=1 HTTP/1.1" 200 20869
+urllib3.connectionpool:DEBUG:2022-10-17 16:06:05,343:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:06:08,405:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=way+tower+speaker+pair+dayton+audio+t652&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:06:08,614:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:06:09,005:https://www.amazon.com:443 "GET /Dayton-Audio-T652-AIR-Speaker-Tweeter/dp/B07777GY34/ref=sr_1_3?qid=1666002734&rnid=172563&s=electronics&sr=1-3 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:06:24,165:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:06:24,541:https://www.newegg.com:443 "GET /dayton-audio-t652/p/0S6-00SH-00036?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-0S6-00SH-00036-_-Product HTTP/1.1" 200 25121
+urllib3.connectionpool:DEBUG:2022-10-17 16:06:37,078:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:06:37,719:https://www.newegg.com:443 "GET /p/0S6-00SH-00143?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-0S6-00SH-00143-_-Product HTTP/1.1" 200 24932
+urllib3.connectionpool:DEBUG:2022-10-17 16:06:50,179:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:06:50,786:https://www.newegg.com:443 "GET /p/12K-02BD-00170?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-9SIAU2EHPG7481-_-Product HTTP/1.1" 200 21896
+urllib3.connectionpool:DEBUG:2022-10-17 16:07:03,308:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:07:03,680:https://www.newegg.com:443 "GET /p/12K-02BD-00136?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-9SIA6U2HGW7950-_-Product HTTP/1.1" 200 23169
+urllib3.connectionpool:DEBUG:2022-10-17 16:07:16,154:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:07:16,847:https://www.newegg.com:443 "GET /p/12K-02BD-00171?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-12K-02BD-00171-_-Product HTTP/1.1" 200 22908
+urllib3.connectionpool:DEBUG:2022-10-17 16:07:29,398:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:07:29,758:https://www.newegg.com:443 "GET /p/12K-02BD-00170?Description=way%20tower%20speaker%20pair%20dayton%20audio%20t652&cm_re=way_tower%20speaker%20pair%20dayton%20audio%20t652-_-9SIAU2EHPG7481-_-Product HTTP/1.1" 200 21896
+urllib3.connectionpool:DEBUG:2022-10-17 16:07:42,250:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:07:42,698:https://www.newegg.com:443 "GET /p/12K-02BD-00136?Description=way%20tower%20speaker%20pair%20dayton%20audio%20t652&cm_re=way_tower%20speaker%20pair%20dayton%20audio%20t652-_-9SIA6U2HGW7950-_-Product HTTP/1.1" 200 22300
+urllib3.connectionpool:DEBUG:2022-10-17 16:07:55,283:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:07:55,714:https://www.newegg.com:443 "GET /dayton-audio-t652/p/0S6-00SH-00036?Description=way%20tower%20speaker%20pair%20dayton%20audio%20t652&cm_re=way_tower%20speaker%20pair%20dayton%20audio%20t652-_-0S6-00SH-00036-_-Product HTTP/1.1" 200 25121
+urllib3.connectionpool:DEBUG:2022-10-17 16:08:08,270:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:08:09,063:https://www.newegg.com:443 "GET /p/0S6-00SH-00143?Description=way%20tower%20speaker%20pair%20dayton%20audio%20t652&cm_re=way_tower%20speaker%20pair%20dayton%20audio%20t652-_-0S6-00SH-00143-_-Product HTTP/1.1" 200 24931
+urllib3.connectionpool:DEBUG:2022-10-17 16:08:21,490:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:08:22,169:https://www.newegg.com:443 "GET /p/12K-02BD-00171?Description=way%20tower%20speaker%20pair%20dayton%20audio%20t652&cm_re=way_tower%20speaker%20pair%20dayton%20audio%20t652-_-12K-02BD-00171-_-Product HTTP/1.1" 200 22908
+urllib3.connectionpool:DEBUG:2022-10-17 16:08:59,823:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:09:02,060:https://www.newegg.com:443 "GET /p/pl?d=standing+pyle HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:09:02,398:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:09:03,364:https://www.newegg.com:443 "GET /p/pl?d=standing+pyle&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:09:03,566:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:09:09,276:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=standing+pyle&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:09:09,396:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:09:09,932:https://www.amazon.com:443 "GET /Pyle-PSUFM1035A-Black-Floor-Standing/dp/B00EM7C89I/ref=sr_1_4?qid=1666002734&rnid=172563&s=electronics&sr=1-4 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:09:24,177:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:09:24,855:https://www.newegg.com:443 "GET /p/1B4-00C8-00147?Description=standing%20pyle&cm_re=standing_pyle-_-9SIAU2EHAM3432-_-Product HTTP/1.1" 200 23818
+urllib3.connectionpool:DEBUG:2022-10-17 16:09:50,149:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:09:51,289:https://www.newegg.com:443 "GET /p/pl?d=way+floor+speaker+28+dual+8 HTTP/1.1" 200 21118
+urllib3.connectionpool:DEBUG:2022-10-17 16:09:51,334:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:09:52,049:https://www.newegg.com:443 "GET /p/pl?d=way+floor+speaker+28+dual+8&page=1 HTTP/1.1" 200 21124
+urllib3.connectionpool:DEBUG:2022-10-17 16:09:52,105:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:09:55,294:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=way+floor+speaker+28+dual+8&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:09:55,526:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:10:00,497:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=2&id=pcat17071&st=way+floor+speaker+28+dual+8&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:10:00,734:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:10:06,205:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=3&id=pcat17071&st=way+floor+speaker+28+dual+8&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:10:06,507:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:10:07,291:https://www.amazon.com:443 "GET /Cerwin-Vega-SL-28-2-Way-Floor-Speaker/dp/B00JPDMXGM/ref=sr_1_5?qid=1666002734&rnid=172563&s=electronics&sr=1-5 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:10:21,289:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:10:22,002:https://www.newegg.com:443 "GET /p/19S-032N-00005?Description=way%20floor%20speaker%2028%20dual%208&cm_re=way_floor%20speaker%2028%20dual%208-_-9SIB0KDFJM2850-_-Product HTTP/1.1" 200 21668
+urllib3.connectionpool:DEBUG:2022-10-17 16:10:34,427:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:10:35,122:https://www.newegg.com:443 "GET /p/12K-01NA-00094?Description=way%20floor%20speaker%2028%20dual%208&cm_re=way_floor%20speaker%2028%20dual%208-_-9SIAU2EHPG8243-_-Product HTTP/1.1" 200 21443
+urllib3.connectionpool:DEBUG:2022-10-17 16:10:47,521:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:10:48,278:https://www.newegg.com:443 "GET /p/12K-01NA-00081?Description=way%20floor%20speaker%2028%20dual%208&cm_re=way_floor%20speaker%2028%20dual%208-_-9SIA6U2HGZ0181-_-Product HTTP/1.1" 200 21591
+werkzeug:INFO:2022-10-17 16:11:00,509: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\crawler.py', reloading
+werkzeug:INFO:2022-10-17 16:11:03,365: * Restarting with stat
+werkzeug:INFO:2022-10-17 16:11:37,821:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-17 16:11:37,821:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-17 16:11:37,823: * Restarting with stat
+werkzeug:WARNING:2022-10-17 16:11:52,792: * Debugger is active!
+werkzeug:INFO:2022-10-17 16:11:52,800: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-17 16:12:53,983:127.0.0.1 - - [17/Oct/2022 16:12:53] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:06,380:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:07,051:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&page=1&ref=sr_pg_1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:07,853:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:08,395:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&page=2&ref=sr_pg_2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:21,720:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:23,584:https://www.newegg.com:443 "GET /p/pl?d=high+power+audio+300w+sound+tower HTTP/1.1" 200 30658
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:23,657:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:25,005:https://www.newegg.com:443 "GET /p/pl?d=high+power+audio+300w+sound+tower&page=1 HTTP/1.1" 200 30638
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:25,077:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:29,250:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:29,641:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:33,559:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=2&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:33,834:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:36,750:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=3&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:37,086:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:44,002:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=4&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:44,280:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:49,023:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=5&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:49,322:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:53,588:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=6&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:53,923:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:13:54,335:https://www.amazon.com:443 "GET /Samsung-MX-T40-Sound-Tower-Power/dp/B08WZFC7MV/ref=sr_1_1?qid=1666003386&rnid=172563&s=electronics&sr=1-1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:14:09,339:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:14:10,018:https://www.newegg.com:443 "GET /samsung-mx-t40-sound-tower/p/0S6-0009-001G2?Description=high%20power%20audio%20300w%20sound%20tower&cm_re=high_power%20audio%20300w%20sound%20tower-_-9SIA3YFHPS6936-_-Product HTTP/1.1" 200 21943
+urllib3.connectionpool:DEBUG:2022-10-17 16:14:22,564:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:14:22,905:https://www.newegg.com:443 "GET /p/0G7-0019-000G0?Description=high%20power%20audio%20300w%20sound%20tower&cm_re=high_power%20audio%20300w%20sound%20tower-_-9SIAJ7WGZG4414-_-Product HTTP/1.1" 200 23317
+urllib3.connectionpool:DEBUG:2022-10-17 16:14:35,365:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:14:35,965:https://www.bestbuy.com:443 "GET /site/samsung-mx-t40-2ch-sound-tower-with-high-power-audio-black/6455177.p?skuId=6455177 HTTP/1.1" 200 1652
+urllib3.connectionpool:DEBUG:2022-10-17 16:15:00,852:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:15:02,564:https://www.newegg.com:443 "GET /p/pl?d=dayton+audio+t652+dual+6+way+tower+speaker+pair HTTP/1.1" 200 20905
+urllib3.connectionpool:DEBUG:2022-10-17 16:15:02,610:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:15:03,661:https://www.newegg.com:443 "GET /p/pl?d=dayton+audio+t652+dual+6+way+tower+speaker+pair&page=1 HTTP/1.1" 200 20909
+urllib3.connectionpool:DEBUG:2022-10-17 16:15:03,724:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:15:08,736:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=dayton+audio+t652+dual+6+way+tower+speaker+pair&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:15:08,903:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:15:14,196:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=2&id=pcat17071&st=dayton+audio+t652+dual+6+way+tower+speaker+pair&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:15:14,418:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:15:15,024:https://www.amazon.com:443 "GET /Dayton-Audio-T652-2-Way-Speaker/dp/B00Q3MG05S/ref=sr_1_2?qid=1666003386&rnid=172563&s=electronics&sr=1-2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:15:29,776:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:15:30,178:https://www.newegg.com:443 "GET /dayton-audio-t652/p/0S6-00SH-00036?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-0S6-00SH-00036-_-Product HTTP/1.1" 200 25121
+urllib3.connectionpool:DEBUG:2022-10-17 16:15:42,632:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:15:43,019:https://www.newegg.com:443 "GET /p/0S6-00SH-00143?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-0S6-00SH-00143-_-Product HTTP/1.1" 200 24901
+urllib3.connectionpool:DEBUG:2022-10-17 16:15:55,486:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:15:55,849:https://www.newegg.com:443 "GET /p/12K-02BD-00170?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-9SIAU2EHPG7481-_-Product HTTP/1.1" 200 21896
+urllib3.connectionpool:DEBUG:2022-10-17 16:16:08,473:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:16:09,148:https://www.newegg.com:443 "GET /p/12K-02BD-00136?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-9SIA6U2HGW7950-_-Product HTTP/1.1" 200 23169
+urllib3.connectionpool:DEBUG:2022-10-17 16:16:21,591:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:16:21,971:https://www.newegg.com:443 "GET /p/12K-02BD-00171?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-12K-02BD-00171-_-Product HTTP/1.1" 200 22908
+urllib3.connectionpool:DEBUG:2022-10-17 16:16:59,992:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:17:00,774:https://www.newegg.com:443 "GET /p/pl?d=way+tower+speaker+pair+dayton+audio+t652 HTTP/1.1" 200 20895
+urllib3.connectionpool:DEBUG:2022-10-17 16:17:00,815:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:17:01,733:https://www.newegg.com:443 "GET /p/pl?d=way+tower+speaker+pair+dayton+audio+t652&page=1 HTTP/1.1" 200 20871
+urllib3.connectionpool:DEBUG:2022-10-17 16:17:01,787:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:17:07,650:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=way+tower+speaker+pair+dayton+audio+t652&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:17:07,899:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:17:08,392:https://www.amazon.com:443 "GET /Dayton-Audio-T652-AIR-Speaker-Tweeter/dp/B07777GY34/ref=sr_1_3?qid=1666003386&rnid=172563&s=electronics&sr=1-3 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:17:22,648:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:17:23,034:https://www.newegg.com:443 "GET /dayton-audio-t652/p/0S6-00SH-00036?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-0S6-00SH-00036-_-Product HTTP/1.1" 200 25121
+urllib3.connectionpool:DEBUG:2022-10-17 16:17:35,783:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:17:36,164:https://www.newegg.com:443 "GET /p/0S6-00SH-00143?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-0S6-00SH-00143-_-Product HTTP/1.1" 200 24932
+urllib3.connectionpool:DEBUG:2022-10-17 16:17:48,590:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:17:48,996:https://www.newegg.com:443 "GET /p/12K-02BD-00170?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-9SIAU2EHPG7481-_-Product HTTP/1.1" 200 21896
+urllib3.connectionpool:DEBUG:2022-10-17 16:18:01,449:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:18:01,864:https://www.newegg.com:443 "GET /p/12K-02BD-00136?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-9SIA6U2HGW7950-_-Product HTTP/1.1" 200 22297
+urllib3.connectionpool:DEBUG:2022-10-17 16:18:14,381:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:18:14,974:https://www.newegg.com:443 "GET /p/12K-02BD-00171?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-12K-02BD-00171-_-Product HTTP/1.1" 200 22908
+urllib3.connectionpool:DEBUG:2022-10-17 16:18:27,482:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:18:28,045:https://www.newegg.com:443 "GET /p/12K-02BD-00170?Description=way%20tower%20speaker%20pair%20dayton%20audio%20t652&cm_re=way_tower%20speaker%20pair%20dayton%20audio%20t652-_-9SIAU2EHPG7481-_-Product HTTP/1.1" 200 21896
+urllib3.connectionpool:DEBUG:2022-10-17 16:18:40,589:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:18:40,971:https://www.newegg.com:443 "GET /p/12K-02BD-00136?Description=way%20tower%20speaker%20pair%20dayton%20audio%20t652&cm_re=way_tower%20speaker%20pair%20dayton%20audio%20t652-_-9SIA6U2HGW7950-_-Product HTTP/1.1" 200 22300
+urllib3.connectionpool:DEBUG:2022-10-17 16:18:53,443:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:18:53,808:https://www.newegg.com:443 "GET /dayton-audio-t652/p/0S6-00SH-00036?Description=way%20tower%20speaker%20pair%20dayton%20audio%20t652&cm_re=way_tower%20speaker%20pair%20dayton%20audio%20t652-_-0S6-00SH-00036-_-Product HTTP/1.1" 200 25121
+urllib3.connectionpool:DEBUG:2022-10-17 16:19:06,308:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:19:06,737:https://www.newegg.com:443 "GET /p/0S6-00SH-00143?Description=way%20tower%20speaker%20pair%20dayton%20audio%20t652&cm_re=way_tower%20speaker%20pair%20dayton%20audio%20t652-_-0S6-00SH-00143-_-Product HTTP/1.1" 200 24053
+urllib3.connectionpool:DEBUG:2022-10-17 16:19:19,337:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:19:19,768:https://www.newegg.com:443 "GET /p/12K-02BD-00171?Description=way%20tower%20speaker%20pair%20dayton%20audio%20t652&cm_re=way_tower%20speaker%20pair%20dayton%20audio%20t652-_-12K-02BD-00171-_-Product HTTP/1.1" 200 21896
+werkzeug:INFO:2022-10-17 16:19:57,912: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\crawler.py', reloading
+werkzeug:INFO:2022-10-17 16:20:17,073:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-17 16:20:17,073:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-17 16:20:17,075: * Restarting with stat
+werkzeug:WARNING:2022-10-17 16:20:32,272: * Debugger is active!
+werkzeug:INFO:2022-10-17 16:20:32,296: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-17 16:20:57,249:127.0.0.1 - - [17/Oct/2022 16:20:57] "GET /begin_crawl HTTP/1.1" 200 -
+urllib3.connectionpool:DEBUG:2022-10-17 16:21:09,688:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:21:10,475:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&page=1&ref=sr_pg_1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:21:11,250:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:21:11,897:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&page=2&ref=sr_pg_2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:21:25,111:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:21:26,192:https://www.newegg.com:443 "GET /p/pl?d=high+power+audio+300w+sound+tower HTTP/1.1" 200 30633
+urllib3.connectionpool:DEBUG:2022-10-17 16:21:26,259:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:21:27,048:https://www.newegg.com:443 "GET /p/pl?d=high+power+audio+300w+sound+tower&page=1 HTTP/1.1" 200 30638
+urllib3.connectionpool:DEBUG:2022-10-17 16:21:27,149:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:21:32,954:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:21:33,207:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:21:37,659:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=2&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:21:38,001:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:21:43,624:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=3&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:21:43,928:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:21:49,346:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=4&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:21:49,627:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:21:54,331:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=5&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:21:54,514:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:22:00,796:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=6&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:22:01,152:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:22:01,548:https://www.amazon.com:443 "GET /Samsung-MX-T40-Sound-Tower-Power/dp/B08WZFC7MV/ref=sr_1_1?qid=1666003870&rnid=172563&s=electronics&sr=1-1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:22:16,391:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:22:16,781:https://www.newegg.com:443 "GET /samsung-mx-t40-sound-tower/p/0S6-0009-001G2?Description=high%20power%20audio%20300w%20sound%20tower&cm_re=high_power%20audio%20300w%20sound%20tower-_-9SIA3YFHPS6936-_-Product HTTP/1.1" 200 21943
+urllib3.connectionpool:DEBUG:2022-10-17 16:22:29,296:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:22:29,694:https://www.bestbuy.com:443 "GET /site/samsung-mx-t40-2ch-sound-tower-with-high-power-audio-black/6455177.p?skuId=6455177 HTTP/1.1" 200 1652
+urllib3.connectionpool:DEBUG:2022-10-17 16:23:07,379:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:23:08,055:https://www.newegg.com:443 "GET /p/pl?d=dayton+audio+t652+dual+6+way+tower+speaker+pair HTTP/1.1" 200 20905
+urllib3.connectionpool:DEBUG:2022-10-17 16:23:08,096:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:23:09,392:https://www.newegg.com:443 "GET /p/pl?d=dayton+audio+t652+dual+6+way+tower+speaker+pair&page=1 HTTP/1.1" 200 20935
+urllib3.connectionpool:DEBUG:2022-10-17 16:23:09,432:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:23:14,938:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=dayton+audio+t652+dual+6+way+tower+speaker+pair&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:23:15,205:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:23:20,754:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=2&id=pcat17071&st=dayton+audio+t652+dual+6+way+tower+speaker+pair&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:23:21,011:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:23:21,420:https://www.amazon.com:443 "GET /Dayton-Audio-T652-2-Way-Speaker/dp/B00Q3MG05S/ref=sr_1_2?qid=1666003870&rnid=172563&s=electronics&sr=1-2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:23:35,893:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:23:36,407:https://www.newegg.com:443 "GET /dayton-audio-t652/p/0S6-00SH-00036?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-0S6-00SH-00036-_-Product HTTP/1.1" 200 24035
+urllib3.connectionpool:DEBUG:2022-10-17 16:23:48,912:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:23:49,377:https://www.newegg.com:443 "GET /p/0S6-00SH-00143?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-0S6-00SH-00143-_-Product HTTP/1.1" 200 24932
+urllib3.connectionpool:DEBUG:2022-10-17 16:24:01,886:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:24:02,234:https://www.newegg.com:443 "GET /p/12K-02BD-00170?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-9SIAU2EHPG7481-_-Product HTTP/1.1" 200 21896
+urllib3.connectionpool:DEBUG:2022-10-17 16:24:14,668:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:24:15,059:https://www.newegg.com:443 "GET /p/12K-02BD-00136?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-9SIA6U2HGW7950-_-Product HTTP/1.1" 200 23169
+urllib3.connectionpool:DEBUG:2022-10-17 16:24:27,487:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:24:28,233:https://www.newegg.com:443 "GET /p/12K-02BD-00171?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-12K-02BD-00171-_-Product HTTP/1.1" 200 22908
+urllib3.connectionpool:DEBUG:2022-10-17 16:25:05,818:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:25:07,345:https://www.newegg.com:443 "GET /p/pl?d=way+tower+speaker+pair+dayton+audio+t652 HTTP/1.1" 200 20864
+urllib3.connectionpool:DEBUG:2022-10-17 16:25:07,386:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:25:08,941:https://www.newegg.com:443 "GET /p/pl?d=way+tower+speaker+pair+dayton+audio+t652&page=1 HTTP/1.1" 200 20871
+urllib3.connectionpool:DEBUG:2022-10-17 16:25:08,981:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:25:14,290:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=way+tower+speaker+pair+dayton+audio+t652&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:25:14,592:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:25:15,010:https://www.amazon.com:443 "GET /Dayton-Audio-T652-AIR-Speaker-Tweeter/dp/B07777GY34/ref=sr_1_3?qid=1666003870&rnid=172563&s=electronics&sr=1-3 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:25:29,599:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:25:29,975:https://www.newegg.com:443 "GET /dayton-audio-t652/p/0S6-00SH-00036?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-0S6-00SH-00036-_-Product HTTP/1.1" 200 25064
+urllib3.connectionpool:DEBUG:2022-10-17 16:25:42,590:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:25:42,955:https://www.newegg.com:443 "GET /p/0S6-00SH-00143?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-0S6-00SH-00143-_-Product HTTP/1.1" 200 24931
+urllib3.connectionpool:DEBUG:2022-10-17 16:25:55,470:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:25:56,124:https://www.newegg.com:443 "GET /p/12K-02BD-00170?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-9SIAU2EHPG7481-_-Product HTTP/1.1" 200 20927
+urllib3.connectionpool:DEBUG:2022-10-17 16:26:08,538:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:26:08,954:https://www.newegg.com:443 "GET /p/12K-02BD-00136?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-9SIA6U2HGW7950-_-Product HTTP/1.1" 200 23169
+urllib3.connectionpool:DEBUG:2022-10-17 16:26:21,399:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:26:21,795:https://www.newegg.com:443 "GET /p/12K-02BD-00171?Description=dayton%20audio%20t652%20dual%206%20way%20tower%20speaker%20pair&cm_re=dayton_audio%20t652%20dual%206%20way%20tower%20speaker%20pair-_-12K-02BD-00171-_-Product HTTP/1.1" 200 22908
+urllib3.connectionpool:DEBUG:2022-10-17 16:26:35,017:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:26:35,491:https://www.newegg.com:443 "GET /p/12K-02BD-00170?Description=way%20tower%20speaker%20pair%20dayton%20audio%20t652&cm_re=way_tower%20speaker%20pair%20dayton%20audio%20t652-_-9SIAU2EHPG7481-_-Product HTTP/1.1" 200 21896
+urllib3.connectionpool:DEBUG:2022-10-17 16:26:47,942:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:26:48,316:https://www.newegg.com:443 "GET /p/12K-02BD-00136?Description=way%20tower%20speaker%20pair%20dayton%20audio%20t652&cm_re=way_tower%20speaker%20pair%20dayton%20audio%20t652-_-9SIA6U2HGW7950-_-Product HTTP/1.1" 200 23169
+urllib3.connectionpool:DEBUG:2022-10-17 16:27:00,754:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:27:01,121:https://www.newegg.com:443 "GET /dayton-audio-t652/p/0S6-00SH-00036?Description=way%20tower%20speaker%20pair%20dayton%20audio%20t652&cm_re=way_tower%20speaker%20pair%20dayton%20audio%20t652-_-0S6-00SH-00036-_-Product HTTP/1.1" 200 25121
+urllib3.connectionpool:DEBUG:2022-10-17 16:27:13,606:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:27:14,004:https://www.newegg.com:443 "GET /p/0S6-00SH-00143?Description=way%20tower%20speaker%20pair%20dayton%20audio%20t652&cm_re=way_tower%20speaker%20pair%20dayton%20audio%20t652-_-0S6-00SH-00143-_-Product HTTP/1.1" 200 25226
+urllib3.connectionpool:DEBUG:2022-10-17 16:27:26,437:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:27:27,507:https://www.newegg.com:443 "GET /p/12K-02BD-00171?Description=way%20tower%20speaker%20pair%20dayton%20audio%20t652&cm_re=way_tower%20speaker%20pair%20dayton%20audio%20t652-_-12K-02BD-00171-_-Product HTTP/1.1" 200 21891
+urllib3.connectionpool:DEBUG:2022-10-17 16:28:05,352:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:28:07,824:https://www.newegg.com:443 "GET /p/pl?d=standing+pyle HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:28:08,155:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:28:09,519:https://www.newegg.com:443 "GET /p/pl?d=standing+pyle&page=1 HTTP/1.1" 200 60522
+urllib3.connectionpool:DEBUG:2022-10-17 16:28:09,829:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:28:14,408:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=standing+pyle&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:28:14,529:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:28:15,015:https://www.amazon.com:443 "GET /Pyle-PSUFM1035A-Black-Floor-Standing/dp/B00EM7C89I/ref=sr_1_4?qid=1666003870&rnid=172563&s=electronics&sr=1-4 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:28:29,261:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:28:29,993:https://www.newegg.com:443 "GET /p/1B4-00C8-00147?Description=standing%20pyle&cm_re=standing_pyle-_-9SIAU2EHAM3432-_-Product HTTP/1.1" 200 23135
+urllib3.connectionpool:DEBUG:2022-10-17 16:28:55,251:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:28:56,161:https://www.newegg.com:443 "GET /p/pl?d=way+floor+speaker+28+dual+8 HTTP/1.1" 200 21118
+urllib3.connectionpool:DEBUG:2022-10-17 16:28:56,219:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:28:56,955:https://www.newegg.com:443 "GET /p/pl?d=way+floor+speaker+28+dual+8&page=1 HTTP/1.1" 200 21124
+urllib3.connectionpool:DEBUG:2022-10-17 16:28:57,014:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:29:01,474:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=way+floor+speaker+28+dual+8&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:29:01,709:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:29:06,966:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=2&id=pcat17071&st=way+floor+speaker+28+dual+8&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:29:07,262:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:29:13,098:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=3&id=pcat17071&st=way+floor+speaker+28+dual+8&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:29:13,439:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:29:13,829:https://www.amazon.com:443 "GET /Cerwin-Vega-SL-28-2-Way-Floor-Speaker/dp/B00JPDMXGM/ref=sr_1_5?qid=1666003870&rnid=172563&s=electronics&sr=1-5 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:29:27,766:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:29:28,543:https://www.newegg.com:443 "GET /p/19S-032N-00005?Description=way%20floor%20speaker%2028%20dual%208&cm_re=way_floor%20speaker%2028%20dual%208-_-9SIB0KDFJM2850-_-Product HTTP/1.1" 200 21668
+urllib3.connectionpool:DEBUG:2022-10-17 16:29:41,034:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:29:41,370:https://www.newegg.com:443 "GET /p/12K-01NA-00094?Description=way%20floor%20speaker%2028%20dual%208&cm_re=way_floor%20speaker%2028%20dual%208-_-9SIAU2EHPG8243-_-Product HTTP/1.1" 200 21443
+urllib3.connectionpool:DEBUG:2022-10-17 16:29:53,932:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:29:54,904:https://www.newegg.com:443 "GET /p/12K-01NA-00081?Description=way%20floor%20speaker%2028%20dual%208&cm_re=way_floor%20speaker%2028%20dual%208-_-9SIA6U2HGZ0181-_-Product HTTP/1.1" 200 22849
+urllib3.connectionpool:DEBUG:2022-10-17 16:30:32,584:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:30:34,205:https://www.newegg.com:443 "GET /p/pl?d=way+home+audio+floor+tower+speaker+28+dual+8 HTTP/1.1" 200 19698
+urllib3.connectionpool:DEBUG:2022-10-17 16:30:34,238:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:30:34,822:https://www.newegg.com:443 "GET /p/pl?d=way+home+audio+floor+tower+speaker+28+dual+8&page=1 HTTP/1.1" 200 19703
+urllib3.connectionpool:DEBUG:2022-10-17 16:30:34,872:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:31:03,814:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=way+home+audio+floor+tower+speaker+28+dual+8&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:31:04,168:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:31:09,147:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=2&id=pcat17071&st=way+home+audio+floor+tower+speaker+28+dual+8&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:31:09,416:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:31:16,084:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=3&id=pcat17071&st=way+home+audio+floor+tower+speaker+28+dual+8&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:31:16,277:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:31:21,504:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=4&id=pcat17071&st=way+home+audio+floor+tower+speaker+28+dual+8&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:31:21,820:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:31:56,326:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=5&id=pcat17071&st=way+home+audio+floor+tower+speaker+28+dual+8&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:31:56,657:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:31:57,218:https://www.amazon.com:443 "GET /Cerwin-Vega-XLS-28-3-Way-Audio-Speaker/dp/B002JGZ9RC/ref=sr_1_6?qid=1666003870&rnid=172563&s=electronics&sr=1-6 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 16:32:11,864:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:32:13,646:https://www.newegg.com:443 "GET /p/19S-03FT-00005?Description=way%20floor%20speaker%2028%20dual%208&cm_re=way_floor%20speaker%2028%20dual%208-_-9SIB0KDFJR6949-_-Product HTTP/1.1" 200 22178
+urllib3.connectionpool:DEBUG:2022-10-17 16:32:26,124:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 16:32:26,819:https://www.newegg.com:443 "GET /p/12K-01NA-00083?Description=way%20floor%20speaker%2028%20dual%208&cm_re=way_floor%20speaker%2028%20dual%208-_-9SIA6U2HGZ3906-_-Product HTTP/1.1" 200 22029
+werkzeug:INFO:2022-10-17 17:47:23,573: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\extractors\\bestbuy.py', reloading
+werkzeug:INFO:2022-10-17 17:47:24,415: * Restarting with stat
+werkzeug:WARNING:2022-10-17 17:47:45,197: * Debugger is active!
+werkzeug:INFO:2022-10-17 17:47:45,210: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-17 17:48:06,525: * Detected change in 'C:\\Users\\DELL\\Desktop\\Python work\\Products_scraper\\extractors\\newegg.py', reloading
+werkzeug:INFO:2022-10-17 17:48:06,905: * Restarting with stat

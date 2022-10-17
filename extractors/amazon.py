@@ -111,7 +111,7 @@ def get_title(page):
     try :
         title = page.find('div', attrs={'id': 'title_feature_div'}).div.h1.span.string
         title = title.strip()
-        return title
+        return title.replace(',' , '')
     except Exception as e:
         return None
 
@@ -154,7 +154,9 @@ def get_img_links(page):
     links = []
     imgs = tag.find_all('img')
     for img in imgs[1:]:
-        links.append(img.get('src'))
+        url = img.get('src')
+        if '.jpg' in url or '.png' in url or '.jpeg' in url:
+            links.append(img.get('src'))
 
     return links
 

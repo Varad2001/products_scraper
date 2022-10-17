@@ -3,7 +3,7 @@ import threading
 from queue import Queue
 
 from extractors import send_request
-from similarity_checker import check_similarity
+from similarity_checker import check_similarity, check_image_similarity
 
 from extractors import newegg, bestbuy
 from extractors import amazon
@@ -145,6 +145,8 @@ def begin_crawling(address, categoryId):
         sample_data = None
         similar_items = []
 
+        print("\nSample item : ", sample_title)
+
         # extract important part of the title
         try :
             keywords = get_important_text(sample_title)
@@ -167,8 +169,8 @@ def begin_crawling(address, categoryId):
         crawl_new_items_from_bestbuy(new_products_bestbuy, bestbuy_url)
 
         # now the items have been extracted,
-        print("\nSample item : ", sample_title)
 
+        current_item_newegg = { 'productPrice' : 'NA' , 'productLink' : None}
         for item in new_products_newegg:
 
             if check_similarity([sample_title, item['title']]) > int(similarity_scores['titleScore']) / 100:
@@ -177,16 +179,30 @@ def begin_crawling(address, categoryId):
 
                 item_data = newegg.get_all_details(item['url'])
 
+                if not current_item_newegg['productPrice'] == 'NA':
+                    if item_data['productPrice'] == 'NA' :
+                        continue
+                    else:
+                        if float(item_data['productPrice']) >= float(current_item_newegg['productPrice']) :
+                            continue
+
                 if not (sample_data['productDescription'] == 'NA' or item_data['productDescription'] == 'NA'):
                     if check_similarity([sample_data['productDescription'], item_data['productDescription']]) > \
                             int(similarity_scores['descriptionScore']) / 100:
+
                         print("Similar item found on Newegg.")
-                        similar_items.append(item_data)
+                        current_item_newegg = item_data
                 else:
                     print("Similar item found on Newegg.")
-                    similar_items.append(item_data)
+                    current_item_newegg = item_data
+
+        if len(new_products_newegg) > 0:
+            if current_item_newegg['productLink'] :
+                similar_items.append(current_item_newegg)
 
 
+
+        current_item_bestbuy = {'productPrice': 'NA' , 'productLink' : None}
         for item in new_products_bestbuy:
 
             if check_similarity([sample_title, item['title']]) > int(similarity_scores['titleScore']) / 100:
@@ -195,14 +211,25 @@ def begin_crawling(address, categoryId):
 
                 item_data = bestbuy.get_all_details(item['url'])
 
+                if not current_item_bestbuy['productPrice'] == 'NA':
+                    if item_data['productPrice'] == 'NA' :
+                        continue
+                    else:
+                        if float(item_data['productPrice']) >= float(current_item_bestbuy['productPrice']) :
+                            continue
+
                 if not (sample_data['productDescription'] == 'NA' or item_data['productDescription'] == 'NA'):
                     if check_similarity([sample_data['productDescription'], item_data['productDescription']]) > \
                             int(similarity_scores['descriptionScore']) / 100:
                         print("Similar item found on Bestbuy.")
-                        similar_items.append(item_data)
+                        current_item_bestbuy = item_data
                 else:
                     print("Similar item found on Bestbuy.")
-                    similar_items.append(item_data)
+                    current_item_bestbuy = item_data
+
+        if len(new_products_bestbuy) > 0:
+            if current_item_bestbuy['productLink']:
+                similar_items.append(current_item_bestbuy)
 
 
         if len(similar_items) > 0:
@@ -210,10 +237,10 @@ def begin_crawling(address, categoryId):
             similar_items.append(sample_data)
             items_to_be_inserted.put(similar_items)
 
-            # store_data(items_to_be_inserted, categoryId)
-            storing_process = threading.Thread(target=store_data, args=(items_to_be_inserted, categoryId))
-            storing_process.start()
-            storing_process.join()
+            store_data(items_to_be_inserted, categoryId)
+            # storing_process = threading.Thread(target=store_data, args=(items_to_be_inserted, categoryId))
+            # storing_process.start()
+            # storing_process.join()
 
     print("\n-------Crawling finished.--------")
 

@@ -104,7 +104,7 @@ def get_price(page):
         return None
 
     try :
-        return tag.span.text
+        return (tag.span.text).replace(',' , '')
     except Exception as e:
         logging.exception(e)
         return None

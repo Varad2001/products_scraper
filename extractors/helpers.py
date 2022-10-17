@@ -9,6 +9,8 @@ import nltk
 import settings
 import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
+import warnings
+warnings.filterwarnings('ignore')
 
 
 def get_important_text(text):
