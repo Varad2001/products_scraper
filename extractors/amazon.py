@@ -62,7 +62,7 @@ def get_seller_id(name):
         db = client[db_name]
         table = db[table_name]
 
-        cursor = table.find({'sellerName' : 'NewEgg'})
+        cursor = table.find({'sellerName' : 'Amazon'})
         for document in cursor:
             id = document['_id']
             return id
@@ -122,7 +122,7 @@ def get_price(page):
         price = "NA"
     else :
         try :
-            price = float(price_tag.string.replace('$', ''))
+            price = float(price_tag.string.replace('$', '').replace(',', ''))
         except Exception as e:
             logging.exception(e)
             price = 'NA'
@@ -149,7 +149,7 @@ def get_brand(page):
 def get_img_links(page):
     tag = page.find('div', attrs={'id' : 'altImages'})
     if not tag:
-        return None
+        return []
 
     links = []
     imgs = tag.find_all('img')

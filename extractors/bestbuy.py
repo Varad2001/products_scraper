@@ -101,13 +101,13 @@ def get_title(page):
 def get_price(page):
     tag = page.find('div' , attrs={'class' : 'priceView-hero-price priceView-customer-price'})
     if not tag:
-        return None
+        return "NA"
 
     try :
         return (tag.span.text).replace(',' , '')
     except Exception as e:
         logging.exception(e)
-        return None
+        return "NA"
 
 
 def get_description(page):
@@ -143,7 +143,7 @@ def get_product_imgs(page):
     tags = page.find('div', attrs={'class' : 'shop-media-gallery'})
     results = []
     if not tags:
-        return None
+        return []
 
     imgs = tags.find_all('li')
     for li in imgs:
@@ -182,7 +182,7 @@ def get_discount_info(page):
 
 
 def get_all_details(url):
-    page = send_request.send_request(url)
+    page = send_request.send_request(url+ "&intl=nosplash")
 
     results = {}
 

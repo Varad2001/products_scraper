@@ -122,11 +122,11 @@ def get_price(page):
     if price_tag:
         try:
             price = price_tag.strong.string + price_tag.sup.string
-            return price.replace(', ', '')
+            return price.replace(',', '')
         except:
-            return None
+            return "NA"
     else :
-        return None
+        return "NA"
 
 
 def get_discount_info(page):
@@ -146,7 +146,7 @@ def get_shipping_price(page):
 def get_product_images(page):
     div = page.find('div' , attrs={'class' : 'swiper-gallery-thumbs'})
     if not div:
-        return None
+        return []
     tags = div.find_all('img' , attrs= {'class' : 'product-view-img-original'})
     links = []
     for tag in tags:

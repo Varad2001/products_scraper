@@ -1,0 +1,1520 @@
+urllib3.connectionpool:DEBUG:2022-10-17 19:31:49,414:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 19:31:50,043:https://www.bestbuy.com:443 "GET /site/martinlogan-motion-4-90-watt-passive-2-way-center-channel-speaker-gloss-black/5870730.p?skuId=5870730 HTTP/1.1" 200 1652
+urllib3.connectionpool:DEBUG:2022-10-17 19:31:50,053:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 19:31:50,466:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 19:32:17,423:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 19:32:17,912:https://www.bestbuy.com:443 "GET /site/martinlogan-motion-4-90-watt-passive-2-way-center-channel-speaker-gloss-black/5870730.p?skuId=5870730 HTTP/1.1" 200 1652
+urllib3.connectionpool:DEBUG:2022-10-17 19:32:17,922:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 19:32:18,327:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 19:54:24,560:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 19:54:24,973:https://www.bestbuy.com:443 "GET /site/martinlogan-motion-4-90-watt-passive-2-way-center-channel-speaker-gloss-black/5870730.p?skuId=5870730 HTTP/1.1" 200 1652
+urllib3.connectionpool:DEBUG:2022-10-17 19:54:24,982:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 19:54:25,587:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 19:56:14,430:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 19:56:14,949:https://www.bestbuy.com:443 "GET /site/martinlogan-motion-4-90-watt-passive-2-way-center-channel-speaker-gloss-black/5870730.p?skuId=5870730 HTTP/1.1" 200 1652
+urllib3.connectionpool:DEBUG:2022-10-17 19:56:14,958:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 19:56:16,100:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 19:57:22,216:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 19:57:22,525:https://www.bestbuy.com:443 "GET /site/martinlogan-motion-4-90-watt-passive-2-way-center-channel-speaker-gloss-black/5870730.p?skuId=5870730 HTTP/1.1" 200 1652
+urllib3.connectionpool:DEBUG:2022-10-17 19:57:22,535:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 19:57:22,941:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 19:59:33,025:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 19:59:33,424:https://www.bestbuy.com:443 "GET /site/martinlogan-motion-4-90-watt-passive-2-way-center-channel-speaker-gloss-black/5870730.p?skuId=5870730 HTTP/1.1" 200 1652
+urllib3.connectionpool:DEBUG:2022-10-17 19:59:33,435:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 19:59:33,887:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 20:02:31,924:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:02:39,032:https://www.bestbuy.com:443 "GET /site/martinlogan-motion-4-90-watt-passive-2-way-center-channel-speaker-gloss-black/5870730.p?skuId=5870730&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 20:02:39,162:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:02:39,586:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 20:02:41,565:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:02:41,911:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 20:02:41,956:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:02:42,332:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+PIL.Image:DEBUG:2022-10-17 20:02:42,333:Importing BlpImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,335:Importing BmpImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,335:Importing BufrStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,337:Importing CurImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,339:Importing DcxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,341:Importing DdsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,342:Importing EpsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,395:Importing FitsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,397:Importing FitsStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,398:Importing FliImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,399:Importing FpxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,401:Image: failed to import FpxImagePlugin: No module named 'olefile'
+PIL.Image:DEBUG:2022-10-17 20:02:42,401:Importing FtexImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,402:Importing GbrImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,403:Importing GifImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,403:Importing GribStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,404:Importing Hdf5StubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,406:Importing IcnsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,409:Importing IcoImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,410:Importing ImImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,411:Importing ImtImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,412:Importing IptcImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,413:Importing JpegImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,413:Importing Jpeg2KImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,413:Importing McIdasImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,414:Importing MicImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,416:Image: failed to import MicImagePlugin: No module named 'olefile'
+PIL.Image:DEBUG:2022-10-17 20:02:42,416:Importing MpegImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,417:Importing MpoImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,418:Importing MspImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,419:Importing PalmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,423:Importing PcdImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,424:Importing PcxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,424:Importing PdfImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,431:Importing PixarImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,432:Importing PngImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,432:Importing PpmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,432:Importing PsdImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,434:Importing SgiImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,435:Importing SpiderImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,436:Importing SunImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,438:Importing TgaImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,439:Importing TiffImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,439:Importing WebPImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,445:Importing WmfImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,446:Importing XbmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,448:Importing XpmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:02:42,449:Importing XVThumbImagePlugin
+urllib3.connectionpool:DEBUG:2022-10-17 20:08:28,218:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:09:00,717:https://www.bestbuy.com:443 "GET /site/martinlogan-motion-4-90-watt-passive-2-way-center-channel-speaker-gloss-black/5870730.p?skuId=5870730&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 20:09:01,024:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:09:01,434:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 20:09:03,485:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:09:03,889:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 20:09:03,917:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:09:04,095:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 418
+PIL.Image:DEBUG:2022-10-17 20:09:04,096:Importing BlpImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,097:Importing BmpImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,098:Importing BufrStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,098:Importing CurImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,099:Importing DcxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,100:Importing DdsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,100:Importing EpsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,139:Importing FitsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,139:Importing FitsStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,140:Importing FliImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,140:Importing FpxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,141:Image: failed to import FpxImagePlugin: No module named 'olefile'
+PIL.Image:DEBUG:2022-10-17 20:09:04,142:Importing FtexImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,142:Importing GbrImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,143:Importing GifImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,143:Importing GribStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,143:Importing Hdf5StubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,144:Importing IcnsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,146:Importing IcoImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,146:Importing ImImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,147:Importing ImtImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,148:Importing IptcImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,148:Importing JpegImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,148:Importing Jpeg2KImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,148:Importing McIdasImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,149:Importing MicImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,150:Image: failed to import MicImagePlugin: No module named 'olefile'
+PIL.Image:DEBUG:2022-10-17 20:09:04,150:Importing MpegImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,151:Importing MpoImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,151:Importing MspImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,152:Importing PalmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,153:Importing PcdImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,154:Importing PcxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,154:Importing PdfImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,160:Importing PixarImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,160:Importing PngImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,160:Importing PpmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,161:Importing PsdImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,161:Importing SgiImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,162:Importing SpiderImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,162:Importing SunImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,163:Importing TgaImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,164:Importing TiffImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,164:Importing WebPImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,167:Importing WmfImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,168:Importing XbmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,169:Importing XpmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:09:04,169:Importing XVThumbImagePlugin
+urllib3.connectionpool:DEBUG:2022-10-17 20:10:03,634:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:10:11,818:https://www.bestbuy.com:443 "GET /site/martinlogan-motion-4-90-watt-passive-2-way-center-channel-speaker-gloss-black/5870730.p?skuId=5870730&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 20:10:12,124:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:10:12,585:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 20:10:14,612:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:10:14,986:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 636
+urllib3.connectionpool:DEBUG:2022-10-17 20:10:15,002:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:10:15,533:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+PIL.Image:DEBUG:2022-10-17 20:10:15,535:Importing BlpImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,536:Importing BmpImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,536:Importing BufrStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,537:Importing CurImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,537:Importing DcxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,539:Importing DdsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,539:Importing EpsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,579:Importing FitsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,580:Importing FitsStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,580:Importing FliImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,581:Importing FpxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,582:Image: failed to import FpxImagePlugin: No module named 'olefile'
+PIL.Image:DEBUG:2022-10-17 20:10:15,582:Importing FtexImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,583:Importing GbrImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,583:Importing GifImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,583:Importing GribStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,584:Importing Hdf5StubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,584:Importing IcnsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,586:Importing IcoImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,587:Importing ImImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,588:Importing ImtImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,588:Importing IptcImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,589:Importing JpegImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,589:Importing Jpeg2KImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,589:Importing McIdasImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,590:Importing MicImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,591:Image: failed to import MicImagePlugin: No module named 'olefile'
+PIL.Image:DEBUG:2022-10-17 20:10:15,591:Importing MpegImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,591:Importing MpoImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,592:Importing MspImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,592:Importing PalmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,594:Importing PcdImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,594:Importing PcxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,594:Importing PdfImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,600:Importing PixarImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,601:Importing PngImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,601:Importing PpmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,601:Importing PsdImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,602:Importing SgiImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,602:Importing SpiderImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,603:Importing SunImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,604:Importing TgaImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,604:Importing TiffImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,604:Importing WebPImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,620:Importing WmfImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,621:Importing XbmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,622:Importing XpmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:10:15,623:Importing XVThumbImagePlugin
+urllib3.connectionpool:DEBUG:2022-10-17 20:12:55,924:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:03,519:https://www.bestbuy.com:443 "GET /site/martinlogan-motion-4-90-watt-passive-2-way-center-channel-speaker-gloss-black/5870730.p?skuId=5870730&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:03,844:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:04,559:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:06,243:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:06,536:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:06,552:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:06,673:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+PIL.Image:DEBUG:2022-10-17 20:13:06,674:Importing BlpImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,676:Importing BmpImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,676:Importing BufrStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,676:Importing CurImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,677:Importing DcxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,678:Importing DdsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,678:Importing EpsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,717:Importing FitsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,718:Importing FitsStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,718:Importing FliImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,719:Importing FpxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,720:Image: failed to import FpxImagePlugin: No module named 'olefile'
+PIL.Image:DEBUG:2022-10-17 20:13:06,720:Importing FtexImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,721:Importing GbrImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,721:Importing GifImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,721:Importing GribStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,722:Importing Hdf5StubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,722:Importing IcnsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,724:Importing IcoImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,725:Importing ImImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,725:Importing ImtImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,726:Importing IptcImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,727:Importing JpegImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,727:Importing Jpeg2KImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,727:Importing McIdasImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,728:Importing MicImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,729:Image: failed to import MicImagePlugin: No module named 'olefile'
+PIL.Image:DEBUG:2022-10-17 20:13:06,729:Importing MpegImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,729:Importing MpoImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,730:Importing MspImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,730:Importing PalmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,732:Importing PcdImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,732:Importing PcxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,732:Importing PdfImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,738:Importing PixarImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,739:Importing PngImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,739:Importing PpmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,739:Importing PsdImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,740:Importing SgiImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,740:Importing SpiderImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,741:Importing SunImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,741:Importing TgaImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,742:Importing TiffImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,742:Importing WebPImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,745:Importing WmfImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,746:Importing XbmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,747:Importing XpmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:13:06,748:Importing XVThumbImagePlugin
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:06,751:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:06,818:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:06,821:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:06,911:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730ld.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 411
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:06,914:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:06,986:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:06,990:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:07,135:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv11d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:07,138:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:07,229:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:07,232:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:07,485:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv12d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:07,489:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:07,565:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:07,568:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:07,855:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv13d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:07,858:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:07,938:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:07,941:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:08,186:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv14d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:08,190:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:08,458:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:08,461:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:08,602:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:08,605:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:08,660:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:08,663:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:08,741:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730ld.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 413
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:08,745:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:08,809:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:08,813:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:08,882:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv11d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:08,885:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:08,937:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:08,940:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:09,074:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv12d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:09,077:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:09,147:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:09,150:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:09,277:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv13d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:09,280:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:09,355:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:09,358:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:09,488:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv14d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:09,492:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:09,565:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:09,568:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:09,716:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 418
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:09,719:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:09,786:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:09,790:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:09,916:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730ld.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 412
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:09,919:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:09,975:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:09,978:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:10,075:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv11d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:10,079:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:10,152:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:10,155:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:10,232:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv12d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:10,235:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:10,294:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:10,297:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:10,430:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv13d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 414
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:10,433:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:10,489:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:10,493:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:10,569:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv14d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:10,572:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:10,629:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:10,632:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:10,853:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:10,856:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:10,911:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:10,915:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:11,018:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730ld.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 412
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:11,022:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:11,075:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:11,078:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:11,183:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv11d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:11,187:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:11,238:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:11,241:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:11,318:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv12d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 413
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:11,321:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:11,389:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:11,393:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:11,504:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv13d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:11,507:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:11,559:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:11,562:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:11,660:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv14d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:11,663:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:11,914:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:11,917:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,035:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,039:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,110:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,113:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,200:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730ld.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 412
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,203:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,288:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,291:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,401:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv11d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,404:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,461:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,464:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,605:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv12d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,608:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,661:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,664:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,762:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv13d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,765:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,828:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,831:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,920:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv14d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:12,924:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:13,172:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:13,175:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:13,265:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 418
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:13,268:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:13,321:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:13,325:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:13,410:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730ld.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 413
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:13,414:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:13,473:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:13,477:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:13,575:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv11d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:13,578:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:13,673:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:13,676:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:13,804:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv12d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:13,807:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:13,863:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:13,866:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:13,937:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv13d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:13,940:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:14,008:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:14,011:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:13:14,115:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv14d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:52,043:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:55,387:https://www.bestbuy.com:443 "GET /site/martinlogan-motion-4-90-watt-passive-2-way-center-channel-speaker-gloss-black/5870730.p?skuId=5870730&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:55,624:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:56,044:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:57,709:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:58,036:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 636
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:58,062:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:58,188:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+PIL.Image:DEBUG:2022-10-17 20:55:58,190:Importing BlpImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,191:Importing BmpImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,191:Importing BufrStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,192:Importing CurImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,193:Importing DcxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,195:Importing DdsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,196:Importing EpsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,247:Importing FitsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,248:Importing FitsStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,249:Importing FliImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,250:Importing FpxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,251:Image: failed to import FpxImagePlugin: No module named 'olefile'
+PIL.Image:DEBUG:2022-10-17 20:55:58,251:Importing FtexImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,252:Importing GbrImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,253:Importing GifImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,253:Importing GribStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,254:Importing Hdf5StubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,255:Importing IcnsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,257:Importing IcoImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,258:Importing ImImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,259:Importing ImtImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,260:Importing IptcImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,261:Importing JpegImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,261:Importing Jpeg2KImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,261:Importing McIdasImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,262:Importing MicImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,264:Image: failed to import MicImagePlugin: No module named 'olefile'
+PIL.Image:DEBUG:2022-10-17 20:55:58,264:Importing MpegImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,264:Importing MpoImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,265:Importing MspImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,266:Importing PalmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,270:Importing PcdImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,271:Importing PcxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,271:Importing PdfImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,278:Importing PixarImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,279:Importing PngImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,279:Importing PpmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,279:Importing PsdImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,280:Importing SgiImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,281:Importing SpiderImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,282:Importing SunImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,283:Importing TgaImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,283:Importing TiffImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,284:Importing WebPImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,289:Importing WmfImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,290:Importing XbmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,292:Importing XpmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:55:58,293:Importing XVThumbImagePlugin
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:58,297:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:58,358:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 636
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:58,362:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:58,455:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730ld.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 413
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:58,458:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:58,514:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 636
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:58,518:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:58,649:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv11d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:58,655:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:58,713:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 636
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:58,717:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:58,799:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv12d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:58,802:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:58,865:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 636
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:58,868:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:58,955:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv13d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:58,962:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:59,036:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 636
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:59,044:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:59,143:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv14d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:59,149:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:59,446:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 852
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:59,450:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:59,541:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:59,545:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:59,622:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 852
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:59,627:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:59,724:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730ld.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 413
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:59,728:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:59,807:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 852
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:59,813:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:59,902:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv11d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:59,906:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:59,973:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 852
+urllib3.connectionpool:DEBUG:2022-10-17 20:55:59,976:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:00,091:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv12d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:00,095:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:00,151:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 852
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:00,155:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:00,256:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv13d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:00,260:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:00,327:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 852
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:00,332:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:00,413:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv14d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:00,417:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:00,735:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 856
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:00,738:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:00,820:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:00,824:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:00,895:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 856
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:00,899:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:00,979:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730ld.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 412
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:00,982:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:01,042:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 856
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:01,045:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:01,120:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv11d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:01,124:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:01,187:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 856
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:01,191:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:01,559:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv12d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:01,562:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:01,624:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 856
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:01,628:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:01,804:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv13d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:01,807:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:01,862:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 856
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:01,865:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:01,964:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv14d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:01,967:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:02,341:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:02,344:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:02,425:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:02,428:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:02,499:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:02,502:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:02,599:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730ld.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 412
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:02,604:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:02,665:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:02,668:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:02,778:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv11d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:02,783:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:02,841:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:02,844:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:02,935:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv12d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:02,940:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:03,050:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:03,053:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:03,151:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv13d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:03,154:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:03,256:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:03,262:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:03,366:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv14d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 414
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:03,369:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:03,927:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 627
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:03,931:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:04,057:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 418
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:04,060:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:04,358:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 627
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:04,361:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:04,456:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730ld.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 412
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:04,460:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:04,520:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 627
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:04,525:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:04,635:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv11d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 414
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:04,638:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:04,806:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 627
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:04,809:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:04,917:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv12d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:04,923:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:05,009:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 627
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:05,013:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:05,105:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv13d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:05,109:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:05,167:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 627
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:05,171:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:05,253:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv14d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:05,257:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:05,527:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 673
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:05,531:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:06,640:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:06,644:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:06,697:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 673
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:06,700:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:06,783:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730ld.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 413
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:06,786:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:06,847:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 673
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:06,850:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:06,929:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv11d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:06,933:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:06,995:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 673
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:06,999:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:07,092:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv12d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:07,095:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:07,152:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 673
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:07,157:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:07,258:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv13d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:07,264:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:07,325:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 673
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:07,331:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:07,568:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv14d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:45,953:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:50,701:https://www.bestbuy.com:443 "GET /site/martinlogan-motion-4-90-watt-passive-2-way-center-channel-speaker-gloss-black/5870730.p?skuId=5870730&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:50,812:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:51,427:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:53,107:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:53,215:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:53,230:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:53,331:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 395
+PIL.Image:DEBUG:2022-10-17 20:56:53,332:Importing BlpImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,333:Importing BmpImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,333:Importing BufrStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,334:Importing CurImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,334:Importing DcxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,336:Importing DdsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,336:Importing EpsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,376:Importing FitsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,376:Importing FitsStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,377:Importing FliImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,377:Importing FpxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,378:Image: failed to import FpxImagePlugin: No module named 'olefile'
+PIL.Image:DEBUG:2022-10-17 20:56:53,379:Importing FtexImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,379:Importing GbrImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,380:Importing GifImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,380:Importing GribStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,380:Importing Hdf5StubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,381:Importing IcnsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,383:Importing IcoImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,383:Importing ImImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,384:Importing ImtImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,385:Importing IptcImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,385:Importing JpegImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,385:Importing Jpeg2KImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,386:Importing McIdasImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,386:Importing MicImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,387:Image: failed to import MicImagePlugin: No module named 'olefile'
+PIL.Image:DEBUG:2022-10-17 20:56:53,387:Importing MpegImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,388:Importing MpoImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,388:Importing MspImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,389:Importing PalmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,390:Importing PcdImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,391:Importing PcxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,391:Importing PdfImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,398:Importing PixarImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,398:Importing PngImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,398:Importing PpmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,398:Importing PsdImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,399:Importing SgiImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,399:Importing SpiderImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,400:Importing SunImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,401:Importing TgaImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,401:Importing TiffImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,401:Importing WebPImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,404:Importing WmfImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,404:Importing XbmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,405:Importing XpmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:56:53,406:Importing XVThumbImagePlugin
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:53,409:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:53,493:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:53,496:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:53,708:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 391
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:53,711:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:53,773:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:53,777:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:53,877:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:53,880:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:53,953:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:53,956:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,044:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv12d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 393
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,048:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,130:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,134:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,228:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv13d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,231:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,284:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,287:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,368:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv14d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 393
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,372:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,431:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,435:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,532:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,535:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,591:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,594:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,728:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 391
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,732:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,790:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,793:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,871:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 393
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,875:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,945:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:54,949:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:55,123:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv12d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 393
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:55,127:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:55,184:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:55,188:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:55,274:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv13d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:55,277:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:55,331:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:55,334:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:55,470:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv14d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:55,474:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:55,525:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:55,529:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:55,689:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 395
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:55,692:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:55,786:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:55,795:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:55,895:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 391
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:55,898:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:55,953:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:55,956:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,033:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,037:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,088:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,091:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,180:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv12d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,183:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,236:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,240:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,325:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv13d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 393
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,328:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,393:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,396:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,479:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv14d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,483:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,543:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,547:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,620:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 395
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,623:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,692:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,695:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,814:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 391
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,817:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,881:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,885:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,969:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 393
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:56,973:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,038:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,041:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,117:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv12d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 392
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,121:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,173:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,176:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,286:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv13d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,290:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,345:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,348:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,483:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv14d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,486:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,546:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,551:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,626:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 395
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,629:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,704:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,707:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,794:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 391
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,797:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,852:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,855:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,993:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:57,996:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,048:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,051:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,219:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv12d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 393
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,222:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,274:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,278:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,370:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv13d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,373:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,444:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,447:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,537:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv14d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,540:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,597:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,600:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,672:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 395
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,675:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,731:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,735:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,822:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 390
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,825:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,899:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:58,902:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:59,037:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:59,040:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:59,102:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:59,105:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:59,189:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv12d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:59,193:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:59,259:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:59,263:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:59,336:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv13d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 393
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:59,339:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:59,397:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:59,400:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:56:59,474:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/5870/5870730cv14d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 20:58:18,016:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:58:24,508:https://www.bestbuy.com:443 "GET /site/brands/polk-audio/pcmcat150300050000.c?id=pcmcat150300050000&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 20:58:24,604:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:58:25,106:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:18,333:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:23,850:https://www.bestbuy.com:443 "GET /site/polk-audio-monitor-xt60-tower-speaker-midnight-black/6477931.p?skuId=6477931&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:23,978:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:25,484:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:27,724:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:27,895:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:27,919:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,042:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 395
+PIL.Image:DEBUG:2022-10-17 20:59:28,043:Importing BlpImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,045:Importing BmpImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,045:Importing BufrStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,046:Importing CurImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,047:Importing DcxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,049:Importing DdsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,050:Importing EpsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,091:Importing FitsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,093:Importing FitsStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,094:Importing FliImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,094:Importing FpxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,096:Image: failed to import FpxImagePlugin: No module named 'olefile'
+PIL.Image:DEBUG:2022-10-17 20:59:28,096:Importing FtexImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,097:Importing GbrImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,098:Importing GifImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,098:Importing GribStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,098:Importing Hdf5StubImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,099:Importing IcnsImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,103:Importing IcoImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,104:Importing ImImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,104:Importing ImtImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,105:Importing IptcImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,106:Importing JpegImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,106:Importing Jpeg2KImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,107:Importing McIdasImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,107:Importing MicImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,109:Image: failed to import MicImagePlugin: No module named 'olefile'
+PIL.Image:DEBUG:2022-10-17 20:59:28,109:Importing MpegImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,110:Importing MpoImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,110:Importing MspImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,111:Importing PalmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,115:Importing PcdImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,116:Importing PcxImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,116:Importing PdfImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,124:Importing PixarImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,127:Importing PngImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,127:Importing PpmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,127:Importing PsdImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,130:Importing SgiImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,131:Importing SpiderImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,131:Importing SunImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,132:Importing TgaImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,132:Importing TiffImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,132:Importing WebPImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,138:Importing WmfImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,140:Importing XbmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,141:Importing XpmImagePlugin
+PIL.Image:DEBUG:2022-10-17 20:59:28,142:Importing XVThumbImagePlugin
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,145:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,225:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,227:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,308:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,312:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,368:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,372:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,465:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 391
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,468:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,531:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,534:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,626:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,629:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,683:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,687:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,799:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 393
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,802:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,857:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,860:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,961:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 421
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:28,964:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:29,215:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:29,218:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:29,322:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:29,324:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:29,384:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:29,387:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:29,476:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 395
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:29,479:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:29,551:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:29,555:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:29,691:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 390
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:29,694:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:29,777:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:29,781:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:29,905:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:29,909:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:29,984:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:29,987:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:30,093:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 392
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:30,096:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:30,184:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:30,187:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:30,309:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 421
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:30,312:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:30,576:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:30,579:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:30,691:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 395
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:30,694:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:30,751:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:30,754:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:30,846:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:30,849:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:30,906:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:30,910:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:30,994:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 391
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:30,997:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:31,068:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:31,071:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:31,163:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 395
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:31,167:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:31,231:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:31,234:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:31,313:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:31,316:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:31,391:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:31,394:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:31,483:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 420
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:31,489:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:31,745:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:31,748:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:31,826:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:31,830:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:31,885:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:31,888:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:31,973:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:31,976:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:32,052:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:32,056:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:32,147:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 391
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:32,151:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:32,211:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:32,214:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:32,327:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:32,330:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:32,403:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:32,406:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:32,498:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:32,501:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:32,570:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:32,573:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:32,658:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 420
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:32,662:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:32,910:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:32,913:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,055:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,058:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,123:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,126:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,230:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,233:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,291:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,294:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,396:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 390
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,399:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,468:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,472:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,583:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,586:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,652:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,655:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,735:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,738:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,796:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,800:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,969:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 420
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:33,973:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:34,229:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:34,232:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:34,321:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:34,325:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:34,390:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:34,393:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:34,478:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 395
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:34,481:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:34,537:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:34,540:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:34,614:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 389
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:34,617:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:34,675:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:34,679:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:34,767:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:34,770:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:34,845:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:34,849:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:34,966:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:34,969:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:35,058:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:35,062:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 20:59:35,140:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 420
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:23,727:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:28,462:https://www.bestbuy.com:443 "GET /site/polk-audio-monitor-xt60-tower-speaker-midnight-black/6477931.p?skuId=6477931&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:28,780:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:29,397:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:31,397:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:31,565:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:31,580:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:31,904:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+PIL.Image:DEBUG:2022-10-17 21:00:31,905:Importing BlpImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,907:Importing BmpImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,907:Importing BufrStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,907:Importing CurImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,908:Importing DcxImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,909:Importing DdsImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,909:Importing EpsImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,947:Importing FitsImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,948:Importing FitsStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,949:Importing FliImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,949:Importing FpxImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,950:Image: failed to import FpxImagePlugin: No module named 'olefile'
+PIL.Image:DEBUG:2022-10-17 21:00:31,950:Importing FtexImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,951:Importing GbrImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,952:Importing GifImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,952:Importing GribStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,952:Importing Hdf5StubImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,953:Importing IcnsImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,955:Importing IcoImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,955:Importing ImImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,956:Importing ImtImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,957:Importing IptcImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,957:Importing JpegImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,957:Importing Jpeg2KImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,958:Importing McIdasImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,958:Importing MicImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,959:Image: failed to import MicImagePlugin: No module named 'olefile'
+PIL.Image:DEBUG:2022-10-17 21:00:31,959:Importing MpegImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,960:Importing MpoImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,960:Importing MspImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,961:Importing PalmImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,962:Importing PcdImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,963:Importing PcxImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,963:Importing PdfImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,970:Importing PixarImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,971:Importing PngImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,971:Importing PpmImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,971:Importing PsdImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,972:Importing SgiImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,972:Importing SpiderImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,985:Importing SunImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,985:Importing TgaImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,986:Importing TiffImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,986:Importing WebPImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,989:Importing WmfImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,990:Importing XbmImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,991:Importing XpmImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:00:31,992:Importing XVThumbImagePlugin
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:31,994:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:32,051:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:32,055:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:32,200:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:32,203:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:32,274:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:32,277:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:32,415:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 412
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:32,419:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:32,474:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:32,477:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:32,613:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:32,616:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:32,686:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:32,689:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:32,838:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 414
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:32,841:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:32,914:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:32,917:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:33,049:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:33,052:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:33,121:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:33,126:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:33,260:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 418
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:33,264:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:33,324:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:33,327:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:33,481:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:33,485:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:33,538:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:33,542:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:33,695:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 413
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:33,698:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:33,756:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:33,761:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:33,904:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:33,907:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:33,967:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:33,971:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:34,128:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:34,132:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:34,194:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:34,197:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:34,337:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:34,340:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:34,400:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:34,403:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:34,537:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:34,540:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:34,605:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:34,609:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:34,756:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:34,759:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:34,821:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:34,824:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:34,992:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 412
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:34,995:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:35,053:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:35,057:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:35,223:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 418
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:35,226:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:35,296:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:35,300:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:35,480:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 416
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:35,483:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:35,540:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:35,544:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:35,721:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 442
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:35,724:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:35,815:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:35,818:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:35,958:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:35,962:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:36,032:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:36,036:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:36,208:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:36,212:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:36,290:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:36,294:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:36,441:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 411
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:36,444:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:36,504:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:36,508:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:36,645:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:36,648:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:36,701:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:36,704:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:36,859:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:36,862:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:36,930:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:36,934:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:37,099:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:37,102:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:37,167:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:37,170:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:37,328:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:37,331:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:37,391:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:37,395:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:37,528:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:37,531:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:37,591:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:37,595:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:37,730:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 413
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:37,733:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:37,789:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:37,793:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:37,941:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:37,944:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:38,005:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:38,008:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:38,155:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:38,159:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:38,221:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:38,224:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:38,387:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 442
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:38,390:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:38,450:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:38,453:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:38,600:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:38,603:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:38,658:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:38,662:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:38,796:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:38,799:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:38,861:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:38,864:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:39,006:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 412
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:39,009:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:39,083:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:39,086:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:39,234:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 417
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:39,237:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:39,310:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:39,313:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:39,456:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 415
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:39,459:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:39,542:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:39,546:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:00:39,694:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54&intl=nosplash HTTP/1.1" 403 442
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:49,019:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:55,356:https://www.bestbuy.com:443 "GET /site/polk-audio-monitor-xt60-tower-speaker-midnight-black/6477931.p?skuId=6477931&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:55,494:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:56,171:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:58,203:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:58,389:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:58,428:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:58,574:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+PIL.Image:DEBUG:2022-10-17 21:04:58,576:Importing BlpImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,577:Importing BmpImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,578:Importing BufrStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,578:Importing CurImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,580:Importing DcxImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,581:Importing DdsImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,582:Importing EpsImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,622:Importing FitsImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,623:Importing FitsStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,624:Importing FliImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,625:Importing FpxImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,627:Image: failed to import FpxImagePlugin: No module named 'olefile'
+PIL.Image:DEBUG:2022-10-17 21:04:58,627:Importing FtexImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,628:Importing GbrImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,629:Importing GifImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,629:Importing GribStubImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,630:Importing Hdf5StubImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,631:Importing IcnsImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,633:Importing IcoImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,634:Importing ImImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,636:Importing ImtImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,637:Importing IptcImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,639:Importing JpegImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,639:Importing Jpeg2KImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,639:Importing McIdasImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,640:Importing MicImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,642:Image: failed to import MicImagePlugin: No module named 'olefile'
+PIL.Image:DEBUG:2022-10-17 21:04:58,642:Importing MpegImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,643:Importing MpoImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,644:Importing MspImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,644:Importing PalmImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,649:Importing PcdImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,650:Importing PcxImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,650:Importing PdfImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,657:Importing PixarImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,659:Importing PngImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,659:Importing PpmImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,659:Importing PsdImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,661:Importing SgiImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,662:Importing SpiderImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,663:Importing SunImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,664:Importing TgaImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,665:Importing TiffImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,665:Importing WebPImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,671:Importing WmfImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,672:Importing XbmImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,674:Importing XpmImagePlugin
+PIL.Image:DEBUG:2022-10-17 21:04:58,675:Importing XVThumbImagePlugin
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:58,680:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:58,753:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:58,756:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:58,838:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:58,842:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:58,903:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:58,906:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:58,999:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 391
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:59,002:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:59,065:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:59,069:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:59,191:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:59,195:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:59,275:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:59,278:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:59,522:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 391
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:59,525:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:59,594:https://m.media-amazon.com:443 "GET /images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 624
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:59,598:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:59,695:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 420
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:59,698:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:59,771:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:59,774:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:59,920:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 393
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:59,924:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:59,994:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 21:04:59,997:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,088:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 395
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,092:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,157:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,161:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,263:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 391
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,268:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,329:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,332:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,421:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,424:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,496:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,499:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,596:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,599:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,669:https://m.media-amazon.com:443 "GET /images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 835
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,672:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,770:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 419
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,773:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,857:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,860:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,955:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 395
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:00,958:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:01,027:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:01,039:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:01,143:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:01,146:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:01,212:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:01,215:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:01,303:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 391
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:01,307:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:01,368:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:01,371:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:01,454:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:01,458:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:01,519:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:01,522:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:01,752:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 391
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:01,755:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:01,845:https://m.media-amazon.com:443 "GET /images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 806
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:01,852:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:01,971:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 419
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:01,974:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,041:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,045:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,138:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 395
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,142:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,208:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,212:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,364:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,367:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,428:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,431:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,523:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 391
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,525:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,591:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,595:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,759:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,763:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,840:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,844:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,927:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 391
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,931:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,993:https://m.media-amazon.com:443 "GET /images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:02,996:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:03,216:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 418
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:03,219:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:03,281:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:03,284:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:03,405:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:03,409:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:03,488:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:03,492:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:03,613:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:03,616:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:03,694:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:03,697:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:03,854:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 391
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:03,857:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:03,919:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:03,922:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:04,201:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 393
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:04,204:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:04,273:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:04,276:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:04,370:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:04,373:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:04,449:https://m.media-amazon.com:443 "GET /images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 660
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:04,452:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:04,547:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 420
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:04,550:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:04,621:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:04,624:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:04,731:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 395
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:04,734:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:04,811:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:04,814:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:04,909:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:04,912:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:04,973:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:04,977:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:05,086:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 391
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:05,089:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:05,151:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:05,154:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:05,238:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 396
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:05,242:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:05,315:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:05,318:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:05,429:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 394
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:05,432:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:05,495:https://m.media-amazon.com:443 "GET /images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 745
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:05,499:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:05:05,593:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 403 421
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:00,991:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:05,005:https://www.bestbuy.com:443 "GET /site/polk-audio-monitor-xt60-tower-speaker-midnight-black/6477931.p?skuId=6477931&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:05,358:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:06,214:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:08,120:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:08,589:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 636
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:08,606:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:09,731:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 705
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:09,741:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:09,809:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 636
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:09,812:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:12,868:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:12,872:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:12,946:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 636
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:12,949:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:14,092:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 983
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:14,096:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:14,201:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 636
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:14,205:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:15,325:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 1091
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:15,330:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:15,389:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 636
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:15,392:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:16,452:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 948
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:16,457:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:16,520:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31yfLJJHpML._AC_US40_.jpg HTTP/1.1" 200 636
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:16,523:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:17,783:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 1123
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:17,788:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:17,889:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 852
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:17,893:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:18,082:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 705
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:18,085:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:18,155:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 852
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:18,159:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:18,366:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:18,370:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:18,443:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 852
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:18,446:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:18,623:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 983
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:18,627:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:18,690:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 852
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:18,693:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:18,987:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 1091
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:18,992:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:19,063:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 852
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:19,067:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:19,234:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 948
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:19,238:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:19,312:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41HmgodJz+L._AC_US40_.jpg HTTP/1.1" 200 852
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:19,315:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:19,474:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 1123
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:19,478:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:19,542:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 856
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:19,545:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:19,685:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 705
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:19,689:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:19,772:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 856
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:19,775:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:19,930:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:19,933:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:20,016:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 856
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:20,019:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:20,164:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 983
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:20,168:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:20,244:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 856
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:20,248:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:20,430:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 1091
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:20,433:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:20,520:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 856
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:20,523:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:20,670:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 948
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:20,674:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:20,766:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/41QuJ9S84fL._AC_US40_.jpg HTTP/1.1" 200 856
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:20,769:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:20,931:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 1123
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:20,935:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:21,023:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:21,026:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:21,196:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 705
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:21,200:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:21,282:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:21,285:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:21,441:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:21,446:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:21,533:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:21,536:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:21,695:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 983
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:21,698:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:21,796:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:21,799:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:21,969:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 1091
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:21,973:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:22,266:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:22,271:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:22,419:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 948
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:22,424:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:22,487:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/313Hc1yIQdL._AC_US40_.jpg HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:22,491:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:22,645:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 1123
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:22,649:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:22,720:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 627
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:22,723:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:22,889:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 705
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:22,896:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:23,116:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 627
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:23,121:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:23,308:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:23,312:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:23,376:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 627
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:23,379:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:23,526:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 983
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:23,529:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:23,662:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 627
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:23,666:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:23,809:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 1091
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:23,813:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:23,898:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 627
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:23,902:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:24,058:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 948
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:24,062:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:24,132:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/31vHFKBKMQL._AC_US40_.jpg HTTP/1.1" 200 627
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:24,135:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:24,302:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 1123
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:24,306:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:24,629:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 673
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:24,632:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:24,822:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_sd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 705
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:24,826:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:24,904:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 673
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:24,907:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:25,061:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_rd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 565
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:25,065:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:25,138:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 673
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:25,142:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:25,311:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931ld.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 983
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:25,315:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:25,394:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 673
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:25,397:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:25,541:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931_bd.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 1091
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:25,545:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:25,602:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 673
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:25,605:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:25,745:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/images/products/6477/6477931cv11d.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 948
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:25,749:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:25,823:https://m.media-amazon.com:443 "GET /images/W/IMAGERENDERING_521856-T2/images/I/51VPQmnwOHL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg HTTP/1.1" 200 673
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:25,826:Starting new HTTPS connection (1): pisces.bbystatic.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 21:06:25,956:https://pisces.bbystatic.com:443 "GET /image2/BestBuy_US/exc/videometadata/thumbnail/6dbc7936181e61e78d1f4676bc99d2ff.jpg;maxHeight=54;maxWidth=54 HTTP/1.1" 200 1123

@@ -3,7 +3,7 @@ import threading
 from queue import Queue
 
 from extractors import send_request
-from similarity_checker import check_similarity, check_image_similarity
+from similarity_checker import check_similarity, images_are_similar
 
 from extractors import newegg, bestbuy
 from extractors import amazon
@@ -190,8 +190,10 @@ def begin_crawling(address, categoryId):
                     if check_similarity([sample_data['productDescription'], item_data['productDescription']]) > \
                             int(similarity_scores['descriptionScore']) / 100:
 
-                        print("Similar item found on Newegg.")
-                        current_item_newegg = item_data
+                        image_score = similarity_scores['imageScore'] * 2 - 100
+                        if images_are_similar(sample_data['imageLink'], item_data['imageLink'], image_score):
+                            print("Similar item found on Newegg.")
+                            current_item_newegg = item_data
                 else:
                     print("Similar item found on Newegg.")
                     current_item_newegg = item_data
@@ -221,8 +223,11 @@ def begin_crawling(address, categoryId):
                 if not (sample_data['productDescription'] == 'NA' or item_data['productDescription'] == 'NA'):
                     if check_similarity([sample_data['productDescription'], item_data['productDescription']]) > \
                             int(similarity_scores['descriptionScore']) / 100:
-                        print("Similar item found on Bestbuy.")
-                        current_item_bestbuy = item_data
+
+                        image_score = similarity_scores['imageScore'] * 2 - 100
+                        if images_are_similar(sample_data['imageLink'], item_data['imageLink'], image_score):
+                            print("Similar item found on Bestbuy.")
+                            current_item_bestbuy = item_data
                 else:
                     print("Similar item found on Bestbuy.")
                     current_item_bestbuy = item_data
