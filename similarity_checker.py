@@ -46,6 +46,7 @@ def check_image_similarity(url1, url2):
 
 def images_are_similar(sample_item_imgs_urls, item_imgs_urls, score):
 
+    #print("checking image similarity..")
     total_comparisons = 0       # number total comparisons done
     similar_imgs = 0            # number similar imgs found
 
@@ -59,12 +60,14 @@ def images_are_similar(sample_item_imgs_urls, item_imgs_urls, score):
             except Exception as e:
                 continue
 
+    #print(f"Total comparisons : {total_comparisons}   Similar images: {similar_imgs}")
     if not total_comparisons:       # if no comparisons were made, that is, no images were available, return true
         return True
 
     # calculate the percentage of similar imgs found
     avg_weight = similar_imgs / total_comparisons * 100
 
+    #print(f"Avg weight : {avg_weight}")
     # if the weight is greater than 50, the images are considered as similar
     if avg_weight > 50:
         return True

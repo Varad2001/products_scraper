@@ -1,5 +1,3 @@
-import multiprocessing
-import threading
 from queue import Queue
 
 from extractors import send_request
@@ -7,11 +5,10 @@ from similarity_checker import check_similarity, images_are_similar
 
 from extractors import newegg, bestbuy
 from extractors import amazon
-from extractors.helpers import store_data, product_already_in_database, get_similarity_scores, get_important_text
-
+from helpers import store_data_products,store_data_price, product_already_in_database, get_similarity_scores, get_important_text
+from datetime import datetime
 import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
-import settings
 
 
 def crawl_new_items_from_newegg(queue, url):
@@ -120,7 +117,8 @@ def begin_crawling(address, categoryId):
     sample_products = Queue()           # store sample products from amazon
     new_products_newegg = list()        # store new items extracted from Newegg.com
     new_products_bestbuy = list()       # store new items extracted from Bestbuy.com
-    items_to_be_inserted = Queue()      # store items that are to be inserted in the database
+    items_to_be_inserted = Queue()      # store items that are to be inserted in the table prodcuts
+    items_to_be_inserted_prices = Queue()   # store documents to be inserted in table 'productHistory'
 
     # get similarity scores
     try:
@@ -169,11 +167,11 @@ def begin_crawling(address, categoryId):
         crawl_new_items_from_bestbuy(new_products_bestbuy, bestbuy_url)
 
         # now the items have been extracted,
-
         current_item_newegg = { 'productPrice' : 'NA' , 'productLink' : None}
         for item in new_products_newegg:
 
             if check_similarity([sample_title, item['title']]) > int(similarity_scores['titleScore']) / 100:
+                #print("Similar titles...")
                 if not sample_data:
                     sample_data = amazon.get_all_details(sample_product['url'])
 
@@ -189,8 +187,9 @@ def begin_crawling(address, categoryId):
                 if not (sample_data['productDescription'] == 'NA' or item_data['productDescription'] == 'NA'):
                     if check_similarity([sample_data['productDescription'], item_data['productDescription']]) > \
                             int(similarity_scores['descriptionScore']) / 100:
+                        #print("similar descriptions...")
 
-                        image_score = similarity_scores['imageScore'] * 2 - 100
+                        image_score = int(similarity_scores['imageScore']) * 2 - 100
                         if images_are_similar(sample_data['imageLink'], item_data['imageLink'], image_score):
                             print("Similar item found on Newegg.")
                             current_item_newegg = item_data
@@ -240,12 +239,37 @@ def begin_crawling(address, categoryId):
         if len(similar_items) > 0:
             print("Saving similar items...")
             similar_items.append(sample_data)
-            items_to_be_inserted.put(similar_items)
 
-            store_data(items_to_be_inserted, categoryId)
-            # storing_process = threading.Thread(target=store_data, args=(items_to_be_inserted, categoryId))
-            # storing_process.start()
-            # storing_process.join()
+            # store in 'priceHistory' collection
+            for item in similar_items:
+                document = {
+                    'productID' : item['productID'],
+                    'sellerID' : item['sellerID'],
+                    'priceUpdateTime' : datetime.timestamp(datetime.now()),
+                    'productPrice' : item['productPrice'],
+                    'productShippingFee' : item['productShippingFee'],
+                    'productPriceType' :  item['productPriceType']
+                }
+                # store discount if available
+                if item['productPriceType'] == 'Discounted':
+                    document['lastPrice'] = item['lastPrice']
+                    del item['lastPrice']
+
+                items_to_be_inserted_prices.put(document)
+            store_data_price(items_to_be_inserted_prices, categoryId)
+
+
+            # store in 'products' collection
+            for item in similar_items:          # remove attributes not to be stored in 'products'
+                del item['productPrice']
+                del item['productShippingFee']
+                if item['sellerName'] != 'Amazon':
+                    del item['productDescription']
+
+            items_to_be_inserted.put(similar_items)
+            store_data_products(items_to_be_inserted, categoryId)
+
+
 
     print("\n-------Crawling finished.--------")
 

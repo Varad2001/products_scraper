@@ -5,6 +5,7 @@ db_products = "tasks_db"
 products_table = "products"
 products_category_table = "productCategory"
 products_sellers_table = "productSellers"
+product_price_history_table = "product_format"
 
 
 # database details where ratings info is stored

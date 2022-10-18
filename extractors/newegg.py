@@ -169,7 +169,7 @@ def get_all_details(url):      # queue : reserved for the future use of multipro
     results['productPrice'] =  get_price(page)
     results['productShippingFee'] = get_shipping_price(page)
     results['favoritedCount'] = get_ratings(page)
-    results['productBrand'] = get_brand(page)
+    #results['productBrand'] = get_brand(page)
     results['productDescription'] = get_description(page)
 
     results['sellerID'] = str(get_seller_id('NewEgg'))
@@ -182,6 +182,8 @@ def get_all_details(url):      # queue : reserved for the future use of multipro
     if discount :
         results['productPriceType'] = "Discounted"
         results['lastPrice'] = discount
+    else :
+        results['productPriceType'] = 'Regular'
 
     return results
 

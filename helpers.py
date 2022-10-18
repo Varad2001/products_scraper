@@ -8,7 +8,7 @@ from rake_nltk import Rake
 import nltk
 import settings
 import logging
-logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
+logging.basicConfig(filename='extractors/scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -104,11 +104,20 @@ def get_app_settings():
     return setting
 
 
-def store_data(queue, category):
+def store_data_products(queue, category):
     while not queue.empty():
         try :
-            results = {'productCategory' : category, 'lastUpdate' : datetime.timestamp(datetime.now())}
             sellers = queue.get()
+            results = {'productCategory': category,
+                       'lastUpdate': datetime.timestamp(datetime.now())
+                       }
+            for seller in sellers:
+                if seller['sellerName'] == 'Amazon' :
+                    amazon_seller = seller
+                    results['productDescription'] = amazon_seller['productDescription']
+                    results['productBrand'] = amazon_seller['productBrand']
+                    break
+
             results['sellers'] = sellers
 
             dotenv.load_dotenv()
@@ -128,7 +137,37 @@ def store_data(queue, category):
             table.insert_one(results)
 
             client.close()
-            print("Item saved successfully.")
+            print("Item saved in products collection.")
+            return True
+        except Exception as e:
+            logging.exception(e)
+            print("Could not save the details to database.")
+            return False
+
+
+def store_data_price(queue, category):
+    while not queue.empty():
+        try :
+            item = queue.get()
+
+            dotenv.load_dotenv()
+            user = os.getenv('USER')
+            passwd = os.getenv('PASSWD')
+            arg = os.getenv('CLUSTER_ARG')
+            db_name = settings.db_products
+            table_name = settings.product_price_history_table
+
+            # connect to the mongodb database
+            client = pymongo.MongoClient(
+                f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
+
+            db = client[db_name]
+            table = db[table_name]
+
+            table.insert_one(item)
+
+            client.close()
+            print("Item saved in productPriceHistory.")
             return True
         except Exception as e:
             logging.exception(e)

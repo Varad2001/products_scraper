@@ -1,10 +1,4 @@
-import time
 
-from bs4 import BeautifulSoup
-import requests
-
-
-import extractors.send_request
 from extractors.send_request import send_request
 from datetime import datetime
 import dotenv, os, pymongo
@@ -25,7 +19,7 @@ def get_seller_id(name):
     db = client['tasks_db']
     table = db['productSellers']
 
-    cursor = table.find({'sellerName' : 'costco'})
+    cursor = table.find({'sellerName' : 'Costco'})
     for document in cursor:
         id = document['_id']
         return id
@@ -85,20 +79,17 @@ def get_price(page):
 
 
 def get_ratings(page):
-    rating_tag = page.find('div' , attrs={"itemprop" : "ratingValue"})
-    tag = page.find('span', attrs={'class' : 'bv-rating'})
-    print(tag)
-    rating_count = page.find('div', attrs={'class' : 'bv_numReviews_text'})
-    print(rating_count, rating_tag)
-    if not rating_count or not rating_tag:
-        return None
+    page = page.find('div' , attrs={'class' : 'product-info-description'})
+    results = {'Ratings' : None, "Number_of_reviews" : None}
+    rating_tag= page.find('dd', attrs={'class' : 'bv-rating-ratio-number'})
+    if rating_tag:
+        results['Ratings'] = rating_tag.span.span.text
 
-    try:
-        return {'Rating' : rating_tag.text.strip(),  'Number_of_ratings' : rating_count.text.
-        strip().replace('(','').replace(')','')}
-    except Exception as e:
-        logging.exception(e)
-        return None
+    rating_num_tag= page.find('dd', attrs={'class' : 'bv-rating-ratio-count'})
+    if rating_num_tag :
+        results['Number_of_reviews'] = rating_num_tag.a.text
+
+    return results
 
 
 def get_brand(page):
@@ -169,15 +160,15 @@ def get_all_details(url, queue, category):
     return results
 
 
-"""url = "https://www.costco.com/home-theater-systems.html"
+url = "https://www.costco.com/home-theater-systems.html"
 url2 = "https://www.costco.com/klipsch-the-fives-speaker%2c-2-pack.product.100800459.html"
 url3 = "https://www.costco.com/jbl-bar-5.1-channel-soundbar-multibeam%e2%84%a2-sound-technology.product.100982543.html"
 url4 = "https://www.costco.com/klipsch-reference-dolby-atmos-5.0.2-home-theater-system.product.100665767.html"
 
-page = send_request(url4)
-time.sleep(1)
+page = send_request(url2)
 #print(find_urls_and_titles_on_page(page))
 #print(get_product_id(page))
 #print(get_title(page))
 
-print(get_price(page))"""
+#print(get_price(page))
+print(get_ratings(page))

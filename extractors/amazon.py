@@ -58,7 +58,7 @@ def get_seller_id(name):
     try :
         # tasks_db.productCategory
         db_name = settings.db_products
-        table_name = settings.products_category_table
+        table_name = settings.products_sellers_table
         db = client[db_name]
         table = db[table_name]
 
@@ -212,6 +212,9 @@ def get_all_details(url):
     results['productLink'] = url
     results['productTitle'] = get_title(page)
     results['imageLink'] = get_img_links(page)
+
+    results['productPriceType'] = 'Regular'
+    results['productShippingFee'] = ""
 
     return results
 

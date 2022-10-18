@@ -111,3 +111,13 @@ urllib3.connectionpool:DEBUG:2022-10-16 16:16:49,386:Starting new HTTPS connecti
 urllib3.connectionpool:DEBUG:2022-10-16 16:16:50,435:https://www.costco.com:443 "GET /klipsch-the-fives-speaker%2C-2-pack.product.100800459.html HTTP/1.1" 200 None
 urllib3.connectionpool:DEBUG:2022-10-16 16:17:16,377:Starting new HTTPS connection (1): www.costco.com:443
 urllib3.connectionpool:DEBUG:2022-10-16 16:17:16,683:https://www.costco.com:443 "GET /klipsch-reference-dolby-atmos-5.0.2-home-theater-system.product.100665767.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 22:02:24,850:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 22:02:25,646:https://www.costco.com:443 "GET /klipsch-the-fives-speaker%2C-2-pack.product.100800459.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 22:06:40,612:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 22:06:41,769:https://www.costco.com:443 "GET /klipsch-the-fives-speaker%2C-2-pack.product.100800459.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 22:07:06,803:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 22:07:07,579:https://www.costco.com:443 "GET /klipsch-the-fives-speaker%2C-2-pack.product.100800459.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 22:07:26,727:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 22:07:27,454:https://www.costco.com:443 "GET /klipsch-the-fives-speaker%2C-2-pack.product.100800459.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-17 22:08:26,260:Starting new HTTPS connection (1): www.costco.com:443
+urllib3.connectionpool:DEBUG:2022-10-17 22:08:27,094:https://www.costco.com:443 "GET /klipsch-the-fives-speaker%2C-2-pack.product.100800459.html HTTP/1.1" 200 None

@@ -6,7 +6,7 @@ from rating import get_data_by_id, store_user_ratings, delete_item, update_simil
 from crawler import begin_crawling
 
 from updater import update_items
-from extractors import helpers
+import helpers
 
 import redis_ops
 import logging

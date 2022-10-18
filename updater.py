@@ -4,10 +4,9 @@ import pymongo
 import dotenv
 import os
 from datetime import datetime
-from queue import Queue
 from multiprocessing import Pool
 from extractors import newegg, amazon, bestbuy
-from extractors.helpers import get_app_settings
+from helpers import get_app_settings
 import settings
 
 

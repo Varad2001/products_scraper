@@ -189,7 +189,7 @@ def get_all_details(url):
     results['productID'] = get_product_id(page)
     results['productPrice'] = get_price(page)
     results['favoritedCount'] = get_rating(page)
-    results['productBrand'] = get_brand(page)
+    #results['productBrand'] = get_brand(page)
     results['productDescription'] = get_description(page)
 
     results['sellerID'] = get_seller_id('BestBuy')
@@ -202,6 +202,8 @@ def get_all_details(url):
     if discount:
         results['productPriceType'] = "Discounted"
         results['lastPrice'] = discount
+    else :
+        results['productPriceType'] = 'Regular'
 
     return results
 
