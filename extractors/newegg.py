@@ -3,7 +3,7 @@ import dotenv
 import os
 import pymongo
 import settings
-
+from bson import ObjectId
 from extractors import send_request
 import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
@@ -161,12 +161,29 @@ def get_product_images(page):
     return links
 
 
-def get_all_details(url):      # queue : reserved for the future use of multiprocessing
+def get_stock_count(page):
+    title = page.find('title')
+    if 'page not found' in title.text.lower():
+        return  -1
+
+    div = page.find("div", attrs=  {'class' : 'product-inventory'})
+    try :
+        stock = div.strong.text
+        if 'in stock' in stock.lower():
+            return 1
+        else:
+            return 0
+    except Exception as e:
+        logging.exception(e)
+        return "NA"
+
+
+def get_all_details(url):
     page = send_request.send_request(url)
 
     results = dict()
 
-    results['productID'] = get_product_id(page)
+    results['productID'] = ObjectId()
     results['productPrice'] =  get_price(page)
     results['productShippingFee'] = get_shipping_price(page)
     results['favoritedCount'] = get_ratings(page)
@@ -178,6 +195,7 @@ def get_all_details(url):      # queue : reserved for the future use of multipro
     results['productLink'] = url
     results['productTitle'] = get_title(page)
     results['imageLink'] = get_product_images(page)
+    results['stockCount'] = get_stock_count(page)
 
     discount = get_discount_info(page)
     if discount :
@@ -193,8 +211,8 @@ def get_all_details(url):      # queue : reserved for the future use of multipro
 url2 = "https://www.newegg.com/cerwin-vega-xls-215/p/0S6-00AA-00006?quicklink=true"
 url3= "https://www.newegg.com/polk-audio-300367-14-00-005/p/N82E16886290064?quicklink=true"
 url4 = "https://www.newegg.com/creality-ender-3-v2-black/p/288-00DY-00001"
-page = send_request(url4)
+page = send_request.send_request(url3)
 
-q = multiprocessing.Queue()
-print(type(get_all_details(url4, q, '546446')))"""
+
+print(get_stock_count(page))"""
 

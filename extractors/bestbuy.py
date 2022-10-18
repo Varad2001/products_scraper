@@ -3,6 +3,7 @@ import dotenv
 import pymongo
 from extractors import send_request
 import settings
+from bson import ObjectId
 import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
 
@@ -181,12 +182,29 @@ def get_discount_info(page):
         return None
 
 
+def get_stock_count(page):
+    title = page.find("title")
+    if "page not found" in title.lower():
+        return -1
+
+    div = page.find('div', attrs= {'class' : 'fulfillment-add-to-cart-button'})
+
+    try :
+        stock = div.button.text.strip()
+        if 'add to cart' in stock.lower():
+            return 1
+        else :
+            return 0
+    except Exception as e:
+        return "NA"
+
+
 def get_all_details(url):
     page = send_request.send_request(url+ "&intl=nosplash")
 
     results = {}
 
-    results['productID'] = get_product_id(page)
+    results['productID'] = ObjectId()
     results['productPrice'] = get_price(page)
     results['favoritedCount'] = get_rating(page)
     #results['productBrand'] = get_brand(page)
@@ -197,6 +215,7 @@ def get_all_details(url):
     results['productLink'] = url
     results['productTitle'] = get_title(page)
     results['imageLink'] = get_product_imgs(page)
+    results['stockCount'] = get_stock_count(page)
 
     discount = get_discount_info(page)
     if discount:
@@ -212,8 +231,8 @@ def get_all_details(url):
 """url = "https://www.bestbuy.com/site/home-audio-systems/home-theater-systems/abcat0203000.c?id=abcat0203000"
 url2 = "https://www.bestbuy.com/site/definitive-technology-descend-dn10-10-sub-3xr-architecture-500w-peak-class-d-amplifier-2-10-bass-radiators-black/6467273.p?skuId=6467273"
 url3 = "https://www.bestbuy.com/site/martinlogan-motion-4-90-watt-passive-2-way-center-channel-speaker-gloss-black/5870730.p?skuId=5870730"
-
+url4 = "https://www.bestbuy.com/site/dell-inspiron-27-touch-screen-all-in-one-intel-core-i7-12gb-memory-512gb-ssd-silver/6373025.p?skuId=6373025"
 category = "633a9c09fd7e59f8d05c4743"
-
-print(get_all_details(url2+"&intl=nosplash", multiprocessing.Queue(),category))"""
+page = send_request.send_request(url4+"&intl=nosplash")
+print(get_stock_count(page))"""
 

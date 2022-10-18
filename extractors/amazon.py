@@ -5,6 +5,7 @@ import pymongo
 
 import settings
 from extractors import send_request
+from bson import ObjectId
 import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
 
@@ -196,12 +197,36 @@ def get_product_id(page):
     return None
 
 
+def get_stock_count(page):
+    title = page.find('title')
+    if "page not found" in title.text.strip().lower():
+        return -1
+
+    div = page.find("div", attrs= {'id' : 'availability'})
+
+    try :
+        stock = div.span.text
+        if 'order soon' in stock.lower():
+            for c in stock:
+                if c.isdigit():
+                    value = int(c)
+                    return value
+        elif 'in stock' in stock.lower():
+            return 1
+        else:
+            return 0
+    except Exception as e:
+        logging.exception(e)
+        return "NA"
+
+
+
 def get_all_details(url):
     page = send_request.send_request(url)
 
     results = dict()
 
-    results['productID'] = get_product_id(page)
+    results['productID'] = ObjectId()
     results['productPrice'] =  get_price(page)
     results['favoritedCount'] = get_ratings(page)
     results['productBrand'] = get_brand(page)
@@ -212,6 +237,7 @@ def get_all_details(url):
     results['productLink'] = url
     results['productTitle'] = get_title(page)
     results['imageLink'] = get_img_links(page)
+    results['stockCount'] = get_stock_count(page)
 
     results['productPriceType'] = 'Regular'
     results['productShippingFee'] = ""
@@ -220,9 +246,9 @@ def get_all_details(url):
 
 
 """from extractors import send_request
-url = "https://www.amazon.com/JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19"
+url = "https://www.amazon.com/SanDisk-2TB-Extreme-Portable-SDSSDE81-2T00-G25/dp/B08GV4YYV7?th=1"
 page = send_request.send_request(url)
+print(get_stock_count(page))"""
 
 
-print(get_description(page))"""
 

@@ -121,3 +121,42 @@ urllib3.connectionpool:DEBUG:2022-10-17 22:07:26,727:Starting new HTTPS connecti
 urllib3.connectionpool:DEBUG:2022-10-17 22:07:27,454:https://www.costco.com:443 "GET /klipsch-the-fives-speaker%2C-2-pack.product.100800459.html HTTP/1.1" 200 None
 urllib3.connectionpool:DEBUG:2022-10-17 22:08:26,260:Starting new HTTPS connection (1): www.costco.com:443
 urllib3.connectionpool:DEBUG:2022-10-17 22:08:27,094:https://www.costco.com:443 "GET /klipsch-the-fives-speaker%2C-2-pack.product.100800459.html HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-18 20:30:37,609:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-18 20:30:39,294:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-18 20:31:44,530:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-18 20:31:46,070:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-18 21:03:41,505:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-18 21:03:43,001:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+root:ERROR:2022-10-18 21:03:46,472:invalid literal for int() with base 10: ' '
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\amazon.py", line 206, in get_stock_count
+    value = int(c)
+ValueError: invalid literal for int() with base 10: ' '
+urllib3.connectionpool:DEBUG:2022-10-18 21:08:16,584:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-18 21:08:19,548:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-18 21:12:29,135:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-18 21:12:30,330:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV/ref=sr_1_19?qid=1665223097&rnid=9977442011&s=electronics&sr=1-19 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-18 21:12:41,291:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-18 21:12:42,267:https://www.amazon.com:443 "GET /JVC-EXOFIELD-Personal-Multi-Channel-Surround/dp/B0899NS7NV67 HTTP/1.1" 404 None
+urllib3.connectionpool:DEBUG:2022-10-18 21:13:04,142:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-18 21:13:05,155:https://www.amazon.com:443 "GET /SanDisk-2TB-Extreme-Portable-SDSSDE81-2T00-G25/dp/B08GV4YYV7?th=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-18 21:13:50,045:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-18 21:13:51,337:https://www.amazon.com:443 "GET /SanDisk-2TB-Extreme-Portable-SDSSDE81-2T00-G25/dp/B08GV4YYV7?th=1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-18 21:13:59,371:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-18 21:14:11,618:https://www.amazon.com:443 "GET /SanDisk-2TB-Extreme-Portable-SDSSDE81-2T00-G25/dp/B08GV4YYV7b?th=1 HTTP/1.1" 404 None
+urllib3.connectionpool:DEBUG:2022-10-18 21:29:54,281:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-18 21:30:06,963:https://www.bestbuy.com:443 "GET /site/martinlogan-motion-4-90-watt-passive-2-way-center-channel-speaker-gloss-black/5870730.p?skuId=5870730&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-18 21:30:32,700:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-18 21:30:34,251:https://www.bestbuy.com:443 "GET /site/dell-inspiron-27-touch-screen-all-in-one-intel-core-i7-12gb-memory-512gb-ssd-silver/6373025.p?skuId=6373025&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-18 21:33:25,877:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-18 21:33:27,619:https://www.bestbuy.com:443 "GET /site/definitive-technology-descend-dn10-10-sub-3xr-architecture-500w-peak-class-d-amplifier-2-10-bass-radiators-black/6467273.p?skuId=6467273&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-18 21:35:11,615:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-18 21:35:13,209:https://www.bestbuy.com:443 "GET /site/definitive-technology-descend-dn10-10-sub-3xr-architecture-500w-peak-class-d-amplifier-2-10-bass-radiators-black/6467273.p?skuId=6467273&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-18 21:35:19,341:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-18 21:35:21,102:https://www.bestbuy.com:443 "GET /site/dell-inspiron-27-touch-screen-all-in-one-intel-core-i7-12gb-memory-512gb-ssd-silver/6373025.p?skuId=6373025&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-18 22:20:59,313:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-18 22:21:00,907:https://www.newegg.com:443 "GET /creality-ender-3-v2-black/p/288-00DY-00001 HTTP/1.1" 200 40371
+urllib3.connectionpool:DEBUG:2022-10-18 22:21:52,753:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-18 22:21:53,845:https://www.newegg.com:443 "GET /creality-ender-3-v2-black/p/288-00DY-00001 HTTP/1.1" 200 40371
+urllib3.connectionpool:DEBUG:2022-10-18 22:22:07,921:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-18 22:22:20,182:https://www.newegg.com:443 "GET /polk-audio-300367-14-00-005/p/N82E16886290064?quicklink=true HTTP/1.1" 200 29713

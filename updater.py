@@ -49,22 +49,26 @@ def update_items():
 
 
 def update_one_item(item):
-    obj_id = item['_id']
-    results = []
-    sellers = item['sellers']
-    for seller in sellers:
-        if seller['sellerName'].lower().strip() == 'amazon':
-            result = amazon.get_all_details(seller['productLink'])
-            if result:
-                results.append(result)
-        if seller['sellerName'].lower().strip() == 'bestbuy':
-            result = bestbuy.get_all_details(seller['productLink'])
-            if result:
-                results.append(result)
-        if seller['sellerName'].lower().strip() == 'newegg':
-            result = newegg.get_all_details(seller['productLink'])
-            if result:
-                results.append(result)
+    results = {}
+
+    if item['sellerName'] == 'Amazon':
+        data = amazon.get_all_details(item['productLink'])
+    elif item['sellerName'] == 'NewEgg' :
+        data = newegg.get_all_details(item['productLink'])
+    elif item['sellerName'] == 'BestBuy' :
+        data = bestbuy.get_all_details(item['productLink'])
+    else :
+        print("Following seller name not found : ", item['sellerName'])
+        return
+
+    results = {
+            'lastUpdate': datetime.timestamp(datetime.now()),
+            'productPrice' : data['productPrice'],
+            'productPriceType' : data['productPriceType'],
+            'productShippingFee' : data['productShippingFee']
+        }
+    if results['productPriceType'] == 'Discounted' :
+        results['lastPrice'] = data['lastPrice']
 
     # connect with mongodb and update this result
     dotenv.load_dotenv()
@@ -73,7 +77,7 @@ def update_one_item(item):
     arg = os.getenv('CLUSTER_ARG')
 
     db_name = settings.db_products
-    table_name = settings.products_table
+    table_name = settings.product_price_history_table
 
     # connect to the mongodb database
     client = pymongo.MongoClient(
@@ -82,14 +86,11 @@ def update_one_item(item):
     table = db[table_name]
 
     table.update_one(
-        {'_id': obj_id},
-        {'$set': {
-            'lastUpdate': datetime.timestamp(datetime.now()),
-            'sellers': results
-        }}
+        {'productID': item['productID']},
+        {'$set': results}
     )
     client.close()
-    print(f"Updated item. Id : {obj_id}")
+    print(f"Updated item. Id : {item['productID']}")
 
 
 if __name__ == '__main__' :

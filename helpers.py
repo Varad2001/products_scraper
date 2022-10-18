@@ -95,7 +95,7 @@ def get_app_settings():
 
     # tasks_db.productCategory
     db_name = settings.db_settings
-    table_name = "settings"
+    table_name = "appSettings"
     db = client[db_name]
     table = db[table_name]
 
@@ -215,7 +215,7 @@ def get_similarity_scores():
         f"mongodb+srv://{user}:{passwd}@cluster0.{arg}.mongodb.net/?retryWrites=true&w=majority")
 
     db_name = settings.db_settings
-    table_name = 'settings'
+    table_name = 'appSettings'
 
     db= client[db_name]
     table = db[table_name]

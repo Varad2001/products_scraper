@@ -7,6 +7,7 @@ from extractors import newegg, bestbuy
 from extractors import amazon
 from helpers import store_data_products,store_data_price, product_already_in_database, get_similarity_scores, get_important_text
 from datetime import datetime
+from bson import ObjectId
 import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
 

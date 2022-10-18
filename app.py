@@ -26,7 +26,8 @@ def start_crawler():
         print(e)
         return jsonify(message="Begin_crawl failed as app settings could not be fetched.")
 
-    categoryId = app_settings['amazonCategoryId']
+    # categoryId = app_settings['amazonCategoryId']
+    categoryId = '6338422f02cdaa0d51efb354'
 
     try :
         address, category = helpers.get_address_by_id(categoryId)
