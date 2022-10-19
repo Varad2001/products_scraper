@@ -5,7 +5,7 @@ import threading
 from rating import get_data_by_id, store_user_ratings, delete_item, update_similarity_scores, get_data_by_brand_name
 from crawler import begin_crawling
 
-from updater import update_items
+from updater import set_update_process
 import helpers
 
 import redis_ops
@@ -56,13 +56,13 @@ def start_crawler():
 @app.route('/update', methods=["POST", "GET"])
 def update():
     try :
-        print("Updating items...")
-        new_thread = threading.Thread(target=update_items)
+        update_time = helpers.get_app_settings()['updateTime']
+        new_thread = threading.Thread(target=set_update_process, args=(update_time,))
         new_thread.start()
 
-        return jsonify(message="Update began...")
+        return jsonify(message="Setting update process successful.")
     except Exception  as e:
-        print("Could not start update function.")
+        print("Could not set update function.")
         print(e)
         return jsonify(message="Something went wrong. Please check the logs.")
 

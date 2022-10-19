@@ -1,3 +1,4 @@
+import multiprocessing
 
 import dotenv
 import os
@@ -171,11 +172,9 @@ def store_data_price(queue, category):
 
             client.close()
             print("Item saved in productPriceHistory.")
-            return True
         except Exception as e:
             logging.exception(e)
             print("Could not save the details to database.")
-            return False
 
 
 def product_already_in_database(url):
@@ -225,4 +224,12 @@ def get_similarity_scores():
 
     cursor = list(table.find({}))
     return cursor[0]['similarityScores']
+
+
+"""from extractors import send_request, amazon
+url = "https://www.amazon.com/SanDisk-2TB-Extreme-Portable-SDSSDE81-2T00-G25/dp/B08GV4YYV7?th=1"
+data = amazon.get_all_details(url)
+q = multiprocessing.Queue()
+q.put(data)
+store_data_price(q,67)"""
 

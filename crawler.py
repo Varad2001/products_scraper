@@ -244,6 +244,7 @@ def begin_crawling(address, categoryId):
 
             # store in 'priceHistory' collection
             for item in similar_items:
+
                 document = {
                     'productID' : obj_id,
                     'sellerID' : item['sellerID'],
