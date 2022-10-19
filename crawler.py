@@ -240,11 +240,12 @@ def begin_crawling(address, categoryId):
         if len(similar_items) > 0:
             print("Saving similar items...")
             similar_items.append(sample_data)
+            obj_id = ObjectId()
 
             # store in 'priceHistory' collection
             for item in similar_items:
                 document = {
-                    'productID' : item['productID'],
+                    'productID' : obj_id,
                     'sellerID' : item['sellerID'],
                     'priceUpdateTime' : datetime.timestamp(datetime.now()),
                     'productPrice' : item['productPrice'],
@@ -259,7 +260,6 @@ def begin_crawling(address, categoryId):
                 items_to_be_inserted_prices.put(document)
             store_data_price(items_to_be_inserted_prices, categoryId)
 
-
             # store in 'products' collection
             for item in similar_items:          # remove attributes not to be stored in 'products'
                 del item['productPrice']
@@ -268,7 +268,7 @@ def begin_crawling(address, categoryId):
                     del item['productDescription']
 
             items_to_be_inserted.put(similar_items)
-            store_data_products(items_to_be_inserted, categoryId)
+            store_data_products(items_to_be_inserted, categoryId, obj_id)
 
 
 

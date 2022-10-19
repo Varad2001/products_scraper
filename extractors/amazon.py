@@ -123,7 +123,7 @@ def get_price(page):
         price = "NA"
     else :
         try :
-            price = float(price_tag.string.replace('$', '').replace(',', ''))
+            price = float((price_tag.string.replace('$', '')).replace(',', ''))
         except Exception as e:
             logging.exception(e)
             price = 'NA'
@@ -207,10 +207,11 @@ def get_stock_count(page):
     try :
         stock = div.span.text
         if 'order soon' in stock.lower():
+            value = ""
             for c in stock:
                 if c.isdigit():
-                    value = int(c)
-                    return value
+                    value += c
+            return int(value)
         elif 'in stock' in stock.lower():
             return 1
         else:
@@ -220,13 +221,32 @@ def get_stock_count(page):
         return "NA"
 
 
+def get_shipping_info(page):
+    div = page.find('div', attrs={'id' : 'deliveryBlockMessage'})
+    if not div:
+        return "NA"
+
+    try :
+        fee = div.span.text
+        if 'free delivery' in fee.lower():
+            return 0
+        else:
+            dollars = ''
+            for c in fee:
+                if c.isdigit():
+                    dollars += c
+            return dollars
+    except Exception as e:
+        logging.exception(e)
+        return "NA"
+
 
 def get_all_details(url):
     page = send_request.send_request(url)
 
     results = dict()
 
-    results['productID'] = ObjectId()
+    # results['productID'] = ObjectId()
     results['productPrice'] =  get_price(page)
     results['favoritedCount'] = get_ratings(page)
     results['productBrand'] = get_brand(page)
@@ -241,6 +261,7 @@ def get_all_details(url):
 
     results['productPriceType'] = 'Regular'
     results['productShippingFee'] = ""
+    results['lastPrice'] = "NA"
 
     return results
 

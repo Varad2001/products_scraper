@@ -142,6 +142,8 @@ def get_shipping_price(page):
     tag = page.find('li', attrs={'class' : 'price-ship'})
     if tag :
         return tag.text.split(' ')[0]
+    else :
+        return 0
 
 
 def get_product_images(page):
@@ -183,7 +185,7 @@ def get_all_details(url):
 
     results = dict()
 
-    results['productID'] = ObjectId()
+    # results['productID'] = ObjectId()
     results['productPrice'] =  get_price(page)
     results['productShippingFee'] = get_shipping_price(page)
     results['favoritedCount'] = get_ratings(page)
@@ -196,6 +198,7 @@ def get_all_details(url):
     results['productTitle'] = get_title(page)
     results['imageLink'] = get_product_images(page)
     results['stockCount'] = get_stock_count(page)
+    results['productShippingFee'] = get_shipping_price(page)
 
     discount = get_discount_info(page)
     if discount :
@@ -203,7 +206,7 @@ def get_all_details(url):
         results['lastPrice'] = discount
     else :
         results['productPriceType'] = 'Regular'
-
+        results['lastPrice'] = "NA"
     return results
 
 

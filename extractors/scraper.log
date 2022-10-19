@@ -160,3 +160,5 @@ urllib3.connectionpool:DEBUG:2022-10-18 22:21:52,753:Starting new HTTPS connecti
 urllib3.connectionpool:DEBUG:2022-10-18 22:21:53,845:https://www.newegg.com:443 "GET /creality-ender-3-v2-black/p/288-00DY-00001 HTTP/1.1" 200 40371
 urllib3.connectionpool:DEBUG:2022-10-18 22:22:07,921:Starting new HTTPS connection (1): www.newegg.com:443
 urllib3.connectionpool:DEBUG:2022-10-18 22:22:20,182:https://www.newegg.com:443 "GET /polk-audio-300367-14-00-005/p/N82E16886290064?quicklink=true HTTP/1.1" 200 29713
+urllib3.connectionpool:DEBUG:2022-10-19 14:26:32,519:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-19 14:26:37,220:https://www.bestbuy.com:443 "GET /site/dell-inspiron-27-touch-screen-all-in-one-intel-core-i7-12gb-memory-512gb-ssd-silver/6373025.p?skuId=6373025&intl=nosplash HTTP/1.1" 200 None

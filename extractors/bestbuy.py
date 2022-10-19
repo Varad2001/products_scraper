@@ -170,6 +170,21 @@ def get_rating(page):
         return None
 
 
+def get_shipping_info(page):
+    div = page.find("div", attrs= {'class' : 'fulfillment-fulfillment-summary'})
+    if not div:
+        return "NA"
+
+    try:
+        strongs = div.find_all('strong')
+        for strong in strongs:
+            if 'free shipping' in strong.text.lower():
+                return 0
+    except Exception as e:
+        logging.exception(e)
+        return "NA"
+
+
 def get_discount_info(page):
     tag = page.find('div',  attrs = {'class' : 'pricing-price__regular-price'})
     if not tag:
@@ -184,7 +199,7 @@ def get_discount_info(page):
 
 def get_stock_count(page):
     title = page.find("title")
-    if "page not found" in title.lower():
+    if "page not found" in title.text.lower():
         return -1
 
     div = page.find('div', attrs= {'class' : 'fulfillment-add-to-cart-button'})
@@ -204,7 +219,7 @@ def get_all_details(url):
 
     results = {}
 
-    results['productID'] = ObjectId()
+    # results['productID'] = ObjectId()
     results['productPrice'] = get_price(page)
     results['favoritedCount'] = get_rating(page)
     #results['productBrand'] = get_brand(page)
@@ -216,6 +231,7 @@ def get_all_details(url):
     results['productTitle'] = get_title(page)
     results['imageLink'] = get_product_imgs(page)
     results['stockCount'] = get_stock_count(page)
+    results['productShippingFee'] = get_shipping_info(page)
 
     discount = get_discount_info(page)
     if discount:
@@ -223,7 +239,7 @@ def get_all_details(url):
         results['lastPrice'] = discount
     else :
         results['productPriceType'] = 'Regular'
-
+        results['lastPrice'] = "NA"
     return results
 
 

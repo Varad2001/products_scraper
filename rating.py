@@ -119,7 +119,7 @@ def update_similarity_scores():
         total_ratings['imageRating'] += int(rating['imageRating'])
 
     db = client[settings.db_settings]
-    scores_table = db['settings']
+    scores_table = db['appSettings']
     scores = list(scores_table.find({}).limit(1))[0]
     id = scores['_id']
     similarity_scores = scores['similarityScores']
@@ -186,4 +186,4 @@ def get_data_by_brand_name(brand):
     return results
 
 
-update_similarity_scores()
+# update_similarity_scores()

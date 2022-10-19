@@ -104,18 +104,21 @@ def get_app_settings():
     return setting
 
 
-def store_data_products(queue, category):
+def store_data_products(queue, category, id):
     while not queue.empty():
         try :
             sellers = queue.get()
             results = {'productCategory': category,
-                       'lastUpdate': datetime.timestamp(datetime.now())
+                       'lastUpdate': datetime.timestamp(datetime.now()),
+                       '_id' : id
                        }
             for seller in sellers:
                 if seller['sellerName'] == 'Amazon' :
                     amazon_seller = seller
                     results['productDescription'] = amazon_seller['productDescription']
                     results['productBrand'] = amazon_seller['productBrand']
+                    del seller['productDescription']
+                    del seller['productBrand']
                     break
 
             results['sellers'] = sellers
