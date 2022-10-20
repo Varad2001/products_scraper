@@ -81,6 +81,9 @@ def get_titles_urls_on_page(page):
         try :
             url = "https://www.amazon.com" + tag.get('href')
             title = tag.span.text
+            # sometimes useless info can get extracted, skip that
+            if 'click to see price' in title.strip().lower():
+                continue
             results.append({'url' : url, 'title' : title})
         except Exception as e:
             logging.exception(e)
