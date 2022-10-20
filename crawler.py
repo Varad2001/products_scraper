@@ -30,7 +30,7 @@ def crawl_new_items_from_newegg(queue, url):
         total_pages = next_page.strong.text.split('/')[1]
         total_pages = int(total_pages)
     except Exception as e:
-        print("Could not extract the count of results")
+        logging.exception(e)
         return
 
     print("\n-------Getting items from NewEgg.com ....------")
@@ -72,7 +72,7 @@ def crawl_new_items_from_bestbuy(queue, url):
         if next_page:
             url = next_page
         else :
-            print("This is the last page.")
+            # print("This is the last page.")
             break
 
     print(f"Complete.   {len(new_products)} new items extracted from BestBuy.com.")
@@ -291,7 +291,7 @@ def process_one_sample(
             del item['productPriceType']
             if item['sellerName'] != 'Amazon':
                 del item['productDescription']
-                del item['favoritedCount']
+                del item['userRatings']
 
         items_to_be_inserted.put(similar_items)
         store_data_products(items_to_be_inserted, categoryId, obj_id)

@@ -171,14 +171,17 @@ def get_stock_count(page):
     title = page.find('title')
     if 'page not found' in title.text.lower():
         stock['stockStatus'] = -1
+        del stock['stockCount']
 
     div = page.find("div", attrs=  {'class' : 'product-inventory'})
     try :
         stock_text = div.strong.text
         if 'in stock' in stock_text.lower():
             stock['stockStatus'] = 1
+            del stock['stockCount']
         else:
             stock['stockStatus'] = 0
+            del stock['stockCount']
     except Exception as e:
         logging.exception(e)
 
@@ -193,11 +196,11 @@ def get_all_details(url):
     # results['productID'] = ObjectId()
     results['productPrice'] =  get_price(page)
     results['productShippingFee'] = get_shipping_price(page)
-    results['favoritedCount'] = get_ratings(page)
+    results['userRatings'] = get_ratings(page)
     #results['productBrand'] = get_brand(page)
     results['productDescription'] = get_description(page)
 
-    results['sellerID'] = str(get_seller_id('NewEgg'))
+    results['sellerID'] = get_seller_id('NewEgg')
     results['sellerName'] = 'NewEgg'
     results['productLink'] = url
     results['productTitle'] = get_title(page)

@@ -107,17 +107,18 @@ def store_data_products(queue, category, id):
             sellers = queue.get()
             results = {'productCategory': category,
                        'lastUpdate': datetime.timestamp(datetime.now()),
-                       '_id' : id
+                       '_id' : id,
+                       'favoritedCount' : 0
                        }
             for seller in sellers:
                 if seller['sellerName'] == 'Amazon' :
                     amazon_seller = seller
                     results['productDescription'] = amazon_seller['productDescription']
                     results['productBrand'] = amazon_seller['productBrand']
-                    results['favoritedCount'] = amazon_seller['favoritedCount']
+                    results['userRatings'] = amazon_seller['userRatings']
                     del seller['productDescription']
                     del seller['productBrand']
-                    del seller['favoritedCount']
+                    del seller['userRatings']
                     break
 
             results['sellers'] = sellers

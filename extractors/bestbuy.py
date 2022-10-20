@@ -205,6 +205,7 @@ def get_stock_count(page):
     title = page.find("title")
     if "page not found" in title.text.lower():
         stock['stockStatus'] = -1
+        del stock['stockCount']
         return stock
 
     div = page.find('div', attrs= {'class' : 'fulfillment-add-to-cart-button'})
@@ -212,9 +213,11 @@ def get_stock_count(page):
     try :
         stock_text = div.button.text.strip()
         if 'add to cart' in stock_text.lower():
-            stock['stockStatus']   = 1
+            stock['stockStatus']  = 1
+            del stock['stockCount']
         else :
             stock['stockStatus'] = 0
+            del stock['stockCount']
     except Exception as e:
         logging.exception(e)
 
@@ -228,7 +231,7 @@ def get_all_details(url):
 
     # results['productID'] = ObjectId()
     results['productPrice'] = get_price(page)
-    results['favoritedCount'] = get_rating(page)
+    results['userRatings'] = get_rating(page)
     #results['productBrand'] = get_brand(page)
     results['productDescription'] = get_description(page)
 

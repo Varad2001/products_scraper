@@ -24,7 +24,7 @@ def next_page_amazon(page):
             current = info[0].split('-')[1]
             current = current.replace(',',  '')
         except Exception as e:
-            print("This is the only page...")
+            # print("This is the only page...")
             return 0
 
         try :
@@ -37,7 +37,7 @@ def next_page_amazon(page):
         # print(current, final)
         try :
             if int(current) == int(final):
-                print("This is the last page..")
+                # print("This is the last page..")
                 return 0
             else :
                 return 1
@@ -208,6 +208,7 @@ def get_stock_count(page):
     title = page.find('title')
     if "page not found" in title.text.strip().lower():
         stock['stockStatus'] = -1
+        del stock['stockCount']
         return stock
 
     div = page.find("div", attrs= {'id' : 'availability'})
@@ -222,10 +223,10 @@ def get_stock_count(page):
             stock['stockCount'] = int(value)
             stock['stockStatus'] = 1
         elif 'in stock' in stock_text.lower():
-            stock['stockCount'] = -1
+            del stock['stockCount']
             stock['stockStatus'] = 1
         else:
-            stock['stockCount'] = -1
+            del stock['stockCount']
             stock['stockStatus'] = 0
     except Exception as e:
         logging.exception(e)
@@ -276,11 +277,11 @@ def get_all_details(url):
 
     # results['productID'] = ObjectId()
     results['productPrice'] =  get_price(page)
-    results['favoritedCount'] = get_ratings(page)
+    results['userRatings'] = get_ratings(page)
     results['productBrand'] = get_brand(page)
     results['productDescription'] = get_description(page)
 
-    results['sellerID'] = str(get_seller_id('Amazon'))
+    results['sellerID'] = get_seller_id('Amazon')
     results['sellerName'] = 'Amazon'
     results['productLink'] = url
     results['productTitle'] = get_title(page)
