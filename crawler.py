@@ -151,14 +151,9 @@ def begin_crawling(address, categoryId):
                                                    items_to_be_inserted_prices, categoryId))
         procs.append(proc)
 
-        print(f"Process added for sample item : {counter}")
+        # print(f"Process added for sample item : {counter}")
 
         counter += 1
-
-        """process_one_sample(
-            sample_product, new_products_newegg, new_products_bestbuy, similarity_scores,
-            items_to_be_inserted, items_to_be_inserted_prices, categoryId
-        )"""
 
     print("Running processes pool ...")
     results = [result.get() for result in procs]
