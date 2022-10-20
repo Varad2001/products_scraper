@@ -125,7 +125,7 @@ def begin_crawling(address, categoryId):
         return
 
     findThreads = int(app_settings['findThreads'])
-    pool = multiprocessing.Pool(2)
+    pool = multiprocessing.Pool(findThreads)
     m = multiprocessing.Manager()
     procs = []      # list of processes
 
@@ -140,8 +140,6 @@ def begin_crawling(address, categoryId):
     # extract sample items from amazon
     crawl_sample_items(sample_url, sample_products)
 
-    counter = 1
-
     print(f"-----Adding process for {sample_products.qsize()} sample items...------")
     while not sample_products.empty():
         sample_product = sample_products.get()
@@ -152,8 +150,6 @@ def begin_crawling(address, categoryId):
         procs.append(proc)
 
         # print(f"Process added for sample item : {counter}")
-
-        counter += 1
 
     print("Running processes pool ...")
     results = [result.get() for result in procs]
