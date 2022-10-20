@@ -26,7 +26,7 @@ def next_page_bestbuy(page):
         if next_page_link.get('href'):
             return "https://www.bestbuy.com" + next_page_link.get('href')
         else :
-            print("This is the last page.")
+            # print("This is the last page.")
             return False
     except Exception as e:
         logging.exception(e)
@@ -198,20 +198,27 @@ def get_discount_info(page):
 
 
 def get_stock_count(page):
+    stock = {
+        'stockStatus': 1,
+        'stockCount': -1
+    }
     title = page.find("title")
     if "page not found" in title.text.lower():
-        return -1
+        stock['stockStatus'] = -1
+        return stock
 
     div = page.find('div', attrs= {'class' : 'fulfillment-add-to-cart-button'})
 
     try :
-        stock = div.button.text.strip()
-        if 'add to cart' in stock.lower():
-            return 1
+        stock_text = div.button.text.strip()
+        if 'add to cart' in stock_text.lower():
+            stock['stockStatus']   = 1
         else :
-            return 0
+            stock['stockStatus'] = 0
     except Exception as e:
-        return "NA"
+        logging.exception(e)
+
+    return stock
 
 
 def get_all_details(url):

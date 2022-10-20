@@ -73,7 +73,7 @@ def get_seller_id(name):
 
 
 def get_titles_urls_on_page(page):
-    print("Getting titles and urls of the sample items from amazon...")
+    # print("Getting titles and urls of the sample items from amazon...")
     tags =  page.find_all('a', attrs={'class' : 'a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal'})
     results = []
 
@@ -85,7 +85,7 @@ def get_titles_urls_on_page(page):
         except Exception as e:
             logging.exception(e)
             continue
-    print(f"{len(results)} sample items found on this amazon page...")
+    # print(f"{len(results)} sample items found on this amazon page...")
     return results
 
 
@@ -163,18 +163,18 @@ def get_img_links(page):
 
 
 def get_ratings(page):
-    rating = {}
+    rating = { 'RatingStars' : 0, 'RatingCount' : 0}
     stars = page.find('div', attrs={'id': 'averageCustomerReviews'})
     if stars:
         try:
-            rating['Stars' ]=stars.i.text.strip()
+            rating['RatingStars' ]=stars.i.text.strip()
         except:
             pass
 
     reviews_count = page.find('span', attrs={'id' : 'acrCustomerReviewText'})
     if reviews_count:
         try:
-            rating['Ratings_count'] = reviews_count.text.strip()
+            rating['RatingsCount'] = reviews_count.text.strip()
         except :
             pass
 
@@ -198,27 +198,36 @@ def get_product_id(page):
 
 
 def get_stock_count(page):
+    stock = {
+        'stockStatus' : 1,
+        'stockCount' : -1
+    }
     title = page.find('title')
     if "page not found" in title.text.strip().lower():
-        return -1
+        stock['stockStatus'] = -1
+        return stock
 
     div = page.find("div", attrs= {'id' : 'availability'})
 
     try :
-        stock = div.span.text
-        if 'order soon' in stock.lower():
+        stock_text = div.span.text
+        if 'order soon' in stock_text.lower():
             value = ""
-            for c in stock:
+            for c in stock_text:
                 if c.isdigit():
                     value += c
-            return int(value)
-        elif 'in stock' in stock.lower():
-            return 1
+            stock['stockCount'] = int(value)
+            stock['stockStatus'] = 1
+        elif 'in stock' in stock_text.lower():
+            stock['stockCount'] = -1
+            stock['stockStatus'] = 1
         else:
-            return 0
+            stock['stockCount'] = -1
+            stock['stockStatus'] = 0
     except Exception as e:
         logging.exception(e)
-        return "NA"
+
+    return stock
 
 
 def get_shipping_info(page):
@@ -228,17 +237,33 @@ def get_shipping_info(page):
 
     try :
         fee = div.span.text
-        if 'free delivery' in fee.lower():
-            return 0
+        # print(fee)
+        if '$' in fee.lower():
+            return -1
         else:
-            dollars = ''
-            for c in fee:
-                if c.isdigit():
-                    dollars += c
-            return dollars
+            return 0
     except Exception as e:
         logging.exception(e)
         return "NA"
+
+
+def get_discount_info(page):
+    discount = {'productPriceType' : 'Regular', 'lastPrice' : "NA"}
+
+    div = page.find('div' , attrs = {'data-csa-c-content-id' : 'corePriceDisplay_desktop'})
+    if not div:
+        return  discount
+    prices = div.find_all('span', attrs = {'class' : 'a-offscreen'})
+    # print(prices)
+    try :
+        discount['lastPrice'] =  prices[1].text
+        discount['productPriceType'] = "Discounted"
+    except IndexError as e:
+        pass
+    except Exception as e:
+        logging.exception(e)
+
+    return discount
 
 
 def get_all_details(url):
@@ -259,17 +284,19 @@ def get_all_details(url):
     results['imageLink'] = get_img_links(page)
     results['stockCount'] = get_stock_count(page)
 
-    results['productPriceType'] = 'Regular'
-    results['productShippingFee'] = ""
-    results['lastPrice'] = "NA"
+    results['productPriceType'] = get_discount_info(page)['productPriceType']
+    results['productShippingFee'] = get_shipping_info(page)
+    results['lastPrice'] = get_discount_info(page)['lastPrice']
 
     return results
 
 
 """from extractors import send_request
 url = "https://www.amazon.com/SanDisk-2TB-Extreme-Portable-SDSSDE81-2T00-G25/dp/B08GV4YYV7?th=1"
-page = send_request.send_request(url)
-print(get_stock_count(page))"""
+url2 = "https://www.amazon.com/JBL-Endurance-Peak-Waterproof-Ear/dp/B08LQTJHLL?ref_=Oct_DLandingS_D_d3e47514_60&smid=ATVPDKIKX0DER&th=1"
+url3 = "https://www.amazon.com/AmazonBasics-Retractable-Ballpoint-Pen-12-Pack/dp/B07BDWD8B7"
+page = send_request.send_request(url3)
+print(get_discount_info(page))"""
 
 
 

@@ -164,20 +164,25 @@ def get_product_images(page):
 
 
 def get_stock_count(page):
+    stock = {
+        'stockStatus': 1,
+        'stockCount': -1
+    }
     title = page.find('title')
     if 'page not found' in title.text.lower():
-        return  -1
+        stock['stockStatus'] = -1
 
     div = page.find("div", attrs=  {'class' : 'product-inventory'})
     try :
-        stock = div.strong.text
-        if 'in stock' in stock.lower():
-            return 1
+        stock_text = div.strong.text
+        if 'in stock' in stock_text.lower():
+            stock['stockStatus'] = 1
         else:
-            return 0
+            stock['stockStatus'] = 0
     except Exception as e:
         logging.exception(e)
-        return "NA"
+
+    return stock
 
 
 def get_all_details(url):

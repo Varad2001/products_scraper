@@ -65,7 +65,7 @@ def begin_update_process(update_time):
     print("Ending this update process.")
 
 if __name__ == "__main__":
-    print("In main function...")
+    """print("In main function...")
     time.sleep(4)
     print("Killing prev proc...")
     procs = multiprocessing.active_children()
@@ -76,4 +76,8 @@ if __name__ == "__main__":
     print("Starting other proc..")
     time.sleep(2)
     proc = multiprocessing.Process(target=begin_update_process, args=(8,), name="update_process")
-    proc.start()
+    proc.start()"""
+    r = {
+    }
+    if not r:
+        print("sdfs")

@@ -1,5 +1,4 @@
-import logging
-logging.basicConfig(filename='amazon-scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
+
 from sklearn.feature_extraction.text import TfidfVectorizer
 from PIL import Image
 import imagehash
@@ -7,6 +6,8 @@ import requests
 from io import BytesIO
 import settings
 from extractors.send_request import  get_proxy
+import logging
+logging.basicConfig(filename='amazon-scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
 
 def check_similarity(statements:list):
     try :

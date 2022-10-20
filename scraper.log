@@ -1253,3 +1253,405 @@ Traceback (most recent call last):
   File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\amazon.py", line 208, in get_stock_count
     stock = div.span.text
 AttributeError: 'NoneType' object has no attribute 'span'
+werkzeug:INFO:2022-10-20 11:29:06,316:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug:INFO:2022-10-20 11:29:06,317:[33mPress CTRL+C to quit[0m
+werkzeug:INFO:2022-10-20 11:29:06,320: * Restarting with stat
+werkzeug:WARNING:2022-10-20 11:29:14,866: * Debugger is active!
+werkzeug:INFO:2022-10-20 11:29:14,883: * Debugger PIN: 123-424-637
+werkzeug:INFO:2022-10-20 11:30:19,782:127.0.0.1 - - [20/Oct/2022 11:30:19] "GET /begin_crawl HTTP/1.1" 200 -
+werkzeug:INFO:2022-10-20 11:30:19,994:127.0.0.1 - - [20/Oct/2022 11:30:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+urllib3.connectionpool:DEBUG:2022-10-20 11:30:32,464:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:30:34,070:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&page=1&ref=sr_pg_1 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-20 11:30:35,253:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:30:35,958:https://www.amazon.com:443 "GET /s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A667846011%2Cn%3A172563%2Cn%3A3236453011&dc&ds=v1%3AkKPTlIlAMSfbOpQLhDhvz4Hv1mlYpGT9OrTBQR9h6DI&qid=1664985358&rnid=172563&page=2&ref=sr_pg_2 HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-20 11:30:49,975:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:30:51,264:https://www.newegg.com:443 "GET /p/pl?d=high+power+audio+300w+sound+tower HTTP/1.1" 200 36597
+urllib3.connectionpool:DEBUG:2022-10-20 11:30:51,513:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:30:52,735:https://www.newegg.com:443 "GET /p/pl?d=high+power+audio+300w+sound+tower&page=1 HTTP/1.1" 200 36296
+urllib3.connectionpool:DEBUG:2022-10-20 11:30:52,898:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:31:01,966:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-20 11:31:02,429:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:31:08,494:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=2&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-20 11:31:08,886:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:31:13,743:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=3&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-20 11:31:14,213:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:31:20,898:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=4&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-20 11:31:21,293:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:31:55,717:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=5&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-20 11:31:56,121:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:31:59,854:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=6&id=pcat17071&st=high+power+audio+300w+sound+tower&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:00,371:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:01,159:https://www.amazon.com:443 "GET /Samsung-MX-T40-Sound-Tower-Power/dp/B08WZFC7MV/ref=sr_1_1?qid=1666245632&rnid=172563&s=electronics&sr=1-1 HTTP/1.1" 200 None
+root:ERROR:2022-10-20 11:32:17,225:'str' object does not support item assignment
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\amazon.py", line 222, in get_stock_count
+    stock['stockCount'] = -1
+TypeError: 'str' object does not support item assignment
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:17,231:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:17,968:https://www.newegg.com:443 "GET /samsung-mx-t40-za/p/N82E16886508419?Description=high%20power%20audio%20300w%20sound%20tower&cm_re=high_power%20audio%20300w%20sound%20tower-_-86-508-419-_-Product HTTP/1.1" 200 24390
+root:ERROR:2022-10-20 11:32:30,633:'str' object does not support item assignment
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\newegg.py", line 179, in get_stock_count
+    stock['stockStatus'] = 1
+TypeError: 'str' object does not support item assignment
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:30,646:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:31,533:https://www.newegg.com:443 "GET /samsung-mx-t40-sound-tower/p/0S6-0009-001G2?Description=high%20power%20audio%20300w%20sound%20tower&cm_re=high_power%20audio%20300w%20sound%20tower-_-9SIA3YFHPS6936-_-Product HTTP/1.1" 200 23157
+root:ERROR:2022-10-20 11:32:44,345:'str' object does not support item assignment
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\newegg.py", line 179, in get_stock_count
+    stock['stockStatus'] = 1
+TypeError: 'str' object does not support item assignment
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:44,355:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:44,451:https://m.media-amazon.com:443 "GET /images/I/41x6XmAmbvS._AC_US40_.jpg HTTP/1.1" 200 690
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:44,488:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:44,660:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZRP6AA.jpg HTTP/1.1" 200 893
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:44,671:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:44,781:https://m.media-amazon.com:443 "GET /images/I/41x6XmAmbvS._AC_US40_.jpg HTTP/1.1" 200 690
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:44,788:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:44,875:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZRMC4C.jpg HTTP/1.1" 200 946
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:44,880:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:44,977:https://m.media-amazon.com:443 "GET /images/I/41x6XmAmbvS._AC_US40_.jpg HTTP/1.1" 200 690
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:44,984:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:45,080:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZS0HCE.jpg HTTP/1.1" 200 1105
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:45,086:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:45,196:https://m.media-amazon.com:443 "GET /images/I/41x6XmAmbvS._AC_US40_.jpg HTTP/1.1" 200 690
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:45,199:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:45,268:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZRNI94.jpg HTTP/1.1" 200 975
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:45,272:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:45,349:https://m.media-amazon.com:443 "GET /images/I/41x6XmAmbvS._AC_US40_.jpg HTTP/1.1" 200 690
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:45,355:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:45,453:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZRXK88.jpg HTTP/1.1" 200 1337
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:45,459:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:45,538:https://m.media-amazon.com:443 "GET /images/I/41x6XmAmbvS._AC_US40_.jpg HTTP/1.1" 200 690
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:45,545:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:45,654:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZS5L7B.jpg HTTP/1.1" 200 1418
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:45,659:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:45,730:https://m.media-amazon.com:443 "GET /images/I/41x6XmAmbvS._AC_US40_.jpg HTTP/1.1" 200 690
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:45,736:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:45,828:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/V17ED2103035M7RG.jpg HTTP/1.1" 200 1171
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:45,833:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:45,917:https://m.media-amazon.com:443 "GET /images/I/31rw47Q6s-L._AC_US40_.jpg HTTP/1.1" 200 589
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:45,923:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:46,026:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZRP6AA.jpg HTTP/1.1" 200 893
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:46,030:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:46,120:https://m.media-amazon.com:443 "GET /images/I/31rw47Q6s-L._AC_US40_.jpg HTTP/1.1" 200 589
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:46,125:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:46,215:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZRMC4C.jpg HTTP/1.1" 200 946
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:46,222:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:46,315:https://m.media-amazon.com:443 "GET /images/I/31rw47Q6s-L._AC_US40_.jpg HTTP/1.1" 200 589
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:46,318:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:46,403:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZS0HCE.jpg HTTP/1.1" 200 1105
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:46,409:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:46,535:https://m.media-amazon.com:443 "GET /images/I/31rw47Q6s-L._AC_US40_.jpg HTTP/1.1" 200 589
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:46,541:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:46,706:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZRNI94.jpg HTTP/1.1" 200 975
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:46,711:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:46,787:https://m.media-amazon.com:443 "GET /images/I/31rw47Q6s-L._AC_US40_.jpg HTTP/1.1" 200 589
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:46,791:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:46,942:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZRXK88.jpg HTTP/1.1" 200 1337
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:46,948:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:47,018:https://m.media-amazon.com:443 "GET /images/I/31rw47Q6s-L._AC_US40_.jpg HTTP/1.1" 200 589
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:47,022:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:47,134:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZS5L7B.jpg HTTP/1.1" 200 1418
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:47,140:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:47,203:https://m.media-amazon.com:443 "GET /images/I/31rw47Q6s-L._AC_US40_.jpg HTTP/1.1" 200 589
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:47,210:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:47,285:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/V17ED2103035M7RG.jpg HTTP/1.1" 200 1171
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:47,289:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:47,411:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:47,418:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:47,523:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZRP6AA.jpg HTTP/1.1" 200 893
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:47,527:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:47,589:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:47,600:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:47,727:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZRMC4C.jpg HTTP/1.1" 200 946
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:47,735:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:47,807:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:47,814:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:47,927:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZS0HCE.jpg HTTP/1.1" 200 1105
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:47,935:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:48,076:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:48,081:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:48,159:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZRNI94.jpg HTTP/1.1" 200 975
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:48,164:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:48,271:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:48,277:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:48,386:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZRXK88.jpg HTTP/1.1" 200 1337
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:48,390:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:48,461:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:48,467:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:48,557:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZS5L7B.jpg HTTP/1.1" 200 1418
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:48,564:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:48,646:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:48,651:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:48,775:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/V17ED2103035M7RG.jpg HTTP/1.1" 200 1171
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:48,781:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:48,870:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:48,876:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:48,979:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZRP6AA.jpg HTTP/1.1" 200 893
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:48,985:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:49,040:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:49,046:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:49,145:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZRMC4C.jpg HTTP/1.1" 200 946
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:49,151:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:49,222:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:49,226:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:49,323:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZS0HCE.jpg HTTP/1.1" 200 1105
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:49,330:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:49,469:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:49,475:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:49,592:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZRNI94.jpg HTTP/1.1" 200 975
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:49,596:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:49,664:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:49,667:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:49,774:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZRXK88.jpg HTTP/1.1" 200 1337
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:49,780:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:49,853:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:49,858:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:49,946:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZS5L7B.jpg HTTP/1.1" 200 1418
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:49,952:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,037:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,043:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,131:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/V17ED2103035M7RG.jpg HTTP/1.1" 200 1171
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,135:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,194:https://m.media-amazon.com:443 "GET /images/I/31NmC7ho5kL._AC_US40_.jpg HTTP/1.1" 200 572
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,201:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,290:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZRP6AA.jpg HTTP/1.1" 200 893
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,298:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,380:https://m.media-amazon.com:443 "GET /images/I/31NmC7ho5kL._AC_US40_.jpg HTTP/1.1" 200 572
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,386:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,479:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZRMC4C.jpg HTTP/1.1" 200 946
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,483:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,545:https://m.media-amazon.com:443 "GET /images/I/31NmC7ho5kL._AC_US40_.jpg HTTP/1.1" 200 572
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,551:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,655:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZS0HCE.jpg HTTP/1.1" 200 1105
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,664:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,757:https://m.media-amazon.com:443 "GET /images/I/31NmC7ho5kL._AC_US40_.jpg HTTP/1.1" 200 572
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,763:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,848:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZRNI94.jpg HTTP/1.1" 200 975
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,854:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,921:https://m.media-amazon.com:443 "GET /images/I/31NmC7ho5kL._AC_US40_.jpg HTTP/1.1" 200 572
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:50,931:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:51,031:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZRXK88.jpg HTTP/1.1" 200 1337
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:51,037:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:51,143:https://m.media-amazon.com:443 "GET /images/I/31NmC7ho5kL._AC_US40_.jpg HTTP/1.1" 200 572
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:51,148:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:51,282:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZS5L7B.jpg HTTP/1.1" 200 1418
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:51,290:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:51,387:https://m.media-amazon.com:443 "GET /images/I/31NmC7ho5kL._AC_US40_.jpg HTTP/1.1" 200 572
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:51,393:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:51,501:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/V17ED2103035M7RG.jpg HTTP/1.1" 200 1171
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:51,510:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:32:52,309:https://www.newegg.com:443 "GET /samsung-mx-t40-sound-tower/p/0S6-0009-001G3?Description=high%20power%20audio%20300w%20sound%20tower&cm_re=high_power%20audio%20300w%20sound%20tower-_-9SIA3YFHRY3982-_-Product HTTP/1.1" 200 23847
+root:ERROR:2022-10-20 11:33:05,064:'str' object does not support item assignment
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\newegg.py", line 179, in get_stock_count
+    stock['stockStatus'] = 1
+TypeError: 'str' object does not support item assignment
+urllib3.connectionpool:DEBUG:2022-10-20 11:33:05,069:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:33:05,189:https://m.media-amazon.com:443 "GET /images/I/41x6XmAmbvS._AC_US40_.jpg HTTP/1.1" 200 690
+urllib3.connectionpool:DEBUG:2022-10-20 11:33:05,195:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:33:05,438:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PNLFBE.jpg HTTP/1.1" 200 1090
+urllib3.connectionpool:DEBUG:2022-10-20 11:33:05,444:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:33:05,509:https://m.media-amazon.com:443 "GET /images/I/41x6XmAmbvS._AC_US40_.jpg HTTP/1.1" 200 690
+urllib3.connectionpool:DEBUG:2022-10-20 11:33:05,516:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:33:05,733:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PLWCCF.jpg HTTP/1.1" 200 891
+urllib3.connectionpool:DEBUG:2022-10-20 11:33:05,737:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:33:05,835:https://m.media-amazon.com:443 "GET /images/I/41x6XmAmbvS._AC_US40_.jpg HTTP/1.1" 200 690
+urllib3.connectionpool:DEBUG:2022-10-20 11:33:05,841:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:06,027:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PNR49E.jpg HTTP/1.1" 200 916
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:06,034:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:06,154:https://m.media-amazon.com:443 "GET /images/I/41x6XmAmbvS._AC_US40_.jpg HTTP/1.1" 200 690
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:06,160:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:06,330:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZS5L7B.jpg HTTP/1.1" 200 1418
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:06,338:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:06,413:https://m.media-amazon.com:443 "GET /images/I/41x6XmAmbvS._AC_US40_.jpg HTTP/1.1" 200 690
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:06,421:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:06,654:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PNUVA1.jpg HTTP/1.1" 200 803
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:06,662:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:06,756:https://m.media-amazon.com:443 "GET /images/I/41x6XmAmbvS._AC_US40_.jpg HTTP/1.1" 200 690
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:06,762:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:06,953:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PM2K29.jpg HTTP/1.1" 200 899
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:06,957:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,027:https://m.media-amazon.com:443 "GET /images/I/41x6XmAmbvS._AC_US40_.jpg HTTP/1.1" 200 690
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,031:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,233:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22040118AMPWB5.jpg HTTP/1.1" 200 1401
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,239:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,312:https://m.media-amazon.com:443 "GET /images/I/31rw47Q6s-L._AC_US40_.jpg HTTP/1.1" 200 589
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,316:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,392:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PNLFBE.jpg HTTP/1.1" 200 1090
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,398:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,459:https://m.media-amazon.com:443 "GET /images/I/31rw47Q6s-L._AC_US40_.jpg HTTP/1.1" 200 589
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,466:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,578:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PLWCCF.jpg HTTP/1.1" 200 891
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,587:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,660:https://m.media-amazon.com:443 "GET /images/I/31rw47Q6s-L._AC_US40_.jpg HTTP/1.1" 200 589
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,663:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,742:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PNR49E.jpg HTTP/1.1" 200 916
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,748:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,797:https://m.media-amazon.com:443 "GET /images/I/31rw47Q6s-L._AC_US40_.jpg HTTP/1.1" 200 589
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,802:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,889:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZS5L7B.jpg HTTP/1.1" 200 1418
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,893:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,956:https://m.media-amazon.com:443 "GET /images/I/31rw47Q6s-L._AC_US40_.jpg HTTP/1.1" 200 589
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:07,960:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:08,033:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PNUVA1.jpg HTTP/1.1" 200 803
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:08,041:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:08,186:https://m.media-amazon.com:443 "GET /images/I/31rw47Q6s-L._AC_US40_.jpg HTTP/1.1" 200 589
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:08,190:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:08,258:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PM2K29.jpg HTTP/1.1" 200 899
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:08,262:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:08,356:https://m.media-amazon.com:443 "GET /images/I/31rw47Q6s-L._AC_US40_.jpg HTTP/1.1" 200 589
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:08,362:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:08,472:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22040118AMPWB5.jpg HTTP/1.1" 200 1401
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:08,476:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:08,560:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:08,565:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:08,699:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PNLFBE.jpg HTTP/1.1" 200 1090
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:08,702:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:08,778:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:08,781:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:08,896:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PLWCCF.jpg HTTP/1.1" 200 891
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:08,903:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:09,014:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:09,017:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:09,102:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PNR49E.jpg HTTP/1.1" 200 916
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:09,107:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:09,195:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:09,200:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:09,315:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZS5L7B.jpg HTTP/1.1" 200 1418
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:09,321:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:09,413:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:09,418:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:09,517:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PNUVA1.jpg HTTP/1.1" 200 803
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:09,520:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:09,584:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:09,587:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:09,724:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PM2K29.jpg HTTP/1.1" 200 899
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:09,728:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:09,800:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:09,806:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:10,022:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22040118AMPWB5.jpg HTTP/1.1" 200 1401
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:10,026:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:10,119:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:10,125:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:10,222:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PNLFBE.jpg HTTP/1.1" 200 1090
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:10,227:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:10,287:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:10,292:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:10,462:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PLWCCF.jpg HTTP/1.1" 200 891
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:10,467:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:10,548:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:10,553:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:10,642:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PNR49E.jpg HTTP/1.1" 200 916
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:10,646:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:10,713:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:10,718:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:10,811:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZS5L7B.jpg HTTP/1.1" 200 1418
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:10,817:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:10,906:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:10,912:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,058:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PNUVA1.jpg HTTP/1.1" 200 803
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,065:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,140:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,146:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,252:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PM2K29.jpg HTTP/1.1" 200 899
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,260:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,321:https://m.media-amazon.com:443 "GET /images/I/31PXZ2Z3GEL._AC_US40_.jpg HTTP/1.1" 200 652
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,324:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,403:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22040118AMPWB5.jpg HTTP/1.1" 200 1401
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,409:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,498:https://m.media-amazon.com:443 "GET /images/I/31NmC7ho5kL._AC_US40_.jpg HTTP/1.1" 200 572
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,504:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,616:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PNLFBE.jpg HTTP/1.1" 200 1090
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,622:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,719:https://m.media-amazon.com:443 "GET /images/I/31NmC7ho5kL._AC_US40_.jpg HTTP/1.1" 200 572
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,724:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,796:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PLWCCF.jpg HTTP/1.1" 200 891
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,802:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,867:https://m.media-amazon.com:443 "GET /images/I/31NmC7ho5kL._AC_US40_.jpg HTTP/1.1" 200 572
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,872:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,969:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PNR49E.jpg HTTP/1.1" 200 916
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:11,976:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:12,081:https://m.media-amazon.com:443 "GET /images/I/31NmC7ho5kL._AC_US40_.jpg HTTP/1.1" 200 572
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:12,088:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:12,191:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22050911ZS5L7B.jpg HTTP/1.1" 200 1418
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:12,198:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:12,296:https://m.media-amazon.com:443 "GET /images/I/31NmC7ho5kL._AC_US40_.jpg HTTP/1.1" 200 572
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:12,303:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:12,425:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PNUVA1.jpg HTTP/1.1" 200 803
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:12,428:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:12,546:https://m.media-amazon.com:443 "GET /images/I/31NmC7ho5kL._AC_US40_.jpg HTTP/1.1" 200 572
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:12,553:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:12,942:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22051312PM2K29.jpg HTTP/1.1" 200 899
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:12,949:Starting new HTTPS connection (1): m.media-amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:13,047:https://m.media-amazon.com:443 "GET /images/I/31NmC7ho5kL._AC_US40_.jpg HTTP/1.1" 200 572
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:13,053:Starting new HTTPS connection (1): c1.neweggimages.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:13,139:https://c1.neweggimages.com:443 "GET /ProductImageCompressAll60/A3YFD22040118AMPWB5.jpg HTTP/1.1" 200 1401
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:13,149:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:14,344:https://www.newegg.com:443 "GET /p/0G7-0019-000G0?Description=high%20power%20audio%20300w%20sound%20tower&cm_re=high_power%20audio%20300w%20sound%20tower-_-9SIAJ7WGZG4414-_-Product HTTP/1.1" 200 23170
+root:ERROR:2022-10-20 11:35:27,156:'str' object does not support item assignment
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\newegg.py", line 179, in get_stock_count
+    stock['stockStatus'] = 1
+TypeError: 'str' object does not support item assignment
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:27,194:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:35:48,265:https://www.bestbuy.com:443 "GET /site/samsung-mx-st90b-sound-tower-high-power-audio-1700w-black/6514564.p?skuId=6514564&intl=nosplash HTTP/1.1" 200 None
+root:ERROR:2022-10-20 11:36:01,022:'str' object does not support item assignment
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\bestbuy.py", line 215, in get_stock_count
+    stock['stockStatus']   = 1
+TypeError: 'str' object does not support item assignment
+urllib3.connectionpool:DEBUG:2022-10-20 11:36:01,042:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:36:06,228:https://www.bestbuy.com:443 "GET /site/samsung-mx-t40-2ch-sound-tower-with-high-power-audio-black/6455177.p?skuId=6455177&intl=nosplash HTTP/1.1" 200 None
+root:ERROR:2022-10-20 11:36:19,113:'str' object does not support item assignment
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\bestbuy.py", line 215, in get_stock_count
+    stock['stockStatus']   = 1
+TypeError: 'str' object does not support item assignment
+urllib3.connectionpool:DEBUG:2022-10-20 11:36:19,132:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:36:24,417:https://www.bestbuy.com:443 "GET /site/samsung-mx-st50b-za-sound-tower-high-power-audio-240w-black/6505451.p?skuId=6505451&intl=nosplash HTTP/1.1" 200 None
+root:ERROR:2022-10-20 11:36:37,239:'str' object does not support item assignment
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\bestbuy.py", line 215, in get_stock_count
+    stock['stockStatus']   = 1
+TypeError: 'str' object does not support item assignment
+urllib3.connectionpool:DEBUG:2022-10-20 11:36:37,263:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:36:41,871:https://www.bestbuy.com:443 "GET /site/samsung-mx-st40b-za-sound-tower-high-power-audio-140w-black/6505452.p?skuId=6505452&intl=nosplash HTTP/1.1" 200 None
+root:ERROR:2022-10-20 11:36:54,689:'str' object does not support item assignment
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\bestbuy.py", line 215, in get_stock_count
+    stock['stockStatus']   = 1
+TypeError: 'str' object does not support item assignment
+urllib3.connectionpool:DEBUG:2022-10-20 11:36:54,711:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:36:58,789:https://www.bestbuy.com:443 "GET /site/sony-high-power-audio-system-with-bluetooth-black/6427871.p?skuId=6427871&intl=nosplash HTTP/1.1" 200 None
+root:ERROR:2022-10-20 11:37:11,793:'str' object does not support item assignment
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\bestbuy.py", line 215, in get_stock_count
+    stock['stockStatus']   = 1
+TypeError: 'str' object does not support item assignment
+urllib3.connectionpool:DEBUG:2022-10-20 11:37:11,820:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:37:43,373:https://www.bestbuy.com:443 "GET /site/samsung-sound-tower-powered-wireless-speaker-each-black/6400420.p?skuId=6400420&intl=nosplash HTTP/1.1" 200 None
+root:ERROR:2022-10-20 11:37:56,352:'str' object does not support item assignment
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\bestbuy.py", line 217, in get_stock_count
+    stock['stockStatus'] = 0
+TypeError: 'str' object does not support item assignment
+urllib3.connectionpool:DEBUG:2022-10-20 11:37:56,374:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:38:05,923:https://www.bestbuy.com:443 "GET /site/samsung-mx-t50-sound-tower-500w-wireless-speaker-black/6400487.p?skuId=6400487&intl=nosplash HTTP/1.1" 200 None
+root:ERROR:2022-10-20 11:38:18,638:'str' object does not support item assignment
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Python work\Products_scraper\extractors\bestbuy.py", line 215, in get_stock_count
+    stock['stockStatus']   = 1
+TypeError: 'str' object does not support item assignment
+urllib3.connectionpool:DEBUG:2022-10-20 11:38:31,484:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:38:32,950:https://www.newegg.com:443 "GET /p/pl?d=dayton+audio+t652+dual+6+way+tower+speaker+pair HTTP/1.1" 200 21163
+urllib3.connectionpool:DEBUG:2022-10-20 11:38:33,041:Starting new HTTPS connection (1): www.newegg.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:38:33,887:https://www.newegg.com:443 "GET /p/pl?d=dayton+audio+t652+dual+6+way+tower+speaker+pair&page=1 HTTP/1.1" 200 21170
+urllib3.connectionpool:DEBUG:2022-10-20 11:38:33,943:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:38:39,542:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?st=dayton+audio+t652+dual+6+way+tower+speaker+pair&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-20 11:38:39,903:Starting new HTTPS connection (1): www.bestbuy.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:38:44,350:https://www.bestbuy.com:443 "GET /site/searchpage.jsp?cp=2&id=pcat17071&st=dayton+audio+t652+dual+6+way+tower+speaker+pair&intl=nosplash HTTP/1.1" 200 None
+urllib3.connectionpool:DEBUG:2022-10-20 11:38:44,739:Starting new HTTPS connection (1): www.amazon.com:443
+urllib3.connectionpool:DEBUG:2022-10-20 11:38:45,247:https://www.amazon.com:443 "GET /Dayton-Audio-T652-2-Way-Speaker/dp/B00Q3MG05S/ref=sr_1_2?qid=1666245632&rnid=172563&s=electronics&sr=1-2 HTTP/1.1" 200 None

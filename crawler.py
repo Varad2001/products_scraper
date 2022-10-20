@@ -1,5 +1,7 @@
-from queue import Queue
+import multiprocessing
+from multiprocessing import Queue
 
+import helpers
 from extractors import send_request
 from similarity_checker import check_similarity, images_are_similar
 
@@ -89,7 +91,7 @@ def crawl_sample_items(sample_url, queue):
     while not finished:
 
         current_url = url + f"&page={page_num}" + f"&ref=sr_pg_{page_num}"
-        print(f"Going to url : {current_url}")
+        # print(f"Going to url : {current_url}")
 
         page = send_request.send_request(current_url)
 
@@ -101,7 +103,7 @@ def crawl_sample_items(sample_url, queue):
         for item in results:
             item_queue.put(item)
 
-        print("Items extracted : ", item_queue.qsize())
+        # print("Items extracted : ", item_queue.qsize())
 
         page_num += 1
 
@@ -113,167 +115,195 @@ def crawl_sample_items(sample_url, queue):
 
 def begin_crawling(address, categoryId):
 
-    sample_url = address
-
-    sample_products = Queue()           # store sample products from amazon
-    new_products_newegg = list()        # store new items extracted from Newegg.com
-    new_products_bestbuy = list()       # store new items extracted from Bestbuy.com
-    items_to_be_inserted = Queue()      # store items that are to be inserted in the table prodcuts
-    items_to_be_inserted_prices = Queue()   # store documents to be inserted in table 'productHistory'
-
+    app_settings = helpers.get_app_settings()
     # get similarity scores
     try:
-        similarity_scores = get_similarity_scores()
+        similarity_scores = app_settings['similarityScores']
     except Exception as e:
         print("Could not fetch similarity scores.")
         print(e)
         return
 
+    findThreads = int(app_settings['findThreads'])
+    pool = multiprocessing.Pool(2)
+    m = multiprocessing.Manager()
+    procs = []      # list of processes
+
+    sample_url = address
+
+    sample_products = m.Queue()  # store sample products from amazon
+    new_products_newegg = list()  # store new items extracted from Newegg.com
+    new_products_bestbuy = list()  # store new items extracted from Bestbuy.com
+    items_to_be_inserted = m.Queue()  # store items that are to be inserted in the table prodcuts
+    items_to_be_inserted_prices = m.Queue()  # store documents to be inserted in table 'productHistory'
+
     # extract sample items from amazon
     crawl_sample_items(sample_url, sample_products)
 
-    print("-----Processing each sample item...------")
+    counter = 1
+
+    print(f"-----Adding process for {sample_products.qsize()} sample items...------")
     while not sample_products.empty():
         sample_product = sample_products.get()
 
-        if product_already_in_database(sample_product['url']):
-            print("Product already in database...")
-            continue
+        proc = pool.apply_async(process_one_sample, args=(sample_product, new_products_newegg, new_products_bestbuy,
+                                                   similarity_scores,items_to_be_inserted,
+                                                   items_to_be_inserted_prices, categoryId))
+        procs.append(proc)
 
-        sample_title = sample_product['title']
-        sample_data = None
-        similar_items = []
+        print(f"Process added for sample item : {counter}")
 
-        print("\nSample item : ", sample_title)
+        counter += 1
 
-        # extract important part of the title
-        try :
-            keywords = get_important_text(sample_title)
-            keywords = keywords[0] + ' ' + keywords[1]
-        except Exception as e:
-            print("Could not extract important parts from title. Using sample title as keywords...")
-            keywords = sample_title
+        """process_one_sample(
+            sample_product, new_products_newegg, new_products_bestbuy, similarity_scores,
+            items_to_be_inserted, items_to_be_inserted_prices, categoryId
+        )"""
 
-        # generate urls for searching this keyword in the search boxes of other sites
-        try:
-            bestbuy_url = bestbuy.get_bestbuy_url(keywords)
-            newegg_url = newegg.get_newegg_url(keywords)
-        except Exception as  e:
-            print("Could not generate urls for searching due to the following error.")
-            print(e)
-            return
-
-        # extract items from search results
-        crawl_new_items_from_newegg(new_products_newegg, newegg_url)
-        crawl_new_items_from_bestbuy(new_products_bestbuy, bestbuy_url)
-
-        # now the items have been extracted,
-        current_item_newegg = { 'productPrice' : 'NA' , 'productLink' : None}
-        for item in new_products_newegg:
-
-            if check_similarity([sample_title, item['title']]) > int(similarity_scores['titleScore']) / 100:
-                #print("Similar titles...")
-                if not sample_data:
-                    sample_data = amazon.get_all_details(sample_product['url'])
-
-                item_data = newegg.get_all_details(item['url'])
-
-                if not current_item_newegg['productPrice'] == 'NA':
-                    if item_data['productPrice'] == 'NA' :
-                        continue
-                    else:
-                        if float(item_data['productPrice']) >= float(current_item_newegg['productPrice']) :
-                            continue
-
-                if not (sample_data['productDescription'] == 'NA' or item_data['productDescription'] == 'NA'):
-                    if check_similarity([sample_data['productDescription'], item_data['productDescription']]) > \
-                            int(similarity_scores['descriptionScore']) / 100:
-                        #print("similar descriptions...")
-
-                        image_score = int(similarity_scores['imageScore']) * 2 - 100
-                        if images_are_similar(sample_data['imageLink'], item_data['imageLink'], image_score):
-                            print("Similar item found on Newegg.")
-                            current_item_newegg = item_data
-                else:
-                    print("Similar item found on Newegg.")
-                    current_item_newegg = item_data
-
-        if len(new_products_newegg) > 0:
-            if current_item_newegg['productLink'] :
-                similar_items.append(current_item_newegg)
-
-
-
-        current_item_bestbuy = {'productPrice': 'NA' , 'productLink' : None}
-        for item in new_products_bestbuy:
-
-            if check_similarity([sample_title, item['title']]) > int(similarity_scores['titleScore']) / 100:
-                if not sample_data:
-                    sample_data = amazon.get_all_details(sample_product['url'])
-
-                item_data = bestbuy.get_all_details(item['url'])
-
-                if not current_item_bestbuy['productPrice'] == 'NA':
-                    if item_data['productPrice'] == 'NA' :
-                        continue
-                    else:
-                        if float(item_data['productPrice']) >= float(current_item_bestbuy['productPrice']) :
-                            continue
-
-                if not (sample_data['productDescription'] == 'NA' or item_data['productDescription'] == 'NA'):
-                    if check_similarity([sample_data['productDescription'], item_data['productDescription']]) > \
-                            int(similarity_scores['descriptionScore']) / 100:
-
-                        image_score = similarity_scores['imageScore'] * 2 - 100
-                        if images_are_similar(sample_data['imageLink'], item_data['imageLink'], image_score):
-                            print("Similar item found on Bestbuy.")
-                            current_item_bestbuy = item_data
-                else:
-                    print("Similar item found on Bestbuy.")
-                    current_item_bestbuy = item_data
-
-        if len(new_products_bestbuy) > 0:
-            if current_item_bestbuy['productLink']:
-                similar_items.append(current_item_bestbuy)
-
-
-        if len(similar_items) > 0:
-            print("Saving similar items...")
-            similar_items.append(sample_data)
-            obj_id = ObjectId()
-
-            # store in 'priceHistory' collection
-            for item in similar_items:
-
-                document = {
-                    'productID' : obj_id,
-                    'sellerID' : item['sellerID'],
-                    'priceUpdateTime' : datetime.timestamp(datetime.now()),
-                    'productPrice' : item['productPrice'],
-                    'productShippingFee' : item['productShippingFee'],
-                    'productPriceType' :  item['productPriceType']
-                }
-                # store discount if available
-                if item['productPriceType'] == 'Discounted':
-                    document['lastPrice'] = item['lastPrice']
-                    del item['lastPrice']
-
-                items_to_be_inserted_prices.put(document)
-            store_data_price(items_to_be_inserted_prices, categoryId)
-
-            # store in 'products' collection
-            for item in similar_items:          # remove attributes not to be stored in 'products'
-                del item['productPrice']
-                del item['productShippingFee']
-                if item['sellerName'] != 'Amazon':
-                    del item['productDescription']
-
-            items_to_be_inserted.put(similar_items)
-            store_data_products(items_to_be_inserted, categoryId, obj_id)
-
-
+    print("Running processes pool ...")
+    results = [result.get() for result in procs]
 
     print("\n-------Crawling finished.--------")
+
+
+def process_one_sample(
+        sample_product, new_products_newegg, new_products_bestbuy, similarity_scores,
+        items_to_be_inserted, items_to_be_inserted_prices, categoryId
+    ):
+
+    if product_already_in_database(sample_product['url']):
+        print("Product already in database...")
+        return
+
+    sample_title = sample_product['title']
+    sample_data = None
+    similar_items = []
+
+    print("\nSample item : ", sample_title)
+
+    # extract important part of the title
+    try:
+        keywords = get_important_text(sample_title)
+        keywords = keywords[0] + ' ' + keywords[1]
+    except Exception as e:
+        print("Could not extract important parts from title. Using sample title as keywords...")
+        keywords = sample_title
+
+    # generate urls for searching this keyword in the search boxes of other sites
+    try:
+        bestbuy_url = bestbuy.get_bestbuy_url(keywords)
+        newegg_url = newegg.get_newegg_url(keywords)
+    except Exception as e:
+        print("Could not generate urls for searching due to the following error.")
+        print(e)
+        return
+
+    # extract items from search results
+    crawl_new_items_from_newegg(new_products_newegg, newegg_url)
+    crawl_new_items_from_bestbuy(new_products_bestbuy, bestbuy_url)
+
+    # now the items have been extracted,
+    current_item_newegg = {'productPrice': 'NA', 'productLink': None}
+    for item in new_products_newegg:
+
+        if check_similarity([sample_title, item['title']]) > int(similarity_scores['titleScore']) / 100:
+            # print("Similar titles...")
+            if not sample_data:
+                sample_data = amazon.get_all_details(sample_product['url'])
+
+            item_data = newegg.get_all_details(item['url'])
+
+            if not current_item_newegg['productPrice'] == 'NA':
+                if item_data['productPrice'] == 'NA':
+                    continue
+                else:
+                    if float(item_data['productPrice']) >= float(current_item_newegg['productPrice']):
+                        continue
+
+            if not (sample_data['productDescription'] == 'NA' or item_data['productDescription'] == 'NA'):
+                if check_similarity([sample_data['productDescription'], item_data['productDescription']]) > \
+                        int(similarity_scores['descriptionScore']) / 100:
+                    # print("similar descriptions...")
+
+                    image_score = int(similarity_scores['imageScore']) * 2 - 100
+                    if images_are_similar(sample_data['imageLink'], item_data['imageLink'], image_score):
+                        print("Similar item found on Newegg.")
+                        current_item_newegg = item_data
+            else:
+                print("Similar item found on Newegg.")
+                current_item_newegg = item_data
+
+    if len(new_products_newegg) > 0:
+        if current_item_newegg['productLink']:
+            similar_items.append(current_item_newegg)
+
+    current_item_bestbuy = {'productPrice': 'NA', 'productLink': None}
+    for item in new_products_bestbuy:
+
+        if check_similarity([sample_title, item['title']]) > int(similarity_scores['titleScore']) / 100:
+            if not sample_data:
+                sample_data = amazon.get_all_details(sample_product['url'])
+
+            item_data = bestbuy.get_all_details(item['url'])
+
+            if not current_item_bestbuy['productPrice'] == 'NA':
+                if item_data['productPrice'] == 'NA':
+                    continue
+                else:
+                    if float(item_data['productPrice']) >= float(current_item_bestbuy['productPrice']):
+                        continue
+
+            if not (sample_data['productDescription'] == 'NA' or item_data['productDescription'] == 'NA'):
+                if check_similarity([sample_data['productDescription'], item_data['productDescription']]) > \
+                        int(similarity_scores['descriptionScore']) / 100:
+
+                    image_score = similarity_scores['imageScore'] * 2 - 100
+                    if images_are_similar(sample_data['imageLink'], item_data['imageLink'], image_score):
+                        print("Similar item found on Bestbuy.")
+                        current_item_bestbuy = item_data
+            else:
+                print("Similar item found on Bestbuy.")
+                current_item_bestbuy = item_data
+
+    if len(new_products_bestbuy) > 0:
+        if current_item_bestbuy['productLink']:
+            similar_items.append(current_item_bestbuy)
+
+    if len(similar_items) > 0:
+        print("Saving similar items...")
+        similar_items.append(sample_data)
+        obj_id = ObjectId()
+
+        # store in 'priceHistory' collection
+        for item in similar_items:
+
+            document = {
+                'productID': obj_id,
+                'sellerID': item['sellerID'],
+                'priceUpdateTime': datetime.timestamp(datetime.now()),
+                'productPrice': item['productPrice'],
+                'productShippingFee': item['productShippingFee'],
+                'productPriceType': item['productPriceType']
+            }
+            # store discount if available
+            if item['productPriceType'] == 'Discounted':
+                document['lastPrice'] = item['lastPrice']
+                del item['lastPrice']
+
+            items_to_be_inserted_prices.put(document)
+        store_data_price(items_to_be_inserted_prices, categoryId)
+
+        # store in 'products' collection
+        for item in similar_items:  # remove attributes not to be stored in 'products'
+            del item['productPrice']
+            del item['productShippingFee']
+            del item['productPriceType']
+            if item['sellerName'] != 'Amazon':
+                del item['productDescription']
+                del item['favoritedCount']
+
+        items_to_be_inserted.put(similar_items)
+        store_data_products(items_to_be_inserted, categoryId, obj_id)
 
 
 """

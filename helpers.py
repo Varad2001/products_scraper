@@ -10,13 +10,9 @@ import nltk
 import settings
 import logging
 logging.basicConfig(filename='extractors/scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
-import warnings
-warnings.filterwarnings('ignore')
 
 
 def get_important_text(text):
-    nltk.download('stopwords')
-    nltk.download('punkt')
     r = Rake()
     r.extract_keywords_from_text(text)
     return r.get_ranked_phrases()
@@ -118,8 +114,10 @@ def store_data_products(queue, category, id):
                     amazon_seller = seller
                     results['productDescription'] = amazon_seller['productDescription']
                     results['productBrand'] = amazon_seller['productBrand']
+                    results['favoritedCount'] = amazon_seller['favoritedCount']
                     del seller['productDescription']
                     del seller['productBrand']
+                    del seller['favoritedCount']
                     break
 
             results['sellers'] = sellers

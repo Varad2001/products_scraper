@@ -10,6 +10,7 @@ import helpers
 
 import redis_ops
 import logging
+import nltk
 
 app = Flask(__name__)
 app.config['SESSION_TYPE']  = 'filesystem'
@@ -18,6 +19,15 @@ Session(app)
 
 @app.route('/begin_crawl', methods=["POST", "GET"])
 def start_crawler():
+
+    try :
+        print("Preparing necessary requirements...")
+        nltk.download('stopwords')
+        nltk.download('punkt')
+    except Exception as e:
+        print("Preparing requirements failed.")
+        print(e)
+        return
 
     try:
         app_settings = helpers.get_app_settings()
@@ -56,7 +66,7 @@ def start_crawler():
 @app.route('/update', methods=["POST", "GET"])
 def update():
     try :
-        update_time = helpers.get_app_settings()['updateTime']
+        update_time = helpers.get_app_settings()['updatePeriod']
         new_thread = threading.Thread(target=set_update_process, args=(update_time,))
         new_thread.start()
 
@@ -181,3 +191,6 @@ def update_similarity():
 
 if __name__ == '__main__' :
     app.run(debug=True)
+
+
+

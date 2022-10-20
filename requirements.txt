@@ -7,3 +7,8 @@ pymongo[srv]
 python-dotenv
 sklearn
 redis
+pillow
+schedule
+nltk
+rake-nltk
+imagehash
