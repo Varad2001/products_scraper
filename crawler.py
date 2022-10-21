@@ -134,7 +134,7 @@ def begin_crawling(address, categoryId):
     sample_products = m.Queue()  # store sample products from amazon
     new_products_newegg = list()  # store new items extracted from Newegg.com
     new_products_bestbuy = list()  # store new items extracted from Bestbuy.com
-    items_to_be_inserted = m.Queue()  # store items that are to be inserted in the table prodcuts
+    items_to_be_inserted = list()  # store items that are to be inserted in the table prodcuts
     items_to_be_inserted_prices = m.Queue()  # store documents to be inserted in table 'productHistory'
 
     # extract sample items from amazon
@@ -195,6 +195,8 @@ def process_one_sample(
 
     # now the items have been extracted,
     current_item_newegg = {'productPrice': 'NA', 'productLink': None}
+
+    print("Comparting similar items from Newegg...")
     for item in new_products_newegg:
 
         if check_similarity([sample_title, item['title']]) > int(similarity_scores['titleScore']) / 100:
@@ -224,11 +226,15 @@ def process_one_sample(
                 print("Similar item found on Newegg.")
                 current_item_newegg = item_data
 
+    print("Comparison from Newegg complete.")
+
     if len(new_products_newegg) > 0:
         if current_item_newegg['productLink']:
             similar_items.append(current_item_newegg)
 
     current_item_bestbuy = {'productPrice': 'NA', 'productLink': None}
+
+    print("Comparing similar items from Bestbuy...")
     for item in new_products_bestbuy:
 
         if check_similarity([sample_title, item['title']]) > int(similarity_scores['titleScore']) / 100:
@@ -255,6 +261,8 @@ def process_one_sample(
             else:
                 print("Similar item found on Bestbuy.")
                 current_item_bestbuy = item_data
+
+    print("Comparison from Bestbuy complete.")
 
     if len(new_products_bestbuy) > 0:
         if current_item_bestbuy['productLink']:
@@ -293,7 +301,7 @@ def process_one_sample(
                 del item['productDescription']
                 del item['userRatings']
 
-        items_to_be_inserted.put(similar_items)
+        items_to_be_inserted.append(similar_items)
         store_data_products(items_to_be_inserted, categoryId, obj_id)
 
 

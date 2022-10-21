@@ -9,7 +9,7 @@ from rake_nltk import Rake
 import nltk
 import settings
 import logging
-logging.basicConfig(filename='extractors/scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
+logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
 
 
 def get_important_text(text):
@@ -102,9 +102,10 @@ def get_app_settings():
 
 
 def store_data_products(queue, category, id):
-    while not queue.empty():
+
+    while len(queue):
         try :
-            sellers = queue.get()
+            sellers = queue.pop()
             results = {'productCategory': category,
                        'lastUpdate': datetime.timestamp(datetime.now()),
                        '_id' : id,
