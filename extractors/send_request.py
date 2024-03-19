@@ -5,11 +5,14 @@ import settings
 import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG, format="%(name)s:%(levelname)s:%(asctime)s:%(message)s")
 
+SCRAPER_API_URL = ""
+GEONODE_UESRNAME = ""
+GEONODE_PASS = ""
 
 # get proxy from scraperapi
 def get_proxy():
     proxies =  {
-  "http": "http://scraperapi.render=true.country_code=us:e64ba69d552fdfcc057457832473e72b@proxy-server.scraperapi.com:8001"
+  "http": SCRAPER_API_URL
     }
 
     return proxies
@@ -17,8 +20,8 @@ def get_proxy():
 
 # this function can be used if the get_proxy() function does not work for any reason
 def get_proxy_alternate():
-    username = "geonode_Pctp7P4IXd-country-US"
-    password = "39453242-2f35-4083-8a5e-d11a0b68ac36"
+    username = GEONODE_USERNAME
+    password = GEONODE_PASS
     GEONODE_DNS = "rotating-residential.geonode.com:10000"
     proxy = {"http": "http://{}:{}@{}".format(username, password, GEONODE_DNS)}
     return proxy
